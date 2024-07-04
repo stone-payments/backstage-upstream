@@ -98,6 +98,12 @@ export class TaskManager implements TaskContext {
     private readonly auth?: AuthService,
   ) {}
 
+  get id() {
+    return this.task.taskId;
+  }
+
+  isDryRun?: boolean | undefined;
+
   get spec() {
     return this.task.spec;
   }
