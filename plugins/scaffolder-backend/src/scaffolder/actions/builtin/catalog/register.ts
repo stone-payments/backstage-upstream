@@ -18,7 +18,7 @@ import { InputError } from '@backstage/errors';
 import { ScmIntegrations } from '@backstage/integration';
 import { CatalogApi } from '@backstage/catalog-client';
 import { stringifyEntityRef, Entity } from '@backstage/catalog-model';
-import { createTemplateAction } from '@backstage/plugin-scaffolder-node';
+import { createTemplateAction } from '@stone-payments/plugin-scaffolder-node';
 import { examples } from './register.examples';
 import { AuthService } from '@backstage/backend-plugin-api';
 

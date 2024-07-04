@@ -15,7 +15,7 @@
  */
 
 import { JsonObject } from '@backstage/types';
-import { createTemplateAction } from '@backstage/plugin-scaffolder-node';
+import { createTemplateAction } from '@stone-payments/plugin-scaffolder-node';
 import { yeomanRun } from './yeomanRun';
 import { examples } from './yeoman.examples';
 

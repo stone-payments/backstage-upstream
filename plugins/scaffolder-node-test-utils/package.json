@@ -8,7 +8,7 @@
       "@backstage/plugin-scaffolder",
       "@backstage/plugin-scaffolder-backend",
       "@backstage/plugin-scaffolder-common",
-      "@backstage/plugin-scaffolder-node",
+      "@stone-payments/plugin-scaffolder-node",
       "@backstage/plugin-scaffolder-node-test-utils",
       "@backstage/plugin-scaffolder-react"
     ]
@@ -42,8 +42,8 @@
   "dependencies": {
     "@backstage/backend-common": "workspace:^",
     "@backstage/backend-test-utils": "workspace:^",
-    "@backstage/plugin-scaffolder-node": "workspace:^",
-    "@backstage/types": "workspace:^"
+    "@backstage/types": "workspace:^",
+    "@stone-payments/plugin-scaffolder-node": "workspace:^"
   },
   "devDependencies": {
     "@backstage/cli": "workspace:^",

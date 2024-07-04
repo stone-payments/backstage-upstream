@@ -20,7 +20,7 @@ import {
 import {
   scaffolderActionsExtensionPoint,
   scaffolderAutocompleteExtensionPoint,
-} from '@backstage/plugin-scaffolder-node/alpha';
+} from '@stone-payments/plugin-scaffolder-node/alpha';
 import {
   createBitbucketPipelinesRunAction,
   createPublishBitbucketCloudAction,

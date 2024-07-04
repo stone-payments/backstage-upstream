@@ -23,7 +23,7 @@ import {
   commitAndPushRepo,
   getRepoSourceDirectory,
   parseRepoUrl,
-} from '@backstage/plugin-scaffolder-node';
+} from '@stone-payments/plugin-scaffolder-node';
 import { examples } from './gerritReview.examples';
 
 const generateGerritChangeId = (): string => {

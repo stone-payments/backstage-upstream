@@ -15,7 +15,7 @@
  */
 
 import { Config } from '@backstage/config';
-import { WorkspaceProvider } from '@backstage/plugin-scaffolder-node/alpha';
+import { WorkspaceProvider } from '@stone-payments/plugin-scaffolder-node/alpha';
 
 import getRawBody from 'raw-body';
 import { Storage } from '@google-cloud/storage';
@@ -24,7 +24,7 @@ import { LoggerService } from '@backstage/backend-plugin-api';
 import {
   serializeWorkspace,
   restoreWorkspace,
-} from '@backstage/plugin-scaffolder-node/alpha';
+} from '@stone-payments/plugin-scaffolder-node/alpha';
 
 export class GcpBucketWorkspaceProvider implements WorkspaceProvider {
   static create(logger: LoggerService, config?: Config) {

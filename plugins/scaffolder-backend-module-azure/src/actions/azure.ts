@@ -24,7 +24,7 @@ import {
   getRepoSourceDirectory,
   parseRepoUrl,
   createTemplateAction,
-} from '@backstage/plugin-scaffolder-node';
+} from '@stone-payments/plugin-scaffolder-node';
 import { GitRepositoryCreateOptions } from 'azure-devops-node-api/interfaces/GitInterfaces';
 import {
   getBearerHandler,

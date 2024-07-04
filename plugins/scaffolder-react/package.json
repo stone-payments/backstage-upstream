@@ -9,7 +9,7 @@
       "@backstage/plugin-scaffolder",
       "@backstage/plugin-scaffolder-backend",
       "@backstage/plugin-scaffolder-common",
-      "@backstage/plugin-scaffolder-node",
+      "@stone-payments/plugin-scaffolder-node",
       "@backstage/plugin-scaffolder-node-test-utils",
       "@backstage/plugin-scaffolder-react"
     ]

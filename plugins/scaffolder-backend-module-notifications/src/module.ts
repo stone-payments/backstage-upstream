@@ -15,7 +15,7 @@
  */
 import { createBackendModule } from '@backstage/backend-plugin-api';
 import { notificationService } from '@backstage/plugin-notifications-node';
-import { scaffolderActionsExtensionPoint } from '@backstage/plugin-scaffolder-node/alpha';
+import { scaffolderActionsExtensionPoint } from '@stone-payments/plugin-scaffolder-node/alpha';
 import { createSendNotificationAction } from './actions';
 
 /**

@@ -26,7 +26,7 @@ import {
   TemplateAction,
   TemplateFilter,
   TemplateGlobal,
-} from '@backstage/plugin-scaffolder-node';
+} from '@stone-payments/plugin-scaffolder-node';
 import {
   createCatalogRegisterAction,
   createCatalogWriteAction,

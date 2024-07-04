@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-jest.mock('@backstage/plugin-scaffolder-node', () => {
+jest.mock('@stone-payments/plugin-scaffolder-node', () => {
   return {
-    ...jest.requireActual('@backstage/plugin-scaffolder-node'),
+    ...jest.requireActual('@stone-payments/plugin-scaffolder-node'),
     initRepoAndPush: jest.fn().mockResolvedValue({
       commitHash: '220f19cc36b551763d157f1b5e4a4b446165dbd6',
     }),
@@ -32,7 +32,7 @@ import { setupServer } from 'msw/node';
 import { setupRequestMockHandlers } from '@backstage/backend-test-utils';
 import { ScmIntegrations } from '@backstage/integration';
 import { ConfigReader } from '@backstage/config';
-import { initRepoAndPush } from '@backstage/plugin-scaffolder-node';
+import { initRepoAndPush } from '@stone-payments/plugin-scaffolder-node';
 import yaml from 'yaml';
 import { sep } from 'path';
 import { examples } from './bitbucketCloud.examples';

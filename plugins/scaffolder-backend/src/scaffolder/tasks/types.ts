@@ -16,7 +16,7 @@
 
 import { JsonValue, JsonObject, HumanDuration } from '@backstage/types';
 import { TaskSpec, TaskStep } from '@backstage/plugin-scaffolder-common';
-import { TaskSecrets } from '@backstage/plugin-scaffolder-node';
+import { TaskSecrets } from '@stone-payments/plugin-scaffolder-node';
 import {
   TemplateAction,
   TaskStatus as _TaskStatus,
@@ -28,7 +28,7 @@ import {
   TaskBrokerDispatchOptions as _TaskBrokerDispatchOptions,
   TaskContext as _TaskContext,
   TaskBroker as _TaskBroker,
-} from '@backstage/plugin-scaffolder-node';
+} from '@stone-payments/plugin-scaffolder-node';
 
 /**
  * The status of each step of the Task

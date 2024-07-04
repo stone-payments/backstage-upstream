@@ -21,7 +21,7 @@ import {
   NotificationPayload,
   NotificationSeverity,
 } from '@backstage/plugin-notifications-common';
-import { createTemplateAction } from '@backstage/plugin-scaffolder-node';
+import { createTemplateAction } from '@stone-payments/plugin-scaffolder-node';
 
 /**
  * @public

@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-jest.mock('@backstage/plugin-scaffolder-node', () => {
+jest.mock('@stone-payments/plugin-scaffolder-node', () => {
   return {
-    ...jest.requireActual('@backstage/plugin-scaffolder-node'),
+    ...jest.requireActual('@stone-payments/plugin-scaffolder-node'),
     commitAndPushRepo: jest.fn(),
   };
 });
@@ -24,7 +24,7 @@ jest.mock('@backstage/plugin-scaffolder-node', () => {
 import { createPublishGerritReviewAction } from './gerritReview';
 import { ScmIntegrations } from '@backstage/integration';
 import { ConfigReader } from '@backstage/config';
-import { commitAndPushRepo } from '@backstage/plugin-scaffolder-node';
+import { commitAndPushRepo } from '@stone-payments/plugin-scaffolder-node';
 import { createMockActionContext } from '@backstage/plugin-scaffolder-node-test-utils';
 
 describe('publish:gerrit:review', () => {

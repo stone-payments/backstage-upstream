@@ -27,7 +27,7 @@ import {
   createTemplateAction,
   fetchContents,
   executeShellCommand,
-} from '@backstage/plugin-scaffolder-node';
+} from '@stone-payments/plugin-scaffolder-node';
 
 export class CookiecutterRunner {
   private readonly containerRunner?: ContainerRunner;

@@ -22,7 +22,7 @@ import {
   executeShellCommand as executeShellCommandNode,
   ExecuteShellCommandOptions as ExecuteShellCommandOptionsNode,
   fetchContents as fetchContentsNode,
-} from '@backstage/plugin-scaffolder-node';
+} from '@stone-payments/plugin-scaffolder-node';
 import { JsonObject } from '@backstage/types';
 import { ScaffolderEntitiesProcessor as ScaffolderEntitiesProcessorModule } from '@backstage/plugin-catalog-backend-module-scaffolder-entity-model';
 

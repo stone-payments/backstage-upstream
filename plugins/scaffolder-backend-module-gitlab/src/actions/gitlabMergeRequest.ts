@@ -18,7 +18,7 @@ import {
   createTemplateAction,
   parseRepoUrl,
   serializeDirectoryContents,
-} from '@backstage/plugin-scaffolder-node';
+} from '@stone-payments/plugin-scaffolder-node';
 import { Types } from '@gitbeaker/core';
 import path from 'path';
 import { ScmIntegrationRegistry } from '@backstage/integration';

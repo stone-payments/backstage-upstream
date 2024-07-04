@@ -62,7 +62,7 @@ import {
   TaskBroker,
   TemplateFilter,
   TemplateGlobal,
-} from '@backstage/plugin-scaffolder-node';
+} from '@stone-payments/plugin-scaffolder-node';
 import {
   createBuiltinActions,
   DatabaseTaskStore,
@@ -97,7 +97,7 @@ import { checkPermission } from '../util/checkPermissions';
 import {
   AutocompleteHandler,
   WorkspaceProvider,
-} from '@backstage/plugin-scaffolder-node/alpha';
+} from '@stone-payments/plugin-scaffolder-node/alpha';
 
 /**
  *

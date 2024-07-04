@@ -22,7 +22,7 @@ import { Format, TransformableInfo } from 'logform';
 import Transport, { TransportStreamOptions } from 'winston-transport';
 import { Logger, format, createLogger, transports } from 'winston';
 import { LEVEL, MESSAGE, SPLAT } from 'triple-beam';
-import { TaskContext } from '@backstage/plugin-scaffolder-node';
+import { TaskContext } from '@stone-payments/plugin-scaffolder-node';
 import _ from 'lodash';
 
 /**

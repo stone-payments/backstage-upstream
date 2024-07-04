@@ -15,7 +15,7 @@
  */
 
 import { CatalogApi } from '@backstage/catalog-client';
-import { createTemplateAction } from '@backstage/plugin-scaffolder-node';
+import { createTemplateAction } from '@stone-payments/plugin-scaffolder-node';
 import { z } from 'zod';
 import { parseEntityRef, stringifyEntityRef } from '@backstage/catalog-model';
 import { examples } from './fetch.examples';

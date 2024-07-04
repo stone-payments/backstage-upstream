@@ -16,7 +16,7 @@
 
 import { TaskStore } from './types';
 
-import { WorkspaceProvider } from '@backstage/plugin-scaffolder-node/alpha';
+import { WorkspaceProvider } from '@stone-payments/plugin-scaffolder-node/alpha';
 
 export class DatabaseWorkspaceProvider implements WorkspaceProvider {
   static create(storage: TaskStore) {

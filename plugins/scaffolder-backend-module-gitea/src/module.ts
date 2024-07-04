@@ -17,7 +17,7 @@ import {
   createBackendModule,
   coreServices,
 } from '@backstage/backend-plugin-api';
-import { scaffolderActionsExtensionPoint } from '@backstage/plugin-scaffolder-node/alpha';
+import { scaffolderActionsExtensionPoint } from '@stone-payments/plugin-scaffolder-node/alpha';
 import { createPublishGiteaAction } from './actions';
 import { ScmIntegrations } from '@backstage/integration';
 

@@ -16,7 +16,7 @@
 
 import { InputError } from '@backstage/errors';
 import { ScmIntegrationRegistry } from '@backstage/integration';
-import { createTemplateAction } from '@backstage/plugin-scaffolder-node';
+import { createTemplateAction } from '@stone-payments/plugin-scaffolder-node';
 import { AccessTokenScopes, Gitlab } from '@gitbeaker/rest';
 import { DateTime } from 'luxon';
 import { z } from 'zod';

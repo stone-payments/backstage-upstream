@@ -27,7 +27,7 @@ import {
   TaskBrokerDispatchOptions,
   TaskCompletionState,
   TaskContext,
-} from '@backstage/plugin-scaffolder-node';
+} from '@stone-payments/plugin-scaffolder-node';
 import { InternalTaskSecrets, TaskStore } from './types';
 import { readDuration } from './helper';
 import {
@@ -35,7 +35,7 @@ import {
   BackstageCredentials,
 } from '@backstage/backend-plugin-api';
 import { DefaultWorkspaceService, WorkspaceService } from './WorkspaceService';
-import { WorkspaceProvider } from '@backstage/plugin-scaffolder-node/alpha';
+import { WorkspaceProvider } from '@stone-payments/plugin-scaffolder-node/alpha';
 
 type TaskState = {
   checkpoints: {

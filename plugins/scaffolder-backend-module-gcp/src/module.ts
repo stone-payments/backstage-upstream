@@ -17,7 +17,7 @@ import {
   coreServices,
   createBackendModule,
 } from '@backstage/backend-plugin-api';
-import { scaffolderWorkspaceProviderExtensionPoint } from '@backstage/plugin-scaffolder-node/alpha';
+import { scaffolderWorkspaceProviderExtensionPoint } from '@stone-payments/plugin-scaffolder-node/alpha';
 import { GcpBucketWorkspaceProvider } from './providers/GcpBucketWorkspaceProvider';
 
 /**

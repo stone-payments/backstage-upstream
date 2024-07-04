@@ -16,8 +16,8 @@
 
 import { createMockActionContext } from '@backstage/plugin-scaffolder-node-test-utils';
 
-jest.mock('@backstage/plugin-scaffolder-node', () => {
-  const actual = jest.requireActual('@backstage/plugin-scaffolder-node');
+jest.mock('@stone-payments/plugin-scaffolder-node', () => {
+  const actual = jest.requireActual('@stone-payments/plugin-scaffolder-node');
   return { ...actual, fetchFile: jest.fn() };
 });
 
@@ -27,7 +27,7 @@ import { UrlReader } from '@backstage/backend-common';
 import { ConfigReader } from '@backstage/config';
 import { ScmIntegrations } from '@backstage/integration';
 import { createFetchPlainFileAction } from './plainFile';
-import { fetchFile } from '@backstage/plugin-scaffolder-node';
+import { fetchFile } from '@stone-payments/plugin-scaffolder-node';
 import { examples } from './plainFile.examples';
 
 describe('fetch:plain:file examples', () => {

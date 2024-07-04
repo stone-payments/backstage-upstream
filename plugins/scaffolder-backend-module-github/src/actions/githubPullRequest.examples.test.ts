@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-import { TemplateAction } from '@backstage/plugin-scaffolder-node';
+import { TemplateAction } from '@stone-payments/plugin-scaffolder-node';
 import { ConfigReader } from '@backstage/config';
 import {
   DefaultGithubCredentialsProvider,

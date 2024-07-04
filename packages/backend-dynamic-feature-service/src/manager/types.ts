@@ -36,7 +36,7 @@ import {
 import { BackendFeature } from '@backstage/backend-plugin-api';
 import { PackagePlatform, PackageRole } from '@backstage/cli-node';
 import { CatalogBuilder } from '@backstage/plugin-catalog-backend';
-import { TemplateAction } from '@backstage/plugin-scaffolder-node';
+import { TemplateAction } from '@stone-payments/plugin-scaffolder-node';
 import { IndexBuilder } from '@backstage/plugin-search-backend-node';
 import { EventsBackend } from '@backstage/plugin-events-backend';
 import { PermissionPolicy } from '@backstage/plugin-permission-node';

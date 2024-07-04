@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-import { SerializedTaskEvent } from '@backstage/plugin-scaffolder-node';
+import { SerializedTaskEvent } from '@stone-payments/plugin-scaffolder-node';
 import { TaskRecoverStrategy } from '@backstage/plugin-scaffolder-common';
 
 export const trimEventsTillLastRecovery = (

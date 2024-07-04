@@ -22,7 +22,7 @@ import {
 import {
   createTemplateAction,
   parseRepoUrl,
-} from '@backstage/plugin-scaffolder-node';
+} from '@stone-payments/plugin-scaffolder-node';
 import { Octokit } from 'octokit';
 import { getOctokitOptions } from './helpers';
 import { examples } from './githubActionsDispatch.examples';

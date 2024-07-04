@@ -50,7 +50,7 @@
     "@backstage/config": "workspace:^",
     "@backstage/errors": "workspace:^",
     "@backstage/integration": "workspace:^",
-    "@backstage/plugin-scaffolder-node": "workspace:^",
+    "@stone-payments/plugin-scaffolder-node": "workspace:^",
     "fs-extra": "^11.2.0",
     "git-url-parse": "^14.0.0",
     "node-fetch": "^2.6.7",

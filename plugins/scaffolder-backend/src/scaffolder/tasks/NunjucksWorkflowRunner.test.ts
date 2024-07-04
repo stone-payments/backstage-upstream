@@ -25,7 +25,7 @@ import {
   TaskSecrets,
   TemplateAction,
   TaskContext,
-} from '@backstage/plugin-scaffolder-node';
+} from '@stone-payments/plugin-scaffolder-node';
 import { UserEntity } from '@backstage/catalog-model';
 import { z } from 'zod';
 import {
@@ -75,6 +75,7 @@ describe('NunjucksWorkflowRunner', () => {
     secrets?: TaskSecrets,
     isDryRun?: boolean,
   ): TaskContext => ({
+    id: '',
     spec,
     secrets,
     isDryRun,

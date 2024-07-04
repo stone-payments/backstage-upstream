@@ -19,7 +19,7 @@ import { resolvePackagePath } from '@backstage/backend-plugin-api';
 import {
   TemplateFilter as _TemplateFilter,
   TemplateGlobal as _TemplateGlobal,
-} from '@backstage/plugin-scaffolder-node';
+} from '@stone-payments/plugin-scaffolder-node';
 import fs from 'fs-extra';
 import { JsonValue } from '@backstage/types';
 import { getMajorNodeVersion, isNoNodeSnapshotOptionProvided } from './helpers';

@@ -15,7 +15,7 @@
  */
 
 import { ConflictError, NotFoundError } from '@backstage/errors';
-import { TemplateAction } from '@backstage/plugin-scaffolder-node';
+import { TemplateAction } from '@stone-payments/plugin-scaffolder-node';
 /**
  * Registry of all registered template actions.
  * @public

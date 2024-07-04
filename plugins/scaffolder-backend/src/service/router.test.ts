@@ -39,14 +39,14 @@ import {
   UserEntity,
 } from '@backstage/catalog-model';
 import { createRouter, DatabaseTaskStore } from '../index';
-import { TaskBroker } from '@backstage/plugin-scaffolder-node';
+import { TaskBroker } from '@stone-payments/plugin-scaffolder-node';
 import { StorageTaskBroker } from '../scaffolder/tasks/StorageTaskBroker';
 import {
   AuthorizeResult,
   PermissionEvaluator,
 } from '@backstage/plugin-permission-common';
 import { mockCredentials, mockServices } from '@backstage/backend-test-utils';
-import { AutocompleteHandler } from '@backstage/plugin-scaffolder-node/alpha';
+import { AutocompleteHandler } from '@stone-payments/plugin-scaffolder-node/alpha';
 import { MiddlewareFactory } from '@backstage/backend-app-api';
 
 const mockAccess = jest.fn();

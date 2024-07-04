@@ -28,7 +28,7 @@ import {
   deserializeDirectoryContents,
   SerializedFile,
   serializeDirectoryContents,
-} from '@backstage/plugin-scaffolder-node';
+} from '@stone-payments/plugin-scaffolder-node';
 import { TemplateActionRegistry } from '../actions';
 import { NunjucksWorkflowRunner } from '../tasks/NunjucksWorkflowRunner';
 import { DecoratedActionsRegistry } from './DecoratedActionsRegistry';
@@ -129,6 +129,7 @@ export function createDryRunner(options: TemplateTesterCreateOptions) {
         // No need to update this at the end of the run, so just hard-code it
         done: false,
         isDryRun: true,
+        id: dryRunId,
         getWorkspaceName: async () => `dry-run-${dryRunId}`,
         cancelSignal: abortSignal,
         async emitLog(message: string, logMetadata?: JsonObject) {

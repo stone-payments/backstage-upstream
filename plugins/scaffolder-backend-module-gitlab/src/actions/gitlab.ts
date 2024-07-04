@@ -16,13 +16,13 @@
 
 import { InputError } from '@backstage/errors';
 import { ScmIntegrationRegistry } from '@backstage/integration';
-import { createTemplateAction } from '@backstage/plugin-scaffolder-node';
+import { createTemplateAction } from '@stone-payments/plugin-scaffolder-node';
 import { Gitlab } from '@gitbeaker/node';
 import {
   initRepoAndPush,
   getRepoSourceDirectory,
   parseRepoUrl,
-} from '@backstage/plugin-scaffolder-node';
+} from '@stone-payments/plugin-scaffolder-node';
 import { Config } from '@backstage/config';
 import { examples } from './gitlab.examples';
 

@@ -35,7 +35,7 @@ import {
   TaskStatus,
   TaskEventType,
   TaskSecrets,
-} from '@backstage/plugin-scaffolder-node';
+} from '@stone-payments/plugin-scaffolder-node';
 import { DateTime, Duration } from 'luxon';
 import { TaskRecovery, TaskSpec } from '@backstage/plugin-scaffolder-common';
 import { trimEventsTillLastRecovery } from './taskRecoveryHelper';
@@ -43,7 +43,7 @@ import { intervalFromNowTill } from './dbUtil';
 import {
   restoreWorkspace,
   serializeWorkspace,
-} from '@backstage/plugin-scaffolder-node/alpha';
+} from '@stone-payments/plugin-scaffolder-node/alpha';
 
 const migrationsDir = resolvePackagePath(
   '@backstage/plugin-scaffolder-backend',

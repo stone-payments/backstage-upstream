@@ -22,7 +22,7 @@ import fs from 'fs-extra';
 import {
   createTemplateAction,
   fetchContents,
-} from '@backstage/plugin-scaffolder-node';
+} from '@stone-payments/plugin-scaffolder-node';
 
 import { resolve as resolvePath } from 'path';
 import { RailsNewRunner } from './railsNewRunner';

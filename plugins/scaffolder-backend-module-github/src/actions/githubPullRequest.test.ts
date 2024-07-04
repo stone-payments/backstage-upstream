@@ -23,7 +23,7 @@ import {
 import {
   ActionContext,
   TemplateAction,
-} from '@backstage/plugin-scaffolder-node';
+} from '@stone-payments/plugin-scaffolder-node';
 import fs from 'fs-extra';
 import { createPublishGithubPullRequestAction } from './githubPullRequest';
 import { createMockDirectory } from '@backstage/backend-test-utils';

@@ -22,7 +22,7 @@ import {
   mockServices,
 } from '@backstage/backend-test-utils';
 import { JsonObject } from '@backstage/types';
-import { ActionContext } from '@backstage/plugin-scaffolder-node';
+import { ActionContext } from '@stone-payments/plugin-scaffolder-node';
 
 /**
  * A utility method to create a mock action context for scaffolder actions.
