@@ -46,7 +46,7 @@ import {
 } from '@stone-payments/plugin-scaffolder-node/alpha';
 
 const migrationsDir = resolvePackagePath(
-  '@backstage/plugin-scaffolder-backend',
+  '@stone-payments/plugin-scaffolder-backend',
   'migrations',
 );
 

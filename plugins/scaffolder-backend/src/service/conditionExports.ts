@@ -44,7 +44,7 @@ const actionsConditionExports = createConditionExports({
  * ```
  * // MyAuthorizationPolicy.ts
  * ...
- * import { createScaffolderPolicyDecision } from '@backstage/plugin-scaffolder-backend';
+ * import { createScaffolderPolicyDecision } from '@stone-payments/plugin-scaffolder-backend';
  * import { RESOURCE_TYPE_SCAFFOLDER_TEMPLATE } from '@backstage/plugin-scaffolder-common';
  *
  * class MyAuthorizationPolicy implements PermissionPolicy {

@@ -142,7 +142,7 @@
     "@backstage/plugin-permission-react": "0.4.23",
     "@backstage/plugin-proxy-backend": "0.5.0",
     "@backstage/plugin-scaffolder": "1.21.0",
-    "@backstage/plugin-scaffolder-backend": "1.22.9",
+    "@stone-payments/plugin-scaffolder-backend": "1.22.9",
     "@backstage/plugin-scaffolder-backend-module-azure": "0.1.11",
     "@backstage/plugin-scaffolder-backend-module-bitbucket": "0.2.9",
     "@backstage/plugin-scaffolder-backend-module-bitbucket-cloud": "0.1.9",

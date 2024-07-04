@@ -7,7 +7,7 @@
     "pluginId": "scaffolder",
     "pluginPackages": [
       "@backstage/plugin-scaffolder",
-      "@backstage/plugin-scaffolder-backend",
+      "@stone-payments/plugin-scaffolder-backend",
       "@backstage/plugin-scaffolder-common",
       "@stone-payments/plugin-scaffolder-node",
       "@backstage/plugin-scaffolder-node-test-utils",

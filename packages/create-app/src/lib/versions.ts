@@ -124,7 +124,7 @@ export const packageVersions = {
   '@backstage/plugin-permission-react': pluginPermissionReact,
   '@backstage/plugin-proxy-backend': pluginProxyBackend,
   '@backstage/plugin-scaffolder': pluginScaffolder,
-  '@backstage/plugin-scaffolder-backend': pluginScaffolderBackend,
+  '@stone-payments/plugin-scaffolder-backend': pluginScaffolderBackend,
   '@backstage/plugin-search': pluginSearch,
   '@backstage/plugin-search-react': pluginSearchReact,
   '@backstage/plugin-search-backend': pluginSearchBackend,

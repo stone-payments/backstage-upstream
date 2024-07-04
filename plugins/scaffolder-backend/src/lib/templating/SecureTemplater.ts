@@ -143,7 +143,7 @@ export class SecureTemplater {
 
     const nunjucksSource = await fs.readFile(
       resolvePackagePath(
-        '@backstage/plugin-scaffolder-backend',
+        '@stone-payments/plugin-scaffolder-backend',
         'assets/nunjucks.js.txt',
       ),
       'utf-8',
