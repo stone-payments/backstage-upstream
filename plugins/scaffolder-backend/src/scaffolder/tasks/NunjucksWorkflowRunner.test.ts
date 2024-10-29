@@ -75,6 +75,7 @@ describe('NunjucksWorkflowRunner', () => {
     secrets?: TaskSecrets,
     isDryRun?: boolean,
   ): TaskContext => ({
+    id: 'test-task',
     spec,
     secrets,
     isDryRun,
