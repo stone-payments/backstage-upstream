@@ -56,6 +56,6 @@ jobs:
       - name: publish
         run: |
           yarn config set -H 'npmAuthToken' "${{secrets.GITHUB_TOKEN}}"
-          yarn workspace ${{ inputs.package }} npm publish --access public
+          yarn workspace ${{ inputs.package }} npm publish --access public --tolerate-republish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
