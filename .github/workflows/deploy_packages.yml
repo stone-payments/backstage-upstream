@@ -26,10 +26,11 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           registry-url: https://npm.pkg.github.com/ # Needed for auth
-      - name: yarn install
-        uses: backstage/actions/yarn-install@772cef06641090d0095188e15c85647acdf0c250 # v0.6.11
-        with:
-          cache-prefix: ${{ runner.os }}-v${{ matrix.node-version }}
+
+      - name: yarn install 
+        run: |
+          YARN_CHECKSUM_BEHAVIOR=update yarn
+          yarn install
 
       - name: build type declarations
         run: yarn tsc:full
