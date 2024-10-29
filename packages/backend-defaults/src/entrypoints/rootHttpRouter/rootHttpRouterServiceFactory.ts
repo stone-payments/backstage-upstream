@@ -69,9 +69,10 @@ function defaultConfigure({ applyDefaults }: RootHttpRouterConfigureContext) {
   applyDefaults();
 }
 
-/** @public */
-export const rootHttpRouterServiceFactory = createServiceFactory(
-  (options?: RootHttpRouterFactoryOptions) => ({
+const rootHttpRouterServiceFactoryWithOptions = (
+  options?: RootHttpRouterFactoryOptions,
+) =>
+  createServiceFactory({
     service: coreServices.rootHttpRouter,
     deps: {
       config: coreServices.rootConfig,
@@ -105,6 +106,9 @@ export const rootHttpRouterServiceFactory = createServiceFactory(
         lifecycle,
         healthRouter,
         applyDefaults() {
+          if (process.env.NODE_ENV === 'development') {
+            app.set('json spaces', 2);
+          }
           app.use(middleware.helmet());
           app.use(middleware.cors());
           app.use(middleware.compression());
@@ -122,5 +126,10 @@ export const rootHttpRouterServiceFactory = createServiceFactory(
 
       return router;
     },
-  }),
+  });
+
+/** @public */
+export const rootHttpRouterServiceFactory = Object.assign(
+  rootHttpRouterServiceFactoryWithOptions,
+  rootHttpRouterServiceFactoryWithOptions(),
 );

@@ -20,13 +20,14 @@ import { JsonObject, JsonValue, Observable } from '@backstage/types';
 import { Logger } from 'winston';
 import ObservableImpl from 'zen-observable';
 import {
-  TaskSecrets,
   SerializedTask,
   SerializedTaskEvent,
   TaskBroker,
   TaskBrokerDispatchOptions,
   TaskCompletionState,
   TaskContext,
+  TaskSecrets,
+  TaskStatus,
 } from '@backstage/plugin-scaffolder-node';
 import { InternalTaskSecrets, TaskStore } from './types';
 import { readDuration } from './helper';
@@ -259,7 +260,9 @@ export interface CurrentClaimedTask {
    * The creator of the task.
    */
   createdBy?: string;
-
+  /**
+   * The workspace of the task.
+   */
   workspace?: Promise<Buffer>;
 }
 
@@ -285,13 +288,23 @@ export class StorageTaskBroker implements TaskBroker {
 
   async list(options?: {
     createdBy?: string;
-  }): Promise<{ tasks: SerializedTask[] }> {
+    status?: TaskStatus;
+    filters?: {
+      createdBy?: string | string[];
+      status?: TaskStatus | TaskStatus[];
+    };
+    pagination?: {
+      limit?: number;
+      offset?: number;
+    };
+    order?: { order: 'asc' | 'desc'; field: string }[];
+  }): Promise<{ tasks: SerializedTask[]; totalTasks?: number }> {
     if (!this.storage.list) {
       throw new Error(
         'TaskStore does not implement the list method. Please implement the list method to be able to list tasks',
       );
     }
-    return await this.storage.list({ createdBy: options?.createdBy });
+    return await this.storage.list(options ?? {});
   }
 
   private deferredDispatch = defer();
@@ -312,7 +325,7 @@ export class StorageTaskBroker implements TaskBroker {
             shouldUnsubscribe = true;
           }
 
-          if (event.type === 'completion') {
+          if (event.type === 'completion' && !event.isTaskRecoverable) {
             shouldUnsubscribe = true;
           }
         }
@@ -411,8 +424,17 @@ export class StorageTaskBroker implements TaskBroker {
       let cancelled = false;
 
       (async () => {
+        const task = await this.storage.getTask(taskId);
+        const isTaskRecoverable =
+          task.spec.EXPERIMENTAL_recovery?.EXPERIMENTAL_strategy ===
+          'startOver';
+
         while (!cancelled) {
-          const result = await this.storage.listEvents({ taskId, after });
+          const result = await this.storage.listEvents({
+            isTaskRecoverable,
+            taskId,
+            after,
+          });
           const { events } = result;
           if (events.length) {
             after = events[events.length - 1].id;
@@ -479,5 +501,10 @@ export class StorageTaskBroker implements TaskBroker {
         status: 'cancelled',
       },
     });
+  }
+
+  async retry?(taskId: string): Promise<void> {
+    await this.storage.retryTask?.({ taskId });
+    this.signalDispatch();
   }
 }

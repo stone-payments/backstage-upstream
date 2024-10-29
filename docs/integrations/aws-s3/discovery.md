@@ -36,7 +36,7 @@ catalog:
         bucketName: sample-bucket
         prefix: prefix/ # optional
         region: us-east-2 # optional, uses the default region otherwise
-        schedule: # same options as in TaskScheduleDefinition
+        schedule: # same options as in SchedulerServiceTaskScheduleDefinition
           # supports cron, ISO duration, "human duration" as used in code
           frequency: { minutes: 30 }
           # supports ISO duration, "human duration" as used in code
@@ -56,7 +56,7 @@ catalog:
       bucketName: sample-bucket
       prefix: prefix/ # optional
       region: us-east-2 # optional, uses the default region otherwise
-      schedule: # same options as in TaskScheduleDefinition
+      schedule: # same options as in SchedulerServiceTaskScheduleDefinition
         # supports cron, ISO duration, "human duration" as used in code
         frequency: { minutes: 30 }
         # supports ISO duration, "human duration" as used in code
@@ -66,16 +66,15 @@ catalog:
 As this provider is not one of the default providers, you will first need to install
 the AWS catalog plugin:
 
-```bash
-# From your Backstage root directory
+```bash title="From your Backstage root directory"
 yarn --cwd packages/backend add @backstage/plugin-catalog-backend-module-aws
 ```
 
 Then update your backend by adding the following line:
 
 ```ts title="packages/backend/src/index.ts"
-backend.add(import('@backstage/plugin-catalog-backend/alpha'));
+backend.add(import('@backstage/plugin-catalog-backend'));
 /* highlight-add-start */
-backend.add(import('@backstage/plugin-catalog-backend-module-aws/alpha'));
+backend.add(import('@backstage/plugin-catalog-backend-module-aws'));
 /* highlight-add-end */
 ```

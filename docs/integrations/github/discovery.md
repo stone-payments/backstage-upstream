@@ -24,17 +24,16 @@ You will have to add the GitHub Entity provider to your backend as it is not ins
 dependency on `@backstage/plugin-catalog-backend-module-github` to your backend
 package.
 
-```bash
-# From your Backstage root directory
+```bash title="From your Backstage root directory"
 yarn --cwd packages/backend add @backstage/plugin-catalog-backend-module-github
 ```
 
 And then update your backend by adding the following line:
 
 ```ts title="packages/backend/src/index.ts"
-backend.add(import('@backstage/plugin-catalog-backend/alpha'));
+backend.add(import('@backstage/plugin-catalog-backend'));
 /* highlight-add-start */
-backend.add(import('@backstage/plugin-catalog-backend-module-github/alpha'));
+backend.add(import('@backstage/plugin-catalog-backend-module-github'));
 ```
 
 ## Events Support
@@ -84,7 +83,7 @@ catalog:
         filters:
           branch: 'main' # string
           repository: '.*' # Regex
-        schedule: # same options as in TaskScheduleDefinition
+        schedule: # same options as in SchedulerServiceTaskScheduleDefinition
           # supports cron, ISO duration, "human duration" as used in code
           frequency: { minutes: 30 }
           # supports ISO duration, "human duration" as used in code
@@ -204,7 +203,7 @@ schedule:
   timeout: { minutes: 3 }
 ```
 
-More information about scheduling can be found on the [TaskScheduleDefinition](https://backstage.io/docs/reference/backend-tasks.taskscheduledefinition) page.
+More information about scheduling can be found on the [SchedulerServiceTaskScheduleDefinition](https://backstage.io/docs/reference/backend-plugin-api.schedulerservicetaskscheduledefinition) page.
 
 Alternatively, or additionally, you can configure [github-apps](github-apps.md) authentication
 which carries a much higher rate limit at GitHub.

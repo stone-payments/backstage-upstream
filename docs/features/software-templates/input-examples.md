@@ -26,6 +26,25 @@ parameters:
         ui:help: 'Hint: additional description...'
 ```
 
+#### Custom validation error message
+
+```yaml
+parameters:
+  - title: Fill in some steps
+    properties:
+      name:
+        title: Simple text input
+        type: string
+        description: Description about input
+        maxLength: 8
+        pattern: '^([a-zA-Z][a-zA-Z0-9]*)(-[a-zA-Z0-9]+)*$'
+        ui:autofocus: true
+        ui:help: 'Hint: additional description...'
+    errorMessage:
+      properties:
+        name: '1-8 alphanumeric tokens (first starts with letter) delimited by -'
+```
+
 ### Multi line text input
 
 ```yaml
@@ -278,7 +297,7 @@ spec:
           type: string
 
   steps:
-    - $yaml: https://github.com//example/path/to/action.yaml
+    - $yaml: https://github.com/example/path/to/action.yaml
 
     - id: fetch
       name: Fetch template

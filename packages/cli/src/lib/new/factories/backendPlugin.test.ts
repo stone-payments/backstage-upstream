@@ -78,6 +78,7 @@ describe('backendPlugin factory', () => {
         modified = true;
       },
       createTemporaryDirectory: () => fs.mkdtemp('test'),
+      license: 'Apache-2.0',
     });
 
     expect(modified).toBe(true);
@@ -88,15 +89,19 @@ describe('backendPlugin factory', () => {
       `availability  plugins${sep}test-backend`,
       'creating      temp dir',
       'Executing Template:',
-      'copying       .eslintrc.js',
+      'templating    .eslintrc.js.hbs',
       'templating    README.md.hbs',
       'templating    index.ts.hbs',
+      'templating    index.ts.hbs',
       'templating    package.json.hbs',
+      'templating    plugin.ts.hbs',
+      'templating    plugin.test.ts.hbs',
       'copying       index.ts',
       'copying       setupTests.ts',
-      'copying       router.test.ts',
       'copying       router.ts',
-      'templating    plugin.ts.hbs',
+      'copying       router.test.ts',
+      'copying       createTodoListService.ts',
+      'copying       types.ts',
       'Installing:',
       `moving        plugins${sep}test-backend`,
       'backend       adding dependency',
