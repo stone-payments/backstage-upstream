@@ -42,8 +42,8 @@
   "dependencies": {
     "@backstage/backend-common": "^0.25.0",
     "@backstage/backend-test-utils": "workspace:^",
-    "@stone-payments/plugin-scaffolder-node": "workspace:^",
-    "@backstage/types": "workspace:^"
+    "@backstage/types": "workspace:^",
+    "@stone-payments/plugin-scaffolder-node": "workspace:^"
   },
   "devDependencies": {
     "@backstage/cli": "workspace:^",

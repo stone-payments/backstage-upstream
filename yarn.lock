@@ -3720,11 +3720,11 @@ __metadata:
     "@backstage/plugin-events-node": "workspace:^"
     "@backstage/plugin-permission-common": "workspace:^"
     "@backstage/plugin-permission-node": "workspace:^"
-    "@stone-payments/plugin-scaffolder-node": "workspace:^"
     "@backstage/plugin-search-backend-node": "workspace:^"
     "@backstage/plugin-search-common": "workspace:^"
     "@backstage/types": "workspace:^"
     "@manypkg/get-packages": ^1.1.3
+    "@stone-payments/plugin-scaffolder-node": "workspace:^"
     "@types/express": ^4.17.6
     chokidar: ^3.5.3
     express: ^4.17.1
@@ -3900,8 +3900,6 @@ __metadata:
     "@backstage/plugin-auth-backend": "workspace:^"
     "@backstage/plugin-auth-backend-module-guest-provider": "workspace:^"
     "@backstage/plugin-catalog-node": "workspace:^"
-    "@stone-payments/plugin-scaffolder-node": "workspace:^"
-    "@stone-payments/plugin-scaffolder-node-test-utils": "workspace:^"
     "@backstage/release-manifests": "workspace:^"
     "@backstage/test-utils": "workspace:^"
     "@backstage/theme": "workspace:^"
@@ -3923,6 +3921,8 @@ __metadata:
     "@spotify/eslint-config-base": ^15.0.0
     "@spotify/eslint-config-react": ^15.0.0
     "@spotify/eslint-config-typescript": ^15.0.0
+    "@stone-payments/plugin-scaffolder-node": "workspace:^"
+    "@stone-payments/plugin-scaffolder-node-test-utils": "workspace:^"
     "@sucrase/webpack-loader": ^2.0.0
     "@svgr/core": 6.5.x
     "@svgr/plugin-jsx": 6.5.x
@@ -6990,376 +6990,6 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@stone-payments/plugin-scaffolder-backend-module-azure@workspace:^, @stone-payments/plugin-scaffolder-backend-module-azure@workspace:plugins/scaffolder-backend-module-azure":
-  version: 0.0.0-use.local
-  resolution: "@stone-payments/plugin-scaffolder-backend-module-azure@workspace:plugins/scaffolder-backend-module-azure"
-  dependencies:
-    "@backstage/backend-plugin-api": "workspace:^"
-    "@backstage/cli": "workspace:^"
-    "@backstage/config": "workspace:^"
-    "@backstage/errors": "workspace:^"
-    "@backstage/integration": "workspace:^"
-    "@stone-payments/plugin-scaffolder-node": "workspace:^"
-    "@stone-payments/plugin-scaffolder-node-test-utils": "workspace:^"
-    azure-devops-node-api: ^14.0.0
-    yaml: ^2.0.0
-  languageName: unknown
-  linkType: soft
-
-"@stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud@workspace:^, @stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud@workspace:plugins/scaffolder-backend-module-bitbucket-cloud":
-  version: 0.0.0-use.local
-  resolution: "@stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud@workspace:plugins/scaffolder-backend-module-bitbucket-cloud"
-  dependencies:
-    "@backstage/backend-plugin-api": "workspace:^"
-    "@backstage/backend-test-utils": "workspace:^"
-    "@backstage/cli": "workspace:^"
-    "@backstage/config": "workspace:^"
-    "@backstage/errors": "workspace:^"
-    "@backstage/integration": "workspace:^"
-    "@backstage/plugin-bitbucket-cloud-common": "workspace:^"
-    "@stone-payments/plugin-scaffolder-node": "workspace:^"
-    "@stone-payments/plugin-scaffolder-node-test-utils": "workspace:^"
-    fs-extra: ^11.2.0
-    msw: ^1.0.0
-    node-fetch: ^2.7.0
-    yaml: ^2.0.0
-  languageName: unknown
-  linkType: soft
-
-"@stone-payments/plugin-scaffolder-backend-module-bitbucket-server@workspace:^, @stone-payments/plugin-scaffolder-backend-module-bitbucket-server@workspace:plugins/scaffolder-backend-module-bitbucket-server":
-  version: 0.0.0-use.local
-  resolution: "@stone-payments/plugin-scaffolder-backend-module-bitbucket-server@workspace:plugins/scaffolder-backend-module-bitbucket-server"
-  dependencies:
-    "@backstage/backend-plugin-api": "workspace:^"
-    "@backstage/backend-test-utils": "workspace:^"
-    "@backstage/cli": "workspace:^"
-    "@backstage/config": "workspace:^"
-    "@backstage/errors": "workspace:^"
-    "@backstage/integration": "workspace:^"
-    "@stone-payments/plugin-scaffolder-node": "workspace:^"
-    "@stone-payments/plugin-scaffolder-node-test-utils": "workspace:^"
-    fs-extra: ^11.2.0
-    msw: ^1.0.0
-    node-fetch: ^2.7.0
-    yaml: ^2.0.0
-  languageName: unknown
-  linkType: soft
-
-"@stone-payments/plugin-scaffolder-backend-module-bitbucket@workspace:^, @stone-payments/plugin-scaffolder-backend-module-bitbucket@workspace:plugins/scaffolder-backend-module-bitbucket":
-  version: 0.0.0-use.local
-  resolution: "@stone-payments/plugin-scaffolder-backend-module-bitbucket@workspace:plugins/scaffolder-backend-module-bitbucket"
-  dependencies:
-    "@backstage/backend-plugin-api": "workspace:^"
-    "@backstage/backend-test-utils": "workspace:^"
-    "@backstage/cli": "workspace:^"
-    "@backstage/config": "workspace:^"
-    "@backstage/errors": "workspace:^"
-    "@backstage/integration": "workspace:^"
-    "@stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud": "workspace:^"
-    "@stone-payments/plugin-scaffolder-backend-module-bitbucket-server": "workspace:^"
-    "@stone-payments/plugin-scaffolder-node": "workspace:^"
-    "@stone-payments/plugin-scaffolder-node-test-utils": "workspace:^"
-    fs-extra: ^11.2.0
-    msw: ^1.0.0
-    node-fetch: ^2.7.0
-    yaml: ^2.0.0
-  languageName: unknown
-  linkType: soft
-
-"@stone-payments/plugin-scaffolder-backend-module-confluence-to-markdown@workspace:^, @stone-payments/plugin-scaffolder-backend-module-confluence-to-markdown@workspace:plugins/scaffolder-backend-module-confluence-to-markdown":
-  version: 0.0.0-use.local
-  resolution: "@stone-payments/plugin-scaffolder-backend-module-confluence-to-markdown@workspace:plugins/scaffolder-backend-module-confluence-to-markdown"
-  dependencies:
-    "@backstage/backend-common": ^0.25.0
-    "@backstage/backend-plugin-api": "workspace:^"
-    "@backstage/backend-test-utils": "workspace:^"
-    "@backstage/cli": "workspace:^"
-    "@backstage/config": "workspace:^"
-    "@backstage/errors": "workspace:^"
-    "@backstage/integration": "workspace:^"
-    "@stone-payments/plugin-scaffolder-node": "workspace:^"
-    "@stone-payments/plugin-scaffolder-node-test-utils": "workspace:^"
-    fs-extra: ^11.2.0
-    git-url-parse: ^15.0.0
-    msw: ^1.0.0
-    node-fetch: ^2.7.0
-    node-html-markdown: ^1.3.0
-    yaml: ^2.0.0
-  languageName: unknown
-  linkType: soft
-
-"@stone-payments/plugin-scaffolder-backend-module-cookiecutter@workspace:plugins/scaffolder-backend-module-cookiecutter":
-  version: 0.0.0-use.local
-  resolution: "@stone-payments/plugin-scaffolder-backend-module-cookiecutter@workspace:plugins/scaffolder-backend-module-cookiecutter"
-  dependencies:
-    "@backstage/backend-common": ^0.25.0
-    "@backstage/backend-defaults": "workspace:^"
-    "@backstage/backend-plugin-api": "workspace:^"
-    "@backstage/backend-test-utils": "workspace:^"
-    "@backstage/cli": "workspace:^"
-    "@backstage/config": "workspace:^"
-    "@backstage/errors": "workspace:^"
-    "@backstage/integration": "workspace:^"
-    "@stone-payments/plugin-scaffolder-node": "workspace:^"
-    "@stone-payments/plugin-scaffolder-node-test-utils": "workspace:^"
-    "@backstage/types": "workspace:^"
-    "@types/command-exists": ^1.2.0
-    "@types/fs-extra": ^11.0.0
-    command-exists: ^1.2.9
-    fs-extra: ^11.2.0
-    winston: ^3.2.1
-    yaml: ^2.0.0
-    yn: ^4.0.0
-  languageName: unknown
-  linkType: soft
-
-"@stone-payments/plugin-scaffolder-backend-module-gcp@workspace:plugins/scaffolder-backend-module-gcp":
-  version: 0.0.0-use.local
-  resolution: "@stone-payments/plugin-scaffolder-backend-module-gcp@workspace:plugins/scaffolder-backend-module-gcp"
-  dependencies:
-    "@backstage/backend-plugin-api": "workspace:^"
-    "@backstage/cli": "workspace:^"
-    "@backstage/config": "workspace:^"
-    "@backstage/errors": "workspace:^"
-    "@backstage/integration": "workspace:^"
-    "@stone-payments/plugin-scaffolder-node": "workspace:^"
-    "@stone-payments/plugin-scaffolder-node-test-utils": "workspace:^"
-    "@google-cloud/storage": ^7.0.0
-    raw-body: ^2.4.1
-  languageName: unknown
-  linkType: soft
-
-"@stone-payments/plugin-scaffolder-backend-module-gerrit@workspace:^, @stone-payments/plugin-scaffolder-backend-module-gerrit@workspace:plugins/scaffolder-backend-module-gerrit":
-  version: 0.0.0-use.local
-  resolution: "@stone-payments/plugin-scaffolder-backend-module-gerrit@workspace:plugins/scaffolder-backend-module-gerrit"
-  dependencies:
-    "@backstage/backend-plugin-api": "workspace:^"
-    "@backstage/backend-test-utils": "workspace:^"
-    "@backstage/cli": "workspace:^"
-    "@backstage/config": "workspace:^"
-    "@backstage/errors": "workspace:^"
-    "@backstage/integration": "workspace:^"
-    "@stone-payments/plugin-scaffolder-node": "workspace:^"
-    "@stone-payments/plugin-scaffolder-node-test-utils": "workspace:^"
-    msw: ^1.0.0
-    node-fetch: ^2.7.0
-    yaml: ^2.0.0
-  languageName: unknown
-  linkType: soft
-
-"@stone-payments/plugin-scaffolder-backend-module-gitea@workspace:^, @stone-payments/plugin-scaffolder-backend-module-gitea@workspace:plugins/scaffolder-backend-module-gitea":
-  version: 0.0.0-use.local
-  resolution: "@stone-payments/plugin-scaffolder-backend-module-gitea@workspace:plugins/scaffolder-backend-module-gitea"
-  dependencies:
-    "@backstage/backend-plugin-api": "workspace:^"
-    "@backstage/backend-test-utils": "workspace:^"
-    "@backstage/cli": "workspace:^"
-    "@backstage/config": "workspace:^"
-    "@backstage/errors": "workspace:^"
-    "@backstage/integration": "workspace:^"
-    "@stone-payments/plugin-scaffolder-node": "workspace:^"
-    "@stone-payments/plugin-scaffolder-node-test-utils": "workspace:^"
-    msw: ^1.0.0
-    node-fetch: ^2.7.0
-    yaml: ^2.0.0
-  languageName: unknown
-  linkType: soft
-
-"@stone-payments/plugin-scaffolder-backend-module-github@workspace:^, @stone-payments/plugin-scaffolder-backend-module-github@workspace:plugins/scaffolder-backend-module-github":
-  version: 0.0.0-use.local
-  resolution: "@stone-payments/plugin-scaffolder-backend-module-github@workspace:plugins/scaffolder-backend-module-github"
-  dependencies:
-    "@backstage/backend-common": ^0.25.0
-    "@backstage/backend-plugin-api": "workspace:^"
-    "@backstage/backend-test-utils": "workspace:^"
-    "@backstage/catalog-client": "workspace:^"
-    "@backstage/catalog-model": "workspace:^"
-    "@backstage/cli": "workspace:^"
-    "@backstage/config": "workspace:^"
-    "@backstage/errors": "workspace:^"
-    "@backstage/integration": "workspace:^"
-    "@stone-payments/plugin-scaffolder-node": "workspace:^"
-    "@stone-payments/plugin-scaffolder-node-test-utils": "workspace:^"
-    "@octokit/webhooks": ^10.9.2
-    "@types/libsodium-wrappers": ^0.7.10
-    fs-extra: ^11.2.0
-    jsonschema: ^1.2.6
-    libsodium-wrappers: ^0.7.11
-    octokit: ^3.0.0
-    octokit-plugin-create-pull-request: ^5.0.0
-    yaml: ^2.0.0
-  languageName: unknown
-  linkType: soft
-
-"@stone-payments/plugin-scaffolder-backend-module-gitlab@workspace:^, @stone-payments/plugin-scaffolder-backend-module-gitlab@workspace:plugins/scaffolder-backend-module-gitlab":
-  version: 0.0.0-use.local
-  resolution: "@stone-payments/plugin-scaffolder-backend-module-gitlab@workspace:plugins/scaffolder-backend-module-gitlab"
-  dependencies:
-    "@backstage/backend-common": ^0.25.0
-    "@backstage/backend-plugin-api": "workspace:^"
-    "@backstage/backend-test-utils": "workspace:^"
-    "@backstage/cli": "workspace:^"
-    "@backstage/config": "workspace:^"
-    "@backstage/core-app-api": "workspace:^"
-    "@backstage/errors": "workspace:^"
-    "@backstage/integration": "workspace:^"
-    "@stone-payments/plugin-scaffolder-node": "workspace:^"
-    "@stone-payments/plugin-scaffolder-node-test-utils": "workspace:^"
-    "@gitbeaker/core": ^35.8.0
-    "@gitbeaker/node": ^35.8.0
-    "@gitbeaker/rest": ^39.25.0
-    luxon: ^3.0.0
-    winston: ^3.2.1
-    yaml: ^2.0.0
-    zod: ^3.22.4
-  languageName: unknown
-  linkType: soft
-
-"@stone-payments/plugin-scaffolder-backend-module-notifications@workspace:plugins/scaffolder-backend-module-notifications":
-  version: 0.0.0-use.local
-  resolution: "@stone-payments/plugin-scaffolder-backend-module-notifications@workspace:plugins/scaffolder-backend-module-notifications"
-  dependencies:
-    "@backstage/backend-common": ^0.25.0
-    "@backstage/backend-plugin-api": "workspace:^"
-    "@backstage/cli": "workspace:^"
-    "@backstage/plugin-notifications-common": "workspace:^"
-    "@backstage/plugin-notifications-node": "workspace:^"
-    "@stone-payments/plugin-scaffolder-node": "workspace:^"
-    "@stone-payments/plugin-scaffolder-node-test-utils": "workspace:^"
-    octokit: ^3.0.0
-    yaml: ^2.0.0
-  languageName: unknown
-  linkType: soft
-
-"@stone-payments/plugin-scaffolder-backend-module-rails@workspace:^, @stone-payments/plugin-scaffolder-backend-module-rails@workspace:plugins/scaffolder-backend-module-rails":
-  version: 0.0.0-use.local
-  resolution: "@stone-payments/plugin-scaffolder-backend-module-rails@workspace:plugins/scaffolder-backend-module-rails"
-  dependencies:
-    "@backstage/backend-common": ^0.25.0
-    "@backstage/backend-plugin-api": "workspace:^"
-    "@backstage/backend-test-utils": "workspace:^"
-    "@backstage/cli": "workspace:^"
-    "@backstage/config": "workspace:^"
-    "@backstage/errors": "workspace:^"
-    "@backstage/integration": "workspace:^"
-    "@stone-payments/plugin-scaffolder-node": "workspace:^"
-    "@stone-payments/plugin-scaffolder-node-test-utils": "workspace:^"
-    "@backstage/types": "workspace:^"
-    "@types/command-exists": ^1.2.0
-    "@types/fs-extra": ^11.0.0
-    "@types/node": ^18.17.8
-    command-exists: ^1.2.9
-    fs-extra: ^11.0.0
-    jest-when: ^3.1.0
-    yaml: ^2.0.0
-  languageName: unknown
-  linkType: soft
-
-"@stone-payments/plugin-scaffolder-backend-module-sentry@workspace:plugins/scaffolder-backend-module-sentry":
-  version: 0.0.0-use.local
-  resolution: "@stone-payments/plugin-scaffolder-backend-module-sentry@workspace:plugins/scaffolder-backend-module-sentry"
-  dependencies:
-    "@backstage/backend-plugin-api": "workspace:^"
-    "@backstage/backend-test-utils": "workspace:^"
-    "@backstage/cli": "workspace:^"
-    "@backstage/config": "workspace:^"
-    "@backstage/errors": "workspace:^"
-    "@stone-payments/plugin-scaffolder-node": "workspace:^"
-    "@stone-payments/plugin-scaffolder-node-test-utils": "workspace:^"
-    "@backstage/types": "workspace:^"
-    msw: ^2.0.0
-    node-fetch: ^2.7.0
-    yaml: ^2.3.3
-  languageName: unknown
-  linkType: soft
-
-"@stone-payments/plugin-scaffolder-backend-module-yeoman@workspace:plugins/scaffolder-backend-module-yeoman":
-  version: 0.0.0-use.local
-  resolution: "@stone-payments/plugin-scaffolder-backend-module-yeoman@workspace:plugins/scaffolder-backend-module-yeoman"
-  dependencies:
-    "@backstage/backend-common": ^0.25.0
-    "@backstage/backend-plugin-api": "workspace:^"
-    "@backstage/cli": "workspace:^"
-    "@stone-payments/plugin-scaffolder-node": "workspace:^"
-    "@stone-payments/plugin-scaffolder-node-test-utils": "workspace:^"
-    "@backstage/types": "workspace:^"
-    winston: ^3.2.1
-    yaml: ^2.0.0
-    yeoman-environment: ^3.9.1
-  languageName: unknown
-  linkType: soft
-
-"@stone-payments/plugin-scaffolder-backend@workspace:^, @stone-payments/plugin-scaffolder-backend@workspace:plugins/scaffolder-backend":
-  version: 0.0.0-use.local
-  resolution: "@stone-payments/plugin-scaffolder-backend@workspace:plugins/scaffolder-backend"
-  dependencies:
-    "@backstage/backend-app-api": "workspace:^"
-    "@backstage/backend-common": ^0.25.0
-    "@backstage/backend-defaults": "workspace:^"
-    "@backstage/backend-plugin-api": "workspace:^"
-    "@backstage/backend-test-utils": "workspace:^"
-    "@backstage/catalog-client": "workspace:^"
-    "@backstage/catalog-model": "workspace:^"
-    "@backstage/cli": "workspace:^"
-    "@backstage/config": "workspace:^"
-    "@backstage/errors": "workspace:^"
-    "@backstage/integration": "workspace:^"
-    "@backstage/plugin-auth-node": "workspace:^"
-    "@backstage/plugin-bitbucket-cloud-common": "workspace:^"
-    "@backstage/plugin-catalog-backend-module-scaffolder-entity-model": "workspace:^"
-    "@backstage/plugin-catalog-node": "workspace:^"
-    "@backstage/plugin-permission-common": "workspace:^"
-    "@backstage/plugin-permission-node": "workspace:^"
-    "@stone-payments/plugin-scaffolder-backend-module-azure": "workspace:^"
-    "@stone-payments/plugin-scaffolder-backend-module-bitbucket": "workspace:^"
-    "@stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud": "workspace:^"
-    "@stone-payments/plugin-scaffolder-backend-module-bitbucket-server": "workspace:^"
-    "@stone-payments/plugin-scaffolder-backend-module-gerrit": "workspace:^"
-    "@stone-payments/plugin-scaffolder-backend-module-gitea": "workspace:^"
-    "@stone-payments/plugin-scaffolder-backend-module-github": "workspace:^"
-    "@stone-payments/plugin-scaffolder-backend-module-gitlab": "workspace:^"
-    "@backstage/plugin-scaffolder-common": "workspace:^"
-    "@stone-payments/plugin-scaffolder-node": "workspace:^"
-    "@stone-payments/plugin-scaffolder-node-test-utils": "workspace:^"
-    "@backstage/types": "workspace:^"
-    "@opentelemetry/api": ^1.3.0
-    "@types/express": ^4.17.6
-    "@types/fs-extra": ^11.0.0
-    "@types/luxon": ^3.0.0
-    "@types/nunjucks": ^3.1.4
-    "@types/supertest": ^2.0.8
-    "@types/zen-observable": ^0.8.0
-    concat-stream: ^2.0.0
-    esbuild: ^0.24.0
-    express: ^4.17.1
-    express-promise-router: ^4.1.0
-    fs-extra: ^11.2.0
-    globby: ^11.0.0
-    isbinaryfile: ^5.0.0
-    isolated-vm: ^4.5.0
-    jsonschema: ^1.2.6
-    knex: ^3.0.0
-    lodash: ^4.17.21
-    logform: ^2.3.2
-    luxon: ^3.0.0
-    nunjucks: ^3.2.3
-    p-limit: ^3.1.0
-    p-queue: ^6.6.2
-    prom-client: ^15.0.0
-    strip-ansi: ^7.1.0
-    supertest: ^7.0.0
-    tar: ^6.1.12
-    triple-beam: ^1.4.1
-    uuid: ^9.0.0
-    wait-for-expect: ^3.0.2
-    winston: ^3.2.1
-    winston-transport: ^4.7.0
-    yaml: ^2.0.0
-    zen-observable: ^0.10.0
-    zod: ^3.22.4
-  languageName: unknown
-  linkType: soft
-
 "@backstage/plugin-scaffolder-common@workspace:^, @backstage/plugin-scaffolder-common@workspace:plugins/scaffolder-common":
   version: 0.0.0-use.local
   resolution: "@backstage/plugin-scaffolder-common@workspace:plugins/scaffolder-common"
@@ -7368,57 +6998,6 @@ __metadata:
     "@backstage/cli": "workspace:^"
     "@backstage/plugin-permission-common": "workspace:^"
     "@backstage/types": "workspace:^"
-  languageName: unknown
-  linkType: soft
-
-"@stone-payments/plugin-scaffolder-node-test-utils@workspace:^, @stone-payments/plugin-scaffolder-node-test-utils@workspace:plugins/scaffolder-node-test-utils":
-  version: 0.0.0-use.local
-  resolution: "@stone-payments/plugin-scaffolder-node-test-utils@workspace:plugins/scaffolder-node-test-utils"
-  dependencies:
-    "@backstage/backend-common": ^0.25.0
-    "@backstage/backend-test-utils": "workspace:^"
-    "@backstage/cli": "workspace:^"
-    "@stone-payments/plugin-scaffolder-node": "workspace:^"
-    "@backstage/types": "workspace:^"
-    "@types/react": ^18.0.0
-    react: ^18.0.2
-    react-dom: ^18.0.2
-    react-router-dom: ^6.3.0
-  peerDependencies:
-    "@types/react": ^16.13.1 || ^17.0.0 || ^18.0.0
-    react: ^16.13.1 || ^17.0.0 || ^18.0.0
-    react-dom: ^16.13.1 || ^17.0.0 || ^18.0.0
-    react-router-dom: 6.0.0-beta.0 || ^6.3.0
-  peerDependenciesMeta:
-    "@types/react":
-      optional: true
-  languageName: unknown
-  linkType: soft
-
-"@stone-payments/plugin-scaffolder-node@workspace:^, @stone-payments/plugin-scaffolder-node@workspace:plugins/scaffolder-node":
-  version: 0.0.0-use.local
-  resolution: "@stone-payments/plugin-scaffolder-node@workspace:plugins/scaffolder-node"
-  dependencies:
-    "@backstage/backend-common": ^0.25.0
-    "@backstage/backend-plugin-api": "workspace:^"
-    "@backstage/backend-test-utils": "workspace:^"
-    "@backstage/catalog-model": "workspace:^"
-    "@backstage/cli": "workspace:^"
-    "@backstage/config": "workspace:^"
-    "@backstage/errors": "workspace:^"
-    "@backstage/integration": "workspace:^"
-    "@backstage/plugin-scaffolder-common": "workspace:^"
-    "@backstage/types": "workspace:^"
-    concat-stream: ^2.0.0
-    fs-extra: ^11.2.0
-    globby: ^11.0.0
-    isomorphic-git: ^1.23.0
-    jsonschema: ^1.2.6
-    p-limit: ^3.1.0
-    tar: ^6.1.12
-    winston: ^3.2.1
-    zod: ^3.22.4
-    zod-to-json-schema: ^3.20.4
   languageName: unknown
   linkType: soft
 
@@ -15981,6 +15560,427 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@stone-payments/plugin-scaffolder-backend-module-azure@workspace:^, @stone-payments/plugin-scaffolder-backend-module-azure@workspace:plugins/scaffolder-backend-module-azure":
+  version: 0.0.0-use.local
+  resolution: "@stone-payments/plugin-scaffolder-backend-module-azure@workspace:plugins/scaffolder-backend-module-azure"
+  dependencies:
+    "@backstage/backend-plugin-api": "workspace:^"
+    "@backstage/cli": "workspace:^"
+    "@backstage/config": "workspace:^"
+    "@backstage/errors": "workspace:^"
+    "@backstage/integration": "workspace:^"
+    "@stone-payments/plugin-scaffolder-node": "workspace:^"
+    "@stone-payments/plugin-scaffolder-node-test-utils": "workspace:^"
+    azure-devops-node-api: ^14.0.0
+    yaml: ^2.0.0
+  languageName: unknown
+  linkType: soft
+
+"@stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud@workspace:^, @stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud@workspace:plugins/scaffolder-backend-module-bitbucket-cloud":
+  version: 0.0.0-use.local
+  resolution: "@stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud@workspace:plugins/scaffolder-backend-module-bitbucket-cloud"
+  dependencies:
+    "@backstage/backend-plugin-api": "workspace:^"
+    "@backstage/backend-test-utils": "workspace:^"
+    "@backstage/cli": "workspace:^"
+    "@backstage/config": "workspace:^"
+    "@backstage/errors": "workspace:^"
+    "@backstage/integration": "workspace:^"
+    "@backstage/plugin-bitbucket-cloud-common": "workspace:^"
+    "@stone-payments/plugin-scaffolder-node": "workspace:^"
+    "@stone-payments/plugin-scaffolder-node-test-utils": "workspace:^"
+    fs-extra: ^11.2.0
+    msw: ^1.0.0
+    node-fetch: ^2.7.0
+    yaml: ^2.0.0
+  languageName: unknown
+  linkType: soft
+
+"@stone-payments/plugin-scaffolder-backend-module-bitbucket-server@workspace:^, @stone-payments/plugin-scaffolder-backend-module-bitbucket-server@workspace:plugins/scaffolder-backend-module-bitbucket-server":
+  version: 0.0.0-use.local
+  resolution: "@stone-payments/plugin-scaffolder-backend-module-bitbucket-server@workspace:plugins/scaffolder-backend-module-bitbucket-server"
+  dependencies:
+    "@backstage/backend-plugin-api": "workspace:^"
+    "@backstage/backend-test-utils": "workspace:^"
+    "@backstage/cli": "workspace:^"
+    "@backstage/config": "workspace:^"
+    "@backstage/errors": "workspace:^"
+    "@backstage/integration": "workspace:^"
+    "@stone-payments/plugin-scaffolder-node": "workspace:^"
+    "@stone-payments/plugin-scaffolder-node-test-utils": "workspace:^"
+    fs-extra: ^11.2.0
+    msw: ^1.0.0
+    node-fetch: ^2.7.0
+    yaml: ^2.0.0
+  languageName: unknown
+  linkType: soft
+
+"@stone-payments/plugin-scaffolder-backend-module-bitbucket@workspace:^, @stone-payments/plugin-scaffolder-backend-module-bitbucket@workspace:plugins/scaffolder-backend-module-bitbucket":
+  version: 0.0.0-use.local
+  resolution: "@stone-payments/plugin-scaffolder-backend-module-bitbucket@workspace:plugins/scaffolder-backend-module-bitbucket"
+  dependencies:
+    "@backstage/backend-plugin-api": "workspace:^"
+    "@backstage/backend-test-utils": "workspace:^"
+    "@backstage/cli": "workspace:^"
+    "@backstage/config": "workspace:^"
+    "@backstage/errors": "workspace:^"
+    "@backstage/integration": "workspace:^"
+    "@stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud": "workspace:^"
+    "@stone-payments/plugin-scaffolder-backend-module-bitbucket-server": "workspace:^"
+    "@stone-payments/plugin-scaffolder-node": "workspace:^"
+    "@stone-payments/plugin-scaffolder-node-test-utils": "workspace:^"
+    fs-extra: ^11.2.0
+    msw: ^1.0.0
+    node-fetch: ^2.7.0
+    yaml: ^2.0.0
+  languageName: unknown
+  linkType: soft
+
+"@stone-payments/plugin-scaffolder-backend-module-confluence-to-markdown@workspace:^, @stone-payments/plugin-scaffolder-backend-module-confluence-to-markdown@workspace:plugins/scaffolder-backend-module-confluence-to-markdown":
+  version: 0.0.0-use.local
+  resolution: "@stone-payments/plugin-scaffolder-backend-module-confluence-to-markdown@workspace:plugins/scaffolder-backend-module-confluence-to-markdown"
+  dependencies:
+    "@backstage/backend-common": ^0.25.0
+    "@backstage/backend-plugin-api": "workspace:^"
+    "@backstage/backend-test-utils": "workspace:^"
+    "@backstage/cli": "workspace:^"
+    "@backstage/config": "workspace:^"
+    "@backstage/errors": "workspace:^"
+    "@backstage/integration": "workspace:^"
+    "@stone-payments/plugin-scaffolder-node": "workspace:^"
+    "@stone-payments/plugin-scaffolder-node-test-utils": "workspace:^"
+    fs-extra: ^11.2.0
+    git-url-parse: ^15.0.0
+    msw: ^1.0.0
+    node-fetch: ^2.7.0
+    node-html-markdown: ^1.3.0
+    yaml: ^2.0.0
+  languageName: unknown
+  linkType: soft
+
+"@stone-payments/plugin-scaffolder-backend-module-cookiecutter@workspace:plugins/scaffolder-backend-module-cookiecutter":
+  version: 0.0.0-use.local
+  resolution: "@stone-payments/plugin-scaffolder-backend-module-cookiecutter@workspace:plugins/scaffolder-backend-module-cookiecutter"
+  dependencies:
+    "@backstage/backend-common": ^0.25.0
+    "@backstage/backend-defaults": "workspace:^"
+    "@backstage/backend-plugin-api": "workspace:^"
+    "@backstage/backend-test-utils": "workspace:^"
+    "@backstage/cli": "workspace:^"
+    "@backstage/config": "workspace:^"
+    "@backstage/errors": "workspace:^"
+    "@backstage/integration": "workspace:^"
+    "@backstage/types": "workspace:^"
+    "@stone-payments/plugin-scaffolder-node": "workspace:^"
+    "@stone-payments/plugin-scaffolder-node-test-utils": "workspace:^"
+    "@types/command-exists": ^1.2.0
+    "@types/fs-extra": ^11.0.0
+    command-exists: ^1.2.9
+    fs-extra: ^11.2.0
+    winston: ^3.2.1
+    yaml: ^2.0.0
+    yn: ^4.0.0
+  languageName: unknown
+  linkType: soft
+
+"@stone-payments/plugin-scaffolder-backend-module-gcp@workspace:plugins/scaffolder-backend-module-gcp":
+  version: 0.0.0-use.local
+  resolution: "@stone-payments/plugin-scaffolder-backend-module-gcp@workspace:plugins/scaffolder-backend-module-gcp"
+  dependencies:
+    "@backstage/backend-plugin-api": "workspace:^"
+    "@backstage/cli": "workspace:^"
+    "@backstage/config": "workspace:^"
+    "@backstage/errors": "workspace:^"
+    "@backstage/integration": "workspace:^"
+    "@google-cloud/storage": ^7.0.0
+    "@stone-payments/plugin-scaffolder-node": "workspace:^"
+    "@stone-payments/plugin-scaffolder-node-test-utils": "workspace:^"
+    raw-body: ^2.4.1
+  languageName: unknown
+  linkType: soft
+
+"@stone-payments/plugin-scaffolder-backend-module-gerrit@workspace:^, @stone-payments/plugin-scaffolder-backend-module-gerrit@workspace:plugins/scaffolder-backend-module-gerrit":
+  version: 0.0.0-use.local
+  resolution: "@stone-payments/plugin-scaffolder-backend-module-gerrit@workspace:plugins/scaffolder-backend-module-gerrit"
+  dependencies:
+    "@backstage/backend-plugin-api": "workspace:^"
+    "@backstage/backend-test-utils": "workspace:^"
+    "@backstage/cli": "workspace:^"
+    "@backstage/config": "workspace:^"
+    "@backstage/errors": "workspace:^"
+    "@backstage/integration": "workspace:^"
+    "@stone-payments/plugin-scaffolder-node": "workspace:^"
+    "@stone-payments/plugin-scaffolder-node-test-utils": "workspace:^"
+    msw: ^1.0.0
+    node-fetch: ^2.7.0
+    yaml: ^2.0.0
+  languageName: unknown
+  linkType: soft
+
+"@stone-payments/plugin-scaffolder-backend-module-gitea@workspace:^, @stone-payments/plugin-scaffolder-backend-module-gitea@workspace:plugins/scaffolder-backend-module-gitea":
+  version: 0.0.0-use.local
+  resolution: "@stone-payments/plugin-scaffolder-backend-module-gitea@workspace:plugins/scaffolder-backend-module-gitea"
+  dependencies:
+    "@backstage/backend-plugin-api": "workspace:^"
+    "@backstage/backend-test-utils": "workspace:^"
+    "@backstage/cli": "workspace:^"
+    "@backstage/config": "workspace:^"
+    "@backstage/errors": "workspace:^"
+    "@backstage/integration": "workspace:^"
+    "@stone-payments/plugin-scaffolder-node": "workspace:^"
+    "@stone-payments/plugin-scaffolder-node-test-utils": "workspace:^"
+    msw: ^1.0.0
+    node-fetch: ^2.7.0
+    yaml: ^2.0.0
+  languageName: unknown
+  linkType: soft
+
+"@stone-payments/plugin-scaffolder-backend-module-github@workspace:^, @stone-payments/plugin-scaffolder-backend-module-github@workspace:plugins/scaffolder-backend-module-github":
+  version: 0.0.0-use.local
+  resolution: "@stone-payments/plugin-scaffolder-backend-module-github@workspace:plugins/scaffolder-backend-module-github"
+  dependencies:
+    "@backstage/backend-common": ^0.25.0
+    "@backstage/backend-plugin-api": "workspace:^"
+    "@backstage/backend-test-utils": "workspace:^"
+    "@backstage/catalog-client": "workspace:^"
+    "@backstage/catalog-model": "workspace:^"
+    "@backstage/cli": "workspace:^"
+    "@backstage/config": "workspace:^"
+    "@backstage/errors": "workspace:^"
+    "@backstage/integration": "workspace:^"
+    "@octokit/webhooks": ^10.9.2
+    "@stone-payments/plugin-scaffolder-node": "workspace:^"
+    "@stone-payments/plugin-scaffolder-node-test-utils": "workspace:^"
+    "@types/libsodium-wrappers": ^0.7.10
+    fs-extra: ^11.2.0
+    jsonschema: ^1.2.6
+    libsodium-wrappers: ^0.7.11
+    octokit: ^3.0.0
+    octokit-plugin-create-pull-request: ^5.0.0
+    yaml: ^2.0.0
+  languageName: unknown
+  linkType: soft
+
+"@stone-payments/plugin-scaffolder-backend-module-gitlab@workspace:^, @stone-payments/plugin-scaffolder-backend-module-gitlab@workspace:plugins/scaffolder-backend-module-gitlab":
+  version: 0.0.0-use.local
+  resolution: "@stone-payments/plugin-scaffolder-backend-module-gitlab@workspace:plugins/scaffolder-backend-module-gitlab"
+  dependencies:
+    "@backstage/backend-common": ^0.25.0
+    "@backstage/backend-plugin-api": "workspace:^"
+    "@backstage/backend-test-utils": "workspace:^"
+    "@backstage/cli": "workspace:^"
+    "@backstage/config": "workspace:^"
+    "@backstage/core-app-api": "workspace:^"
+    "@backstage/errors": "workspace:^"
+    "@backstage/integration": "workspace:^"
+    "@gitbeaker/core": ^35.8.0
+    "@gitbeaker/node": ^35.8.0
+    "@gitbeaker/rest": ^39.25.0
+    "@stone-payments/plugin-scaffolder-node": "workspace:^"
+    "@stone-payments/plugin-scaffolder-node-test-utils": "workspace:^"
+    luxon: ^3.0.0
+    winston: ^3.2.1
+    yaml: ^2.0.0
+    zod: ^3.22.4
+  languageName: unknown
+  linkType: soft
+
+"@stone-payments/plugin-scaffolder-backend-module-notifications@workspace:plugins/scaffolder-backend-module-notifications":
+  version: 0.0.0-use.local
+  resolution: "@stone-payments/plugin-scaffolder-backend-module-notifications@workspace:plugins/scaffolder-backend-module-notifications"
+  dependencies:
+    "@backstage/backend-common": ^0.25.0
+    "@backstage/backend-plugin-api": "workspace:^"
+    "@backstage/cli": "workspace:^"
+    "@backstage/plugin-notifications-common": "workspace:^"
+    "@backstage/plugin-notifications-node": "workspace:^"
+    "@stone-payments/plugin-scaffolder-node": "workspace:^"
+    "@stone-payments/plugin-scaffolder-node-test-utils": "workspace:^"
+    octokit: ^3.0.0
+    yaml: ^2.0.0
+  languageName: unknown
+  linkType: soft
+
+"@stone-payments/plugin-scaffolder-backend-module-rails@workspace:^, @stone-payments/plugin-scaffolder-backend-module-rails@workspace:plugins/scaffolder-backend-module-rails":
+  version: 0.0.0-use.local
+  resolution: "@stone-payments/plugin-scaffolder-backend-module-rails@workspace:plugins/scaffolder-backend-module-rails"
+  dependencies:
+    "@backstage/backend-common": ^0.25.0
+    "@backstage/backend-plugin-api": "workspace:^"
+    "@backstage/backend-test-utils": "workspace:^"
+    "@backstage/cli": "workspace:^"
+    "@backstage/config": "workspace:^"
+    "@backstage/errors": "workspace:^"
+    "@backstage/integration": "workspace:^"
+    "@backstage/types": "workspace:^"
+    "@stone-payments/plugin-scaffolder-node": "workspace:^"
+    "@stone-payments/plugin-scaffolder-node-test-utils": "workspace:^"
+    "@types/command-exists": ^1.2.0
+    "@types/fs-extra": ^11.0.0
+    "@types/node": ^18.17.8
+    command-exists: ^1.2.9
+    fs-extra: ^11.0.0
+    jest-when: ^3.1.0
+    yaml: ^2.0.0
+  languageName: unknown
+  linkType: soft
+
+"@stone-payments/plugin-scaffolder-backend-module-sentry@workspace:plugins/scaffolder-backend-module-sentry":
+  version: 0.0.0-use.local
+  resolution: "@stone-payments/plugin-scaffolder-backend-module-sentry@workspace:plugins/scaffolder-backend-module-sentry"
+  dependencies:
+    "@backstage/backend-plugin-api": "workspace:^"
+    "@backstage/backend-test-utils": "workspace:^"
+    "@backstage/cli": "workspace:^"
+    "@backstage/config": "workspace:^"
+    "@backstage/errors": "workspace:^"
+    "@backstage/types": "workspace:^"
+    "@stone-payments/plugin-scaffolder-node": "workspace:^"
+    "@stone-payments/plugin-scaffolder-node-test-utils": "workspace:^"
+    msw: ^2.0.0
+    node-fetch: ^2.7.0
+    yaml: ^2.3.3
+  languageName: unknown
+  linkType: soft
+
+"@stone-payments/plugin-scaffolder-backend-module-yeoman@workspace:plugins/scaffolder-backend-module-yeoman":
+  version: 0.0.0-use.local
+  resolution: "@stone-payments/plugin-scaffolder-backend-module-yeoman@workspace:plugins/scaffolder-backend-module-yeoman"
+  dependencies:
+    "@backstage/backend-common": ^0.25.0
+    "@backstage/backend-plugin-api": "workspace:^"
+    "@backstage/cli": "workspace:^"
+    "@backstage/types": "workspace:^"
+    "@stone-payments/plugin-scaffolder-node": "workspace:^"
+    "@stone-payments/plugin-scaffolder-node-test-utils": "workspace:^"
+    winston: ^3.2.1
+    yaml: ^2.0.0
+    yeoman-environment: ^3.9.1
+  languageName: unknown
+  linkType: soft
+
+"@stone-payments/plugin-scaffolder-backend@workspace:^, @stone-payments/plugin-scaffolder-backend@workspace:plugins/scaffolder-backend":
+  version: 0.0.0-use.local
+  resolution: "@stone-payments/plugin-scaffolder-backend@workspace:plugins/scaffolder-backend"
+  dependencies:
+    "@backstage/backend-app-api": "workspace:^"
+    "@backstage/backend-common": ^0.25.0
+    "@backstage/backend-defaults": "workspace:^"
+    "@backstage/backend-plugin-api": "workspace:^"
+    "@backstage/backend-test-utils": "workspace:^"
+    "@backstage/catalog-client": "workspace:^"
+    "@backstage/catalog-model": "workspace:^"
+    "@backstage/cli": "workspace:^"
+    "@backstage/config": "workspace:^"
+    "@backstage/errors": "workspace:^"
+    "@backstage/integration": "workspace:^"
+    "@backstage/plugin-auth-node": "workspace:^"
+    "@backstage/plugin-bitbucket-cloud-common": "workspace:^"
+    "@backstage/plugin-catalog-backend-module-scaffolder-entity-model": "workspace:^"
+    "@backstage/plugin-catalog-node": "workspace:^"
+    "@backstage/plugin-permission-common": "workspace:^"
+    "@backstage/plugin-permission-node": "workspace:^"
+    "@backstage/plugin-scaffolder-common": "workspace:^"
+    "@backstage/types": "workspace:^"
+    "@opentelemetry/api": ^1.3.0
+    "@stone-payments/plugin-scaffolder-backend-module-azure": "workspace:^"
+    "@stone-payments/plugin-scaffolder-backend-module-bitbucket": "workspace:^"
+    "@stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud": "workspace:^"
+    "@stone-payments/plugin-scaffolder-backend-module-bitbucket-server": "workspace:^"
+    "@stone-payments/plugin-scaffolder-backend-module-gerrit": "workspace:^"
+    "@stone-payments/plugin-scaffolder-backend-module-gitea": "workspace:^"
+    "@stone-payments/plugin-scaffolder-backend-module-github": "workspace:^"
+    "@stone-payments/plugin-scaffolder-backend-module-gitlab": "workspace:^"
+    "@stone-payments/plugin-scaffolder-node": "workspace:^"
+    "@stone-payments/plugin-scaffolder-node-test-utils": "workspace:^"
+    "@types/express": ^4.17.6
+    "@types/fs-extra": ^11.0.0
+    "@types/luxon": ^3.0.0
+    "@types/nunjucks": ^3.1.4
+    "@types/supertest": ^2.0.8
+    "@types/zen-observable": ^0.8.0
+    concat-stream: ^2.0.0
+    esbuild: ^0.24.0
+    express: ^4.17.1
+    express-promise-router: ^4.1.0
+    fs-extra: ^11.2.0
+    globby: ^11.0.0
+    isbinaryfile: ^5.0.0
+    isolated-vm: ^4.5.0
+    jsonschema: ^1.2.6
+    knex: ^3.0.0
+    lodash: ^4.17.21
+    logform: ^2.3.2
+    luxon: ^3.0.0
+    nunjucks: ^3.2.3
+    p-limit: ^3.1.0
+    p-queue: ^6.6.2
+    prom-client: ^15.0.0
+    strip-ansi: ^7.1.0
+    supertest: ^7.0.0
+    tar: ^6.1.12
+    triple-beam: ^1.4.1
+    uuid: ^9.0.0
+    wait-for-expect: ^3.0.2
+    winston: ^3.2.1
+    winston-transport: ^4.7.0
+    yaml: ^2.0.0
+    zen-observable: ^0.10.0
+    zod: ^3.22.4
+  languageName: unknown
+  linkType: soft
+
+"@stone-payments/plugin-scaffolder-node-test-utils@workspace:^, @stone-payments/plugin-scaffolder-node-test-utils@workspace:plugins/scaffolder-node-test-utils":
+  version: 0.0.0-use.local
+  resolution: "@stone-payments/plugin-scaffolder-node-test-utils@workspace:plugins/scaffolder-node-test-utils"
+  dependencies:
+    "@backstage/backend-common": ^0.25.0
+    "@backstage/backend-test-utils": "workspace:^"
+    "@backstage/cli": "workspace:^"
+    "@backstage/types": "workspace:^"
+    "@stone-payments/plugin-scaffolder-node": "workspace:^"
+    "@types/react": ^18.0.0
+    react: ^18.0.2
+    react-dom: ^18.0.2
+    react-router-dom: ^6.3.0
+  peerDependencies:
+    "@types/react": ^16.13.1 || ^17.0.0 || ^18.0.0
+    react: ^16.13.1 || ^17.0.0 || ^18.0.0
+    react-dom: ^16.13.1 || ^17.0.0 || ^18.0.0
+    react-router-dom: 6.0.0-beta.0 || ^6.3.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+  languageName: unknown
+  linkType: soft
+
+"@stone-payments/plugin-scaffolder-node@workspace:^, @stone-payments/plugin-scaffolder-node@workspace:plugins/scaffolder-node":
+  version: 0.0.0-use.local
+  resolution: "@stone-payments/plugin-scaffolder-node@workspace:plugins/scaffolder-node"
+  dependencies:
+    "@backstage/backend-common": ^0.25.0
+    "@backstage/backend-plugin-api": "workspace:^"
+    "@backstage/backend-test-utils": "workspace:^"
+    "@backstage/catalog-model": "workspace:^"
+    "@backstage/cli": "workspace:^"
+    "@backstage/config": "workspace:^"
+    "@backstage/errors": "workspace:^"
+    "@backstage/integration": "workspace:^"
+    "@backstage/plugin-scaffolder-common": "workspace:^"
+    "@backstage/types": "workspace:^"
+    concat-stream: ^2.0.0
+    fs-extra: ^11.2.0
+    globby: ^11.0.0
+    isomorphic-git: ^1.23.0
+    jsonschema: ^1.2.6
+    p-limit: ^3.1.0
+    tar: ^6.1.12
+    winston: ^3.2.1
+    zod: ^3.22.4
+    zod-to-json-schema: ^3.20.4
+  languageName: unknown
+  linkType: soft
+
 "@stoplight/better-ajv-errors@npm:1.0.3":
   version: 1.0.3
   resolution: "@stoplight/better-ajv-errors@npm:1.0.3"
@@ -20491,7 +20491,7 @@ __metadata:
   dependencies:
     "@improbable-eng/grpc-web": ^0.14.0
     google-protobuf: ^3.15.8
-  checksum: 2c8f28cd89e9a71e5f9df819115a89659d98f22d6e7a6b2f3fc0bc24a4ca954c0112070c00401749dcbcdeeb42ca070d6d8a36b3c205fbf13409fb1110b5966e
+  checksum: 8ff16c5da1560fcb31f9e078cf4a8fa0fcf3897b197cd0a5c85f8da0996737c76f89297f999382406c8317d7c97e9746e3b4b992bfbc1344b75e4151b8349c9b
   languageName: node
   linkType: hard
 
@@ -26927,10 +26927,6 @@ __metadata:
     "@backstage/plugin-permission-common": "workspace:^"
     "@backstage/plugin-permission-node": "workspace:^"
     "@backstage/plugin-proxy-backend": "workspace:^"
-    "@stone-payments/plugin-scaffolder-backend": "workspace:^"
-    "@stone-payments/plugin-scaffolder-backend-module-confluence-to-markdown": "workspace:^"
-    "@stone-payments/plugin-scaffolder-backend-module-gitlab": "workspace:^"
-    "@stone-payments/plugin-scaffolder-backend-module-rails": "workspace:^"
     "@backstage/plugin-search-backend": "workspace:^"
     "@backstage/plugin-search-backend-module-catalog": "workspace:^"
     "@backstage/plugin-search-backend-module-elasticsearch": "workspace:^"
@@ -26943,6 +26939,10 @@ __metadata:
     "@backstage/plugin-techdocs-backend": "workspace:^"
     "@gitbeaker/node": ^35.1.0
     "@octokit/rest": ^19.0.3
+    "@stone-payments/plugin-scaffolder-backend": "workspace:^"
+    "@stone-payments/plugin-scaffolder-backend-module-confluence-to-markdown": "workspace:^"
+    "@stone-payments/plugin-scaffolder-backend-module-gitlab": "workspace:^"
+    "@stone-payments/plugin-scaffolder-backend-module-rails": "workspace:^"
     "@types/dockerode": ^3.3.0
     "@types/express": ^4.17.6
     "@types/express-serve-static-core": ^4.17.5
@@ -26990,8 +26990,6 @@ __metadata:
     "@backstage/plugin-permission-common": "workspace:^"
     "@backstage/plugin-permission-node": "workspace:^"
     "@backstage/plugin-proxy-backend": "workspace:^"
-    "@stone-payments/plugin-scaffolder-backend": "workspace:^"
-    "@stone-payments/plugin-scaffolder-backend-module-github": "workspace:^"
     "@backstage/plugin-search-backend": "workspace:^"
     "@backstage/plugin-search-backend-module-catalog": "workspace:^"
     "@backstage/plugin-search-backend-module-explore": "workspace:^"
@@ -27002,6 +27000,8 @@ __metadata:
     "@opentelemetry/auto-instrumentations-node": ^0.50.0
     "@opentelemetry/exporter-prometheus": ^0.53.0
     "@opentelemetry/sdk-node": ^0.53.0
+    "@stone-payments/plugin-scaffolder-backend": "workspace:^"
+    "@stone-payments/plugin-scaffolder-backend-module-github": "workspace:^"
     example-app: "link:../app"
   languageName: unknown
   linkType: soft

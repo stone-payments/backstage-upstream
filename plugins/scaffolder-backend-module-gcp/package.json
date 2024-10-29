@@ -47,8 +47,8 @@
     "@backstage/config": "workspace:^",
     "@backstage/errors": "workspace:^",
     "@backstage/integration": "workspace:^",
-    "@stone-payments/plugin-scaffolder-node": "workspace:^",
     "@google-cloud/storage": "^7.0.0",
+    "@stone-payments/plugin-scaffolder-node": "workspace:^",
     "raw-body": "^2.4.1"
   },
   "devDependencies": {
