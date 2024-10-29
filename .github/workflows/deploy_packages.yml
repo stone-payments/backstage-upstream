@@ -33,7 +33,7 @@ jobs:
           yarn install
 
       - name: build type declarations
-        run: yarn tsc:full
+        run: NODE_OPTIONS=--max-old-space-size=4096 yarn tsc:full
 
       - name: build package
         run: yarn workspace ${{ inputs.package }} build
