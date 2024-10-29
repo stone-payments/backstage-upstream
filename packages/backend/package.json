@@ -52,6 +52,7 @@
     "@backstage/plugin-permission-common": "workspace:^",
     "@backstage/plugin-permission-node": "workspace:^",
     "@backstage/plugin-proxy-backend": "workspace:^",
+    "@backstage/plugin-scaffolder-backend-module-github": "workspace:^",
     "@backstage/plugin-search-backend": "workspace:^",
     "@backstage/plugin-search-backend-module-catalog": "workspace:^",
     "@backstage/plugin-search-backend-module-explore": "workspace:^",
@@ -63,7 +64,6 @@
     "@opentelemetry/exporter-prometheus": "^0.53.0",
     "@opentelemetry/sdk-node": "^0.53.0",
     "@stone-payments/plugin-scaffolder-backend": "workspace:^",
-    "@backstage/plugin-scaffolder-backend-module-github": "workspace:^",
     "example-app": "link:../app"
   },
   "devDependencies": {
