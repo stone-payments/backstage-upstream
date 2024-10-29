@@ -4,8 +4,8 @@
 
 | Name                                               | Location     | Severity |
 | :------------------------------------------------- | :----------- | :------- |
-| @stone-payments/plugin-scaffolder-backend-module-gitlab | package.json | error    |
-| @stone-payments/plugin-scaffolder-backend-module-rails  | package.json | error    |
+| @backstage/plugin-scaffolder-backend-module-gitlab | package.json | error    |
+| @backstage/plugin-scaffolder-backend-module-rails  | package.json | error    |
 | @backstage/plugin-azure-sites-common               | package.json | error    |
 | @backstage/plugin-tech-insights-node               | package.json | error    |
 | azure-devops-node-api                              | package.json | error    |

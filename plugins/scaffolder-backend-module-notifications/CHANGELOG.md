@@ -1,4 +1,4 @@
-# @stone-payments/plugin-scaffolder-backend-module-notifications
+# @backstage/plugin-scaffolder-backend-module-notifications
 
 ## 0.1.2
 

@@ -10,7 +10,7 @@ Here you can find all Gitlab related features to improve your scaffolder:
 
 ```bash
 # From your Backstage root directory
-yarn --cwd packages/backend add @stone-payments/plugin-scaffolder-backend-module-gitlab
+yarn --cwd packages/backend add @backstage/plugin-scaffolder-backend-module-gitlab
 ```
 
 Then ensure that both the scaffolder and this module are added to your backend:
@@ -20,7 +20,7 @@ Then ensure that both the scaffolder and this module are added to your backend:
 const backend = createBackend();
 // ...
 backend.add(import('@stone-payments/plugin-scaffolder-backend'));
-backend.add(import('@stone-payments/plugin-scaffolder-backend-module-gitlab'));
+backend.add(import('@backstage/plugin-scaffolder-backend-module-gitlab'));
 ```
 
 After that you can use the actions in your template:

@@ -36,7 +36,7 @@ import { initRepoAndPush } from '@stone-payments/plugin-scaffolder-node';
 import yaml from 'yaml';
 import { sep } from 'path';
 import { examples } from './bitbucket.examples';
-import { createMockActionContext } from '@stone-payments/plugin-scaffolder-node-test-utils';
+import { createMockActionContext } from '@backstage/plugin-scaffolder-node-test-utils';
 
 describe('publish:bitbucket', () => {
   const config = new ConfigReader({

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 import { TemplateAction } from '@stone-payments/plugin-scaffolder-node';
-import { createMockActionContext } from '@stone-payments/plugin-scaffolder-node-test-utils';
+import { createMockActionContext } from '@backstage/plugin-scaffolder-node-test-utils';
 import { createGithubDeployKeyAction } from './githubDeployKey';
 import yaml from 'yaml';
 import { examples } from './githubDeployKey.examples';

@@ -29,7 +29,7 @@ import { ScmIntegrations } from '@backstage/integration';
 /**
  * The Bitbucket Module for the Scaffolder Backend
  * @public
- * @deprecated use module by \@stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud or \@stone-payments/plugin-scaffolder-backend-module-bitbucket-server instead
+ * @deprecated use module by \@backstage/plugin-scaffolder-backend-module-bitbucket-cloud or \@backstage/plugin-scaffolder-backend-module-bitbucket-server instead
  */
 export const bitbucketModule = createBackendModule({
   moduleId: 'bitbucket',

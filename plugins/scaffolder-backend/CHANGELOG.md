@@ -11,15 +11,15 @@
   - @backstage/plugin-catalog-backend-module-scaffolder-entity-model@0.2.1
   - @backstage/plugin-catalog-node@1.13.1
   - @backstage/plugin-permission-node@0.8.4
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket@0.3.1
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud@0.2.1
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-server@0.2.1
-  - @stone-payments/plugin-scaffolder-backend-module-gerrit@0.2.1
-  - @stone-payments/plugin-scaffolder-backend-module-gitea@0.2.1
-  - @stone-payments/plugin-scaffolder-backend-module-github@0.5.1
-  - @stone-payments/plugin-scaffolder-backend-module-gitlab@0.6.0
+  - @backstage/plugin-scaffolder-backend-module-bitbucket@0.3.1
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-cloud@0.2.1
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-server@0.2.1
+  - @backstage/plugin-scaffolder-backend-module-gerrit@0.2.1
+  - @backstage/plugin-scaffolder-backend-module-gitea@0.2.1
+  - @backstage/plugin-scaffolder-backend-module-github@0.5.1
+  - @backstage/plugin-scaffolder-backend-module-gitlab@0.6.0
   - @stone-payments/plugin-scaffolder-node@0.5.0
-  - @stone-payments/plugin-scaffolder-backend-module-azure@0.2.1
+  - @backstage/plugin-scaffolder-backend-module-azure@0.2.1
 
 ## 1.26.1
 
@@ -58,15 +58,15 @@
 - 11e0752: Make it possible to manually retry the scaffolder template from the step it failed
 - Updated dependencies
   - @backstage/backend-defaults@0.5.1
-  - @stone-payments/plugin-scaffolder-backend-module-github@0.5.1
+  - @backstage/plugin-scaffolder-backend-module-github@0.5.1
   - @stone-payments/plugin-scaffolder-node@0.5.0
-  - @stone-payments/plugin-scaffolder-backend-module-gitlab@0.6.0
+  - @backstage/plugin-scaffolder-backend-module-gitlab@0.6.0
   - @backstage/plugin-auth-node@0.5.3
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-server@0.2.1
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-server@0.2.1
   - @backstage/plugin-permission-node@0.8.4
   - @backstage/plugin-catalog-node@1.13.1
   - @backstage/integration@1.15.1
-  - @stone-payments/plugin-scaffolder-backend-module-azure@0.2.1
+  - @backstage/plugin-scaffolder-backend-module-azure@0.2.1
   - @backstage/catalog-client@1.7.1
   - @backstage/backend-plugin-api@1.0.1
   - @backstage/catalog-model@1.7.0
@@ -76,10 +76,10 @@
   - @backstage/plugin-bitbucket-cloud-common@0.2.24
   - @backstage/plugin-catalog-backend-module-scaffolder-entity-model@0.2.1
   - @backstage/plugin-permission-common@0.8.1
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket@0.3.1
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud@0.2.1
-  - @stone-payments/plugin-scaffolder-backend-module-gerrit@0.2.1
-  - @stone-payments/plugin-scaffolder-backend-module-gitea@0.2.1
+  - @backstage/plugin-scaffolder-backend-module-bitbucket@0.3.1
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-cloud@0.2.1
+  - @backstage/plugin-scaffolder-backend-module-gerrit@0.2.1
+  - @backstage/plugin-scaffolder-backend-module-gitea@0.2.1
   - @backstage/plugin-scaffolder-common@1.5.6
 
 ## 1.26.0-next.2
@@ -88,14 +88,14 @@
 
 - f1f0076: handle step.if: false
 - Updated dependencies
-  - @stone-payments/plugin-scaffolder-backend-module-github@0.5.1-next.2
+  - @backstage/plugin-scaffolder-backend-module-github@0.5.1-next.2
   - @backstage/backend-defaults@0.5.1-next.2
   - @backstage/plugin-auth-node@0.5.3-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-server@0.2.1-next.2
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-server@0.2.1-next.2
   - @backstage/plugin-catalog-node@1.13.1-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-gitlab@0.6.0-next.2
+  - @backstage/plugin-scaffolder-backend-module-gitlab@0.6.0-next.2
   - @backstage/integration@1.15.1-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-azure@0.2.1-next.2
+  - @backstage/plugin-scaffolder-backend-module-azure@0.2.1-next.2
   - @backstage/catalog-client@1.7.1-next.0
   - @stone-payments/plugin-scaffolder-node@0.5.0-next.2
   - @backstage/backend-plugin-api@1.0.1-next.1
@@ -107,10 +107,10 @@
   - @backstage/plugin-catalog-backend-module-scaffolder-entity-model@0.2.1-next.1
   - @backstage/plugin-permission-common@0.8.1
   - @backstage/plugin-permission-node@0.8.4-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket@0.3.1-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud@0.2.1-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-gerrit@0.2.1-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-gitea@0.2.1-next.2
+  - @backstage/plugin-scaffolder-backend-module-bitbucket@0.3.1-next.2
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-cloud@0.2.1-next.2
+  - @backstage/plugin-scaffolder-backend-module-gerrit@0.2.1-next.2
+  - @backstage/plugin-scaffolder-backend-module-gitea@0.2.1-next.2
   - @backstage/plugin-scaffolder-common@1.5.6
 
 ## 1.26.0-next.1
@@ -121,7 +121,7 @@
 - Updated dependencies
   - @backstage/backend-defaults@0.5.1-next.1
   - @backstage/integration@1.15.1-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-server@0.2.1-next.1
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-server@0.2.1-next.1
   - @backstage/backend-plugin-api@1.0.1-next.0
   - @backstage/catalog-client@1.7.0
   - @backstage/catalog-model@1.7.0
@@ -134,13 +134,13 @@
   - @backstage/plugin-catalog-node@1.13.1-next.0
   - @backstage/plugin-permission-common@0.8.1
   - @backstage/plugin-permission-node@0.8.4-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-azure@0.2.1-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket@0.3.1-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud@0.2.1-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-gerrit@0.2.1-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-gitea@0.2.1-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-github@0.5.1-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-gitlab@0.5.1-next.1
+  - @backstage/plugin-scaffolder-backend-module-azure@0.2.1-next.1
+  - @backstage/plugin-scaffolder-backend-module-bitbucket@0.3.1-next.1
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-cloud@0.2.1-next.1
+  - @backstage/plugin-scaffolder-backend-module-gerrit@0.2.1-next.1
+  - @backstage/plugin-scaffolder-backend-module-gitea@0.2.1-next.1
+  - @backstage/plugin-scaffolder-backend-module-github@0.5.1-next.1
+  - @backstage/plugin-scaffolder-backend-module-gitlab@0.5.1-next.1
   - @backstage/plugin-scaffolder-common@1.5.6
   - @stone-payments/plugin-scaffolder-node@0.5.0-next.1
 
@@ -170,8 +170,8 @@
 - 11e0752: Make it possible to manually retry the scaffolder template from the step it failed
 - Updated dependencies
   - @stone-payments/plugin-scaffolder-node@0.5.0-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-github@0.5.1-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-gitlab@0.5.1-next.0
+  - @backstage/plugin-scaffolder-backend-module-github@0.5.1-next.0
+  - @backstage/plugin-scaffolder-backend-module-gitlab@0.5.1-next.0
   - @backstage/backend-defaults@0.5.1-next.0
   - @backstage/plugin-permission-node@0.8.4-next.0
   - @backstage/plugin-auth-node@0.5.3-next.0
@@ -186,12 +186,12 @@
   - @backstage/plugin-catalog-backend-module-scaffolder-entity-model@0.2.1-next.0
   - @backstage/plugin-catalog-node@1.13.1-next.0
   - @backstage/plugin-permission-common@0.8.1
-  - @stone-payments/plugin-scaffolder-backend-module-azure@0.2.1-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket@0.3.1-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud@0.2.1-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-server@0.2.1-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-gerrit@0.2.1-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-gitea@0.2.1-next.0
+  - @backstage/plugin-scaffolder-backend-module-azure@0.2.1-next.0
+  - @backstage/plugin-scaffolder-backend-module-bitbucket@0.3.1-next.0
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-cloud@0.2.1-next.0
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-server@0.2.1-next.0
+  - @backstage/plugin-scaffolder-backend-module-gerrit@0.2.1-next.0
+  - @backstage/plugin-scaffolder-backend-module-gitea@0.2.1-next.0
   - @backstage/plugin-scaffolder-common@1.5.6
 
 ## 1.25.0
@@ -217,20 +217,20 @@
   - @backstage/backend-common@0.25.0
   - @backstage/backend-plugin-api@1.0.0
   - @backstage/plugin-auth-node@0.5.2
-  - @stone-payments/plugin-scaffolder-backend-module-gitlab@0.5.0
+  - @backstage/plugin-scaffolder-backend-module-gitlab@0.5.0
   - @backstage/catalog-model@1.7.0
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud@0.2.0
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-cloud@0.2.0
   - @backstage/catalog-client@1.7.0
   - @backstage/plugin-permission-node@0.8.3
   - @backstage/plugin-catalog-node@1.13.0
-  - @stone-payments/plugin-scaffolder-backend-module-github@0.5.0
+  - @backstage/plugin-scaffolder-backend-module-github@0.5.0
   - @backstage/integration@1.15.0
   - @backstage/plugin-catalog-backend-module-scaffolder-entity-model@0.2.0
-  - @stone-payments/plugin-scaffolder-backend-module-azure@0.2.0
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-server@0.2.0
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket@0.3.0
-  - @stone-payments/plugin-scaffolder-backend-module-gerrit@0.2.0
-  - @stone-payments/plugin-scaffolder-backend-module-gitea@0.2.0
+  - @backstage/plugin-scaffolder-backend-module-azure@0.2.0
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-server@0.2.0
+  - @backstage/plugin-scaffolder-backend-module-bitbucket@0.3.0
+  - @backstage/plugin-scaffolder-backend-module-gerrit@0.2.0
+  - @backstage/plugin-scaffolder-backend-module-gitea@0.2.0
   - @backstage/config@1.2.0
   - @backstage/errors@1.2.4
   - @backstage/types@1.1.1
@@ -252,12 +252,12 @@
 - Updated dependencies
   - @backstage/backend-common@0.25.0-next.2
   - @backstage/backend-defaults@0.5.0-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-gitlab@0.5.0-next.2
+  - @backstage/plugin-scaffolder-backend-module-gitlab@0.5.0-next.2
   - @backstage/plugin-auth-node@0.5.2-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud@0.2.0-next.2
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-cloud@0.2.0-next.2
   - @backstage/backend-plugin-api@1.0.0-next.2
   - @backstage/catalog-client@1.7.0-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-github@0.5.0-next.2
+  - @backstage/plugin-scaffolder-backend-module-github@0.5.0-next.2
   - @backstage/integration@1.15.0-next.0
   - @backstage/plugin-permission-node@0.8.3-next.2
   - @backstage/catalog-model@1.6.0
@@ -268,11 +268,11 @@
   - @backstage/plugin-catalog-backend-module-scaffolder-entity-model@0.2.0-next.2
   - @backstage/plugin-catalog-node@1.12.7-next.2
   - @backstage/plugin-permission-common@0.8.1
-  - @stone-payments/plugin-scaffolder-backend-module-azure@0.2.0-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket@0.3.0-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-server@0.2.0-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-gerrit@0.2.0-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-gitea@0.2.0-next.2
+  - @backstage/plugin-scaffolder-backend-module-azure@0.2.0-next.2
+  - @backstage/plugin-scaffolder-backend-module-bitbucket@0.3.0-next.2
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-server@0.2.0-next.2
+  - @backstage/plugin-scaffolder-backend-module-gerrit@0.2.0-next.2
+  - @backstage/plugin-scaffolder-backend-module-gitea@0.2.0-next.2
   - @backstage/plugin-scaffolder-common@1.5.5
   - @stone-payments/plugin-scaffolder-node@0.4.11-next.2
 
@@ -297,14 +297,14 @@
   - @backstage/plugin-catalog-node@1.12.7-next.1
   - @backstage/plugin-permission-common@0.8.1
   - @backstage/plugin-permission-node@0.8.3-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-azure@0.2.0-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket@0.3.0-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud@0.2.0-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-server@0.2.0-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-gerrit@0.2.0-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-gitea@0.2.0-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-github@0.5.0-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-gitlab@0.5.0-next.1
+  - @backstage/plugin-scaffolder-backend-module-azure@0.2.0-next.1
+  - @backstage/plugin-scaffolder-backend-module-bitbucket@0.3.0-next.1
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-cloud@0.2.0-next.1
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-server@0.2.0-next.1
+  - @backstage/plugin-scaffolder-backend-module-gerrit@0.2.0-next.1
+  - @backstage/plugin-scaffolder-backend-module-gitea@0.2.0-next.1
+  - @backstage/plugin-scaffolder-backend-module-github@0.5.0-next.1
+  - @backstage/plugin-scaffolder-backend-module-gitlab@0.5.0-next.1
   - @backstage/plugin-scaffolder-common@1.5.5
   - @stone-payments/plugin-scaffolder-node@0.4.11-next.1
 
@@ -324,14 +324,14 @@
   - @backstage/plugin-permission-node@0.8.3-next.0
   - @backstage/backend-common@0.25.0-next.0
   - @backstage/plugin-catalog-backend-module-scaffolder-entity-model@0.2.0-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-azure@0.2.0-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud@0.2.0-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-server@0.2.0-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket@0.3.0-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-gerrit@0.2.0-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-gitea@0.2.0-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-github@0.5.0-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-gitlab@0.5.0-next.0
+  - @backstage/plugin-scaffolder-backend-module-azure@0.2.0-next.0
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-cloud@0.2.0-next.0
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-server@0.2.0-next.0
+  - @backstage/plugin-scaffolder-backend-module-bitbucket@0.3.0-next.0
+  - @backstage/plugin-scaffolder-backend-module-gerrit@0.2.0-next.0
+  - @backstage/plugin-scaffolder-backend-module-gitea@0.2.0-next.0
+  - @backstage/plugin-scaffolder-backend-module-github@0.5.0-next.0
+  - @backstage/plugin-scaffolder-backend-module-gitlab@0.5.0-next.0
   - @backstage/plugin-auth-node@0.5.2-next.0
   - @backstage/plugin-catalog-node@1.12.7-next.0
   - @stone-payments/plugin-scaffolder-node@0.4.11-next.0
@@ -360,20 +360,20 @@
 - ef87e06: Fix scaffolder action `catalog:write` to write to directories that don't already exist
 - Updated dependencies
   - @backstage/backend-defaults@0.4.2
-  - @stone-payments/plugin-scaffolder-backend-module-github@0.4.1
+  - @backstage/plugin-scaffolder-backend-module-github@0.4.1
   - @backstage/backend-plugin-api@0.8.0
   - @backstage/backend-common@0.24.0
   - @stone-payments/plugin-scaffolder-node@0.4.9
   - @backstage/plugin-permission-common@0.8.1
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-server@0.1.13
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.13
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket@0.2.13
-  - @stone-payments/plugin-scaffolder-backend-module-gerrit@0.1.15
-  - @stone-payments/plugin-scaffolder-backend-module-gitea@0.1.13
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-server@0.1.13
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.13
+  - @backstage/plugin-scaffolder-backend-module-bitbucket@0.2.13
+  - @backstage/plugin-scaffolder-backend-module-gerrit@0.1.15
+  - @backstage/plugin-scaffolder-backend-module-gitea@0.1.13
   - @backstage/plugin-auth-node@0.5.0
-  - @stone-payments/plugin-scaffolder-backend-module-azure@0.1.15
+  - @backstage/plugin-scaffolder-backend-module-azure@0.1.15
   - @backstage/plugin-permission-node@0.8.1
-  - @stone-payments/plugin-scaffolder-backend-module-gitlab@0.4.5
+  - @backstage/plugin-scaffolder-backend-module-gitlab@0.4.5
   - @backstage/plugin-catalog-node@1.12.5
   - @backstage/integration@1.14.0
   - @backstage/plugin-bitbucket-cloud-common@0.2.22
@@ -390,14 +390,14 @@
 ### Patch Changes
 
 - Updated dependencies
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.13-next.3
-  - @stone-payments/plugin-scaffolder-backend-module-azure@0.1.15-next.3
-  - @stone-payments/plugin-scaffolder-backend-module-gitlab@0.4.5-next.3
-  - @stone-payments/plugin-scaffolder-backend-module-github@0.4.1-next.3
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.13-next.3
+  - @backstage/plugin-scaffolder-backend-module-azure@0.1.15-next.3
+  - @backstage/plugin-scaffolder-backend-module-gitlab@0.4.5-next.3
+  - @backstage/plugin-scaffolder-backend-module-github@0.4.1-next.3
   - @backstage/backend-plugin-api@0.8.0-next.3
   - @backstage/backend-common@0.23.4-next.3
   - @backstage/catalog-model@1.6.0-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket@0.2.13-next.3
+  - @backstage/plugin-scaffolder-backend-module-bitbucket@0.2.13-next.3
   - @backstage/backend-tasks@0.5.28-next.3
   - @backstage/catalog-client@1.6.6-next.0
   - @backstage/config@1.2.0
@@ -410,9 +410,9 @@
   - @backstage/plugin-catalog-node@1.12.5-next.3
   - @backstage/plugin-permission-common@0.8.1-next.1
   - @backstage/plugin-permission-node@0.8.1-next.3
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-server@0.1.13-next.3
-  - @stone-payments/plugin-scaffolder-backend-module-gerrit@0.1.15-next.3
-  - @stone-payments/plugin-scaffolder-backend-module-gitea@0.1.13-next.3
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-server@0.1.13-next.3
+  - @backstage/plugin-scaffolder-backend-module-gerrit@0.1.15-next.3
+  - @backstage/plugin-scaffolder-backend-module-gitea@0.1.13-next.3
   - @backstage/plugin-scaffolder-common@1.5.5-next.2
   - @stone-payments/plugin-scaffolder-node@0.4.9-next.3
 
@@ -425,11 +425,11 @@
   - @backstage/backend-plugin-api@0.8.0-next.2
   - @stone-payments/plugin-scaffolder-node@0.4.9-next.2
   - @backstage/plugin-permission-common@0.8.1-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-server@0.1.13-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.13-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket@0.2.13-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-gerrit@0.1.15-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-gitea@0.1.13-next.2
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-server@0.1.13-next.2
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.13-next.2
+  - @backstage/plugin-scaffolder-backend-module-bitbucket@0.2.13-next.2
+  - @backstage/plugin-scaffolder-backend-module-gerrit@0.1.15-next.2
+  - @backstage/plugin-scaffolder-backend-module-gitea@0.1.13-next.2
   - @backstage/backend-common@0.23.4-next.2
   - @backstage/plugin-auth-node@0.5.0-next.2
   - @backstage/plugin-permission-node@0.8.1-next.2
@@ -437,9 +437,9 @@
   - @backstage/plugin-catalog-node@1.12.5-next.2
   - @backstage/plugin-bitbucket-cloud-common@0.2.22-next.1
   - @backstage/plugin-catalog-backend-module-scaffolder-entity-model@0.1.21-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-azure@0.1.15-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-github@0.4.1-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-gitlab@0.4.5-next.2
+  - @backstage/plugin-scaffolder-backend-module-azure@0.1.15-next.2
+  - @backstage/plugin-scaffolder-backend-module-github@0.4.1-next.2
+  - @backstage/plugin-scaffolder-backend-module-gitlab@0.4.5-next.2
   - @backstage/plugin-scaffolder-common@1.5.5-next.1
   - @backstage/integration@1.14.0-next.0
   - @backstage/catalog-client@1.6.5
@@ -454,17 +454,17 @@
 
 - ef87e06: Fix scaffolder action `catalog:write` to write to directories that don't already exist
 - Updated dependencies
-  - @stone-payments/plugin-scaffolder-backend-module-github@0.4.1-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-gitea@0.1.13-next.1
+  - @backstage/plugin-scaffolder-backend-module-github@0.4.1-next.1
+  - @backstage/plugin-scaffolder-backend-module-gitea@0.1.13-next.1
   - @backstage/plugin-permission-common@0.8.1-next.0
   - @backstage/plugin-permission-node@0.8.1-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-server@0.1.13-next.1
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-server@0.1.13-next.1
   - @backstage/backend-plugin-api@0.7.1-next.1
   - @backstage/backend-common@0.23.4-next.1
   - @backstage/integration@1.14.0-next.0
   - @backstage/plugin-catalog-node@1.12.5-next.1
   - @backstage/plugin-scaffolder-common@1.5.5-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket@0.2.13-next.1
+  - @backstage/plugin-scaffolder-backend-module-bitbucket@0.2.13-next.1
   - @backstage/backend-tasks@0.5.28-next.1
   - @backstage/catalog-client@1.6.5
   - @backstage/catalog-model@1.5.0
@@ -474,10 +474,10 @@
   - @backstage/plugin-auth-node@0.4.18-next.1
   - @backstage/plugin-bitbucket-cloud-common@0.2.22-next.0
   - @backstage/plugin-catalog-backend-module-scaffolder-entity-model@0.1.21-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-azure@0.1.15-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.13-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-gerrit@0.1.15-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-gitlab@0.4.5-next.1
+  - @backstage/plugin-scaffolder-backend-module-azure@0.1.15-next.1
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.13-next.1
+  - @backstage/plugin-scaffolder-backend-module-gerrit@0.1.15-next.1
+  - @backstage/plugin-scaffolder-backend-module-gitlab@0.4.5-next.1
   - @stone-payments/plugin-scaffolder-node@0.4.9-next.1
 
 ## 1.23.1-next.0
@@ -486,7 +486,7 @@
 
 - Updated dependencies
   - @backstage/backend-common@0.23.4-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-gitlab@0.4.5-next.0
+  - @backstage/plugin-scaffolder-backend-module-gitlab@0.4.5-next.0
   - @backstage/plugin-catalog-node@1.12.5-next.0
   - @backstage/integration@1.14.0-next.0
   - @backstage/backend-plugin-api@0.7.1-next.0
@@ -501,13 +501,13 @@
   - @backstage/plugin-catalog-backend-module-scaffolder-entity-model@0.1.21-next.0
   - @backstage/plugin-permission-common@0.8.0
   - @backstage/plugin-permission-node@0.8.1-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-azure@0.1.15-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket@0.2.13-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.13-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-server@0.1.13-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-gerrit@0.1.15-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-gitea@0.1.13-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-github@0.4.1-next.0
+  - @backstage/plugin-scaffolder-backend-module-azure@0.1.15-next.0
+  - @backstage/plugin-scaffolder-backend-module-bitbucket@0.2.13-next.0
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.13-next.0
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-server@0.1.13-next.0
+  - @backstage/plugin-scaffolder-backend-module-gerrit@0.1.15-next.0
+  - @backstage/plugin-scaffolder-backend-module-gitea@0.1.13-next.0
+  - @backstage/plugin-scaffolder-backend-module-github@0.4.1-next.0
   - @backstage/plugin-scaffolder-common@1.5.4
   - @stone-payments/plugin-scaffolder-node@0.4.9-next.0
 
@@ -528,22 +528,22 @@
   - @backstage/backend-plugin-api@0.7.0
   - @backstage/backend-common@0.23.3
   - @backstage/backend-tasks@0.5.27
-  - @stone-payments/plugin-scaffolder-backend-module-github@0.4.0
+  - @backstage/plugin-scaffolder-backend-module-github@0.4.0
   - @backstage/plugin-permission-common@0.8.0
   - @backstage/plugin-permission-node@0.8.0
-  - @stone-payments/plugin-scaffolder-backend-module-gitlab@0.4.4
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-server@0.1.12
+  - @backstage/plugin-scaffolder-backend-module-gitlab@0.4.4
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-server@0.1.12
   - @backstage/integration@1.13.0
-  - @stone-payments/plugin-scaffolder-backend-module-azure@0.1.14
+  - @backstage/plugin-scaffolder-backend-module-azure@0.1.14
   - @stone-payments/plugin-scaffolder-node@0.4.8
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.12
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.12
   - @backstage/plugin-bitbucket-cloud-common@0.2.21
   - @backstage/plugin-auth-node@0.4.17
   - @backstage/plugin-catalog-backend-module-scaffolder-entity-model@0.1.20
   - @backstage/plugin-catalog-node@1.12.4
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket@0.2.12
-  - @stone-payments/plugin-scaffolder-backend-module-gerrit@0.1.14
-  - @stone-payments/plugin-scaffolder-backend-module-gitea@0.1.12
+  - @backstage/plugin-scaffolder-backend-module-bitbucket@0.2.12
+  - @backstage/plugin-scaffolder-backend-module-gerrit@0.1.14
+  - @backstage/plugin-scaffolder-backend-module-gitea@0.1.12
   - @backstage/plugin-scaffolder-common@1.5.4
   - @backstage/catalog-client@1.6.5
   - @backstage/catalog-model@1.5.0
@@ -562,8 +562,8 @@
 ### Patch Changes
 
 - Updated dependencies
-  - @stone-payments/plugin-scaffolder-backend-module-github@0.4.0-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-gitlab@0.4.4-next.1
+  - @backstage/plugin-scaffolder-backend-module-github@0.4.0-next.1
+  - @backstage/plugin-scaffolder-backend-module-gitlab@0.4.4-next.1
   - @backstage/backend-common@0.23.3-next.1
   - @backstage/backend-plugin-api@0.6.22-next.1
   - @backstage/backend-tasks@0.5.27-next.1
@@ -579,12 +579,12 @@
   - @backstage/plugin-catalog-node@1.12.4-next.1
   - @backstage/plugin-permission-common@0.7.14
   - @backstage/plugin-permission-node@0.7.33-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-azure@0.1.14-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket@0.2.12-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.12-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-server@0.1.12-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-gerrit@0.1.14-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-gitea@0.1.12-next.1
+  - @backstage/plugin-scaffolder-backend-module-azure@0.1.14-next.1
+  - @backstage/plugin-scaffolder-backend-module-bitbucket@0.2.12-next.1
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.12-next.1
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-server@0.1.12-next.1
+  - @backstage/plugin-scaffolder-backend-module-gerrit@0.1.14-next.1
+  - @backstage/plugin-scaffolder-backend-module-gitea@0.1.12-next.1
   - @backstage/plugin-scaffolder-common@1.5.3
   - @stone-payments/plugin-scaffolder-node@0.4.8-next.1
 
@@ -603,21 +603,21 @@
   - @backstage/backend-plugin-api@0.6.21-next.0
   - @backstage/backend-common@0.23.2-next.0
   - @backstage/backend-tasks@0.5.26-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-gitlab@0.4.3-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-server@0.1.11-next.0
+  - @backstage/plugin-scaffolder-backend-module-gitlab@0.4.3-next.0
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-server@0.1.11-next.0
   - @backstage/integration@1.13.0-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-azure@0.1.13-next.0
+  - @backstage/plugin-scaffolder-backend-module-azure@0.1.13-next.0
   - @stone-payments/plugin-scaffolder-node@0.4.7-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.11-next.0
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.11-next.0
   - @backstage/plugin-bitbucket-cloud-common@0.2.21-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-github@0.4.0-next.0
+  - @backstage/plugin-scaffolder-backend-module-github@0.4.0-next.0
   - @backstage/plugin-auth-node@0.4.16-next.0
   - @backstage/plugin-catalog-backend-module-scaffolder-entity-model@0.1.19-next.0
   - @backstage/plugin-catalog-node@1.12.3-next.0
   - @backstage/plugin-permission-node@0.7.32-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket@0.2.11-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-gerrit@0.1.13-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-gitea@0.1.11-next.0
+  - @backstage/plugin-scaffolder-backend-module-bitbucket@0.2.11-next.0
+  - @backstage/plugin-scaffolder-backend-module-gerrit@0.1.13-next.0
+  - @backstage/plugin-scaffolder-backend-module-gitea@0.1.11-next.0
   - @backstage/catalog-client@1.6.5
   - @backstage/catalog-model@1.5.0
   - @backstage/config@1.2.0
@@ -647,16 +647,16 @@
   - @backstage/backend-plugin-api@0.6.19
   - @backstage/backend-tasks@0.5.24
   - @backstage/plugin-auth-node@0.4.14
-  - @stone-payments/plugin-scaffolder-backend-module-github@0.3.0
+  - @backstage/plugin-scaffolder-backend-module-github@0.3.0
   - @backstage/integration@1.12.0
   - @backstage/plugin-catalog-backend-module-scaffolder-entity-model@0.1.17
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-server@0.1.9
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.9
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket@0.2.9
-  - @stone-payments/plugin-scaffolder-backend-module-gerrit@0.1.11
-  - @stone-payments/plugin-scaffolder-backend-module-gitlab@0.4.1
-  - @stone-payments/plugin-scaffolder-backend-module-azure@0.1.11
-  - @stone-payments/plugin-scaffolder-backend-module-gitea@0.1.9
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-server@0.1.9
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.9
+  - @backstage/plugin-scaffolder-backend-module-bitbucket@0.2.9
+  - @backstage/plugin-scaffolder-backend-module-gerrit@0.1.11
+  - @backstage/plugin-scaffolder-backend-module-gitlab@0.4.1
+  - @backstage/plugin-scaffolder-backend-module-azure@0.1.11
+  - @backstage/plugin-scaffolder-backend-module-gitea@0.1.9
   - @backstage/plugin-catalog-node@1.12.1
   - @backstage/plugin-permission-node@0.7.30
   - @backstage/plugin-permission-common@0.7.14
@@ -679,14 +679,14 @@
   - @backstage/plugin-auth-node@0.4.14-next.3
   - @backstage/integration@1.12.0-next.1
   - @backstage/plugin-catalog-backend-module-scaffolder-entity-model@0.1.17-next.3
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-server@0.1.9-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.9-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket@0.2.9-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-gerrit@0.1.11-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-github@0.3.0-next.3
-  - @stone-payments/plugin-scaffolder-backend-module-gitlab@0.4.1-next.3
-  - @stone-payments/plugin-scaffolder-backend-module-azure@0.1.11-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-gitea@0.1.9-next.3
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-server@0.1.9-next.2
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.9-next.2
+  - @backstage/plugin-scaffolder-backend-module-bitbucket@0.2.9-next.2
+  - @backstage/plugin-scaffolder-backend-module-gerrit@0.1.11-next.2
+  - @backstage/plugin-scaffolder-backend-module-github@0.3.0-next.3
+  - @backstage/plugin-scaffolder-backend-module-gitlab@0.4.1-next.3
+  - @backstage/plugin-scaffolder-backend-module-azure@0.1.11-next.2
+  - @backstage/plugin-scaffolder-backend-module-gitea@0.1.9-next.3
   - @backstage/plugin-permission-common@0.7.14-next.0
   - @backstage/plugin-scaffolder-common@1.5.3-next.1
   - @backstage/plugin-permission-node@0.7.30-next.3
@@ -705,22 +705,22 @@
 ### Patch Changes
 
 - Updated dependencies
-  - @stone-payments/plugin-scaffolder-backend-module-gitlab@0.4.1-next.2
+  - @backstage/plugin-scaffolder-backend-module-gitlab@0.4.1-next.2
   - @backstage/backend-plugin-api@0.6.19-next.2
   - @backstage/backend-common@0.23.0-next.2
   - @backstage/integration@1.12.0-next.0
   - @backstage/plugin-permission-node@0.7.30-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-github@0.3.0-next.2
+  - @backstage/plugin-scaffolder-backend-module-github@0.3.0-next.2
   - @backstage/backend-tasks@0.5.24-next.2
   - @backstage/plugin-auth-node@0.4.14-next.2
   - @backstage/plugin-catalog-backend-module-scaffolder-entity-model@0.1.17-next.2
   - @backstage/plugin-catalog-node@1.12.1-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-azure@0.1.11-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket@0.2.9-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.9-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-server@0.1.9-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-gerrit@0.1.11-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-gitea@0.1.9-next.2
+  - @backstage/plugin-scaffolder-backend-module-azure@0.1.11-next.1
+  - @backstage/plugin-scaffolder-backend-module-bitbucket@0.2.9-next.1
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.9-next.1
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-server@0.1.9-next.1
+  - @backstage/plugin-scaffolder-backend-module-gerrit@0.1.11-next.1
+  - @backstage/plugin-scaffolder-backend-module-gitea@0.1.9-next.2
   - @stone-payments/plugin-scaffolder-node@0.4.5-next.2
   - @backstage/catalog-client@1.6.5
   - @backstage/catalog-model@1.5.0
@@ -744,18 +744,18 @@
   - @backstage/backend-tasks@0.5.24-next.1
   - @backstage/backend-plugin-api@0.6.19-next.1
   - @backstage/plugin-permission-node@0.7.30-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-gitea@0.1.9-next.1
+  - @backstage/plugin-scaffolder-backend-module-gitea@0.1.9-next.1
   - @backstage/backend-common@0.23.0-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-gitlab@0.4.1-next.1
+  - @backstage/plugin-scaffolder-backend-module-gitlab@0.4.1-next.1
   - @backstage/plugin-scaffolder-common@1.5.3-next.0
   - @backstage/plugin-auth-node@0.4.14-next.1
   - @backstage/plugin-catalog-backend-module-scaffolder-entity-model@0.1.17-next.1
   - @backstage/plugin-catalog-node@1.12.1-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket@0.2.9-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.9-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-server@0.1.9-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-gerrit@0.1.11-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-github@0.2.9-next.1
+  - @backstage/plugin-scaffolder-backend-module-bitbucket@0.2.9-next.0
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.9-next.0
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-server@0.1.9-next.0
+  - @backstage/plugin-scaffolder-backend-module-gerrit@0.1.11-next.0
+  - @backstage/plugin-scaffolder-backend-module-github@0.2.9-next.1
   - @stone-payments/plugin-scaffolder-node@0.4.5-next.1
 
 ## 1.22.8-next.0
@@ -767,18 +767,18 @@
 - Updated dependencies
   - @backstage/backend-tasks@0.5.24-next.0
   - @backstage/backend-common@0.22.1-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-github@0.2.9-next.0
+  - @backstage/plugin-scaffolder-backend-module-github@0.2.9-next.0
   - @backstage/backend-plugin-api@0.6.19-next.0
   - @backstage/plugin-auth-node@0.4.14-next.0
   - @backstage/plugin-permission-node@0.7.30-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-gitlab@0.4.1-next.0
+  - @backstage/plugin-scaffolder-backend-module-gitlab@0.4.1-next.0
   - @stone-payments/plugin-scaffolder-node@0.4.5-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-azure@0.1.11-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket@0.2.9-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.9-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-server@0.1.9-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-gerrit@0.1.11-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-gitea@0.1.9-next.0
+  - @backstage/plugin-scaffolder-backend-module-azure@0.1.11-next.0
+  - @backstage/plugin-scaffolder-backend-module-bitbucket@0.2.9-next.0
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.9-next.0
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-server@0.1.9-next.0
+  - @backstage/plugin-scaffolder-backend-module-gerrit@0.1.11-next.0
+  - @backstage/plugin-scaffolder-backend-module-gitea@0.1.9-next.0
   - @backstage/plugin-catalog-backend-module-scaffolder-entity-model@0.1.17-next.0
   - @backstage/plugin-catalog-node@1.12.1-next.0
   - @backstage/catalog-client@1.6.5
@@ -802,24 +802,24 @@
 - Updated dependencies
   - @backstage/plugin-scaffolder-common@1.5.2
   - @backstage/plugin-catalog-node@1.12.0
-  - @stone-payments/plugin-scaffolder-backend-module-github@0.2.8
-  - @stone-payments/plugin-scaffolder-backend-module-gitea@0.1.8
-  - @stone-payments/plugin-scaffolder-backend-module-gitlab@0.4.0
+  - @backstage/plugin-scaffolder-backend-module-github@0.2.8
+  - @backstage/plugin-scaffolder-backend-module-gitea@0.1.8
+  - @backstage/plugin-scaffolder-backend-module-gitlab@0.4.0
   - @backstage/catalog-model@1.5.0
   - @backstage/backend-common@0.22.0
   - @backstage/backend-plugin-api@0.6.18
   - @stone-payments/plugin-scaffolder-node@0.4.4
   - @backstage/backend-tasks@0.5.23
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-server@0.1.8
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-server@0.1.8
   - @backstage/plugin-auth-node@0.4.13
   - @backstage/integration@1.11.0
   - @backstage/catalog-client@1.6.5
   - @backstage/plugin-catalog-backend-module-scaffolder-entity-model@0.1.16
   - @backstage/plugin-permission-node@0.7.29
-  - @stone-payments/plugin-scaffolder-backend-module-azure@0.1.10
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket@0.2.8
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.8
-  - @stone-payments/plugin-scaffolder-backend-module-gerrit@0.1.10
+  - @backstage/plugin-scaffolder-backend-module-azure@0.1.10
+  - @backstage/plugin-scaffolder-backend-module-bitbucket@0.2.8
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.8
+  - @backstage/plugin-scaffolder-backend-module-gerrit@0.1.10
 
 ## 1.22.6-next.2
 
@@ -828,18 +828,18 @@
 - e4b50ab: Scaffolder workspace serialization
 - Updated dependencies
   - @backstage/plugin-catalog-node@1.12.0-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-gitlab@0.4.0-next.2
+  - @backstage/plugin-scaffolder-backend-module-gitlab@0.4.0-next.2
   - @backstage/backend-common@0.22.0-next.2
   - @stone-payments/plugin-scaffolder-node@0.4.4-next.2
   - @backstage/integration@1.11.0-next.0
   - @backstage/plugin-catalog-backend-module-scaffolder-entity-model@0.1.16-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-azure@0.1.10-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket@0.2.8-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.8-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-server@0.1.8-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-gerrit@0.1.10-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-gitea@0.1.8-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-github@0.2.8-next.2
+  - @backstage/plugin-scaffolder-backend-module-azure@0.1.10-next.2
+  - @backstage/plugin-scaffolder-backend-module-bitbucket@0.2.8-next.2
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.8-next.2
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-server@0.1.8-next.2
+  - @backstage/plugin-scaffolder-backend-module-gerrit@0.1.10-next.2
+  - @backstage/plugin-scaffolder-backend-module-gitea@0.1.8-next.2
+  - @backstage/plugin-scaffolder-backend-module-github@0.2.8-next.2
 
 ## 1.22.5-next.1
 
@@ -853,14 +853,14 @@
   - @backstage/backend-tasks@0.5.23-next.1
   - @backstage/plugin-auth-node@0.4.13-next.1
   - @backstage/plugin-permission-node@0.7.29-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-github@0.2.8-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-gitlab@0.3.4-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-azure@0.1.10-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket@0.2.8-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.8-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-server@0.1.8-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-gerrit@0.1.10-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-gitea@0.1.8-next.1
+  - @backstage/plugin-scaffolder-backend-module-github@0.2.8-next.1
+  - @backstage/plugin-scaffolder-backend-module-gitlab@0.3.4-next.1
+  - @backstage/plugin-scaffolder-backend-module-azure@0.1.10-next.1
+  - @backstage/plugin-scaffolder-backend-module-bitbucket@0.2.8-next.1
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.8-next.1
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-server@0.1.8-next.1
+  - @backstage/plugin-scaffolder-backend-module-gerrit@0.1.10-next.1
+  - @backstage/plugin-scaffolder-backend-module-gitea@0.1.8-next.1
   - @backstage/plugin-catalog-node@1.11.2-next.1
   - @backstage/backend-plugin-api@0.6.18-next.1
 
@@ -871,11 +871,11 @@
 - 025641b: Fix issue with the log format not being respected when logging from actions
 - 025641b: Redact `meta` fields too with the logger
 - Updated dependencies
-  - @stone-payments/plugin-scaffolder-backend-module-github@0.2.8-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-gitea@0.1.8-next.0
+  - @backstage/plugin-scaffolder-backend-module-github@0.2.8-next.0
+  - @backstage/plugin-scaffolder-backend-module-gitea@0.1.8-next.0
   - @backstage/catalog-model@1.5.0-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-gitlab@0.3.4-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-server@0.1.8-next.0
+  - @backstage/plugin-scaffolder-backend-module-gitlab@0.3.4-next.0
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-server@0.1.8-next.0
   - @backstage/plugin-auth-node@0.4.13-next.0
   - @backstage/backend-common@0.21.8-next.0
   - @backstage/backend-plugin-api@0.6.18-next.0
@@ -891,10 +891,10 @@
   - @backstage/types@1.1.1
   - @backstage/plugin-permission-common@0.7.13
   - @backstage/plugin-permission-node@0.7.29-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-azure@0.1.10-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket@0.2.8-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.8-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-gerrit@0.1.10-next.0
+  - @backstage/plugin-scaffolder-backend-module-azure@0.1.10-next.0
+  - @backstage/plugin-scaffolder-backend-module-bitbucket@0.2.8-next.0
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.8-next.0
+  - @backstage/plugin-scaffolder-backend-module-gerrit@0.1.10-next.0
 
 ## 1.22.4
 
@@ -904,18 +904,18 @@
 - Updated dependencies
   - @backstage/backend-common@0.21.7
   - @backstage/plugin-permission-node@0.7.28
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.7
-  - @stone-payments/plugin-scaffolder-backend-module-gitlab@0.3.3
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-server@0.1.7
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.7
+  - @backstage/plugin-scaffolder-backend-module-gitlab@0.3.3
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-server@0.1.7
   - @backstage/backend-plugin-api@0.6.17
-  - @stone-payments/plugin-scaffolder-backend-module-github@0.2.7
+  - @backstage/plugin-scaffolder-backend-module-github@0.2.7
   - @backstage/backend-tasks@0.5.22
-  - @stone-payments/plugin-scaffolder-backend-module-gerrit@0.1.9
+  - @backstage/plugin-scaffolder-backend-module-gerrit@0.1.9
   - @backstage/plugin-auth-node@0.4.12
   - @backstage/catalog-client@1.6.4
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket@0.2.7
-  - @stone-payments/plugin-scaffolder-backend-module-azure@0.1.9
-  - @stone-payments/plugin-scaffolder-backend-module-gitea@0.1.7
+  - @backstage/plugin-scaffolder-backend-module-bitbucket@0.2.7
+  - @backstage/plugin-scaffolder-backend-module-azure@0.1.9
+  - @backstage/plugin-scaffolder-backend-module-gitea@0.1.7
   - @backstage/integration@1.10.0
   - @stone-payments/plugin-scaffolder-node@0.4.3
   - @backstage/plugin-catalog-node@1.11.1
@@ -934,16 +934,16 @@
 - f34a9b1: The `catalog:write` action now automatically adds a `backstage.io/template-source` annotation, indicating which Scaffolder template was used to create the entity.
 - Updated dependencies
   - @backstage/backend-common@0.21.7-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-server@0.1.7-next.1
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-server@0.1.7-next.1
   - @backstage/backend-plugin-api@0.6.17-next.1
   - @backstage/plugin-auth-node@0.4.12-next.1
   - @backstage/catalog-client@1.6.4-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.7-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket@0.2.7-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-github@0.2.7-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-gitlab@0.3.3-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-azure@0.1.9-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-gitea@0.1.7-next.1
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.7-next.1
+  - @backstage/plugin-scaffolder-backend-module-bitbucket@0.2.7-next.1
+  - @backstage/plugin-scaffolder-backend-module-github@0.2.7-next.1
+  - @backstage/plugin-scaffolder-backend-module-gitlab@0.3.3-next.1
+  - @backstage/plugin-scaffolder-backend-module-azure@0.1.9-next.1
+  - @backstage/plugin-scaffolder-backend-module-gitea@0.1.7-next.1
   - @backstage/backend-tasks@0.5.22-next.1
   - @backstage/plugin-permission-node@0.7.28-next.1
   - @stone-payments/plugin-scaffolder-node@0.4.3-next.1
@@ -955,7 +955,7 @@
   - @backstage/plugin-catalog-backend-module-scaffolder-entity-model@0.1.15-next.1
   - @backstage/plugin-catalog-node@1.11.1-next.1
   - @backstage/plugin-permission-common@0.7.13
-  - @stone-payments/plugin-scaffolder-backend-module-gerrit@0.1.9-next.1
+  - @backstage/plugin-scaffolder-backend-module-gerrit@0.1.9-next.1
   - @backstage/plugin-scaffolder-common@1.5.1
 
 ## 1.22.4-next.0
@@ -963,10 +963,10 @@
 ### Patch Changes
 
 - Updated dependencies
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.7-next.0
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.7-next.0
   - @backstage/backend-common@0.21.7-next.0
   - @backstage/integration@1.10.0-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket@0.2.7-next.0
+  - @backstage/plugin-scaffolder-backend-module-bitbucket@0.2.7-next.0
   - @backstage/backend-plugin-api@0.6.17-next.0
   - @backstage/backend-tasks@0.5.22-next.0
   - @backstage/catalog-client@1.6.3
@@ -979,12 +979,12 @@
   - @backstage/plugin-catalog-node@1.11.1-next.0
   - @backstage/plugin-permission-common@0.7.13
   - @backstage/plugin-permission-node@0.7.28-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-azure@0.1.9-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-server@0.1.7-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-gerrit@0.1.9-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-gitea@0.1.7-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-github@0.2.7-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-gitlab@0.3.3-next.0
+  - @backstage/plugin-scaffolder-backend-module-azure@0.1.9-next.0
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-server@0.1.7-next.0
+  - @backstage/plugin-scaffolder-backend-module-gerrit@0.1.9-next.0
+  - @backstage/plugin-scaffolder-backend-module-gitea@0.1.7-next.0
+  - @backstage/plugin-scaffolder-backend-module-github@0.2.7-next.0
+  - @backstage/plugin-scaffolder-backend-module-gitlab@0.3.3-next.0
   - @backstage/plugin-scaffolder-common@1.5.1
   - @stone-payments/plugin-scaffolder-node@0.4.3-next.0
 
@@ -999,11 +999,11 @@
   - @backstage/plugin-auth-node@0.4.11
   - @backstage/backend-common@0.21.6
   - @backstage/plugin-catalog-backend-module-scaffolder-entity-model@0.1.14
-  - @stone-payments/plugin-scaffolder-backend-module-gitlab@0.3.2
+  - @backstage/plugin-scaffolder-backend-module-gitlab@0.3.2
   - @backstage/backend-plugin-api@0.6.16
   - @backstage/plugin-permission-node@0.7.27
   - @backstage/backend-tasks@0.5.21
-  - @stone-payments/plugin-scaffolder-backend-module-github@0.2.6
+  - @backstage/plugin-scaffolder-backend-module-github@0.2.6
   - @stone-payments/plugin-scaffolder-node@0.4.2
   - @backstage/catalog-model@1.4.5
   - @backstage/config@1.2.0
@@ -1011,12 +1011,12 @@
   - @backstage/integration@1.9.1
   - @backstage/types@1.1.1
   - @backstage/plugin-permission-common@0.7.13
-  - @stone-payments/plugin-scaffolder-backend-module-azure@0.1.8
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket@0.2.6
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.6
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-server@0.1.6
-  - @stone-payments/plugin-scaffolder-backend-module-gerrit@0.1.8
-  - @stone-payments/plugin-scaffolder-backend-module-gitea@0.1.6
+  - @backstage/plugin-scaffolder-backend-module-azure@0.1.8
+  - @backstage/plugin-scaffolder-backend-module-bitbucket@0.2.6
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.6
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-server@0.1.6
+  - @backstage/plugin-scaffolder-backend-module-gerrit@0.1.8
+  - @backstage/plugin-scaffolder-backend-module-gitea@0.1.6
   - @backstage/plugin-scaffolder-common@1.5.1
 
 ## 1.22.2
@@ -1029,10 +1029,10 @@
   - @backstage/backend-common@0.21.5
   - @backstage/plugin-catalog-backend-module-scaffolder-entity-model@0.1.13
   - @backstage/plugin-auth-node@0.4.10
-  - @stone-payments/plugin-scaffolder-backend-module-gitlab@0.3.1
+  - @backstage/plugin-scaffolder-backend-module-gitlab@0.3.1
   - @backstage/backend-tasks@0.5.20
   - @backstage/plugin-permission-node@0.7.26
-  - @stone-payments/plugin-scaffolder-backend-module-github@0.2.5
+  - @backstage/plugin-scaffolder-backend-module-github@0.2.5
   - @stone-payments/plugin-scaffolder-node@0.4.1
   - @backstage/backend-plugin-api@0.6.15
   - @backstage/catalog-model@1.4.5
@@ -1041,12 +1041,12 @@
   - @backstage/integration@1.9.1
   - @backstage/types@1.1.1
   - @backstage/plugin-permission-common@0.7.13
-  - @stone-payments/plugin-scaffolder-backend-module-azure@0.1.7
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket@0.2.5
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.5
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-server@0.1.5
-  - @stone-payments/plugin-scaffolder-backend-module-gerrit@0.1.7
-  - @stone-payments/plugin-scaffolder-backend-module-gitea@0.1.5
+  - @backstage/plugin-scaffolder-backend-module-azure@0.1.7
+  - @backstage/plugin-scaffolder-backend-module-bitbucket@0.2.5
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.5
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-server@0.1.5
+  - @backstage/plugin-scaffolder-backend-module-gerrit@0.1.7
+  - @backstage/plugin-scaffolder-backend-module-gitea@0.1.5
   - @backstage/plugin-scaffolder-common@1.5.1
 
 ## 1.22.1
@@ -1079,20 +1079,20 @@
 - bbd1fe1: Made "checkpoint" on scaffolder action context non-optional
 - Updated dependencies
   - @stone-payments/plugin-scaffolder-node@0.4.0
-  - @stone-payments/plugin-scaffolder-backend-module-azure@0.1.6
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.4
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-server@0.1.4
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket@0.2.4
+  - @backstage/plugin-scaffolder-backend-module-azure@0.1.6
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.4
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-server@0.1.4
+  - @backstage/plugin-scaffolder-backend-module-bitbucket@0.2.4
   - @backstage/backend-common@0.21.4
   - @backstage/integration@1.9.1
   - @backstage/plugin-auth-node@0.4.9
   - @backstage/config@1.2.0
   - @backstage/errors@1.2.4
   - @backstage/backend-plugin-api@0.6.14
-  - @stone-payments/plugin-scaffolder-backend-module-gerrit@0.1.6
-  - @stone-payments/plugin-scaffolder-backend-module-github@0.2.4
-  - @stone-payments/plugin-scaffolder-backend-module-gitlab@0.3.0
-  - @stone-payments/plugin-scaffolder-backend-module-gitea@0.1.4
+  - @backstage/plugin-scaffolder-backend-module-gerrit@0.1.6
+  - @backstage/plugin-scaffolder-backend-module-github@0.2.4
+  - @backstage/plugin-scaffolder-backend-module-gitlab@0.3.0
+  - @backstage/plugin-scaffolder-backend-module-gitea@0.1.4
   - @backstage/plugin-permission-common@0.7.13
   - @backstage/plugin-catalog-node@1.8.0
   - @backstage/catalog-client@1.6.1
@@ -1115,16 +1115,16 @@
 - 703ebc9: Fix support for unauthenticated requests to create scaffolder tasks
 - Updated dependencies
   - @stone-payments/plugin-scaffolder-node@0.4.0-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-azure@0.1.6-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.4-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-server@0.1.4-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket@0.2.4-next.2
+  - @backstage/plugin-scaffolder-backend-module-azure@0.1.6-next.2
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.4-next.2
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-server@0.1.4-next.2
+  - @backstage/plugin-scaffolder-backend-module-bitbucket@0.2.4-next.2
   - @backstage/integration@1.9.1-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-gitlab@0.3.0-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-gitea@0.1.4-next.2
+  - @backstage/plugin-scaffolder-backend-module-gitlab@0.3.0-next.2
+  - @backstage/plugin-scaffolder-backend-module-gitea@0.1.4-next.2
   - @backstage/catalog-client@1.6.1-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-gerrit@0.1.6-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-github@0.2.4-next.2
+  - @backstage/plugin-scaffolder-backend-module-gerrit@0.1.6-next.2
+  - @backstage/plugin-scaffolder-backend-module-github@0.2.4-next.2
   - @backstage/backend-common@0.21.4-next.2
   - @backstage/plugin-auth-node@0.4.9-next.2
   - @backstage/plugin-catalog-node@1.8.0-next.2
@@ -1151,7 +1151,7 @@
 - Updated dependencies
   - @backstage/config@1.2.0-next.1
   - @stone-payments/plugin-scaffolder-node@0.4.0-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-github@0.2.4-next.1
+  - @backstage/plugin-scaffolder-backend-module-github@0.2.4-next.1
   - @backstage/backend-common@0.21.4-next.1
   - @backstage/backend-plugin-api@0.6.14-next.1
   - @backstage/backend-tasks@0.5.19-next.1
@@ -1159,13 +1159,13 @@
   - @backstage/plugin-auth-node@0.4.9-next.1
   - @backstage/plugin-permission-common@0.7.13-next.1
   - @backstage/plugin-permission-node@0.7.25-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-azure@0.1.6-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket@0.2.4-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.4-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-server@0.1.4-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-gerrit@0.1.6-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-gitea@0.1.4-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-gitlab@0.2.17-next.1
+  - @backstage/plugin-scaffolder-backend-module-azure@0.1.6-next.1
+  - @backstage/plugin-scaffolder-backend-module-bitbucket@0.2.4-next.1
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.4-next.1
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-server@0.1.4-next.1
+  - @backstage/plugin-scaffolder-backend-module-gerrit@0.1.6-next.1
+  - @backstage/plugin-scaffolder-backend-module-gitea@0.1.4-next.1
+  - @backstage/plugin-scaffolder-backend-module-gitlab@0.2.17-next.1
   - @backstage/catalog-client@1.6.1-next.0
   - @backstage/catalog-model@1.4.5-next.0
   - @backstage/errors@1.2.4-next.0
@@ -1194,14 +1194,14 @@
   - @backstage/errors@1.2.4-next.0
   - @stone-payments/plugin-scaffolder-node@0.3.3-next.0
   - @backstage/backend-plugin-api@0.6.13-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-server@0.1.3-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.3-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket@0.2.3-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-gerrit@0.1.5-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-github@0.2.3-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-gitlab@0.2.16-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-azure@0.1.5-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-gitea@0.1.3-next.0
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-server@0.1.3-next.0
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.3-next.0
+  - @backstage/plugin-scaffolder-backend-module-bitbucket@0.2.3-next.0
+  - @backstage/plugin-scaffolder-backend-module-gerrit@0.1.5-next.0
+  - @backstage/plugin-scaffolder-backend-module-github@0.2.3-next.0
+  - @backstage/plugin-scaffolder-backend-module-gitlab@0.2.16-next.0
+  - @backstage/plugin-scaffolder-backend-module-azure@0.1.5-next.0
+  - @backstage/plugin-scaffolder-backend-module-gitea@0.1.3-next.0
   - @backstage/plugin-permission-common@0.7.13-next.0
   - @backstage/plugin-catalog-node@1.8.0-next.0
   - @backstage/backend-tasks@0.5.18-next.0
@@ -1223,22 +1223,22 @@
 - 78c100b: Support providing an overriding token for `fetch:template`, `fetch:plain` and `fetch:file` when interacting with upstream integrations
 - e9a5228: The built-in module list has been trimmed down when using the new Backend System. Provider specific modules should now be installed with `backend.add` to provide additional actions to the scaffolder. These modules are as follows:
 
-  - `@stone-payments/plugin-scaffolder-backend-module-github`
-  - `@stone-payments/plugin-scaffolder-backend-module-gitlab`
-  - `@stone-payments/plugin-scaffolder-backend-module-bitbucket`
-  - `@stone-payments/plugin-scaffolder-backend-module-gitea`
-  - `@stone-payments/plugin-scaffolder-backend-module-gerrit`
-  - `@stone-payments/plugin-scaffolder-backend-module-confluence-to-markdown`
-  - `@stone-payments/plugin-scaffolder-backend-module-cookiecutter`
-  - `@stone-payments/plugin-scaffolder-backend-module-rails`
-  - `@stone-payments/plugin-scaffolder-backend-module-sentry`
-  - `@stone-payments/plugin-scaffolder-backend-module-yeoman`
+  - `@backstage/plugin-scaffolder-backend-module-github`
+  - `@backstage/plugin-scaffolder-backend-module-gitlab`
+  - `@backstage/plugin-scaffolder-backend-module-bitbucket`
+  - `@backstage/plugin-scaffolder-backend-module-gitea`
+  - `@backstage/plugin-scaffolder-backend-module-gerrit`
+  - `@backstage/plugin-scaffolder-backend-module-confluence-to-markdown`
+  - `@backstage/plugin-scaffolder-backend-module-cookiecutter`
+  - `@backstage/plugin-scaffolder-backend-module-rails`
+  - `@backstage/plugin-scaffolder-backend-module-sentry`
+  - `@backstage/plugin-scaffolder-backend-module-yeoman`
 
 ### Patch Changes
 
-- 5eb6882: New scaffolder module `@stone-payments/plugin-scaffolder-backend-module-bitbucket-server`.
+- 5eb6882: New scaffolder module `@backstage/plugin-scaffolder-backend-module-bitbucket-server`.
 
-  Extracted from `@stone-payments/plugin-scaffolder-backend-module-bitbucket`
+  Extracted from `@backstage/plugin-scaffolder-backend-module-bitbucket`
   and replaces its actions related to Bitbucket Server.
 
   - `publish:bitbucketServer`
@@ -1251,9 +1251,9 @@
 - 6bb6f3e: Updated dependency `fs-extra` to `^11.2.0`.
   Updated dependency `@types/fs-extra` to `^11.0.0`.
 - 52ae6b9: Updated dependency `esbuild` to `^0.20.0`.
-- 5eb6882: New scaffolder module `@stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud`.
+- 5eb6882: New scaffolder module `@backstage/plugin-scaffolder-backend-module-bitbucket-cloud`.
 
-  Extracted from `@stone-payments/plugin-scaffolder-backend-module-bitbucket`
+  Extracted from `@backstage/plugin-scaffolder-backend-module-bitbucket`
   and replaces its actions related to Bitbucket Cloud.
 
   - `publish:bitbucketCloud`
@@ -1265,22 +1265,22 @@
 - e0e5afe: Add option to configure nunjucks with the `trimBlocks` and `lstripBlocks` options in the fetch:template action
 - Updated dependencies
   - @backstage/backend-common@0.21.0
-  - @stone-payments/plugin-scaffolder-backend-module-github@0.2.0
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-server@0.1.0
+  - @backstage/plugin-scaffolder-backend-module-github@0.2.0
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-server@0.1.0
   - @backstage/plugin-auth-node@0.4.4
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket@0.2.0
-  - @stone-payments/plugin-scaffolder-backend-module-gerrit@0.1.2
-  - @stone-payments/plugin-scaffolder-backend-module-gitlab@0.2.13
-  - @stone-payments/plugin-scaffolder-backend-module-azure@0.1.2
+  - @backstage/plugin-scaffolder-backend-module-bitbucket@0.2.0
+  - @backstage/plugin-scaffolder-backend-module-gerrit@0.1.2
+  - @backstage/plugin-scaffolder-backend-module-gitlab@0.2.13
+  - @backstage/plugin-scaffolder-backend-module-azure@0.1.2
   - @backstage/backend-plugin-api@0.6.10
   - @backstage/backend-tasks@0.5.15
   - @backstage/catalog-model@1.4.4
   - @backstage/integration@1.9.0
   - @backstage/catalog-client@1.6.0
-  - @stone-payments/plugin-scaffolder-backend-module-gitea@0.1.0
+  - @backstage/plugin-scaffolder-backend-module-gitea@0.1.0
   - @stone-payments/plugin-scaffolder-node@0.3.0
   - @backstage/plugin-catalog-backend-module-scaffolder-entity-model@0.1.7
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.0
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.0
   - @backstage/plugin-scaffolder-common@1.5.0
   - @backstage/plugin-catalog-node@1.7.0
   - @backstage/plugin-permission-node@0.7.21
@@ -1295,16 +1295,16 @@
 
 - Updated dependencies
   - @backstage/backend-common@0.21.0-next.3
-  - @stone-payments/plugin-scaffolder-backend-module-gitlab@0.2.13-next.3
+  - @backstage/plugin-scaffolder-backend-module-gitlab@0.2.13-next.3
   - @backstage/integration@1.9.0-next.1
   - @backstage/backend-tasks@0.5.15-next.3
   - @backstage/plugin-catalog-backend-module-scaffolder-entity-model@0.1.7-next.3
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-server@0.1.0-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.0-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket@0.2.0-next.3
-  - @stone-payments/plugin-scaffolder-backend-module-gerrit@0.1.2-next.3
-  - @stone-payments/plugin-scaffolder-backend-module-github@0.2.0-next.3
-  - @stone-payments/plugin-scaffolder-backend-module-azure@0.1.2-next.3
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-server@0.1.0-next.1
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.0-next.1
+  - @backstage/plugin-scaffolder-backend-module-bitbucket@0.2.0-next.3
+  - @backstage/plugin-scaffolder-backend-module-gerrit@0.1.2-next.3
+  - @backstage/plugin-scaffolder-backend-module-github@0.2.0-next.3
+  - @backstage/plugin-scaffolder-backend-module-azure@0.1.2-next.3
   - @backstage/plugin-catalog-node@1.6.2-next.3
   - @backstage/plugin-auth-node@0.4.4-next.3
   - @backstage/plugin-permission-node@0.7.21-next.3
@@ -1322,9 +1322,9 @@
 
 ### Patch Changes
 
-- 5eb6882: New scaffolder module `@stone-payments/plugin-scaffolder-backend-module-bitbucket-server`.
+- 5eb6882: New scaffolder module `@backstage/plugin-scaffolder-backend-module-bitbucket-server`.
 
-  Extracted from `@stone-payments/plugin-scaffolder-backend-module-bitbucket`
+  Extracted from `@backstage/plugin-scaffolder-backend-module-bitbucket`
   and replaces its actions related to Bitbucket Server.
 
   - `publish:bitbucketServer`
@@ -1332,27 +1332,27 @@
 
 - 9aac2b0: Use `--cwd` as the first `yarn` argument
 - 52ae6b9: Updated dependency `esbuild` to `^0.20.0`.
-- 5eb6882: New scaffolder module `@stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud`.
+- 5eb6882: New scaffolder module `@backstage/plugin-scaffolder-backend-module-bitbucket-cloud`.
 
-  Extracted from `@stone-payments/plugin-scaffolder-backend-module-bitbucket`
+  Extracted from `@backstage/plugin-scaffolder-backend-module-bitbucket`
   and replaces its actions related to Bitbucket Cloud.
 
   - `publish:bitbucketCloud`
   - `bitbucket:pipelines:run`
 
 - Updated dependencies
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-server@0.1.0-next.0
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-server@0.1.0-next.0
   - @backstage/backend-common@0.21.0-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket@0.2.0-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-gitlab@0.2.13-next.2
+  - @backstage/plugin-scaffolder-backend-module-bitbucket@0.2.0-next.2
+  - @backstage/plugin-scaffolder-backend-module-gitlab@0.2.13-next.2
   - @backstage/backend-plugin-api@0.6.10-next.2
   - @backstage/backend-tasks@0.5.15-next.2
   - @backstage/plugin-auth-node@0.4.4-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.0-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-gerrit@0.1.2-next.2
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.0-next.0
+  - @backstage/plugin-scaffolder-backend-module-gerrit@0.1.2-next.2
   - @backstage/plugin-permission-node@0.7.21-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-azure@0.1.2-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-github@0.2.0-next.2
+  - @backstage/plugin-scaffolder-backend-module-azure@0.1.2-next.2
+  - @backstage/plugin-scaffolder-backend-module-github@0.2.0-next.2
   - @stone-payments/plugin-scaffolder-node@0.3.0-next.2
   - @backstage/plugin-catalog-backend-module-scaffolder-entity-model@0.1.7-next.2
   - @backstage/plugin-catalog-node@1.6.2-next.2
@@ -1379,7 +1379,7 @@
   not provided to node.
 - e0e5afe: Add option to configure nunjucks with the `trimBlocks` and `lstripBlocks` options in the fetch:template action
 - Updated dependencies
-  - @stone-payments/plugin-scaffolder-backend-module-github@0.2.0-next.1
+  - @backstage/plugin-scaffolder-backend-module-github@0.2.0-next.1
   - @backstage/catalog-model@1.4.4-next.0
   - @backstage/catalog-client@1.6.0-next.1
   - @backstage/backend-plugin-api@0.6.10-next.1
@@ -1395,10 +1395,10 @@
   - @backstage/plugin-catalog-node@1.6.2-next.1
   - @backstage/plugin-permission-common@0.7.12
   - @backstage/plugin-permission-node@0.7.21-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-azure@0.1.2-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket@0.1.2-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-gerrit@0.1.2-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-gitlab@0.2.13-next.1
+  - @backstage/plugin-scaffolder-backend-module-azure@0.1.2-next.1
+  - @backstage/plugin-scaffolder-backend-module-bitbucket@0.1.2-next.1
+  - @backstage/plugin-scaffolder-backend-module-gerrit@0.1.2-next.1
+  - @backstage/plugin-scaffolder-backend-module-gitlab@0.2.13-next.1
   - @backstage/plugin-scaffolder-common@1.5.0-next.1
 
 ## 1.21.0-next.0
@@ -1408,26 +1408,26 @@
 - 11b9a08: Introduced the first version of recoverable tasks.
 - e9a5228: The built-in module list has been trimmed down when using the new Backend System. Provider specific modules should now be installed with `backend.add` to provide additional actions to the scaffolder. These modules are as follows:
 
-  - `@stone-payments/plugin-scaffolder-backend-module-github`
-  - `@stone-payments/plugin-scaffolder-backend-module-gitlab`
-  - `@stone-payments/plugin-scaffolder-backend-module-bitbucket`
-  - `@stone-payments/plugin-scaffolder-backend-module-gitea`
-  - `@stone-payments/plugin-scaffolder-backend-module-gerrit`
-  - `@stone-payments/plugin-scaffolder-backend-module-confluence-to-markdown`
-  - `@stone-payments/plugin-scaffolder-backend-module-cookiecutter`
-  - `@stone-payments/plugin-scaffolder-backend-module-rails`
-  - `@stone-payments/plugin-scaffolder-backend-module-sentry`
-  - `@stone-payments/plugin-scaffolder-backend-module-yeoman`
+  - `@backstage/plugin-scaffolder-backend-module-github`
+  - `@backstage/plugin-scaffolder-backend-module-gitlab`
+  - `@backstage/plugin-scaffolder-backend-module-bitbucket`
+  - `@backstage/plugin-scaffolder-backend-module-gitea`
+  - `@backstage/plugin-scaffolder-backend-module-gerrit`
+  - `@backstage/plugin-scaffolder-backend-module-confluence-to-markdown`
+  - `@backstage/plugin-scaffolder-backend-module-cookiecutter`
+  - `@backstage/plugin-scaffolder-backend-module-rails`
+  - `@backstage/plugin-scaffolder-backend-module-sentry`
+  - `@backstage/plugin-scaffolder-backend-module-yeoman`
 
 ### Patch Changes
 
 - Updated dependencies
   - @backstage/backend-common@0.21.0-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket@0.1.2-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-gerrit@0.1.2-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-github@0.1.2-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-gitlab@0.2.13-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-azure@0.1.2-next.0
+  - @backstage/plugin-scaffolder-backend-module-bitbucket@0.1.2-next.0
+  - @backstage/plugin-scaffolder-backend-module-gerrit@0.1.2-next.0
+  - @backstage/plugin-scaffolder-backend-module-github@0.1.2-next.0
+  - @backstage/plugin-scaffolder-backend-module-gitlab@0.2.13-next.0
+  - @backstage/plugin-scaffolder-backend-module-azure@0.1.2-next.0
   - @backstage/catalog-client@1.6.0-next.0
   - @stone-payments/plugin-scaffolder-node@0.3.0-next.0
   - @backstage/plugin-scaffolder-common@1.5.0-next.0
@@ -1456,20 +1456,20 @@
 - e9ab1c4: Fixed an issue where not passing a `value` to any of the action's permission conditions caused an error.
 - Updated dependencies
   - @backstage/backend-common@0.20.1
-  - @stone-payments/plugin-scaffolder-backend-module-github@0.1.1
-  - @stone-payments/plugin-scaffolder-backend-module-gitlab@0.2.12
+  - @backstage/plugin-scaffolder-backend-module-github@0.1.1
+  - @backstage/plugin-scaffolder-backend-module-gitlab@0.2.12
   - @backstage/plugin-scaffolder-common@1.4.5
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket@0.1.1
+  - @backstage/plugin-scaffolder-backend-module-bitbucket@0.1.1
   - @backstage/catalog-client@1.5.2
   - @backstage/backend-plugin-api@0.6.9
-  - @stone-payments/plugin-scaffolder-backend-module-azure@0.1.1
+  - @backstage/plugin-scaffolder-backend-module-azure@0.1.1
   - @backstage/plugin-catalog-backend-module-scaffolder-entity-model@0.1.6
   - @backstage/plugin-catalog-node@1.6.1
   - @backstage/plugin-permission-common@0.7.12
   - @backstage/plugin-permission-node@0.7.20
   - @backstage/backend-tasks@0.5.14
   - @backstage/plugin-auth-node@0.4.3
-  - @stone-payments/plugin-scaffolder-backend-module-gerrit@0.1.1
+  - @backstage/plugin-scaffolder-backend-module-gerrit@0.1.1
   - @stone-payments/plugin-scaffolder-node@0.2.10
   - @backstage/catalog-model@1.4.3
   - @backstage/config@1.1.1
@@ -1490,11 +1490,11 @@
   - @backstage/plugin-permission-node@0.7.20-next.2
   - @stone-payments/plugin-scaffolder-node@0.2.10-next.2
   - @backstage/backend-tasks@0.5.14-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-azure@0.1.1-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket@0.1.1-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-gerrit@0.1.1-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-github@0.1.1-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-gitlab@0.2.12-next.2
+  - @backstage/plugin-scaffolder-backend-module-azure@0.1.1-next.2
+  - @backstage/plugin-scaffolder-backend-module-bitbucket@0.1.1-next.2
+  - @backstage/plugin-scaffolder-backend-module-gerrit@0.1.1-next.2
+  - @backstage/plugin-scaffolder-backend-module-github@0.1.1-next.2
+  - @backstage/plugin-scaffolder-backend-module-gitlab@0.2.12-next.2
 
 ## 1.19.3-next.1
 
@@ -1503,15 +1503,15 @@
 - Updated dependencies
   - @backstage/backend-common@0.20.1-next.1
   - @backstage/integration@1.8.0
-  - @stone-payments/plugin-scaffolder-backend-module-gitlab@0.2.12-next.1
+  - @backstage/plugin-scaffolder-backend-module-gitlab@0.2.12-next.1
   - @backstage/config@1.1.1
   - @backstage/backend-tasks@0.5.14-next.1
   - @backstage/plugin-auth-node@0.4.3-next.1
   - @backstage/plugin-permission-node@0.7.20-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-azure@0.1.1-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket@0.1.1-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-gerrit@0.1.1-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-github@0.1.1-next.1
+  - @backstage/plugin-scaffolder-backend-module-azure@0.1.1-next.1
+  - @backstage/plugin-scaffolder-backend-module-bitbucket@0.1.1-next.1
+  - @backstage/plugin-scaffolder-backend-module-gerrit@0.1.1-next.1
+  - @backstage/plugin-scaffolder-backend-module-github@0.1.1-next.1
   - @stone-payments/plugin-scaffolder-node@0.2.10-next.1
   - @backstage/backend-plugin-api@0.6.9-next.1
   - @backstage/catalog-client@1.5.2-next.0
@@ -1531,8 +1531,8 @@
 - Updated dependencies
   - @backstage/backend-common@0.20.1-next.0
   - @backstage/catalog-client@1.5.2-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-github@0.1.1-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-azure@0.1.1-next.0
+  - @backstage/plugin-scaffolder-backend-module-github@0.1.1-next.0
+  - @backstage/plugin-scaffolder-backend-module-azure@0.1.1-next.0
   - @backstage/plugin-catalog-backend-module-scaffolder-entity-model@0.1.6-next.0
   - @backstage/plugin-catalog-node@1.6.1-next.0
   - @backstage/backend-plugin-api@0.6.9-next.0
@@ -1545,9 +1545,9 @@
   - @backstage/plugin-auth-node@0.4.3-next.0
   - @backstage/plugin-permission-common@0.7.11
   - @backstage/plugin-permission-node@0.7.20-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket@0.1.1-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-gerrit@0.1.1-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-gitlab@0.2.12-next.0
+  - @backstage/plugin-scaffolder-backend-module-bitbucket@0.1.1-next.0
+  - @backstage/plugin-scaffolder-backend-module-gerrit@0.1.1-next.0
+  - @backstage/plugin-scaffolder-backend-module-gitlab@0.2.12-next.0
   - @backstage/plugin-scaffolder-common@1.4.4
   - @stone-payments/plugin-scaffolder-node@0.2.10-next.0
 
@@ -1562,17 +1562,17 @@
 - 28949ea: Add a new action for creating github-autolink references for a repository: `github:autolinks:create`
 - Updated dependencies
   - @backstage/backend-common@0.20.0
-  - @stone-payments/plugin-scaffolder-backend-module-github@0.1.0
-  - @stone-payments/plugin-scaffolder-backend-module-gitlab@0.2.11
-  - @stone-payments/plugin-scaffolder-backend-module-gerrit@0.1.0
+  - @backstage/plugin-scaffolder-backend-module-github@0.1.0
+  - @backstage/plugin-scaffolder-backend-module-gitlab@0.2.11
+  - @backstage/plugin-scaffolder-backend-module-gerrit@0.1.0
   - @backstage/plugin-catalog-node@1.6.0
   - @backstage/catalog-client@1.5.0
   - @stone-payments/plugin-scaffolder-node@0.2.9
   - @backstage/backend-tasks@0.5.13
   - @backstage/integration@1.8.0
   - @backstage/plugin-auth-node@0.4.2
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket@0.1.0
-  - @stone-payments/plugin-scaffolder-backend-module-azure@0.1.0
+  - @backstage/plugin-scaffolder-backend-module-bitbucket@0.1.0
+  - @backstage/plugin-scaffolder-backend-module-azure@0.1.0
   - @backstage/plugin-permission-common@0.7.11
   - @backstage/plugin-permission-node@0.7.19
   - @backstage/plugin-catalog-backend-module-scaffolder-entity-model@0.1.5
@@ -1589,13 +1589,13 @@
 
 - 219d7f0: Refactor some methods to `-node` instead and use the new external modules
 - Updated dependencies
-  - @stone-payments/plugin-scaffolder-backend-module-gitlab@0.2.11-next.3
+  - @backstage/plugin-scaffolder-backend-module-gitlab@0.2.11-next.3
   - @stone-payments/plugin-scaffolder-node@0.2.9-next.3
   - @backstage/backend-common@0.20.0-next.3
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket@0.1.0-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-gerrit@0.1.0-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-github@0.1.0-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-azure@0.1.0-next.0
+  - @backstage/plugin-scaffolder-backend-module-bitbucket@0.1.0-next.0
+  - @backstage/plugin-scaffolder-backend-module-gerrit@0.1.0-next.0
+  - @backstage/plugin-scaffolder-backend-module-github@0.1.0-next.0
+  - @backstage/plugin-scaffolder-backend-module-azure@0.1.0-next.0
   - @backstage/backend-plugin-api@0.6.8-next.3
   - @backstage/backend-tasks@0.5.13-next.3
   - @backstage/catalog-client@1.5.0-next.1
@@ -2141,7 +2141,7 @@
 - 88bc6e27a213: The `concurrentTasksLimit` option can now be configured via static configuration as well. Setting it to 0 will now also disable the task worker.
 - 0f873325068d: Add examples for `github:repo:create` and `github:repo:push` scaffolder actions.
 - 5c28ebc79fd6: Updated dependency `esbuild` to `^0.19.0`.
-- d3b31a791eb1: Deprecated `executeShellCommand`, `RunCommandOptions`, and `fetchContents` from `@stone-payments/plugin-scaffolder-backend`, since they are useful for Scaffolder modules (who should not be importing from the plugin package itself). You should now import these from `@stone-payments/plugin-scaffolder-backend-node` instead. `RunCommandOptions` was renamed in the Node package as `ExecuteShellCommandOptions`, for consistency.
+- d3b31a791eb1: Deprecated `executeShellCommand`, `RunCommandOptions`, and `fetchContents` from `@stone-payments/plugin-scaffolder-backend`, since they are useful for Scaffolder modules (who should not be importing from the plugin package itself). You should now import these from `@backstage/plugin-scaffolder-backend-node` instead. `RunCommandOptions` was renamed in the Node package as `ExecuteShellCommandOptions`, for consistency.
 - Updated dependencies
   - @backstage/backend-common@0.19.2
   - @backstage/plugin-catalog-backend@1.12.0
@@ -2182,7 +2182,7 @@
 ### Patch Changes
 
 - 629cbd194a87: Use `coreServices.rootConfig` instead of `coreService.config`
-- d3b31a791eb1: Deprecated `executeShellCommand`, `RunCommandOptions`, and `fetchContents` from `@stone-payments/plugin-scaffolder-backend`, since they are useful for Scaffolder modules (who should not be importing from the plugin package itself). You should now import these from `@stone-payments/plugin-scaffolder-backend-node` instead. `RunCommandOptions` was renamed in the Node package as `ExecuteShellCommandOptions`, for consistency.
+- d3b31a791eb1: Deprecated `executeShellCommand`, `RunCommandOptions`, and `fetchContents` from `@stone-payments/plugin-scaffolder-backend`, since they are useful for Scaffolder modules (who should not be importing from the plugin package itself). You should now import these from `@backstage/plugin-scaffolder-backend-node` instead. `RunCommandOptions` was renamed in the Node package as `ExecuteShellCommandOptions`, for consistency.
 - Updated dependencies
   - @backstage/backend-common@0.19.2-next.1
   - @backstage/plugin-catalog-backend@1.12.0-next.1
@@ -4241,7 +4241,7 @@
 
 - f9c7bdd899: **BREAKING**:
 
-  - Removed the `createFetchCookiecutterAction` export, please use the `@stone-payments/plugin-scaffolder-backend-module-cookiecutter` package explicitly (see [its README](https://github.com/backstage/backstage/tree/master/plugins/scaffolder-backend-module-cookiecutter) for installation instructions).
+  - Removed the `createFetchCookiecutterAction` export, please use the `@backstage/plugin-scaffolder-backend-module-cookiecutter` package explicitly (see [its README](https://github.com/backstage/backstage/tree/master/plugins/scaffolder-backend-module-cookiecutter) for installation instructions).
   - Removed the `containerRunner` argument from the types `RouterOptions` (as used by `createRouter`) and `CreateBuiltInActionsOptions` (as used by `createBuiltinActions`).
 
 - 5afbd16d43: **BREAKING**: Removed the previously deprecated `OctokitProvider` class.
@@ -4282,7 +4282,7 @@
 
 - f9c7bdd899: **BREAKING**:
 
-  - Removed the `createFetchCookiecutterAction` export, please use the `@stone-payments/plugin-scaffolder-backend-module-cookiecutter` package explicitly (see [its README](https://github.com/backstage/backstage/tree/master/plugins/scaffolder-backend-module-cookiecutter) for installation instructions).
+  - Removed the `createFetchCookiecutterAction` export, please use the `@backstage/plugin-scaffolder-backend-module-cookiecutter` package explicitly (see [its README](https://github.com/backstage/backstage/tree/master/plugins/scaffolder-backend-module-cookiecutter) for installation instructions).
   - Removed the `containerRunner` argument from the types `RouterOptions` (as used by `createRouter`) and `CreateBuiltInActionsOptions` (as used by `createBuiltinActions`).
 
 - 5afbd16d43: **BREAKING**: Removed the previously deprecated `OctokitProvider` class.
@@ -4320,7 +4320,7 @@
   - @backstage/plugin-catalog-backend@0.23.0
   - @backstage/backend-common@0.12.0
   - @backstage/integration@0.8.0
-  - @stone-payments/plugin-scaffolder-backend-module-cookiecutter@0.2.3
+  - @backstage/plugin-scaffolder-backend-module-cookiecutter@0.2.3
   - @backstage/plugin-scaffolder-common@0.2.3
 
 ## 0.17.2
@@ -4371,7 +4371,7 @@
 
   - **DEPRECATED** - The `createFetchCookiecutterAction` export has also been deprecated and will soon disappear from this plugin.
 
-  The `fetch:cookiecutter` action will soon be removed from the default list of actions that are provided out of the box from the scaffolder plugin. It will still be supported, and maintained by the community, so you can install the package (`@stone-payments/plugin-scaffolder-backend-module-cookiecutter`) and pass it in as a custom action. Or you can migrate your templates to use [`fetch:template`](https://backstage.io/docs/features/software-templates/builtin-actions#migrating-from-fetchcookiecutter-to-fetchtemplate) with the `cookiecutterCompat` option.
+  The `fetch:cookiecutter` action will soon be removed from the default list of actions that are provided out of the box from the scaffolder plugin. It will still be supported, and maintained by the community, so you can install the package (`@backstage/plugin-scaffolder-backend-module-cookiecutter`) and pass it in as a custom action. Or you can migrate your templates to use [`fetch:template`](https://backstage.io/docs/features/software-templates/builtin-actions#migrating-from-fetchcookiecutter-to-fetchtemplate) with the `cookiecutterCompat` option.
 
 - b1744f1153: - **DEPRECATED** - `OctokitProvider` has been deprecated and will be removed in upcoming versions
   This helper doesn't make sense to be export from the `plugin-scaffolder-backend` and possibly will be moved into the `integrations` package at a later date.
@@ -4387,7 +4387,7 @@
   - @backstage/plugin-scaffolder-common@0.2.2
   - @backstage/catalog-model@0.11.0
   - @backstage/catalog-client@0.7.2
-  - @stone-payments/plugin-scaffolder-backend-module-cookiecutter@0.2.2
+  - @backstage/plugin-scaffolder-backend-module-cookiecutter@0.2.2
   - @backstage/integration@0.7.5
 
 ## 0.16.1
@@ -4404,7 +4404,7 @@
   - @backstage/integration@0.7.4
   - @backstage/types@0.1.3
   - @backstage/plugin-catalog-backend@0.21.5
-  - @stone-payments/plugin-scaffolder-backend-module-cookiecutter@0.2.1
+  - @backstage/plugin-scaffolder-backend-module-cookiecutter@0.2.1
   - @backstage/plugin-scaffolder-common@0.2.1
 
 ## 0.16.0
@@ -4439,7 +4439,7 @@
   - @backstage/catalog-model@0.10.0
   - @backstage/config@0.1.14
   - @backstage/types@0.1.2
-  - @stone-payments/plugin-scaffolder-backend-module-cookiecutter@0.2.0
+  - @backstage/plugin-scaffolder-backend-module-cookiecutter@0.2.0
 
 ## 0.15.24
 
@@ -4456,7 +4456,7 @@
   - @backstage/catalog-client@0.6.0
   - @backstage/backend-common@0.10.7
   - @backstage/plugin-catalog-backend@0.21.3
-  - @stone-payments/plugin-scaffolder-backend-module-cookiecutter@0.1.11
+  - @backstage/plugin-scaffolder-backend-module-cookiecutter@0.1.11
 
 ## 0.15.24-next.0
 
@@ -4471,7 +4471,7 @@
 - Updated dependencies
   - @backstage/backend-common@0.10.7-next.0
   - @backstage/plugin-catalog-backend@0.21.3-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-cookiecutter@0.1.11-next.0
+  - @backstage/plugin-scaffolder-backend-module-cookiecutter@0.1.11-next.0
 
 ## 0.15.23
 
@@ -4483,7 +4483,7 @@
 - Updated dependencies
   - @backstage/plugin-catalog-backend@0.21.2
   - @backstage/backend-common@0.10.6
-  - @stone-payments/plugin-scaffolder-backend-module-cookiecutter@0.1.10
+  - @backstage/plugin-scaffolder-backend-module-cookiecutter@0.1.10
 
 ## 0.15.23-next.1
 
@@ -4492,7 +4492,7 @@
 - Updated dependencies
   - @backstage/backend-common@0.10.6-next.0
   - @backstage/plugin-catalog-backend@0.21.2-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-cookiecutter@0.1.10-next.1
+  - @backstage/plugin-scaffolder-backend-module-cookiecutter@0.1.10-next.1
 
 ## 0.15.23-next.0
 
@@ -4501,7 +4501,7 @@
 - 2e0dbb0e50: Migrate from deprecated package @octokit/rest to octokit
 - Updated dependencies
   - @backstage/plugin-catalog-backend@0.21.2-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-cookiecutter@0.1.10-next.0
+  - @backstage/plugin-scaffolder-backend-module-cookiecutter@0.1.10-next.0
 
 ## 0.15.22
 
@@ -4531,7 +4531,7 @@
   - @backstage/config@0.1.13
   - @backstage/catalog-model@0.9.10
   - @backstage/catalog-client@0.5.5
-  - @stone-payments/plugin-scaffolder-backend-module-cookiecutter@0.1.9
+  - @backstage/plugin-scaffolder-backend-module-cookiecutter@0.1.9
   - @backstage/plugin-scaffolder-common@0.1.3
 
 ## 0.15.21-next.0
@@ -4545,7 +4545,7 @@
   - @backstage/catalog-model@0.9.10-next.0
   - @backstage/catalog-client@0.5.5-next.0
   - @backstage/integration@0.7.2-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-cookiecutter@0.1.9-next.0
+  - @backstage/plugin-scaffolder-backend-module-cookiecutter@0.1.9-next.0
   - @backstage/plugin-scaffolder-common@0.1.3-next.0
 
 ## 0.15.20
@@ -4564,7 +4564,7 @@
   - @backstage/errors@0.2.0
   - @backstage/catalog-client@0.5.4
   - @backstage/catalog-model@0.9.9
-  - @stone-payments/plugin-scaffolder-backend-module-cookiecutter@0.1.8
+  - @backstage/plugin-scaffolder-backend-module-cookiecutter@0.1.8
 
 ## 0.15.19
 
@@ -4578,7 +4578,7 @@
   - @backstage/plugin-catalog-backend@0.19.4
   - @backstage/plugin-scaffolder-common@0.1.2
   - @backstage/integration@0.7.0
-  - @stone-payments/plugin-scaffolder-backend-module-cookiecutter@0.1.7
+  - @backstage/plugin-scaffolder-backend-module-cookiecutter@0.1.7
 
 ## 0.15.18
 
@@ -4588,7 +4588,7 @@
   - @backstage/backend-common@0.10.0
   - @backstage/catalog-client@0.5.3
   - @backstage/plugin-catalog-backend@0.19.3
-  - @stone-payments/plugin-scaffolder-backend-module-cookiecutter@0.1.6
+  - @backstage/plugin-scaffolder-backend-module-cookiecutter@0.1.6
 
 ## 0.15.17
 
@@ -4620,7 +4620,7 @@
 - Updated dependencies
   - @backstage/integration@0.6.10
   - @backstage/plugin-catalog-backend@0.19.0
-  - @stone-payments/plugin-scaffolder-backend-module-cookiecutter@0.1.5
+  - @backstage/plugin-scaffolder-backend-module-cookiecutter@0.1.5
   - @backstage/backend-common@0.9.12
 
 ## 0.15.14
@@ -4696,7 +4696,7 @@
   - @backstage/backend-common@0.9.9
   - @backstage/catalog-client@0.5.1
   - @backstage/plugin-catalog-backend@0.17.3
-  - @stone-payments/plugin-scaffolder-backend-module-cookiecutter@0.1.4
+  - @backstage/plugin-scaffolder-backend-module-cookiecutter@0.1.4
 
 ## 0.15.11
 
@@ -4712,7 +4712,7 @@
   - @backstage/integration@0.6.9
   - @backstage/backend-common@0.9.8
   - @backstage/catalog-model@0.9.6
-  - @stone-payments/plugin-scaffolder-backend-module-cookiecutter@0.1.3
+  - @backstage/plugin-scaffolder-backend-module-cookiecutter@0.1.3
   - @backstage/plugin-scaffolder-common@0.1.1
 
 ## 0.15.10
@@ -4820,7 +4820,7 @@
   - @backstage/backend-common@0.9.0
   - @backstage/integration@0.6.2
   - @backstage/config@0.1.8
-  - @stone-payments/plugin-scaffolder-backend-module-cookiecutter@0.1.2
+  - @backstage/plugin-scaffolder-backend-module-cookiecutter@0.1.2
 
 ## 0.15.1
 
@@ -4840,7 +4840,7 @@
 - Updated dependencies
   - @backstage/integration@0.6.0
   - @backstage/backend-common@0.8.9
-  - @stone-payments/plugin-scaffolder-backend-module-cookiecutter@0.1.1
+  - @backstage/plugin-scaffolder-backend-module-cookiecutter@0.1.1
 
 ## 0.14.2
 

@@ -16,7 +16,7 @@
 import { createSendNotificationAction } from './sendNotification';
 import { NotificationService } from '@backstage/plugin-notifications-node';
 import { TemplateAction } from '@stone-payments/plugin-scaffolder-node';
-import { createMockActionContext } from '@stone-payments/plugin-scaffolder-node-test-utils';
+import { createMockActionContext } from '@backstage/plugin-scaffolder-node-test-utils';
 import { examples } from './sendNotification.examples';
 import yaml from 'yaml';
 

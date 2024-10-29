@@ -15,7 +15,7 @@
  */
 import { ConfigReader } from '@backstage/config';
 import { ScmIntegrations } from '@backstage/integration';
-import { createMockActionContext } from '@stone-payments/plugin-scaffolder-node-test-utils';
+import { createMockActionContext } from '@backstage/plugin-scaffolder-node-test-utils';
 import { createGitlabProjectAccessTokenAction } from './gitlabProjectAccessTokenCreate'; // Adjust the import based on your project structure
 
 import { DateTime } from 'luxon';

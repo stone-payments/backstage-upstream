@@ -27,7 +27,7 @@ import { setupServer } from 'msw/node';
 import { examples } from './confluenceToMarkdown.examples';
 import yaml from 'yaml';
 import { ActionContext } from '@stone-payments/plugin-scaffolder-node';
-import { createMockActionContext } from '@stone-payments/plugin-scaffolder-node-test-utils';
+import { createMockActionContext } from '@backstage/plugin-scaffolder-node-test-utils';
 import { UrlReaderService } from '@backstage/backend-plugin-api';
 
 describe('confluence:transform:markdown examples', () => {

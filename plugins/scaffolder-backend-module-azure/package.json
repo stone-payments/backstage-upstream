@@ -1,5 +1,5 @@
 {
-  "name": "@stone-payments/plugin-scaffolder-backend-module-azure",
+  "name": "@backstage/plugin-scaffolder-backend-module-azure",
   "version": "0.2.1",
   "description": "The azure module for @stone-payments/plugin-scaffolder-backend",
   "backstage": {
@@ -52,6 +52,6 @@
   },
   "devDependencies": {
     "@backstage/cli": "workspace:^",
-    "@stone-payments/plugin-scaffolder-node-test-utils": "workspace:^"
+    "@backstage/plugin-scaffolder-node-test-utils": "workspace:^"
   }
 }

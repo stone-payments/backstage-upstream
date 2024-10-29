@@ -1,4 +1,4 @@
-# @stone-payments/plugin-scaffolder-backend-module-gitlab
+# @backstage/plugin-scaffolder-backend-module-gitlab
 
 ## 0.6.0
 

@@ -25,7 +25,7 @@ import {
   parseRepoUrl,
 } from '@stone-payments/plugin-scaffolder-node';
 import { examples } from './githubPagesEnable.examples';
-import { getOctokitOptions } from '@stone-payments/plugin-scaffolder-backend-module-github';
+import { getOctokitOptions } from '@backstage/plugin-scaffolder-backend-module-github';
 
 /**
  * Creates a new action that enables GitHub Pages for a repository.

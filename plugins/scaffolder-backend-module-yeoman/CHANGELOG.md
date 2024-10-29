@@ -1,4 +1,4 @@
-# @stone-payments/plugin-scaffolder-backend-module-yeoman
+# @backstage/plugin-scaffolder-backend-module-yeoman
 
 ## 0.4.2
 
@@ -7,7 +7,7 @@
 - Updated dependencies
   - @backstage/backend-plugin-api@1.0.1
   - @stone-payments/plugin-scaffolder-node@0.5.0
-  - @stone-payments/plugin-scaffolder-node-test-utils@0.1.14
+  - @backstage/plugin-scaffolder-node-test-utils@0.1.14
 
 ## 0.4.1
 
@@ -17,7 +17,7 @@
 - 094eaa3: Remove references to in-repo backend-common
 - Updated dependencies
   - @stone-payments/plugin-scaffolder-node@0.5.0
-  - @stone-payments/plugin-scaffolder-node-test-utils@0.1.13
+  - @backstage/plugin-scaffolder-node-test-utils@0.1.13
   - @backstage/backend-plugin-api@1.0.1
   - @backstage/types@1.1.1
 
@@ -29,14 +29,14 @@
   - @stone-payments/plugin-scaffolder-node@0.5.0-next.2
   - @backstage/backend-plugin-api@1.0.1-next.1
   - @backstage/types@1.1.1
-  - @stone-payments/plugin-scaffolder-node-test-utils@0.1.13-next.2
+  - @backstage/plugin-scaffolder-node-test-utils@0.1.13-next.2
 
 ## 0.4.1-next.1
 
 ### Patch Changes
 
 - Updated dependencies
-  - @stone-payments/plugin-scaffolder-node-test-utils@0.1.13-next.1
+  - @backstage/plugin-scaffolder-node-test-utils@0.1.13-next.1
   - @backstage/backend-plugin-api@1.0.1-next.0
   - @backstage/types@1.1.1
   - @stone-payments/plugin-scaffolder-node@0.5.0-next.1
@@ -48,7 +48,7 @@
 - 094eaa3: Remove references to in-repo backend-common
 - Updated dependencies
   - @stone-payments/plugin-scaffolder-node@0.5.0-next.0
-  - @stone-payments/plugin-scaffolder-node-test-utils@0.1.13-next.0
+  - @backstage/plugin-scaffolder-node-test-utils@0.1.13-next.0
   - @backstage/backend-plugin-api@1.0.1-next.0
   - @backstage/types@1.1.1
 
@@ -69,7 +69,7 @@
   - @backstage/backend-plugin-api@1.0.0
   - @backstage/types@1.1.1
   - @stone-payments/plugin-scaffolder-node@0.4.11
-  - @stone-payments/plugin-scaffolder-node-test-utils@0.1.12
+  - @backstage/plugin-scaffolder-node-test-utils@0.1.12
 
 ## 0.4.0-next.2
 
@@ -80,7 +80,7 @@
   - @backstage/backend-plugin-api@1.0.0-next.2
   - @backstage/types@1.1.1
   - @stone-payments/plugin-scaffolder-node@0.4.11-next.2
-  - @stone-payments/plugin-scaffolder-node-test-utils@0.1.12-next.2
+  - @backstage/plugin-scaffolder-node-test-utils@0.1.12-next.2
 
 ## 0.4.0-next.1
 
@@ -90,7 +90,7 @@
   - @backstage/backend-plugin-api@0.9.0-next.1
   - @backstage/types@1.1.1
   - @stone-payments/plugin-scaffolder-node@0.4.11-next.1
-  - @stone-payments/plugin-scaffolder-node-test-utils@0.1.12-next.1
+  - @backstage/plugin-scaffolder-node-test-utils@0.1.12-next.1
 
 ## 0.4.0-next.0
 
@@ -108,7 +108,7 @@
   - @backstage/backend-plugin-api@0.9.0-next.0
   - @stone-payments/plugin-scaffolder-node@0.4.11-next.0
   - @backstage/types@1.1.1
-  - @stone-payments/plugin-scaffolder-node-test-utils@0.1.12-next.0
+  - @backstage/plugin-scaffolder-node-test-utils@0.1.12-next.0
 
 ## 0.3.7
 
@@ -118,7 +118,7 @@
   - @backstage/backend-plugin-api@0.8.0
   - @stone-payments/plugin-scaffolder-node@0.4.9
   - @backstage/types@1.1.1
-  - @stone-payments/plugin-scaffolder-node-test-utils@0.1.10
+  - @backstage/plugin-scaffolder-node-test-utils@0.1.10
 
 ## 0.3.7-next.3
 
@@ -128,7 +128,7 @@
   - @backstage/backend-plugin-api@0.8.0-next.3
   - @backstage/types@1.1.1
   - @stone-payments/plugin-scaffolder-node@0.4.9-next.3
-  - @stone-payments/plugin-scaffolder-node-test-utils@0.1.10-next.3
+  - @backstage/plugin-scaffolder-node-test-utils@0.1.10-next.3
 
 ## 0.3.7-next.2
 
@@ -137,7 +137,7 @@
 - Updated dependencies
   - @backstage/backend-plugin-api@0.8.0-next.2
   - @stone-payments/plugin-scaffolder-node@0.4.9-next.2
-  - @stone-payments/plugin-scaffolder-node-test-utils@0.1.10-next.2
+  - @backstage/plugin-scaffolder-node-test-utils@0.1.10-next.2
   - @backstage/types@1.1.1
 
 ## 0.3.7-next.1
@@ -148,7 +148,7 @@
   - @backstage/backend-plugin-api@0.7.1-next.1
   - @backstage/types@1.1.1
   - @stone-payments/plugin-scaffolder-node@0.4.9-next.1
-  - @stone-payments/plugin-scaffolder-node-test-utils@0.1.10-next.1
+  - @backstage/plugin-scaffolder-node-test-utils@0.1.10-next.1
 
 ## 0.3.7-next.0
 
@@ -158,7 +158,7 @@
   - @backstage/backend-plugin-api@0.7.1-next.0
   - @backstage/types@1.1.1
   - @stone-payments/plugin-scaffolder-node@0.4.9-next.0
-  - @stone-payments/plugin-scaffolder-node-test-utils@0.1.10-next.0
+  - @backstage/plugin-scaffolder-node-test-utils@0.1.10-next.0
 
 ## 0.3.6
 
@@ -167,7 +167,7 @@
 - Updated dependencies
   - @backstage/backend-plugin-api@0.7.0
   - @stone-payments/plugin-scaffolder-node@0.4.8
-  - @stone-payments/plugin-scaffolder-node-test-utils@0.1.9
+  - @backstage/plugin-scaffolder-node-test-utils@0.1.9
   - @backstage/types@1.1.1
 
 ## 0.3.6-next.1
@@ -175,7 +175,7 @@
 ### Patch Changes
 
 - Updated dependencies
-  - @stone-payments/plugin-scaffolder-node-test-utils@0.1.9-next.1
+  - @backstage/plugin-scaffolder-node-test-utils@0.1.9-next.1
   - @backstage/backend-plugin-api@0.6.22-next.1
   - @backstage/types@1.1.1
   - @stone-payments/plugin-scaffolder-node@0.4.8-next.1
@@ -187,7 +187,7 @@
 - Updated dependencies
   - @backstage/backend-plugin-api@0.6.21-next.0
   - @stone-payments/plugin-scaffolder-node@0.4.7-next.0
-  - @stone-payments/plugin-scaffolder-node-test-utils@0.1.8-next.0
+  - @backstage/plugin-scaffolder-node-test-utils@0.1.8-next.0
   - @backstage/types@1.1.1
 
 ## 0.3.2
@@ -198,7 +198,7 @@
 - d44a20a: Added additional plugin metadata to `package.json`.
 - Updated dependencies
   - @backstage/backend-plugin-api@0.6.19
-  - @stone-payments/plugin-scaffolder-node-test-utils@0.1.5
+  - @backstage/plugin-scaffolder-node-test-utils@0.1.5
   - @stone-payments/plugin-scaffolder-node@0.4.5
   - @backstage/types@1.1.1
 
@@ -209,7 +209,7 @@
 - d44a20a: Added additional plugin metadata to `package.json`.
 - Updated dependencies
   - @backstage/backend-plugin-api@0.6.19-next.3
-  - @stone-payments/plugin-scaffolder-node-test-utils@0.1.5-next.3
+  - @backstage/plugin-scaffolder-node-test-utils@0.1.5-next.3
   - @stone-payments/plugin-scaffolder-node@0.4.5-next.3
   - @backstage/types@1.1.1
 
@@ -220,7 +220,7 @@
 - Updated dependencies
   - @backstage/backend-plugin-api@0.6.19-next.2
   - @stone-payments/plugin-scaffolder-node@0.4.5-next.2
-  - @stone-payments/plugin-scaffolder-node-test-utils@0.1.5-next.2
+  - @backstage/plugin-scaffolder-node-test-utils@0.1.5-next.2
   - @backstage/types@1.1.1
 
 ## 0.3.2-next.0
@@ -228,7 +228,7 @@
 ### Patch Changes
 
 - Updated dependencies
-  - @stone-payments/plugin-scaffolder-node-test-utils@0.1.5-next.0
+  - @backstage/plugin-scaffolder-node-test-utils@0.1.5-next.0
   - @backstage/backend-plugin-api@0.6.19-next.0
   - @stone-payments/plugin-scaffolder-node@0.4.5-next.0
   - @backstage/types@1.1.1
@@ -240,7 +240,7 @@
 - Updated dependencies
   - @backstage/backend-plugin-api@0.6.18
   - @stone-payments/plugin-scaffolder-node@0.4.4
-  - @stone-payments/plugin-scaffolder-node-test-utils@0.1.4
+  - @backstage/plugin-scaffolder-node-test-utils@0.1.4
 
 ## 0.3.1-next.1
 
@@ -248,7 +248,7 @@
 
 - Updated dependencies
   - @stone-payments/plugin-scaffolder-node@0.4.4-next.1
-  - @stone-payments/plugin-scaffolder-node-test-utils@0.1.4-next.1
+  - @backstage/plugin-scaffolder-node-test-utils@0.1.4-next.1
   - @backstage/backend-plugin-api@0.6.18-next.1
 
 ## 0.3.1-next.0
@@ -259,7 +259,7 @@
   - @backstage/backend-plugin-api@0.6.18-next.0
   - @stone-payments/plugin-scaffolder-node@0.4.4-next.0
   - @backstage/types@1.1.1
-  - @stone-payments/plugin-scaffolder-node-test-utils@0.1.4-next.0
+  - @backstage/plugin-scaffolder-node-test-utils@0.1.4-next.0
 
 ## 0.3.0
 
@@ -272,7 +272,7 @@
 - Updated dependencies
   - @backstage/backend-plugin-api@0.6.17
   - @stone-payments/plugin-scaffolder-node@0.4.3
-  - @stone-payments/plugin-scaffolder-node-test-utils@0.1.3
+  - @backstage/plugin-scaffolder-node-test-utils@0.1.3
   - @backstage/types@1.1.1
 
 ## 0.2.38-next.1
@@ -282,7 +282,7 @@
 - Updated dependencies
   - @backstage/backend-plugin-api@0.6.17-next.1
   - @stone-payments/plugin-scaffolder-node@0.4.3-next.1
-  - @stone-payments/plugin-scaffolder-node-test-utils@0.1.3-next.1
+  - @backstage/plugin-scaffolder-node-test-utils@0.1.3-next.1
   - @backstage/types@1.1.1
 
 ## 0.2.38-next.0
@@ -293,7 +293,7 @@
   - @backstage/backend-plugin-api@0.6.17-next.0
   - @backstage/types@1.1.1
   - @stone-payments/plugin-scaffolder-node@0.4.3-next.0
-  - @stone-payments/plugin-scaffolder-node-test-utils@0.1.3-next.0
+  - @backstage/plugin-scaffolder-node-test-utils@0.1.3-next.0
 
 ## 0.2.37
 
@@ -302,7 +302,7 @@
 - Updated dependencies
   - @backstage/backend-plugin-api@0.6.16
   - @stone-payments/plugin-scaffolder-node@0.4.2
-  - @stone-payments/plugin-scaffolder-node-test-utils@0.1.2
+  - @backstage/plugin-scaffolder-node-test-utils@0.1.2
   - @backstage/types@1.1.1
 
 ## 0.2.36
@@ -311,7 +311,7 @@
 
 - Updated dependencies
   - @stone-payments/plugin-scaffolder-node@0.4.1
-  - @stone-payments/plugin-scaffolder-node-test-utils@0.1.1
+  - @backstage/plugin-scaffolder-node-test-utils@0.1.1
   - @backstage/backend-plugin-api@0.6.15
   - @backstage/types@1.1.1
 
@@ -325,7 +325,7 @@
 
 - Updated dependencies
   - @stone-payments/plugin-scaffolder-node@0.4.0
-  - @stone-payments/plugin-scaffolder-node-test-utils@0.1.0
+  - @backstage/plugin-scaffolder-node-test-utils@0.1.0
   - @backstage/backend-plugin-api@0.6.14
   - @backstage/types@1.1.1
 
@@ -335,7 +335,7 @@
 
 - Updated dependencies
   - @stone-payments/plugin-scaffolder-node@0.4.0-next.2
-  - @stone-payments/plugin-scaffolder-node-test-utils@0.1.0-next.2
+  - @backstage/plugin-scaffolder-node-test-utils@0.1.0-next.2
   - @backstage/backend-plugin-api@0.6.14-next.2
   - @backstage/types@1.1.1
 
@@ -345,7 +345,7 @@
 
 - Updated dependencies
   - @stone-payments/plugin-scaffolder-node@0.4.0-next.1
-  - @stone-payments/plugin-scaffolder-node-test-utils@0.1.0-next.1
+  - @backstage/plugin-scaffolder-node-test-utils@0.1.0-next.1
   - @backstage/backend-plugin-api@0.6.14-next.1
   - @backstage/types@1.1.1
 
@@ -360,7 +360,7 @@
 - Updated dependencies
   - @stone-payments/plugin-scaffolder-node@0.3.3-next.0
   - @backstage/backend-plugin-api@0.6.13-next.0
-  - @stone-payments/plugin-scaffolder-node-test-utils@0.1.0-next.0
+  - @backstage/plugin-scaffolder-node-test-utils@0.1.0-next.0
   - @backstage/types@1.1.1
 
 ## 0.2.31

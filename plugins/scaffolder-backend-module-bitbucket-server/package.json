@@ -1,5 +1,5 @@
 {
-  "name": "@stone-payments/plugin-scaffolder-backend-module-bitbucket-server",
+  "name": "@backstage/plugin-scaffolder-backend-module-bitbucket-server",
   "version": "0.2.1",
   "description": "The Bitbucket Server module for @stone-payments/plugin-scaffolder-backend",
   "backstage": {
@@ -54,7 +54,7 @@
   "devDependencies": {
     "@backstage/backend-test-utils": "workspace:^",
     "@backstage/cli": "workspace:^",
-    "@stone-payments/plugin-scaffolder-node-test-utils": "workspace:^",
+    "@backstage/plugin-scaffolder-node-test-utils": "workspace:^",
     "msw": "^1.0.0"
   }
 }

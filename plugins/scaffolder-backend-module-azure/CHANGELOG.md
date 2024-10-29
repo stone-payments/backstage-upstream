@@ -1,4 +1,4 @@
-# @stone-payments/plugin-scaffolder-backend-module-azure
+# @backstage/plugin-scaffolder-backend-module-azure
 
 ## 0.2.1
 

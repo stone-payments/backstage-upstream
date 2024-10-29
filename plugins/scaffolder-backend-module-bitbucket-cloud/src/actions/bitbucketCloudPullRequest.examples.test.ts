@@ -34,7 +34,7 @@ import { ScmIntegrations } from '@backstage/integration';
 import { ConfigReader } from '@backstage/config';
 import yaml from 'yaml';
 import { examples } from './bitbucketCloudPullRequest.examples';
-import { createMockActionContext } from '@stone-payments/plugin-scaffolder-node-test-utils';
+import { createMockActionContext } from '@backstage/plugin-scaffolder-node-test-utils';
 
 describe('publish:bitbucketCloud:pull-request', () => {
   const config = new ConfigReader({

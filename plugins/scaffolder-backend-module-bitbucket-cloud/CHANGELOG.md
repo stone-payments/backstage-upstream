@@ -1,4 +1,4 @@
-# @stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud
+# @backstage/plugin-scaffolder-backend-module-bitbucket-cloud
 
 ## 0.2.1
 
@@ -420,9 +420,9 @@
 
 ### Minor Changes
 
-- 5eb6882: New scaffolder module `@stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud`.
+- 5eb6882: New scaffolder module `@backstage/plugin-scaffolder-backend-module-bitbucket-cloud`.
 
-  Extracted from `@stone-payments/plugin-scaffolder-backend-module-bitbucket`
+  Extracted from `@backstage/plugin-scaffolder-backend-module-bitbucket`
   and replaces its actions related to Bitbucket Cloud.
 
   - `publish:bitbucketCloud`
@@ -458,9 +458,9 @@
 
 ### Minor Changes
 
-- 5eb6882: New scaffolder module `@stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud`.
+- 5eb6882: New scaffolder module `@backstage/plugin-scaffolder-backend-module-bitbucket-cloud`.
 
-  Extracted from `@stone-payments/plugin-scaffolder-backend-module-bitbucket`
+  Extracted from `@backstage/plugin-scaffolder-backend-module-bitbucket`
   and replaces its actions related to Bitbucket Cloud.
 
   - `publish:bitbucketCloud`

@@ -20,7 +20,7 @@ import {
   DefaultGithubCredentialsProvider,
   GithubCredentialsProvider,
 } from '@backstage/integration';
-import { createMockActionContext } from '@stone-payments/plugin-scaffolder-node-test-utils';
+import { createMockActionContext } from '@backstage/plugin-scaffolder-node-test-utils';
 import { ConfigReader } from '@backstage/config';
 import { TemplateAction } from '@stone-payments/plugin-scaffolder-node';
 

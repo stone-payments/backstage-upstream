@@ -19,7 +19,7 @@ import { ScmIntegrations } from '@backstage/integration';
 import { TemplateAction } from '@stone-payments/plugin-scaffolder-node';
 import { createPublishGitlabMergeRequestAction } from './gitlabMergeRequest';
 import { createMockDirectory } from '@backstage/backend-test-utils';
-import { createMockActionContext } from '@stone-payments/plugin-scaffolder-node-test-utils';
+import { createMockActionContext } from '@backstage/plugin-scaffolder-node-test-utils';
 import { examples } from './gitlabMergeRequest.examples';
 import yaml from 'yaml';
 

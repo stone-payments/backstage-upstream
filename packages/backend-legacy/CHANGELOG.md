@@ -26,9 +26,9 @@
   - @backstage/plugin-catalog-node@1.13.1
   - @backstage/plugin-permission-backend@0.5.50
   - @backstage/plugin-permission-node@0.8.4
-  - @stone-payments/plugin-scaffolder-backend-module-confluence-to-markdown@0.3.1
-  - @stone-payments/plugin-scaffolder-backend-module-gitlab@0.6.0
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.5.1
+  - @backstage/plugin-scaffolder-backend-module-confluence-to-markdown@0.3.1
+  - @backstage/plugin-scaffolder-backend-module-gitlab@0.6.0
+  - @backstage/plugin-scaffolder-backend-module-rails@0.5.1
   - @backstage/plugin-search-backend-module-catalog@0.2.4
   - @backstage/plugin-search-backend-module-elasticsearch@1.6.1
   - @backstage/plugin-search-backend-module-explore@0.2.4
@@ -53,11 +53,11 @@
   - @stone-payments/plugin-scaffolder-backend@1.26.0
   - @backstage/backend-defaults@0.5.1
   - @backstage/plugin-search-backend@1.6.0
-  - @stone-payments/plugin-scaffolder-backend-module-gitlab@0.6.0
+  - @backstage/plugin-scaffolder-backend-module-gitlab@0.6.0
   - @backstage/plugin-auth-node@0.5.3
   - @backstage/plugin-app-backend@0.3.76
-  - @stone-payments/plugin-scaffolder-backend-module-confluence-to-markdown@0.3.1
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.5.1
+  - @backstage/plugin-scaffolder-backend-module-confluence-to-markdown@0.3.1
+  - @backstage/plugin-scaffolder-backend-module-rails@0.5.1
   - @backstage/plugin-catalog-backend-module-unprocessed@0.5.1
   - @backstage/plugin-search-backend-module-explore@0.2.3
   - @backstage/plugin-search-backend-module-pg@0.5.36
@@ -94,10 +94,10 @@
   - @backstage/plugin-auth-node@0.5.3-next.1
   - @backstage/plugin-app-backend@0.3.76-next.1
   - @backstage/plugin-catalog-node@1.13.1-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-gitlab@0.6.0-next.2
+  - @backstage/plugin-scaffolder-backend-module-gitlab@0.6.0-next.2
   - @backstage/integration@1.15.1-next.1
   - @backstage/plugin-catalog-backend@1.26.2-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-confluence-to-markdown@0.3.1-next.2
+  - @backstage/plugin-scaffolder-backend-module-confluence-to-markdown@0.3.1-next.2
   - @backstage/plugin-search-backend-module-explore@0.2.3-next.2
   - @backstage/catalog-client@1.7.1-next.0
   - @backstage/plugin-techdocs-backend@1.10.14-next.2
@@ -115,7 +115,7 @@
   - @backstage/plugin-permission-common@0.8.1
   - @backstage/plugin-permission-node@0.8.4-next.1
   - @backstage/plugin-proxy-backend@0.5.7-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.5.1-next.2
+  - @backstage/plugin-scaffolder-backend-module-rails@0.5.1-next.2
   - @backstage/plugin-search-backend-module-catalog@0.2.3-next.2
   - @backstage/plugin-search-backend-module-elasticsearch@1.5.7-next.2
   - @backstage/plugin-search-backend-module-pg@0.5.36-next.2
@@ -151,9 +151,9 @@
   - @backstage/plugin-permission-common@0.8.1
   - @backstage/plugin-permission-node@0.8.4-next.0
   - @backstage/plugin-proxy-backend@0.5.7-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-confluence-to-markdown@0.3.1-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-gitlab@0.5.1-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.5.1-next.1
+  - @backstage/plugin-scaffolder-backend-module-confluence-to-markdown@0.3.1-next.1
+  - @backstage/plugin-scaffolder-backend-module-gitlab@0.5.1-next.1
+  - @backstage/plugin-scaffolder-backend-module-rails@0.5.1-next.1
   - @backstage/plugin-search-backend@1.5.18-next.1
   - @backstage/plugin-search-backend-module-catalog@0.2.3-next.1
   - @backstage/plugin-search-backend-module-elasticsearch@1.5.7-next.1
@@ -172,10 +172,10 @@
 - Updated dependencies
   - @backstage/plugin-search-backend-module-elasticsearch@1.5.7-next.0
   - @stone-payments/plugin-scaffolder-backend@1.26.0-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-confluence-to-markdown@0.3.1-next.0
+  - @backstage/plugin-scaffolder-backend-module-confluence-to-markdown@0.3.1-next.0
   - @backstage/plugin-catalog-backend-module-unprocessed@0.5.1-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-gitlab@0.5.1-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.5.1-next.0
+  - @backstage/plugin-scaffolder-backend-module-gitlab@0.5.1-next.0
+  - @backstage/plugin-scaffolder-backend-module-rails@0.5.1-next.0
   - @backstage/plugin-search-backend-module-techdocs@0.2.3-next.0
   - @backstage/plugin-search-backend-module-catalog@0.2.3-next.0
   - @backstage/plugin-search-backend-module-explore@0.2.3-next.0
@@ -220,9 +220,9 @@
   - @backstage/backend-plugin-api@1.0.0
   - @backstage/plugin-search-backend@1.5.17
   - @backstage/plugin-auth-node@0.5.2
-  - @stone-payments/plugin-scaffolder-backend-module-confluence-to-markdown@0.3.0
-  - @stone-payments/plugin-scaffolder-backend-module-gitlab@0.5.0
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.5.0
+  - @backstage/plugin-scaffolder-backend-module-confluence-to-markdown@0.3.0
+  - @backstage/plugin-scaffolder-backend-module-gitlab@0.5.0
+  - @backstage/plugin-scaffolder-backend-module-rails@0.5.0
   - @backstage/plugin-devtools-backend@0.4.0
   - @backstage/plugin-app-backend@0.3.74
   - @stone-payments/plugin-scaffolder-backend@1.25.0
@@ -255,9 +255,9 @@
 - Updated dependencies
   - @backstage/backend-common@0.25.0-next.2
   - @backstage/backend-defaults@0.5.0-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-confluence-to-markdown@0.3.0-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-gitlab@0.5.0-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.5.0-next.2
+  - @backstage/plugin-scaffolder-backend-module-confluence-to-markdown@0.3.0-next.2
+  - @backstage/plugin-scaffolder-backend-module-gitlab@0.5.0-next.2
+  - @backstage/plugin-scaffolder-backend-module-rails@0.5.0-next.2
   - @backstage/plugin-devtools-backend@0.4.0-next.2
   - @stone-payments/plugin-scaffolder-backend@1.25.0-next.2
   - @backstage/plugin-auth-node@0.5.2-next.2
@@ -319,9 +319,9 @@
   - @backstage/plugin-permission-common@0.8.1
   - @backstage/plugin-permission-node@0.8.3-next.1
   - @backstage/plugin-proxy-backend@0.5.6-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-confluence-to-markdown@0.3.0-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-gitlab@0.5.0-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.5.0-next.1
+  - @backstage/plugin-scaffolder-backend-module-confluence-to-markdown@0.3.0-next.1
+  - @backstage/plugin-scaffolder-backend-module-gitlab@0.5.0-next.1
+  - @backstage/plugin-scaffolder-backend-module-rails@0.5.0-next.1
   - @backstage/plugin-search-backend@1.5.17-next.1
   - @backstage/plugin-search-backend-module-catalog@0.2.2-next.1
   - @backstage/plugin-search-backend-module-elasticsearch@1.5.6-next.1
@@ -361,9 +361,9 @@
   - @backstage/plugin-catalog-backend-module-unprocessed@0.5.0-next.0
   - @backstage/plugin-devtools-backend@0.4.0-next.0
   - @backstage/plugin-events-node@0.4.0-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-confluence-to-markdown@0.3.0-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-gitlab@0.5.0-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.5.0-next.0
+  - @backstage/plugin-scaffolder-backend-module-confluence-to-markdown@0.3.0-next.0
+  - @backstage/plugin-scaffolder-backend-module-gitlab@0.5.0-next.0
+  - @backstage/plugin-scaffolder-backend-module-rails@0.5.0-next.0
   - @backstage/plugin-auth-node@0.5.2-next.0
   - @backstage/plugin-catalog-node@1.12.7-next.0
   - @backstage/plugin-search-backend-node@1.3.2-next.0
@@ -383,8 +383,8 @@
   - @backstage/backend-plugin-api@0.8.0
   - @backstage/backend-common@0.24.0
   - @backstage/plugin-catalog-backend@1.25.0
-  - @stone-payments/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.24
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.40
+  - @backstage/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.24
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.40
   - @backstage/plugin-search-backend-node@1.3.0
   - @stone-payments/plugin-scaffolder-backend@1.24.0
   - @backstage/plugin-techdocs-backend@1.10.10
@@ -400,7 +400,7 @@
   - @backstage/plugin-app-backend@0.3.72
   - @backstage/plugin-auth-node@0.5.0
   - @backstage/plugin-permission-node@0.8.1
-  - @stone-payments/plugin-scaffolder-backend-module-gitlab@0.4.5
+  - @backstage/plugin-scaffolder-backend-module-gitlab@0.4.5
   - @backstage/plugin-search-backend-module-catalog@0.2.0
   - @backstage/plugin-search-backend@1.5.15
   - @backstage/plugin-catalog-node@1.12.5
@@ -421,7 +421,7 @@
 ### Patch Changes
 
 - Updated dependencies
-  - @stone-payments/plugin-scaffolder-backend-module-gitlab@0.4.5-next.3
+  - @backstage/plugin-scaffolder-backend-module-gitlab@0.4.5-next.3
   - @backstage/plugin-techdocs-backend@1.10.10-next.3
   - @backstage/backend-common@0.23.4-next.3
   - @backstage/catalog-model@1.6.0-next.0
@@ -445,8 +445,8 @@
   - @backstage/plugin-permission-common@0.8.1-next.1
   - @backstage/plugin-permission-node@0.8.1-next.3
   - @backstage/plugin-proxy-backend@0.5.4-next.3
-  - @stone-payments/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.24-next.3
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.40-next.3
+  - @backstage/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.24-next.3
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.40-next.3
   - @backstage/plugin-search-backend@1.5.15-next.3
   - @backstage/plugin-search-backend-module-catalog@0.1.29-next.3
   - @backstage/plugin-search-backend-module-elasticsearch@1.5.4-next.3
@@ -464,7 +464,7 @@
 - Updated dependencies
   - @stone-payments/plugin-scaffolder-backend@1.23.1-next.2
   - @backstage/plugin-permission-common@0.8.1-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.24-next.2
+  - @backstage/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.24-next.2
   - @backstage/plugin-search-backend-module-techdocs@0.1.28-next.2
   - @backstage/plugin-search-backend-module-explore@0.1.29-next.2
   - @backstage/plugin-kubernetes-backend@0.18.4-next.2
@@ -487,8 +487,8 @@
   - @backstage/plugin-catalog-backend-module-unprocessed@0.4.10-next.2
   - @backstage/plugin-events-backend@0.3.10-next.2
   - @backstage/plugin-events-node@0.3.9-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-gitlab@0.4.5-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.40-next.2
+  - @backstage/plugin-scaffolder-backend-module-gitlab@0.4.5-next.2
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.40-next.2
   - @backstage/plugin-search-backend-module-catalog@0.1.29-next.2
   - @backstage/plugin-search-backend-module-elasticsearch@1.5.4-next.2
   - @backstage/plugin-search-backend-module-pg@0.5.33-next.2
@@ -532,9 +532,9 @@
   - @backstage/plugin-catalog-backend-module-scaffolder-entity-model@0.1.21-next.1
   - @backstage/plugin-events-backend@0.3.10-next.1
   - @backstage/plugin-events-node@0.3.9-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.24-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-gitlab@0.4.5-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.40-next.1
+  - @backstage/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.24-next.1
+  - @backstage/plugin-scaffolder-backend-module-gitlab@0.4.5-next.1
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.40-next.1
   - @backstage/plugin-search-backend-module-elasticsearch@1.5.4-next.1
   - @backstage/plugin-search-backend-module-pg@0.5.33-next.1
   - @backstage/plugin-signals-backend@0.1.9-next.1
@@ -546,8 +546,8 @@
 
 - Updated dependencies
   - @backstage/backend-common@0.23.4-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.40-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-gitlab@0.4.5-next.0
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.40-next.0
+  - @backstage/plugin-scaffolder-backend-module-gitlab@0.4.5-next.0
   - @backstage/plugin-catalog-backend@1.24.1-next.0
   - @backstage/plugin-catalog-node@1.12.5-next.0
   - @backstage/plugin-devtools-backend@0.3.9-next.0
@@ -571,7 +571,7 @@
   - @backstage/plugin-permission-node@0.8.1-next.0
   - @backstage/plugin-proxy-backend@0.5.4-next.0
   - @stone-payments/plugin-scaffolder-backend@1.23.1-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.24-next.0
+  - @backstage/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.24-next.0
   - @backstage/plugin-search-backend@1.5.15-next.0
   - @backstage/plugin-search-backend-module-catalog@0.1.29-next.0
   - @backstage/plugin-search-backend-module-elasticsearch@1.5.4-next.0
@@ -594,8 +594,8 @@
   - @backstage/plugin-permission-backend@0.5.46
   - @backstage/plugin-permission-node@0.8.0
   - @backstage/plugin-techdocs-backend@1.10.9
-  - @stone-payments/plugin-scaffolder-backend-module-gitlab@0.4.4
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.39
+  - @backstage/plugin-scaffolder-backend-module-gitlab@0.4.4
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.39
   - @backstage/integration@1.13.0
   - @backstage/plugin-events-node@0.3.8
   - @backstage/plugin-auth-node@0.4.17
@@ -610,7 +610,7 @@
   - @backstage/plugin-events-backend@0.3.9
   - @backstage/plugin-kubernetes-backend@0.18.3
   - @backstage/plugin-proxy-backend@0.5.3
-  - @stone-payments/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.23
+  - @backstage/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.23
   - @backstage/plugin-search-backend-module-catalog@0.1.28
   - @backstage/plugin-search-backend-module-elasticsearch@1.5.3
   - @backstage/plugin-search-backend-module-explore@0.1.28
@@ -638,7 +638,7 @@
 
 - Updated dependencies
   - @backstage/plugin-techdocs-backend@1.10.9-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-gitlab@0.4.4-next.1
+  - @backstage/plugin-scaffolder-backend-module-gitlab@0.4.4-next.1
   - @backstage/plugin-catalog-backend@1.24.0-next.1
   - @backstage/backend-common@0.23.3-next.1
   - @backstage/plugin-search-backend-module-techdocs@0.1.27-next.1
@@ -663,8 +663,8 @@
   - @backstage/plugin-permission-node@0.7.33-next.1
   - @backstage/plugin-proxy-backend@0.5.3-next.1
   - @stone-payments/plugin-scaffolder-backend@1.23.0-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.23-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.39-next.1
+  - @backstage/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.23-next.1
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.39-next.1
   - @backstage/plugin-search-backend@1.5.14-next.1
   - @backstage/plugin-search-backend-module-catalog@0.1.28-next.1
   - @backstage/plugin-search-backend-module-elasticsearch@1.5.3-next.1
@@ -681,8 +681,8 @@
 - Updated dependencies
   - @backstage/backend-common@0.23.2-next.0
   - @backstage/backend-tasks@0.5.26-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-gitlab@0.4.3-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.38-next.0
+  - @backstage/plugin-scaffolder-backend-module-gitlab@0.4.3-next.0
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.38-next.0
   - @backstage/integration@1.13.0-next.0
   - @stone-payments/plugin-scaffolder-backend@1.23.0-next.0
   - @backstage/plugin-app-backend@0.3.70-next.0
@@ -699,7 +699,7 @@
   - @backstage/plugin-permission-backend@0.5.45-next.0
   - @backstage/plugin-permission-node@0.7.32-next.0
   - @backstage/plugin-proxy-backend@0.5.2-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.22-next.0
+  - @backstage/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.22-next.0
   - @backstage/plugin-search-backend@1.5.13-next.0
   - @backstage/plugin-search-backend-module-catalog@0.1.27-next.0
   - @backstage/plugin-search-backend-module-elasticsearch@1.5.2-next.0
@@ -732,12 +732,12 @@
   - @backstage/plugin-proxy-backend@0.5.0
   - @backstage/plugin-app-backend@0.3.68
   - @backstage/integration@1.12.0
-  - @stone-payments/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.20
+  - @backstage/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.20
   - @backstage/plugin-catalog-backend-module-scaffolder-entity-model@0.1.17
   - @backstage/plugin-search-backend-module-elasticsearch@1.5.0
   - @backstage/plugin-catalog-backend-module-unprocessed@0.4.6
-  - @stone-payments/plugin-scaffolder-backend-module-gitlab@0.4.1
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.36
+  - @backstage/plugin-scaffolder-backend-module-gitlab@0.4.1
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.36
   - @backstage/plugin-search-backend-module-techdocs@0.1.24
   - @backstage/plugin-search-backend-module-catalog@0.1.25
   - @backstage/plugin-search-backend-module-explore@0.1.25
@@ -765,12 +765,12 @@
 - Updated dependencies
   - @backstage/plugin-auth-node@0.4.14-next.3
   - @backstage/integration@1.12.0-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.20-next.3
+  - @backstage/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.20-next.3
   - @backstage/plugin-catalog-backend-module-scaffolder-entity-model@0.1.17-next.3
   - @backstage/plugin-search-backend-module-elasticsearch@1.4.2-next.3
   - @backstage/plugin-catalog-backend-module-unprocessed@0.4.6-next.3
-  - @stone-payments/plugin-scaffolder-backend-module-gitlab@0.4.1-next.3
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.36-next.3
+  - @backstage/plugin-scaffolder-backend-module-gitlab@0.4.1-next.3
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.36-next.3
   - @backstage/plugin-search-backend-module-techdocs@0.1.24-next.3
   - @backstage/plugin-search-backend-module-catalog@0.1.25-next.3
   - @backstage/plugin-search-backend-module-explore@0.1.25-next.3
@@ -806,7 +806,7 @@
 
 - Updated dependencies
   - @backstage/plugin-techdocs-backend@1.10.6-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-gitlab@0.4.1-next.2
+  - @backstage/plugin-scaffolder-backend-module-gitlab@0.4.1-next.2
   - @backstage/backend-common@0.23.0-next.2
   - @backstage/integration@1.12.0-next.0
   - @backstage/plugin-permission-node@0.7.30-next.2
@@ -827,8 +827,8 @@
   - @backstage/plugin-kubernetes-backend@0.18.0-next.2
   - @backstage/plugin-permission-backend@0.5.43-next.2
   - @backstage/plugin-proxy-backend@0.5.0-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.20-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.36-next.2
+  - @backstage/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.20-next.2
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.36-next.2
   - @backstage/plugin-search-backend@1.5.10-next.2
   - @backstage/plugin-search-backend-module-catalog@0.1.25-next.2
   - @backstage/plugin-search-backend-module-elasticsearch@1.4.2-next.2
@@ -851,7 +851,7 @@
   - @backstage/plugin-permission-node@0.7.30-next.1
   - @backstage/plugin-search-backend@1.5.10-next.1
   - @backstage/backend-common@0.23.0-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-gitlab@0.4.1-next.1
+  - @backstage/plugin-scaffolder-backend-module-gitlab@0.4.1-next.1
   - @backstage/plugin-kubernetes-backend@0.18.0-next.1
   - @backstage/plugin-catalog-backend@1.23.0-next.1
   - @stone-payments/plugin-scaffolder-backend@1.22.8-next.1
@@ -865,8 +865,8 @@
   - @backstage/plugin-events-node@0.3.5-next.0
   - @backstage/plugin-permission-backend@0.5.43-next.1
   - @backstage/plugin-proxy-backend@0.5.0-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.20-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.36-next.1
+  - @backstage/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.20-next.1
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.36-next.1
   - @backstage/plugin-search-backend-module-catalog@0.1.25-next.1
   - @backstage/plugin-search-backend-module-elasticsearch@1.4.2-next.1
   - @backstage/plugin-search-backend-module-explore@0.1.25-next.1
@@ -909,9 +909,9 @@
   - @backstage/plugin-events-backend@0.3.6-next.0
   - @backstage/plugin-permission-backend@0.5.43-next.0
   - @backstage/plugin-permission-node@0.7.30-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.20-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-gitlab@0.4.1-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.36-next.0
+  - @backstage/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.20-next.0
+  - @backstage/plugin-scaffolder-backend-module-gitlab@0.4.1-next.0
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.36-next.0
   - @backstage/plugin-signals-node@0.1.5-next.0
   - @backstage/plugin-catalog-backend-module-scaffolder-entity-model@0.1.17-next.0
   - @backstage/plugin-catalog-node@1.12.1-next.0
@@ -932,7 +932,7 @@
   - @backstage/plugin-catalog-backend@1.22.0
   - @backstage/plugin-catalog-backend-module-unprocessed@0.4.5
   - @backstage/plugin-search-backend-module-catalog@0.1.24
-  - @stone-payments/plugin-scaffolder-backend-module-gitlab@0.4.0
+  - @backstage/plugin-scaffolder-backend-module-gitlab@0.4.0
   - @backstage/catalog-model@1.5.0
   - @backstage/backend-common@0.22.0
   - @backstage/plugin-search-backend-module-pg@0.5.27
@@ -957,8 +957,8 @@
   - @backstage/plugin-permission-backend@0.5.42
   - @backstage/plugin-permission-node@0.7.29
   - @backstage/plugin-proxy-backend@0.4.16
-  - @stone-payments/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.19
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.35
+  - @backstage/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.19
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.35
   - @backstage/plugin-signals-node@0.1.4
 
 ## 0.2.98-next.2
@@ -969,7 +969,7 @@
   - @backstage/plugin-catalog-node@1.12.0-next.2
   - @backstage/plugin-catalog-backend-module-unprocessed@0.4.5-next.2
   - @backstage/plugin-search-backend-module-catalog@0.1.24-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-gitlab@0.4.0-next.2
+  - @backstage/plugin-scaffolder-backend-module-gitlab@0.4.0-next.2
   - @backstage/plugin-catalog-backend@1.22.0-next.2
   - @backstage/backend-common@0.22.0-next.2
   - @backstage/plugin-devtools-backend@0.3.4-next.2
@@ -984,8 +984,8 @@
   - @backstage/plugin-kubernetes-backend@0.17.1-next.2
   - @backstage/plugin-search-backend@1.5.8-next.2
   - example-app@0.2.97-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.19-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.35-next.2
+  - @backstage/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.19-next.2
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.35-next.2
 
 ## 0.2.98-next.1
 
@@ -1010,9 +1010,9 @@
   - @backstage/plugin-permission-backend@0.5.42-next.1
   - @backstage/plugin-permission-node@0.7.29-next.1
   - @backstage/plugin-proxy-backend@0.4.16-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.19-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-gitlab@0.3.4-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.35-next.1
+  - @backstage/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.19-next.1
+  - @backstage/plugin-scaffolder-backend-module-gitlab@0.3.4-next.1
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.35-next.1
   - @backstage/plugin-search-backend-module-catalog@0.1.24-next.1
   - @backstage/plugin-search-backend-module-elasticsearch@1.4.1-next.1
   - @backstage/plugin-search-backend-module-explore@0.1.24-next.1
@@ -1034,7 +1034,7 @@
   - @backstage/catalog-model@1.5.0-next.0
   - @backstage/plugin-search-backend-node@1.2.22-next.0
   - @backstage/plugin-search-backend@1.5.8-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-gitlab@0.3.4-next.0
+  - @backstage/plugin-scaffolder-backend-module-gitlab@0.3.4-next.0
   - @backstage/plugin-search-backend-module-catalog@0.1.23-next.0
   - @backstage/plugin-search-backend-module-explore@0.1.23-next.0
   - @backstage/plugin-auth-backend@0.22.5-next.0
@@ -1059,8 +1059,8 @@
   - @backstage/plugin-permission-common@0.7.13
   - @backstage/plugin-permission-node@0.7.29-next.0
   - @backstage/plugin-proxy-backend@0.4.16-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.19-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.35-next.0
+  - @backstage/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.19-next.0
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.35-next.0
   - @backstage/plugin-search-backend-module-elasticsearch@1.4.1-next.0
   - @backstage/plugin-search-backend-module-pg@0.5.27-next.0
   - @backstage/plugin-signals-backend@0.1.4-next.0
@@ -1079,7 +1079,7 @@
   - @backstage/plugin-techdocs-backend@1.10.4
   - @backstage/plugin-permission-node@0.7.28
   - @backstage/plugin-auth-backend@0.22.4
-  - @stone-payments/plugin-scaffolder-backend-module-gitlab@0.3.3
+  - @backstage/plugin-scaffolder-backend-module-gitlab@0.3.3
   - @backstage/plugin-catalog-backend@1.21.1
   - @backstage/plugin-events-backend@0.3.4
   - @backstage/plugin-tech-insights-node@0.6.0
@@ -1115,8 +1115,8 @@
   - @backstage/plugin-catalog-backend-module-unprocessed@0.4.4
   - @backstage/plugin-events-node@0.3.3
   - @backstage/plugin-rollbar-backend@0.1.62
-  - @stone-payments/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.18
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.34
+  - @backstage/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.18
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.34
   - @backstage/plugin-search-backend-module-catalog@0.1.22
   - @backstage/plugin-signals-node@0.1.3
   - @backstage/plugin-catalog-node@1.11.1
@@ -1142,7 +1142,7 @@
   - @stone-payments/plugin-scaffolder-backend@1.22.4-next.1
   - @backstage/plugin-catalog-backend@1.21.1-next.1
   - @backstage/catalog-client@1.6.4-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-gitlab@0.3.3-next.1
+  - @backstage/plugin-scaffolder-backend-module-gitlab@0.3.3-next.1
   - @backstage/plugin-app-backend@0.3.65-next.1
   - @backstage/backend-tasks@0.5.22-next.1
   - @backstage/plugin-adr-backend@0.4.14-next.1
@@ -1162,8 +1162,8 @@
   - @backstage/plugin-permission-node@0.7.28-next.1
   - @backstage/plugin-playlist-backend@0.3.21-next.1
   - @backstage/plugin-rollbar-backend@0.1.62-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.18-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.34-next.1
+  - @backstage/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.18-next.1
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.34-next.1
   - @backstage/plugin-search-backend@1.5.7-next.1
   - @backstage/plugin-search-backend-module-catalog@0.1.22-next.1
   - @backstage/plugin-search-backend-module-elasticsearch@1.3.20-next.1
@@ -1231,9 +1231,9 @@
   - @backstage/plugin-playlist-backend@0.3.21-next.0
   - @backstage/plugin-proxy-backend@0.4.15-next.0
   - @backstage/plugin-rollbar-backend@0.1.62-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.18-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-gitlab@0.3.3-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.34-next.0
+  - @backstage/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.18-next.0
+  - @backstage/plugin-scaffolder-backend-module-gitlab@0.3.3-next.0
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.34-next.0
   - @backstage/plugin-search-backend@1.5.7-next.0
   - @backstage/plugin-search-backend-module-catalog@0.1.22-next.0
   - @backstage/plugin-search-backend-module-elasticsearch@1.3.20-next.0
@@ -1279,7 +1279,7 @@
   - @backstage/plugin-playlist-backend@0.3.20
   - @backstage/plugin-tech-insights-backend@0.5.30
   - @backstage/plugin-techdocs-backend@1.10.3
-  - @stone-payments/plugin-scaffolder-backend-module-gitlab@0.3.2
+  - @backstage/plugin-scaffolder-backend-module-gitlab@0.3.2
   - @backstage/plugin-permission-node@0.7.27
   - @backstage/plugin-signals-backend@0.1.2
   - @backstage/plugin-signals-node@0.1.2
@@ -1291,8 +1291,8 @@
   - @backstage/plugin-kafka-backend@0.3.14
   - @backstage/plugin-nomad-backend@0.1.18
   - @backstage/plugin-rollbar-backend@0.1.61
-  - @stone-payments/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.17
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.33
+  - @backstage/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.17
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.33
   - @backstage/plugin-search-backend@1.5.6
   - @backstage/plugin-search-backend-module-elasticsearch@1.3.19
   - @backstage/plugin-search-backend-module-explore@0.1.20
@@ -1338,7 +1338,7 @@
   - @backstage/plugin-playlist-backend@0.3.19
   - @backstage/plugin-tech-insights-backend@0.5.29
   - @backstage/plugin-techdocs-backend@1.10.2
-  - @stone-payments/plugin-scaffolder-backend-module-gitlab@0.3.1
+  - @backstage/plugin-scaffolder-backend-module-gitlab@0.3.1
   - @backstage/backend-tasks@0.5.20
   - @backstage/plugin-devtools-backend@0.3.1
   - @backstage/plugin-events-backend@0.3.1
@@ -1349,8 +1349,8 @@
   - @backstage/plugin-permission-node@0.7.26
   - @backstage/plugin-proxy-backend@0.4.13
   - @backstage/plugin-rollbar-backend@0.1.60
-  - @stone-payments/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.16
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.32
+  - @backstage/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.16
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.32
   - @backstage/plugin-search-backend@1.5.5
   - @backstage/plugin-search-backend-module-elasticsearch@1.3.18
   - @backstage/plugin-search-backend-module-explore@0.1.19
@@ -1396,7 +1396,7 @@
   - @backstage/plugin-events-backend@0.3.0
   - @backstage/plugin-events-node@0.3.0
   - @stone-payments/plugin-scaffolder-backend@1.22.0
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.31
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.31
   - @backstage/plugin-linguist-backend@0.5.11
   - @backstage/plugin-catalog-backend-module-unprocessed@0.4.0
   - @backstage/plugin-catalog-backend@1.18.0
@@ -1420,8 +1420,8 @@
   - @backstage/plugin-playlist-backend@0.3.18
   - @backstage/plugin-auth-backend@0.22.0
   - @backstage/plugin-techdocs-backend@1.10.0
-  - @stone-payments/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.15
-  - @stone-payments/plugin-scaffolder-backend-module-gitlab@0.3.0
+  - @backstage/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.15
+  - @backstage/plugin-scaffolder-backend-module-gitlab@0.3.0
   - @backstage/plugin-permission-common@0.7.13
   - @backstage/plugin-search-backend-module-techdocs@0.1.18
   - @backstage/plugin-search-backend-module-catalog@0.1.18
@@ -1454,7 +1454,7 @@
 
 - Updated dependencies
   - @stone-payments/plugin-scaffolder-backend@1.22.0-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.31-next.2
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.31-next.2
   - @backstage/plugin-catalog-backend-module-unprocessed@0.3.11-next.2
   - @backstage/plugin-catalog-backend@1.18.0-next.2
   - @backstage/plugin-code-coverage-backend@0.2.28-next.2
@@ -1463,14 +1463,14 @@
   - @backstage/plugin-search-backend@1.5.4-next.2
   - @backstage/integration@1.9.1-next.2
   - @backstage/plugin-techdocs-backend@1.10.0-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-gitlab@0.3.0-next.2
+  - @backstage/plugin-scaffolder-backend-module-gitlab@0.3.0-next.2
   - @backstage/plugin-signals-node@0.1.0-next.2
   - @backstage/catalog-client@1.6.1-next.1
   - @backstage/plugin-linguist-backend@0.5.11-next.2
   - @backstage/plugin-kubernetes-backend@0.16.0-next.2
   - @backstage/plugin-todo-backend@0.3.12-next.2
   - @backstage/plugin-signals-backend@0.1.0-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.15-next.2
+  - @backstage/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.15-next.2
   - @backstage/backend-common@0.21.4-next.2
   - @backstage/plugin-adr-backend@0.4.11-next.2
   - @backstage/plugin-azure-devops-backend@0.6.0-next.2
@@ -1546,9 +1546,9 @@
   - @backstage/plugin-playlist-backend@0.3.18-next.1
   - @backstage/plugin-proxy-backend@0.4.12-next.1
   - @backstage/plugin-rollbar-backend@0.1.59-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.15-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-gitlab@0.2.17-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.31-next.1
+  - @backstage/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.15-next.1
+  - @backstage/plugin-scaffolder-backend-module-gitlab@0.2.17-next.1
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.31-next.1
   - @backstage/plugin-search-backend@1.5.4-next.1
   - @backstage/plugin-search-backend-module-catalog@0.1.18-next.1
   - @backstage/plugin-search-backend-module-explore@0.1.18-next.1
@@ -1588,9 +1588,9 @@
   - @backstage/plugin-auth-backend@0.22.0-next.0
   - @backstage/plugin-jenkins-backend@0.4.0-next.0
   - @backstage/plugin-azure-devops-backend@0.6.0-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.14-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-gitlab@0.2.16-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.30-next.0
+  - @backstage/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.14-next.0
+  - @backstage/plugin-scaffolder-backend-module-gitlab@0.2.16-next.0
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.30-next.0
   - @stone-payments/plugin-scaffolder-backend@1.22.0-next.0
   - @backstage/plugin-permission-common@0.7.13-next.0
   - @backstage/plugin-search-backend-module-techdocs@0.1.17-next.0
@@ -1634,7 +1634,7 @@
 
 - Updated dependencies
   - @backstage/backend-common@0.21.0
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.27
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.27
   - @backstage/plugin-catalog-backend-module-unprocessed@0.3.7
   - @stone-payments/plugin-scaffolder-backend@1.21.0
   - @backstage/plugin-badges-backend@0.3.7
@@ -1649,8 +1649,8 @@
   - @backstage/plugin-linguist-backend@0.5.7
   - @backstage/plugin-adr-backend@0.4.7
   - @backstage/plugin-kubernetes-backend@0.15.0
-  - @stone-payments/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.11
-  - @stone-payments/plugin-scaffolder-backend-module-gitlab@0.2.13
+  - @backstage/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.11
+  - @backstage/plugin-scaffolder-backend-module-gitlab@0.2.13
   - @backstage/plugin-signals-backend@0.0.1
   - @backstage/plugin-signals-node@0.0.1
   - @backstage/plugin-tech-insights-backend@0.5.24
@@ -1697,14 +1697,14 @@
   - @backstage/backend-common@0.21.0-next.3
   - @backstage/plugin-badges-backend@0.3.7-next.3
   - @backstage/plugin-kubernetes-backend@0.15.0-next.3
-  - @stone-payments/plugin-scaffolder-backend-module-gitlab@0.2.13-next.3
+  - @backstage/plugin-scaffolder-backend-module-gitlab@0.2.13-next.3
   - @backstage/integration@1.9.0-next.1
   - @backstage/backend-tasks@0.5.15-next.3
   - @backstage/plugin-catalog-backend-module-scaffolder-entity-model@0.1.7-next.3
   - @backstage/plugin-signals-backend@0.0.1-next.3
   - @backstage/plugin-signals-node@0.0.1-next.3
   - @backstage/plugin-catalog-backend@1.17.0-next.3
-  - @stone-payments/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.11-next.3
+  - @backstage/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.11-next.3
   - @backstage/plugin-app-backend@0.3.58-next.3
   - @backstage/plugin-auth-backend@0.21.0-next.3
   - @backstage/plugin-catalog-node@1.6.2-next.3
@@ -1727,7 +1727,7 @@
   - @backstage/plugin-proxy-backend@0.4.8-next.3
   - @backstage/plugin-rollbar-backend@0.1.55-next.3
   - @stone-payments/plugin-scaffolder-backend@1.21.0-next.3
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.27-next.3
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.27-next.3
   - @backstage/plugin-search-backend@1.5.0-next.3
   - @backstage/plugin-search-backend-module-catalog@0.1.14-next.3
   - @backstage/plugin-search-backend-module-elasticsearch@1.3.13-next.3
@@ -1764,9 +1764,9 @@
   - @backstage/plugin-kubernetes-backend@0.15.0-next.2
   - @backstage/plugin-tech-insights-backend@0.5.24-next.2
   - @backstage/plugin-tech-insights-node@0.4.16-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.11-next.2
+  - @backstage/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.11-next.2
   - @backstage/plugin-catalog-backend-module-unprocessed@0.3.7-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.27-next.2
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.27-next.2
   - @backstage/plugin-search-backend-module-techdocs@0.1.14-next.2
   - @backstage/plugin-search-backend-module-catalog@0.1.14-next.2
   - @backstage/plugin-search-backend-module-explore@0.1.14-next.2
@@ -1852,8 +1852,8 @@
   - @backstage/plugin-playlist-backend@0.3.14-next.1
   - @backstage/plugin-proxy-backend@0.4.8-next.1
   - @backstage/plugin-rollbar-backend@0.1.55-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.11-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.27-next.1
+  - @backstage/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.11-next.1
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.27-next.1
   - @backstage/plugin-search-backend@1.5.0-next.1
   - @backstage/plugin-search-backend-module-catalog@0.1.14-next.1
   - @backstage/plugin-search-backend-module-elasticsearch@1.3.13-next.1
@@ -1875,13 +1875,13 @@
 ### Patch Changes
 
 - Updated dependencies
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.27-next.0
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.27-next.0
   - @backstage/plugin-azure-devops-backend@0.5.2-next.0
   - @backstage/plugin-explore-backend@0.0.20-next.0
   - @backstage/plugin-auth-backend@0.20.4-next.0
   - @backstage/backend-common@0.21.0-next.0
   - @backstage/plugin-kubernetes-backend@0.14.2-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.11-next.0
+  - @backstage/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.11-next.0
   - @backstage/plugin-catalog-backend@1.17.0-next.0
   - @backstage/plugin-search-backend@1.5.0-next.0
   - @backstage/plugin-todo-backend@0.3.8-next.0
@@ -1939,7 +1939,7 @@
   - @backstage/backend-common@0.20.1
   - @stone-payments/plugin-scaffolder-backend@1.20.0
   - @backstage/catalog-client@1.5.2
-  - @stone-payments/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.10
+  - @backstage/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.10
   - @backstage/plugin-events-backend@0.2.18
   - @backstage/plugin-search-backend-module-techdocs@0.1.13
   - @backstage/plugin-search-backend-module-catalog@0.1.13
@@ -1976,7 +1976,7 @@
   - @backstage/plugin-lighthouse-backend@0.4.1
   - @backstage/plugin-proxy-backend@0.4.7
   - @backstage/plugin-rollbar-backend@0.1.54
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.26
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.26
   - @backstage/plugin-search-backend-module-elasticsearch@1.3.12
   - @backstage/plugin-search-backend-module-pg@0.5.18
   - @backstage/plugin-search-backend-node@1.2.13
@@ -2034,8 +2034,8 @@
   - @backstage/plugin-azure-sites-backend@0.1.19-next.2
   - @backstage/plugin-explore-backend@0.0.19-next.2
   - @backstage/plugin-rollbar-backend@0.1.54-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.10-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.26-next.2
+  - @backstage/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.10-next.2
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.26-next.2
   - @backstage/plugin-tech-insights-backend@0.5.23-next.2
   - @backstage/plugin-tech-insights-backend-module-jsonfc@0.1.41-next.2
   - @backstage/plugin-tech-insights-node@0.4.15-next.2
@@ -2045,7 +2045,7 @@
 ### Patch Changes
 
 - Updated dependencies
-  - @stone-payments/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.10-next.1
+  - @backstage/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.10-next.1
   - example-app@0.2.91-next.1
   - @backstage/backend-common@0.20.1-next.1
   - @backstage/integration@1.8.0
@@ -2076,7 +2076,7 @@
   - @backstage/plugin-playlist-backend@0.3.13-next.1
   - @backstage/plugin-rollbar-backend@0.1.54-next.1
   - @stone-payments/plugin-scaffolder-backend@1.19.3-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.26-next.1
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.26-next.1
   - @backstage/plugin-search-backend@1.4.9-next.1
   - @backstage/plugin-search-backend-module-catalog@0.1.13-next.1
   - @backstage/plugin-search-backend-module-elasticsearch@1.3.12-next.1
@@ -2111,7 +2111,7 @@
   - @backstage/plugin-search-backend-module-catalog@0.1.13-next.0
   - @backstage/plugin-search-backend-module-explore@0.1.13-next.0
   - @backstage/plugin-azure-devops-backend@0.5.1-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.10-next.0
+  - @backstage/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.10-next.0
   - @backstage/plugin-catalog-backend-module-scaffolder-entity-model@0.1.6-next.0
   - @backstage/plugin-tech-insights-backend-module-jsonfc@0.1.41-next.0
   - @backstage/plugin-entity-feedback-backend@0.2.6-next.0
@@ -2149,7 +2149,7 @@
   - @backstage/plugin-permission-node@0.7.20-next.0
   - @backstage/plugin-proxy-backend@0.4.7-next.0
   - @backstage/plugin-rollbar-backend@0.1.54-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.26-next.0
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.26-next.0
   - @backstage/plugin-search-backend-module-elasticsearch@1.3.12-next.0
   - @backstage/plugin-search-backend-module-pg@0.5.18-next.0
   - @backstage/plugin-search-backend-node@1.2.13-next.0
@@ -2202,8 +2202,8 @@
   - @backstage/plugin-nomad-backend@0.1.10
   - @backstage/plugin-proxy-backend@0.4.6
   - @backstage/plugin-rollbar-backend@0.1.53
-  - @stone-payments/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.9
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.25
+  - @backstage/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.9
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.25
   - @backstage/plugin-search-backend-node@1.2.12
   - @backstage/plugin-tech-insights-backend@0.5.22
   - @backstage/plugin-tech-insights-backend-module-jsonfc@0.1.40
@@ -2223,8 +2223,8 @@
   - @stone-payments/plugin-scaffolder-backend@1.19.2-next.3
   - @backstage/backend-common@0.20.0-next.3
   - example-app@0.2.90-next.4
-  - @stone-payments/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.9-next.3
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.25-next.3
+  - @backstage/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.9-next.3
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.25-next.3
   - @backstage/backend-tasks@0.5.13-next.3
   - @backstage/catalog-client@1.5.0-next.1
   - @backstage/catalog-model@1.4.3
@@ -2319,8 +2319,8 @@
   - @backstage/plugin-proxy-backend@0.4.6-next.2
   - @backstage/plugin-rollbar-backend@0.1.53-next.2
   - @stone-payments/plugin-scaffolder-backend@1.19.2-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.9-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.25-next.2
+  - @backstage/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.9-next.2
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.25-next.2
   - @backstage/plugin-search-backend@1.4.8-next.2
   - @backstage/plugin-search-backend-node@1.2.12-next.2
   - @backstage/plugin-search-common@1.2.8
@@ -2372,8 +2372,8 @@
   - @backstage/plugin-proxy-backend@0.4.6-next.1
   - @backstage/plugin-rollbar-backend@0.1.53-next.1
   - @stone-payments/plugin-scaffolder-backend@1.19.2-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.9-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.25-next.1
+  - @backstage/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.9-next.1
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.25-next.1
   - @backstage/plugin-search-backend@1.4.8-next.1
   - @backstage/plugin-search-backend-module-catalog@0.1.12-next.1
   - @backstage/plugin-search-backend-module-elasticsearch@1.3.11-next.1
@@ -2424,8 +2424,8 @@
   - @backstage/plugin-playlist-backend@0.3.12-next.0
   - @backstage/plugin-proxy-backend@0.4.6-next.0
   - @backstage/plugin-rollbar-backend@0.1.53-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.9-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.25-next.0
+  - @backstage/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.9-next.0
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.25-next.0
   - @backstage/plugin-search-backend@1.4.8-next.0
   - @backstage/plugin-search-backend-module-catalog@0.1.12-next.0
   - @backstage/plugin-search-backend-module-elasticsearch@1.3.11-next.0
@@ -2498,8 +2498,8 @@
   - @backstage/plugin-permission-backend@0.5.30
   - @backstage/plugin-permission-node@0.7.18
   - @backstage/plugin-rollbar-backend@0.1.52
-  - @stone-payments/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.8
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.24
+  - @backstage/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.8
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.24
   - @backstage/plugin-search-backend-module-explore@0.1.11
   - @backstage/plugin-search-common@1.2.8
   - @backstage/plugin-tech-insights-backend-module-jsonfc@0.1.39
@@ -2550,8 +2550,8 @@
   - @backstage/plugin-search-backend-node@1.2.11-next.2
   - @backstage/plugin-todo-backend@0.3.5-next.2
   - @backstage/plugin-rollbar-backend@0.1.52-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.8-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.24-next.2
+  - @backstage/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.8-next.2
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.24-next.2
   - @backstage/plugin-azure-sites-backend@0.1.17-next.2
   - @backstage/plugin-explore-backend@0.0.17-next.2
   - @backstage/plugin-graphql-backend@0.2.1-next.2
@@ -2581,8 +2581,8 @@
   - @backstage/backend-common@0.19.9-next.1
   - @backstage/plugin-adr-backend@0.4.4-next.1
   - @backstage/plugin-code-coverage-backend@0.2.21-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.8-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.24-next.1
+  - @backstage/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.8-next.1
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.24-next.1
   - @backstage/backend-tasks@0.5.12-next.1
   - @backstage/plugin-app-backend@0.3.55-next.1
   - @backstage/plugin-auth-node@0.4.1-next.1
@@ -2665,8 +2665,8 @@
   - @backstage/plugin-permission-node@0.7.18-next.0
   - @backstage/plugin-playlist-backend@0.3.11-next.0
   - @backstage/plugin-rollbar-backend@0.1.52-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.8-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.24-next.0
+  - @backstage/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.8-next.0
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.24-next.0
   - @backstage/plugin-search-backend-module-catalog@0.1.11-next.0
   - @backstage/plugin-search-backend-module-elasticsearch@1.3.10-next.0
   - @backstage/plugin-search-backend-module-explore@0.1.11-next.0
@@ -2701,7 +2701,7 @@
   - @backstage/plugin-kubernetes-backend@0.13.0
   - @backstage/plugin-jenkins-backend@0.3.0
   - @backstage/plugin-code-coverage-backend@0.2.20
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.23
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.23
   - @backstage/plugin-search-backend@1.4.6
   - example-app@0.2.88
   - @backstage/plugin-lighthouse-backend@0.3.3
@@ -2724,7 +2724,7 @@
   - @backstage/plugin-permission-backend@0.5.29
   - @backstage/plugin-permission-node@0.7.17
   - @backstage/plugin-proxy-backend@0.4.3
-  - @stone-payments/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.7
+  - @backstage/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.7
   - @backstage/plugin-search-backend-module-pg@0.5.15
   - @backstage/plugin-tech-insights-backend-module-jsonfc@0.1.38
   - @backstage/plugin-todo-backend@0.3.4
@@ -2773,8 +2773,8 @@
   - @backstage/plugin-playlist-backend@0.3.10-next.2
   - @backstage/plugin-proxy-backend@0.4.3-next.2
   - @backstage/plugin-rollbar-backend@0.1.51-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.7-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.23-next.2
+  - @backstage/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.7-next.2
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.23-next.2
   - @backstage/plugin-search-backend@1.4.6-next.2
   - @backstage/plugin-search-backend-module-catalog@0.1.10-next.2
   - @backstage/plugin-search-backend-module-elasticsearch@1.3.9-next.2
@@ -2837,8 +2837,8 @@
   - @backstage/plugin-playlist-backend@0.3.9-next.1
   - @backstage/plugin-proxy-backend@0.4.2-next.1
   - @backstage/plugin-rollbar-backend@0.1.50-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.6-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.22-next.1
+  - @backstage/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.6-next.1
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.22-next.1
   - @backstage/plugin-search-backend@1.4.5-next.1
   - @backstage/plugin-search-backend-module-elasticsearch@1.3.8-next.1
   - @backstage/plugin-search-backend-module-pg@0.5.14-next.1
@@ -2866,12 +2866,12 @@
   - @backstage/plugin-tech-insights-backend@0.5.19-next.0
   - @backstage/plugin-code-coverage-backend@0.2.19-next.0
   - @backstage/plugin-auth-node@0.3.2-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.22-next.0
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.22-next.0
   - @backstage/backend-common@0.19.7-next.0
   - example-app@0.2.88-next.0
   - @backstage/plugin-adr-backend@0.4.2-next.0
   - @stone-payments/plugin-scaffolder-backend@1.17.3-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.6-next.0
+  - @backstage/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.6-next.0
   - @backstage/plugin-techdocs-backend@1.7.2-next.0
   - @backstage/plugin-todo-backend@0.3.3-next.0
   - @backstage/config@1.1.0
@@ -2960,14 +2960,14 @@
   - @backstage/plugin-catalog-node@1.4.4
   - @backstage/plugin-playlist-backend@0.3.7
   - @backstage/plugin-rollbar-backend@0.1.48
-  - @stone-payments/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.4
+  - @backstage/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.4
   - @backstage/plugin-azure-sites-backend@0.1.13
   - @backstage/plugin-events-node@0.2.12
   - @backstage/plugin-explore-backend@0.0.13
   - @backstage/plugin-graphql-backend@0.1.41
   - @backstage/plugin-jenkins-backend@0.2.6
   - @backstage/plugin-nomad-backend@0.1.5
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.20
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.20
   - @backstage/plugin-search-backend-node@1.2.7
   - @backstage/plugin-tech-insights-node@0.4.9
 
@@ -3023,8 +3023,8 @@
   - @backstage/plugin-nomad-backend@0.1.5-next.3
   - @backstage/plugin-playlist-backend@0.3.7-next.3
   - @backstage/plugin-rollbar-backend@0.1.48-next.3
-  - @stone-payments/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.4-next.3
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.20-next.3
+  - @backstage/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.4-next.3
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.20-next.3
   - @backstage/plugin-search-backend-node@1.2.7-next.3
   - @backstage/plugin-tech-insights-backend@0.5.17-next.3
   - @backstage/plugin-tech-insights-backend-module-jsonfc@0.1.35-next.3
@@ -3058,7 +3058,7 @@
   - @backstage/plugin-playlist-backend@0.3.7-next.2
   - @backstage/plugin-proxy-backend@0.3.3-next.2
   - @backstage/plugin-rollbar-backend@0.1.48-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.4-next.2
+  - @backstage/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.4-next.2
   - @backstage/plugin-search-backend@1.4.3-next.2
   - @backstage/plugin-search-backend-module-catalog@0.1.7-next.2
   - @backstage/plugin-search-backend-module-explore@0.1.7-next.2
@@ -3078,7 +3078,7 @@
   - @backstage/plugin-lighthouse-backend@0.2.7-next.2
   - @backstage/plugin-nomad-backend@0.1.5-next.2
   - @backstage/plugin-permission-common@0.7.8-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.20-next.2
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.20-next.2
   - @backstage/plugin-search-backend-module-elasticsearch@1.3.6-next.2
   - @backstage/plugin-search-backend-node@1.2.7-next.2
   - @backstage/plugin-tech-insights-node@0.4.9-next.2
@@ -3128,8 +3128,8 @@
   - @backstage/plugin-playlist-backend@0.3.7-next.1
   - @backstage/plugin-proxy-backend@0.3.3-next.1
   - @backstage/plugin-rollbar-backend@0.1.48-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.4-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.20-next.1
+  - @backstage/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.4-next.1
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.20-next.1
   - @backstage/plugin-search-backend@1.4.3-next.1
   - @backstage/plugin-search-backend-module-catalog@0.1.7-next.1
   - @backstage/plugin-search-backend-module-elasticsearch@1.3.6-next.1
@@ -3189,8 +3189,8 @@
   - @backstage/plugin-playlist-backend@0.3.6-next.0
   - @backstage/plugin-proxy-backend@0.3.2-next.0
   - @backstage/plugin-rollbar-backend@0.1.47-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.3-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.19-next.0
+  - @backstage/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.3-next.0
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.19-next.0
   - @backstage/plugin-search-backend@1.4.2-next.0
   - @backstage/plugin-search-backend-module-elasticsearch@1.3.5-next.0
   - @backstage/plugin-search-backend-module-pg@0.5.11-next.0
@@ -3224,11 +3224,11 @@
   - @backstage/plugin-proxy-backend@0.3.0
   - @backstage/plugin-todo-backend@0.2.0
   - @backstage/plugin-app-backend@0.3.48
-  - @stone-payments/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.1
+  - @backstage/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.1
   - @backstage/plugin-auth-backend@0.18.6
   - @backstage/plugin-explore-backend@0.0.10
   - @backstage/plugin-catalog-backend-module-unprocessed@0.2.0
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.17
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.17
   - @backstage/plugin-entity-feedback-backend@0.1.6
   - @backstage/plugin-code-coverage-backend@0.2.14
   - @backstage/plugin-search-backend-node@1.2.4
@@ -3293,8 +3293,8 @@
   - @backstage/plugin-todo-backend@0.2.0-next.2
   - @backstage/plugin-tech-insights-backend@0.5.14-next.2
   - @backstage/plugin-tech-insights-node@0.4.6-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.1-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.17-next.2
+  - @backstage/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.1-next.2
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.17-next.2
   - @backstage/plugin-auth-node@0.2.17-next.2
   - @backstage/plugin-azure-sites-backend@0.1.10-next.2
   - @backstage/plugin-code-coverage-backend@0.2.14-next.2
@@ -3328,9 +3328,9 @@
   - @backstage/plugin-proxy-backend@0.2.42-next.1
   - @backstage/plugin-todo-backend@0.2.0-next.1
   - @backstage/plugin-app-backend@0.3.48-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.1-next.1
+  - @backstage/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.1-next.1
   - @backstage/plugin-catalog-backend-module-unprocessed@0.2.0-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.17-next.1
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.17-next.1
   - @backstage/plugin-entity-feedback-backend@0.1.6-next.1
   - @backstage/plugin-code-coverage-backend@0.2.14-next.1
   - @backstage/plugin-search-backend-node@1.2.4-next.1
@@ -3405,8 +3405,8 @@
   - @backstage/plugin-proxy-backend@0.2.42-next.0
   - @backstage/plugin-rollbar-backend@0.1.45-next.0
   - @stone-payments/plugin-scaffolder-backend@1.15.2-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.1-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.17-next.0
+  - @backstage/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.1-next.0
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.17-next.0
   - @backstage/plugin-search-backend-module-elasticsearch@1.3.3-next.0
   - @backstage/plugin-search-backend-module-pg@0.5.9-next.0
   - @backstage/plugin-search-common@1.2.5
@@ -3422,7 +3422,7 @@
 - Updated dependencies
   - @backstage/plugin-kubernetes-backend@0.11.2
   - @backstage/plugin-badges-backend@0.2.2
-  - @stone-payments/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.0
+  - @backstage/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.0
   - @backstage/plugin-devtools-backend@0.1.2
   - @backstage/plugin-tech-insights-backend@0.5.13
   - @backstage/backend-common@0.19.1
@@ -3459,7 +3459,7 @@
   - @backstage/plugin-playlist-backend@0.3.3
   - @backstage/plugin-proxy-backend@0.2.41
   - @backstage/plugin-rollbar-backend@0.1.44
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.16
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.16
   - @backstage/plugin-search-backend@1.3.3
   - @backstage/plugin-search-backend-module-elasticsearch@1.3.2
   - @backstage/plugin-search-backend-module-pg@0.5.8
@@ -3475,7 +3475,7 @@
 ### Patch Changes
 
 - Updated dependencies
-  - @stone-payments/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.0-next.1
+  - @backstage/plugin-scaffolder-backend-module-confluence-to-markdown@0.2.0-next.1
   - @backstage/plugin-devtools-backend@0.1.2-next.2
   - @backstage/plugin-tech-insights-backend@0.5.13-next.1
   - @stone-payments/plugin-scaffolder-backend@1.15.1-next.1
@@ -3514,7 +3514,7 @@
   - @backstage/plugin-playlist-backend@0.3.3-next.0
   - @backstage/plugin-proxy-backend@0.2.41-next.0
   - @backstage/plugin-rollbar-backend@0.1.44-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.16-next.1
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.16-next.1
   - @backstage/plugin-search-backend@1.3.3-next.0
   - @backstage/plugin-search-backend-module-elasticsearch@1.3.2-next.0
   - @backstage/plugin-search-backend-module-pg@0.5.8-next.0
@@ -3581,8 +3581,8 @@
   - @backstage/plugin-proxy-backend@0.2.41-next.0
   - @backstage/plugin-rollbar-backend@0.1.44-next.0
   - @stone-payments/plugin-scaffolder-backend@1.15.1-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-confluence-to-markdown@0.1.4-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.16-next.0
+  - @backstage/plugin-scaffolder-backend-module-confluence-to-markdown@0.1.4-next.0
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.16-next.0
   - @backstage/plugin-search-backend@1.3.3-next.0
   - @backstage/plugin-search-backend-module-elasticsearch@1.3.2-next.0
   - @backstage/plugin-search-backend-module-pg@0.5.8-next.0
@@ -3602,7 +3602,7 @@
   - @backstage/backend-common@0.19.0
   - @backstage/catalog-client@1.4.2
   - @backstage/plugin-jenkins-backend@0.2.1
-  - @stone-payments/plugin-scaffolder-backend-module-confluence-to-markdown@0.1.3
+  - @backstage/plugin-scaffolder-backend-module-confluence-to-markdown@0.1.3
   - @backstage/plugin-devtools-backend@0.1.1
   - @stone-payments/plugin-scaffolder-backend@1.15.0
   - @backstage/plugin-nomad-backend@0.1.0
@@ -3636,7 +3636,7 @@
   - @backstage/plugin-permission-node@0.7.9
   - @backstage/plugin-playlist-backend@0.3.2
   - @backstage/plugin-rollbar-backend@0.1.43
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.15
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.15
   - @backstage/plugin-search-backend-module-elasticsearch@1.3.1
   - @backstage/plugin-search-backend-node@1.2.2
   - @backstage/plugin-tech-insights-backend@0.5.12
@@ -3690,8 +3690,8 @@
   - @backstage/plugin-playlist-backend@0.3.2-next.2
   - @backstage/plugin-proxy-backend@0.2.40-next.2
   - @backstage/plugin-rollbar-backend@0.1.43-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-confluence-to-markdown@0.1.3-next.3
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.15-next.3
+  - @backstage/plugin-scaffolder-backend-module-confluence-to-markdown@0.1.3-next.3
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.15-next.3
   - @backstage/plugin-search-backend@1.3.2-next.2
   - @backstage/plugin-search-backend-module-elasticsearch@1.3.1-next.2
   - @backstage/plugin-search-backend-module-pg@0.5.7-next.2
@@ -3714,8 +3714,8 @@
   - @backstage/plugin-auth-backend@0.18.4-next.2
   - @backstage/plugin-code-coverage-backend@0.2.12-next.2
   - example-app@0.2.84-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-confluence-to-markdown@0.1.3-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.15-next.2
+  - @backstage/plugin-scaffolder-backend-module-confluence-to-markdown@0.1.3-next.2
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.15-next.2
   - @backstage/config@1.0.7
 
 ## 0.2.84-next.1
@@ -3725,7 +3725,7 @@
 - Updated dependencies
   - @backstage/backend-common@0.19.0-next.1
   - @backstage/plugin-jenkins-backend@0.2.1-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-confluence-to-markdown@0.1.3-next.1
+  - @backstage/plugin-scaffolder-backend-module-confluence-to-markdown@0.1.3-next.1
   - @backstage/plugin-devtools-backend@0.1.1-next.1
   - @backstage/plugin-catalog-backend-module-unprocessed@0.1.0-next.0
   - @backstage/plugin-catalog-backend@1.9.2-next.1
@@ -3756,7 +3756,7 @@
   - @backstage/plugin-permission-node@0.7.9-next.1
   - @backstage/plugin-playlist-backend@0.3.2-next.1
   - @backstage/plugin-rollbar-backend@0.1.43-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.15-next.1
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.15-next.1
   - @backstage/plugin-search-backend@1.3.2-next.1
   - @backstage/plugin-search-backend-module-elasticsearch@1.3.1-next.1
   - @backstage/plugin-search-backend-node@1.2.2-next.1
@@ -3796,7 +3796,7 @@
   - @backstage/plugin-techdocs-backend@1.6.3-next.0
   - @backstage/plugin-todo-backend@0.1.43-next.0
   - example-app@0.2.84-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.15-next.0
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.15-next.0
   - @backstage/backend-common@0.18.6-next.0
   - @backstage/integration@1.4.5
   - @backstage/plugin-app-backend@0.3.46-next.0
@@ -3855,7 +3855,7 @@
   - @backstage/plugin-search-backend-module-pg@0.5.6
   - @backstage/plugin-tech-insights-backend@0.5.11
   - @backstage/plugin-techdocs-backend@1.6.2
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.14
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.14
   - @backstage/plugin-adr-backend@0.3.3
   - @backstage/plugin-azure-devops-backend@0.3.24
   - @backstage/plugin-code-coverage-backend@0.2.11
@@ -3890,7 +3890,7 @@
   - @backstage/plugin-search-backend@1.3.1-next.2
   - example-app@0.2.83-next.2
   - @stone-payments/plugin-scaffolder-backend@1.13.2-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.14-next.2
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.14-next.2
   - @backstage/config@1.0.7
 
 ## 0.2.83-next.1
@@ -3926,7 +3926,7 @@
   - @backstage/plugin-playlist-backend@0.3.1-next.1
   - @backstage/plugin-proxy-backend@0.2.39-next.1
   - @backstage/plugin-rollbar-backend@0.1.42-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.14-next.1
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.14-next.1
   - @backstage/plugin-search-backend@1.3.1-next.1
   - @backstage/plugin-search-backend-module-elasticsearch@1.2.1-next.1
   - @backstage/plugin-search-backend-module-pg@0.5.6-next.1
@@ -3977,7 +3977,7 @@
   - @backstage/plugin-linguist-backend@0.2.2-next.0
   - @backstage/plugin-permission-backend@0.5.20-next.0
   - @backstage/plugin-proxy-backend@0.2.39-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.14-next.0
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.14-next.0
   - @backstage/plugin-search-backend-module-elasticsearch@1.2.1-next.0
   - @backstage/plugin-search-backend-node@1.2.1-next.0
   - @backstage/plugin-tech-insights-backend-module-jsonfc@0.1.29-next.0
@@ -4033,7 +4033,7 @@
   - @backstage/plugin-kafka-backend@0.2.37
   - @backstage/plugin-linguist-backend@0.2.1
   - @backstage/plugin-proxy-backend@0.2.38
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.12
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.12
   - @backstage/plugin-tech-insights-backend@0.5.10
   - @backstage/plugin-tech-insights-node@0.4.2
   - @backstage/plugin-todo-backend@0.1.41
@@ -4081,7 +4081,7 @@
   - @backstage/plugin-playlist-backend@0.2.7-next.3
   - @backstage/plugin-proxy-backend@0.2.38-next.2
   - @backstage/plugin-rollbar-backend@0.1.41-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.12-next.3
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.12-next.3
   - @backstage/plugin-search-backend@1.3.0-next.2
   - @backstage/plugin-search-backend-module-pg@0.5.5-next.2
   - @backstage/plugin-search-backend-node@1.2.0-next.2
@@ -4132,7 +4132,7 @@
   - @backstage/plugin-permission-common@0.7.5-next.0
   - @backstage/plugin-playlist-backend@0.2.7-next.2
   - @backstage/plugin-proxy-backend@0.2.38-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.12-next.2
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.12-next.2
   - @backstage/plugin-search-backend@1.3.0-next.2
   - @backstage/plugin-search-backend-module-elasticsearch@1.2.0-next.2
   - @backstage/plugin-search-backend-module-pg@0.5.5-next.2
@@ -4187,7 +4187,7 @@
   - @backstage/plugin-linguist-backend@0.2.1-next.1
   - @backstage/plugin-proxy-backend@0.2.38-next.1
   - @backstage/plugin-rollbar-backend@0.1.41-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.12-next.1
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.12-next.1
   - @backstage/plugin-search-common@1.2.3-next.0
   - @backstage/plugin-tech-insights-backend@0.5.10-next.1
   - @backstage/plugin-tech-insights-backend-module-jsonfc@0.1.28-next.1
@@ -4206,7 +4206,7 @@
   - @backstage/plugin-catalog-backend@1.8.1-next.0
   - @backstage/plugin-graphql-backend@0.1.34-next.0
   - @backstage/backend-common@0.18.4-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.12-next.0
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.12-next.0
   - example-app@0.2.82-next.0
   - @backstage/config@1.0.7
   - @backstage/integration@1.4.3
@@ -4286,7 +4286,7 @@
   - @backstage/plugin-rollbar-backend@0.1.40
   - @backstage/plugin-lighthouse-backend@0.1.1
   - @backstage/config@1.0.7
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.11
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.11
   - @backstage/plugin-badges-backend@0.1.37
   - example-app@0.2.81
   - @backstage/plugin-search-backend@1.2.4
@@ -4309,7 +4309,7 @@
   - @backstage/plugin-adr-backend@0.3.1-next.2
   - @backstage/backend-common@0.18.3-next.2
   - @backstage/plugin-linguist-backend@0.2.0-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.11-next.2
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.11-next.2
   - example-app@0.2.81-next.2
   - @backstage/plugin-techdocs-backend@1.5.4-next.2
   - @backstage/plugin-auth-backend@0.18.1-next.2
@@ -4377,7 +4377,7 @@
   - @backstage/plugin-lighthouse-backend@0.1.1-next.1
   - @backstage/backend-tasks@0.4.4-next.1
   - @backstage/config@1.0.7-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.11-next.1
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.11-next.1
   - @backstage/plugin-search-backend@1.2.4-next.1
   - example-app@0.2.81-next.1
   - @backstage/catalog-model@1.2.1-next.1
@@ -4423,7 +4423,7 @@
   - @backstage/plugin-kubernetes-backend@0.9.4-next.0
   - @backstage/plugin-lighthouse-backend@0.1.1-next.0
   - @backstage/plugin-playlist-backend@0.2.6-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.11-next.0
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.11-next.0
   - example-app@0.2.81-next.0
   - @backstage/config@1.0.6
   - @backstage/integration@1.4.2
@@ -4465,7 +4465,7 @@
   - @backstage/plugin-entity-feedback-backend@0.1.0
   - @backstage/plugin-search-backend@1.2.3
   - @backstage/plugin-techdocs-backend@1.5.3
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.10
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.10
   - @backstage/plugin-tech-insights-backend-module-jsonfc@0.1.26
   - @stone-payments/plugin-scaffolder-backend@1.11.0
   - @backstage/plugin-events-backend@0.2.3
@@ -4537,7 +4537,7 @@
   - @backstage/plugin-jenkins-backend@0.1.32-next.2
   - @backstage/plugin-permission-backend@0.5.17-next.2
   - @backstage/plugin-permission-common@0.7.3
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.10-next.2
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.10-next.2
   - @backstage/plugin-search-backend-module-elasticsearch@1.1.3-next.2
   - @backstage/plugin-search-backend-node@1.1.3-next.2
   - @backstage/plugin-search-common@1.2.1
@@ -4583,7 +4583,7 @@
   - @backstage/plugin-permission-node@0.7.5-next.1
   - @backstage/plugin-proxy-backend@0.2.36-next.1
   - @backstage/plugin-rollbar-backend@0.1.39-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.10-next.1
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.10-next.1
   - @backstage/plugin-search-backend@1.2.3-next.1
   - @backstage/plugin-search-backend-module-elasticsearch@1.1.3-next.1
   - @backstage/plugin-search-backend-module-pg@0.5.3-next.1
@@ -4599,7 +4599,7 @@
 
 - Updated dependencies
   - @backstage/plugin-kubernetes-backend@0.9.3-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.10-next.0
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.10-next.0
   - @backstage/plugin-tech-insights-backend-module-jsonfc@0.1.26-next.0
   - @stone-payments/plugin-scaffolder-backend@1.11.0-next.0
   - @backstage/catalog-model@1.1.6-next.0
@@ -4644,7 +4644,7 @@
 - Updated dependencies
   - @stone-payments/plugin-scaffolder-backend@1.10.0
   - @backstage/backend-common@0.18.0
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.8
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.8
   - @backstage/plugin-adr-backend@0.2.5
   - @backstage/catalog-model@1.1.5
   - @backstage/plugin-search-backend-module-elasticsearch@1.1.1
@@ -4692,7 +4692,7 @@
 - Updated dependencies
   - @backstage/plugin-adr-backend@0.2.5-next.2
   - @backstage/backend-common@0.18.0-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.8-next.2
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.8-next.2
   - @stone-payments/plugin-scaffolder-backend@1.10.0-next.2
   - @backstage/backend-tasks@0.4.1-next.1
   - @backstage/catalog-client@1.3.0-next.2
@@ -4769,7 +4769,7 @@
   - @backstage/plugin-playlist-backend@0.2.3-next.1
   - @backstage/plugin-proxy-backend@0.2.34-next.0
   - @backstage/plugin-rollbar-backend@0.1.37-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.8-next.1
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.8-next.1
   - @backstage/plugin-search-backend@1.2.1-next.1
   - @backstage/plugin-search-backend-module-elasticsearch@1.1.1-next.1
   - @backstage/plugin-search-backend-module-pg@0.5.1-next.1
@@ -4791,7 +4791,7 @@
   - @backstage/catalog-client@1.3.0-next.0
   - @backstage/plugin-explore-backend@0.0.2-next.0
   - @backstage/plugin-code-coverage-backend@0.2.6-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.8-next.0
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.8-next.0
   - @stone-payments/plugin-scaffolder-backend@1.9.1-next.0
   - @backstage/plugin-catalog-backend@1.7.0-next.0
   - @backstage/plugin-search-backend@1.2.1-next.0
@@ -4837,7 +4837,7 @@
   - @backstage/plugin-kubernetes-backend@0.9.0
   - @backstage/plugin-catalog-backend@1.6.0
   - @backstage/catalog-client@1.2.0
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.7
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.7
   - @backstage/plugin-search-backend@1.2.0
   - @backstage/plugin-search-backend-module-elasticsearch@1.1.0
   - @backstage/plugin-search-backend-node@1.1.0
@@ -4880,7 +4880,7 @@
 
 - Updated dependencies
   - @backstage/plugin-catalog-backend@1.6.0-next.3
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.7-next.3
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.7-next.3
   - @stone-payments/plugin-scaffolder-backend@1.9.0-next.3
   - @backstage/backend-tasks@0.4.0-next.3
   - @backstage/plugin-permission-backend@0.5.14-next.3
@@ -4956,7 +4956,7 @@
   - @backstage/plugin-proxy-backend@0.2.33-next.2
   - @backstage/plugin-rollbar-backend@0.1.36-next.2
   - @stone-payments/plugin-scaffolder-backend@1.9.0-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.7-next.2
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.7-next.2
   - @backstage/plugin-search-backend@1.2.0-next.2
   - @backstage/plugin-search-backend-module-elasticsearch@1.1.0-next.2
   - @backstage/plugin-search-backend-module-pg@0.4.3-next.2
@@ -4988,7 +4988,7 @@
   - @backstage/plugin-search-common@1.2.0-next.2
   - example-app@0.2.78-next.2
   - @backstage/plugin-techdocs-backend@1.4.2-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.7-next.2
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.7-next.2
   - @backstage/backend-tasks@0.4.0-next.2
   - @backstage/plugin-auth-backend@0.17.2-next.2
   - @backstage/plugin-auth-node@0.2.8-next.2
@@ -5044,7 +5044,7 @@
   - @backstage/plugin-permission-node@0.7.2-next.1
   - @backstage/plugin-playlist-backend@0.2.2-next.1
   - @backstage/plugin-rollbar-backend@0.1.36-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.7-next.1
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.7-next.1
   - @backstage/plugin-search-backend@1.1.2-next.1
   - @backstage/plugin-search-backend-module-elasticsearch@1.0.5-next.1
   - @backstage/plugin-search-backend-module-pg@0.4.3-next.1
@@ -5093,7 +5093,7 @@
   - @backstage/plugin-todo-backend@0.1.36-next.0
   - @backstage/plugin-kubernetes-backend@0.8.1-next.0
   - example-app@0.2.78-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.7-next.0
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.7-next.0
   - @backstage/plugin-badges-backend@0.1.33-next.0
   - @backstage/plugin-catalog-node@1.2.2-next.0
   - @backstage/plugin-tech-insights-backend@0.5.5-next.0
@@ -5143,7 +5143,7 @@
   - @backstage/plugin-permission-node@0.7.1
   - @backstage/plugin-proxy-backend@0.2.32
   - @backstage/plugin-rollbar-backend@0.1.35
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.6
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.6
   - @backstage/plugin-search-backend@1.1.1
   - @backstage/plugin-search-backend-module-elasticsearch@1.0.4
   - @backstage/plugin-search-backend-module-pg@0.4.2
@@ -5181,7 +5181,7 @@
   - @backstage/plugin-playlist-backend@0.2.1-next.2
   - @backstage/plugin-proxy-backend@0.2.32-next.1
   - @backstage/plugin-rollbar-backend@0.1.35-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.6-next.2
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.6-next.2
   - @backstage/plugin-search-backend@1.1.1-next.1
   - @backstage/plugin-search-backend-module-elasticsearch@1.0.4-next.1
   - @backstage/plugin-search-backend-module-pg@0.4.2-next.1
@@ -5206,7 +5206,7 @@
   - @backstage/plugin-playlist-backend@0.2.1-next.1
   - @backstage/plugin-azure-devops-backend@0.3.17-next.1
   - example-app@0.2.77-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.6-next.1
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.6-next.1
 
 ## 0.2.77-next.0
 
@@ -5240,7 +5240,7 @@
   - @backstage/plugin-playlist-backend@0.2.1-next.0
   - @backstage/plugin-proxy-backend@0.2.32-next.0
   - @backstage/plugin-rollbar-backend@0.1.35-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.6-next.0
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.6-next.0
   - @backstage/plugin-search-backend@1.1.1-next.0
   - @backstage/plugin-search-backend-module-elasticsearch@1.0.4-next.0
   - @backstage/plugin-search-backend-module-pg@0.4.2-next.0
@@ -5288,7 +5288,7 @@
   - @backstage/plugin-todo-backend@0.1.34
   - @backstage/plugin-azure-devops-backend@0.3.16
   - @backstage/plugin-proxy-backend@0.2.31
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.5
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.5
   - @backstage/plugin-tech-insights-backend-module-jsonfc@0.1.21
   - @backstage/config@1.0.3
   - @backstage/integration@1.3.2
@@ -5324,7 +5324,7 @@
   - @backstage/plugin-kafka-backend@0.2.30-next.2
   - @backstage/plugin-kubernetes-backend@0.7.3-next.2
   - @backstage/plugin-proxy-backend@0.2.31-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.5-next.2
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.5-next.2
   - @backstage/plugin-search-backend-module-elasticsearch@1.0.3-next.2
   - @backstage/plugin-search-backend-module-pg@0.4.1-next.2
   - @backstage/plugin-tech-insights-backend-module-jsonfc@0.1.21-next.2
@@ -5371,7 +5371,7 @@
   - @backstage/plugin-playlist-backend@0.1.1-next.1
   - @backstage/plugin-proxy-backend@0.2.31-next.1
   - @backstage/plugin-rollbar-backend@0.1.34-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.5-next.1
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.5-next.1
   - @backstage/plugin-tech-insights-backend-module-jsonfc@0.1.21-next.1
   - @backstage/plugin-tech-insights-node@0.3.5-next.1
   - @backstage/plugin-techdocs-backend@1.3.1-next.1
@@ -5405,7 +5405,7 @@
   - @backstage/plugin-permission-node@0.6.6-next.0
   - @backstage/plugin-rollbar-backend@0.1.34-next.0
   - @backstage/plugin-search-backend-module-pg@0.4.1-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.5-next.0
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.5-next.0
   - @backstage/config@1.0.3-next.0
   - @backstage/integration@1.3.2-next.0
   - @backstage/plugin-azure-devops-backend@0.3.16-next.0
@@ -5443,7 +5443,7 @@
   - @backstage/catalog-model@1.1.1
   - @backstage/config@1.0.2
   - @backstage/plugin-permission-common@0.6.4
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.4
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.4
   - @backstage/plugin-search-backend-module-pg@0.4.0
   - @backstage/plugin-jenkins-backend@0.1.26
   - @backstage/plugin-playlist-backend@0.1.0
@@ -5471,7 +5471,7 @@
   - @backstage/config@1.0.2-next.0
   - @backstage/integration@1.3.1-next.2
   - @backstage/plugin-permission-common@0.6.4-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.4-next.1
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.4-next.1
   - @backstage/plugin-catalog-backend@1.4.0-next.3
   - @backstage/plugin-auth-backend@0.16.0-next.3
   - @backstage/backend-common@0.15.1-next.3
@@ -5583,7 +5583,7 @@
   - @backstage/plugin-badges-backend@0.1.30-next.0
   - @backstage/plugin-search-backend-module-elasticsearch@1.0.2-next.0
   - @backstage/plugin-kubernetes-backend@0.7.2-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.4-next.0
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.4-next.0
   - @backstage/plugin-search-backend@1.0.2-next.0
   - @backstage/plugin-tech-insights-backend-module-jsonfc@0.1.20-next.0
   - example-app@0.2.75-next.0
@@ -5615,7 +5615,7 @@
   - @backstage/plugin-permission-node@0.6.4
   - @backstage/plugin-proxy-backend@0.2.29
   - @backstage/plugin-rollbar-backend@0.1.32
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.3
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.3
   - @backstage/plugin-search-backend@1.0.1
   - @backstage/plugin-search-backend-module-elasticsearch@1.0.1
   - @backstage/plugin-search-backend-module-pg@0.3.6
@@ -5650,7 +5650,7 @@
   - @backstage/plugin-permission-node@0.6.4-next.0
   - @backstage/plugin-proxy-backend@0.2.29-next.0
   - @backstage/plugin-rollbar-backend@0.1.32-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.3-next.0
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.3-next.0
   - @backstage/plugin-search-backend@1.0.1-next.0
   - @backstage/plugin-search-backend-module-elasticsearch@1.0.1-next.0
   - @backstage/plugin-search-backend-module-pg@0.3.6-next.0
@@ -5699,7 +5699,7 @@
   - @backstage/plugin-kafka-backend@0.2.27
   - @backstage/plugin-badges-backend@0.1.28
   - example-app@0.2.73
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.2
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.2
 
 ## 0.2.73-next.3
 
@@ -5785,7 +5785,7 @@
   - @backstage/plugin-permission-backend@0.5.9-next.1
   - @backstage/plugin-permission-common@0.6.3-next.0
   - @backstage/plugin-permission-node@0.6.3-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.2-next.1
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.2-next.1
   - @backstage/plugin-search-backend@0.5.4-next.1
   - @backstage/plugin-search-backend-module-pg@0.3.5-next.1
   - @backstage/plugin-search-backend-node@0.6.3-next.1
@@ -5820,7 +5820,7 @@
   - @backstage/plugin-permission-node@0.6.3-next.0
   - @backstage/plugin-proxy-backend@0.2.28-next.0
   - @backstage/plugin-rollbar-backend@0.1.31-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.2-next.0
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.2-next.0
   - @backstage/plugin-search-backend@0.5.4-next.0
   - @backstage/plugin-search-backend-module-elasticsearch@0.1.6-next.0
   - @backstage/plugin-search-backend-module-pg@0.3.5-next.0
@@ -5867,7 +5867,7 @@
   - @backstage/plugin-badges-backend@0.1.27
   - @backstage/plugin-kafka-backend@0.2.26
   - @backstage/plugin-proxy-backend@0.2.27
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.1
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.1
   - @backstage/plugin-tech-insights-backend-module-jsonfc@0.1.17
 
 ## 0.2.72-next.2
@@ -5899,7 +5899,7 @@
   - @backstage/plugin-permission-node@0.6.2-next.2
   - @backstage/plugin-proxy-backend@0.2.27-next.1
   - @backstage/plugin-rollbar-backend@0.1.30-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.1-next.1
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.1-next.1
   - @backstage/plugin-search-backend-module-pg@0.3.4-next.2
   - @backstage/plugin-tech-insights-backend@0.4.1-next.2
   - @backstage/plugin-tech-insights-backend-module-jsonfc@0.1.17-next.1
@@ -5968,7 +5968,7 @@
   - @backstage/plugin-permission-node@0.6.2-next.0
   - @backstage/plugin-proxy-backend@0.2.27-next.0
   - @backstage/plugin-rollbar-backend@0.1.30-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.1-next.0
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.1-next.0
   - @backstage/plugin-search-backend@0.5.3-next.0
   - @backstage/plugin-search-backend-module-elasticsearch@0.1.5-next.0
   - @backstage/plugin-search-backend-module-pg@0.3.4-next.0
@@ -5991,7 +5991,7 @@
   - @backstage/backend-tasks@0.3.1
   - @backstage/integration@1.2.0
   - @backstage/plugin-tech-insights-node@0.3.0
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.0
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.0
   - @backstage/plugin-tech-insights-backend-module-jsonfc@0.1.16
   - @backstage/plugin-rollbar-backend@0.1.29
   - @backstage/plugin-search-backend-module-elasticsearch@0.1.4
@@ -6026,7 +6026,7 @@
   - @backstage/plugin-kubernetes-backend@0.5.1-next.1
   - @backstage/plugin-catalog-backend@1.1.2-next.2
   - @backstage/backend-tasks@0.3.1-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.4.0-next.1
+  - @backstage/plugin-scaffolder-backend-module-rails@0.4.0-next.1
   - @stone-payments/plugin-scaffolder-backend@1.2.0-next.1
   - @backstage/config@1.0.1-next.0
   - @backstage/plugin-search-backend-node@0.6.1-next.1
@@ -6099,7 +6099,7 @@
   - @backstage/plugin-permission-backend@0.5.7-next.0
   - @backstage/plugin-permission-node@0.6.1-next.0
   - @backstage/plugin-proxy-backend@0.2.26-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.3.7-next.0
+  - @backstage/plugin-scaffolder-backend-module-rails@0.3.7-next.0
   - @backstage/plugin-search-backend-module-pg@0.3.3-next.0
   - @backstage/plugin-search-backend-node@0.6.1-next.0
   - @backstage/plugin-tech-insights-backend@0.3.1-next.0
@@ -6137,7 +6137,7 @@
   - @backstage/plugin-permission-backend@0.5.6
   - @backstage/plugin-tech-insights-backend@0.3.0
   - @backstage/plugin-azure-devops-backend@0.3.10
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.3.6
+  - @backstage/plugin-scaffolder-backend-module-rails@0.3.6
   - example-app@0.2.70
   - @backstage/catalog-client@1.0.1
   - @backstage/plugin-app-backend@0.3.31
@@ -6162,7 +6162,7 @@
   - @backstage/backend-common@0.13.2-next.2
   - @backstage/plugin-kubernetes-backend@0.5.0-next.1
   - @backstage/plugin-search-backend-node@0.6.0-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.3.6-next.2
+  - @backstage/plugin-scaffolder-backend-module-rails@0.3.6-next.2
   - @backstage/integration@1.1.0-next.2
   - @backstage/plugin-techdocs-backend@1.1.0-next.2
   - example-app@0.2.70-next.2
@@ -6191,7 +6191,7 @@
   - @backstage/plugin-tech-insights-backend-module-jsonfc@0.1.15-next.1
   - @backstage/plugin-tech-insights-backend@0.3.0-next.1
   - @backstage/plugin-jenkins-backend@0.1.20-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.3.6-next.1
+  - @backstage/plugin-scaffolder-backend-module-rails@0.3.6-next.1
   - @backstage/plugin-code-coverage-backend@0.1.29-next.1
   - @backstage/plugin-todo-backend@0.1.28-next.1
   - example-app@0.2.70-next.1
@@ -6231,7 +6231,7 @@
   - @backstage/plugin-graphql-backend@0.1.21-next.0
   - @backstage/plugin-proxy-backend@0.2.25-next.0
   - @backstage/plugin-rollbar-backend@0.1.28-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.3.6-next.0
+  - @backstage/plugin-scaffolder-backend-module-rails@0.3.6-next.0
   - @backstage/plugin-tech-insights-node@0.2.9-next.0
 
 ## 0.2.69
@@ -6244,7 +6244,7 @@
   - @backstage/plugin-badges-backend@0.1.24
   - @backstage/plugin-catalog-backend@1.0.0
   - @backstage/plugin-jenkins-backend@0.1.19
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.3.5
+  - @backstage/plugin-scaffolder-backend-module-rails@0.3.5
   - @backstage/plugin-tech-insights-backend@0.2.10
   - @backstage/plugin-tech-insights-backend-module-jsonfc@0.1.14
   - @backstage/plugin-todo-backend@0.1.27
@@ -6284,7 +6284,7 @@
   - @backstage/plugin-auth-backend@0.12.1
   - @backstage/plugin-catalog-backend@0.24.0
   - @stone-payments/plugin-scaffolder-backend@0.18.0
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.3.4
+  - @backstage/plugin-scaffolder-backend-module-rails@0.3.4
   - @backstage/plugin-kubernetes-backend@0.4.12
   - @backstage/plugin-rollbar-backend@0.1.26
   - @backstage/plugin-techdocs-backend@0.14.2
@@ -6321,7 +6321,7 @@
   - @backstage/plugin-auth-backend@0.12.1-next.0
   - @backstage/plugin-catalog-backend@0.24.0-next.0
   - @stone-payments/plugin-scaffolder-backend@0.18.0-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.3.4-next.0
+  - @backstage/plugin-scaffolder-backend-module-rails@0.3.4-next.0
   - @backstage/plugin-kubernetes-backend@0.4.12-next.0
   - @backstage/plugin-rollbar-backend@0.1.26-next.0
   - @backstage/plugin-techdocs-backend@0.14.2-next.0
@@ -6381,7 +6381,7 @@
   - @backstage/plugin-permission-backend@0.5.3
   - @backstage/plugin-proxy-backend@0.2.22
   - @backstage/plugin-rollbar-backend@0.1.25
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.3.3
+  - @backstage/plugin-scaffolder-backend-module-rails@0.3.3
   - @backstage/plugin-search-backend@0.4.6
   - @backstage/plugin-tech-insights-backend-module-jsonfc@0.1.12
   - @backstage/plugin-tech-insights-node@0.2.6
@@ -6405,7 +6405,7 @@
   - @backstage/catalog-client@0.7.2
   - @backstage/plugin-badges-backend@0.1.21
   - @backstage/backend-tasks@0.1.9
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.3.2
+  - @backstage/plugin-scaffolder-backend-module-rails@0.3.2
   - @backstage/plugin-techdocs-backend@0.14.0
   - @backstage/plugin-permission-node@0.5.2
   - @backstage/integration@0.7.5
@@ -6450,7 +6450,7 @@
   - @backstage/plugin-proxy-backend@0.2.20
   - @backstage/plugin-rollbar-backend@0.1.23
   - @stone-payments/plugin-scaffolder-backend@0.16.1
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.3.1
+  - @backstage/plugin-scaffolder-backend-module-rails@0.3.1
   - @backstage/plugin-search-backend@0.4.4
   - @backstage/plugin-search-backend-module-elasticsearch@0.0.10
   - @backstage/plugin-search-backend-module-pg@0.2.8
@@ -6490,7 +6490,7 @@
   - @backstage/plugin-kubernetes-backend@0.4.8
   - @backstage/plugin-permission-node@0.5.0
   - @backstage/plugin-proxy-backend@0.2.19
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.3.0
+  - @backstage/plugin-scaffolder-backend-module-rails@0.3.0
   - @backstage/plugin-search-backend@0.4.3
   - @backstage/plugin-search-backend-module-elasticsearch@0.0.9
   - @backstage/plugin-search-backend-module-pg@0.2.7
@@ -6531,7 +6531,7 @@
   - @backstage/plugin-kubernetes-backend@0.4.7
   - @backstage/plugin-proxy-backend@0.2.18
   - @backstage/plugin-rollbar-backend@0.1.21
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.2.6
+  - @backstage/plugin-scaffolder-backend-module-rails@0.2.6
   - @backstage/plugin-tech-insights-backend-module-jsonfc@0.1.8
   - @backstage/plugin-tech-insights-node@0.2.2
 
@@ -6561,7 +6561,7 @@
   - @backstage/plugin-permission-node@0.4.3-next.0
   - @backstage/plugin-proxy-backend@0.2.18-next.0
   - @backstage/plugin-rollbar-backend@0.1.21-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.2.6-next.0
+  - @backstage/plugin-scaffolder-backend-module-rails@0.2.6-next.0
   - @backstage/plugin-search-backend@0.4.2-next.0
   - @backstage/plugin-tech-insights-backend-module-jsonfc@0.1.8-next.0
   - @backstage/plugin-tech-insights-node@0.2.2-next.0
@@ -6590,7 +6590,7 @@
   - @backstage/plugin-kubernetes-backend@0.4.6
   - @backstage/plugin-permission-backend@0.4.2
   - @backstage/plugin-permission-node@0.4.2
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.2.5
+  - @backstage/plugin-scaffolder-backend-module-rails@0.2.5
   - @backstage/plugin-search-backend@0.4.1
   - @backstage/plugin-search-backend-module-pg@0.2.5
   - @backstage/plugin-tech-insights-backend@0.2.3
@@ -6623,7 +6623,7 @@
   - @backstage/plugin-proxy-backend@0.2.17-next.1
   - @backstage/plugin-rollbar-backend@0.1.20-next.1
   - @stone-payments/plugin-scaffolder-backend@0.15.23-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.2.5-next.1
+  - @backstage/plugin-scaffolder-backend-module-rails@0.2.5-next.1
   - @backstage/plugin-search-backend@0.4.1-next.1
   - @backstage/plugin-search-backend-module-pg@0.2.5-next.0
   - @backstage/plugin-tech-insights-backend@0.2.3-next.0
@@ -6645,7 +6645,7 @@
   - @backstage/plugin-permission-node@0.4.2-next.0
   - @backstage/plugin-search-backend@0.4.1-next.0
   - example-app@0.2.63-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.2.5-next.0
+  - @backstage/plugin-scaffolder-backend-module-rails@0.2.5-next.0
 
 ## 0.2.62
 
@@ -6697,7 +6697,7 @@
   - @backstage/plugin-kafka-backend@0.2.15
   - @backstage/plugin-proxy-backend@0.2.16
   - @backstage/plugin-rollbar-backend@0.1.19
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.2.4
+  - @backstage/plugin-scaffolder-backend-module-rails@0.2.4
   - @backstage/plugin-search-backend-module-elasticsearch@0.0.8
   - @backstage/plugin-search-backend-module-pg@0.2.4
   - @backstage/plugin-tech-insights-backend-module-jsonfc@0.1.6
@@ -6733,7 +6733,7 @@
   - @backstage/plugin-kubernetes-backend@0.4.4-next.0
   - @backstage/plugin-proxy-backend@0.2.16-next.0
   - @backstage/plugin-rollbar-backend@0.1.19-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.2.4-next.0
+  - @backstage/plugin-scaffolder-backend-module-rails@0.2.4-next.0
   - @backstage/plugin-search-backend@0.3.1-next.0
   - @backstage/plugin-search-backend-module-elasticsearch@0.0.8-next.0
   - @backstage/plugin-search-backend-module-pg@0.2.4-next.0
@@ -6769,7 +6769,7 @@
   - @backstage/plugin-badges-backend@0.1.15
   - @backstage/plugin-kafka-backend@0.2.14
   - @backstage/plugin-permission-common@0.3.1
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.2.3
+  - @backstage/plugin-scaffolder-backend-module-rails@0.2.3
 
 ## 0.2.59
 
@@ -6788,7 +6788,7 @@
   - @backstage/plugin-permission-backend@0.2.3
   - @backstage/plugin-permission-node@0.2.3
   - @backstage/plugin-code-coverage-backend@0.1.18
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.2.2
+  - @backstage/plugin-scaffolder-backend-module-rails@0.2.2
   - @backstage/plugin-todo-backend@0.1.17
 
 ## 0.2.58
@@ -6798,7 +6798,7 @@
 - Updated dependencies
   - @backstage/backend-common@0.10.0
   - @backstage/plugin-tech-insights-backend-module-jsonfc@0.1.3
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.2.1
+  - @backstage/plugin-scaffolder-backend-module-rails@0.2.1
   - @backstage/catalog-client@0.5.3
   - @backstage/plugin-rollbar-backend@0.1.17
   - @backstage/plugin-auth-backend@0.5.2
@@ -6853,7 +6853,7 @@
   - @backstage/plugin-search-backend-module-pg@0.2.2
   - @backstage/plugin-techdocs-backend@0.12.0
   - @backstage/plugin-todo-backend@0.1.15
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.2.0
+  - @backstage/plugin-scaffolder-backend-module-rails@0.2.0
   - @backstage/plugin-azure-devops-backend@0.2.4
   - example-app@0.2.56
 
@@ -6914,7 +6914,7 @@
   - @backstage/catalog-client@0.5.1
   - @backstage/plugin-auth-backend@0.4.7
   - @backstage/plugin-catalog-backend@0.17.3
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.1.7
+  - @backstage/plugin-scaffolder-backend-module-rails@0.1.7
 
 ## 0.2.50
 
@@ -7040,7 +7040,7 @@
   - @backstage/plugin-kafka-backend@0.2.9
   - @backstage/plugin-proxy-backend@0.2.12
   - @backstage/plugin-rollbar-backend@0.1.14
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.1.5
+  - @backstage/plugin-scaffolder-backend-module-rails@0.1.5
   - @backstage/plugin-search-backend@0.2.5
   - @backstage/plugin-todo-backend@0.1.11
   - example-app@0.2.43
@@ -7059,7 +7059,7 @@
   - @backstage/plugin-search-backend-module-pg@0.1.1
   - @backstage/plugin-catalog-backend@0.13.2
   - @backstage/plugin-code-coverage-backend@0.1.9
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.1.4
+  - @backstage/plugin-scaffolder-backend-module-rails@0.1.4
   - @backstage/plugin-techdocs-backend@0.9.2
   - @backstage/plugin-todo-backend@0.1.9
   - example-app@0.2.41
@@ -7086,7 +7086,7 @@
   - @stone-payments/plugin-scaffolder-backend@0.14.0
   - @backstage/plugin-catalog-backend@0.13.0
   - @backstage/plugin-auth-backend@0.3.17
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.1.3
+  - @backstage/plugin-scaffolder-backend-module-rails@0.1.3
   - @backstage/plugin-search-backend-node@0.4.0
   - @backstage/plugin-techdocs-backend@0.8.7
   - @backstage/plugin-app-backend@0.3.15
@@ -7107,7 +7107,7 @@
   - @backstage/backend-common@0.8.5
   - @backstage/plugin-search-backend-node@0.3.0
   - example-app@0.2.36
-  - @stone-payments/plugin-scaffolder-backend-module-rails@0.1.2
+  - @backstage/plugin-scaffolder-backend-module-rails@0.1.2
   - @backstage/catalog-client@0.3.16
   - @backstage/plugin-auth-backend@0.3.16
   - @backstage/plugin-badges-backend@0.1.8

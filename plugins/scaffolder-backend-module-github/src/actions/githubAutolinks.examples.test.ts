@@ -22,7 +22,7 @@ import {
 } from '@backstage/integration';
 import { TemplateAction } from '@stone-payments/plugin-scaffolder-node';
 import { createGithubAutolinksAction } from './githubAutolinks';
-import { createMockActionContext } from '@stone-payments/plugin-scaffolder-node-test-utils';
+import { createMockActionContext } from '@backstage/plugin-scaffolder-node-test-utils';
 import { examples } from './githubAutolinks.examples';
 import yaml from 'yaml';
 

@@ -1,4 +1,4 @@
-# @stone-payments/plugin-scaffolder-backend-module-rails
+# @backstage/plugin-scaffolder-backend-module-rails
 
 ## 0.5.1
 

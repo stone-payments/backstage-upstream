@@ -24,7 +24,7 @@ import {
   initRepoAndPush,
 } from '@stone-payments/plugin-scaffolder-node';
 import { examples } from './azure.examples';
-import { createMockActionContext } from '@stone-payments/plugin-scaffolder-node-test-utils';
+import { createMockActionContext } from '@backstage/plugin-scaffolder-node-test-utils';
 
 jest.mock('azure-devops-node-api', () => ({
   WebApi: jest.fn(),

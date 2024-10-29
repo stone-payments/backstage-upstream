@@ -37,7 +37,7 @@ import {
   initRepoAndPush,
 } from '@stone-payments/plugin-scaffolder-node';
 import { ConfigReader } from '@backstage/config';
-import { createMockActionContext } from '@stone-payments/plugin-scaffolder-node-test-utils';
+import { createMockActionContext } from '@backstage/plugin-scaffolder-node-test-utils';
 import {
   DefaultGithubCredentialsProvider,
   GithubCredentialsProvider,

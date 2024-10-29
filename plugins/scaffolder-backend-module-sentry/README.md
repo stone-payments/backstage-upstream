@@ -12,7 +12,7 @@ You need to configure the action in your backend:
 
 ```bash
 # From your Backstage root directory
-yarn --cwd packages/backend add @stone-payments/plugin-scaffolder-backend-module-sentry
+yarn --cwd packages/backend add @backstage/plugin-scaffolder-backend-module-sentry
 ```
 
 Then ensure that both the scaffolder and this module are added to your backend:
@@ -22,7 +22,7 @@ Then ensure that both the scaffolder and this module are added to your backend:
 const backend = createBackend();
 // ...
 backend.add(import('@stone-payments/plugin-scaffolder-backend'));
-backend.add(import('@stone-payments/plugin-scaffolder-backend-module-sentry'));
+backend.add(import('@backstage/plugin-scaffolder-backend-module-sentry'));
 ```
 
 You need to define your Sentry API Token in your `app-config.yaml`:

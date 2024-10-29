@@ -54,35 +54,35 @@ import {
   createGithubWebhookAction,
   createPublishGithubAction,
   createPublishGithubPullRequestAction,
-} from '@stone-payments/plugin-scaffolder-backend-module-github';
+} from '@backstage/plugin-scaffolder-backend-module-github';
 
-import { createPublishAzureAction } from '@stone-payments/plugin-scaffolder-backend-module-azure';
+import { createPublishAzureAction } from '@backstage/plugin-scaffolder-backend-module-azure';
 
-import { createPublishBitbucketAction } from '@stone-payments/plugin-scaffolder-backend-module-bitbucket';
+import { createPublishBitbucketAction } from '@backstage/plugin-scaffolder-backend-module-bitbucket';
 
 import {
   createPublishBitbucketCloudAction,
   createBitbucketPipelinesRunAction,
   createPublishBitbucketCloudPullRequestAction,
-} from '@stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud';
+} from '@backstage/plugin-scaffolder-backend-module-bitbucket-cloud';
 
 import {
   createPublishBitbucketServerAction,
   createPublishBitbucketServerPullRequestAction,
-} from '@stone-payments/plugin-scaffolder-backend-module-bitbucket-server';
+} from '@backstage/plugin-scaffolder-backend-module-bitbucket-server';
 
 import {
   createPublishGerritAction,
   createPublishGerritReviewAction,
-} from '@stone-payments/plugin-scaffolder-backend-module-gerrit';
+} from '@backstage/plugin-scaffolder-backend-module-gerrit';
 
 import {
   createPublishGitlabAction,
   createGitlabRepoPushAction,
   createPublishGitlabMergeRequestAction,
-} from '@stone-payments/plugin-scaffolder-backend-module-gitlab';
+} from '@backstage/plugin-scaffolder-backend-module-gitlab';
 
-import { createPublishGiteaAction } from '@stone-payments/plugin-scaffolder-backend-module-gitea';
+import { createPublishGiteaAction } from '@backstage/plugin-scaffolder-backend-module-gitea';
 import { AuthService, UrlReaderService } from '@backstage/backend-plugin-api';
 
 /**

@@ -1,4 +1,4 @@
-# @stone-payments/plugin-scaffolder-backend-module-gitea
+# @backstage/plugin-scaffolder-backend-module-gitea
 
 ## 0.2.1
 

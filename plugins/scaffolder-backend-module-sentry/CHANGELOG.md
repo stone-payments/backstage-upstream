@@ -1,4 +1,4 @@
-# @stone-payments/plugin-scaffolder-backend-module-sentry
+# @backstage/plugin-scaffolder-backend-module-sentry
 
 ## 0.2.1
 

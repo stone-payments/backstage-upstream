@@ -1,4 +1,4 @@
-# @stone-payments/plugin-scaffolder-backend-module-notifications
+# @backstage/plugin-scaffolder-backend-module-notifications
 
 The notifications backend module for the scaffolder plugin.
 

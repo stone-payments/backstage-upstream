@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 import yaml from 'yaml';
-import { createMockActionContext } from '@stone-payments/plugin-scaffolder-node-test-utils';
+import { createMockActionContext } from '@backstage/plugin-scaffolder-node-test-utils';
 
 jest.mock('@stone-payments/plugin-scaffolder-node', () => {
   return {

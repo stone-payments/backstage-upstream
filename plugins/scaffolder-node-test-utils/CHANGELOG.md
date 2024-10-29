@@ -1,4 +1,4 @@
-# @stone-payments/plugin-scaffolder-node-test-utils
+# @backstage/plugin-scaffolder-node-test-utils
 
 ## 0.1.14
 

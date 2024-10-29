@@ -63,7 +63,7 @@
     "@opentelemetry/exporter-prometheus": "^0.53.0",
     "@opentelemetry/sdk-node": "^0.53.0",
     "@stone-payments/plugin-scaffolder-backend": "workspace:^",
-    "@stone-payments/plugin-scaffolder-backend-module-github": "workspace:^",
+    "@backstage/plugin-scaffolder-backend-module-github": "workspace:^",
     "example-app": "link:../app"
   },
   "devDependencies": {

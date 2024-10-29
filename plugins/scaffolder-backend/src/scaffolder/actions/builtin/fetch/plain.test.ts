@@ -20,7 +20,7 @@ jest.mock('@stone-payments/plugin-scaffolder-node', () => {
 });
 
 import { resolve as resolvePath } from 'path';
-import { createMockActionContext } from '@stone-payments/plugin-scaffolder-node-test-utils';
+import { createMockActionContext } from '@backstage/plugin-scaffolder-node-test-utils';
 import { ConfigReader } from '@backstage/config';
 import { ScmIntegrations } from '@backstage/integration';
 import { fetchContents } from '@stone-payments/plugin-scaffolder-node';

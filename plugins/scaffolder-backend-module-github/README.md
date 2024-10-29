@@ -1,4 +1,4 @@
-# @stone-payments/plugin-scaffolder-backend-module-github
+# @backstage/plugin-scaffolder-backend-module-github
 
 The github module for [@stone-payments/plugin-scaffolder-backend](https://www.npmjs.com/package/@stone-payments/plugin-scaffolder-backend).
 

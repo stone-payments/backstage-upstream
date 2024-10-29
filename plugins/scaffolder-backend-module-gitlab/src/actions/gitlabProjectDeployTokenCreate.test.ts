@@ -16,7 +16,7 @@
 
 import { ConfigReader } from '@backstage/config';
 import { ScmIntegrations } from '@backstage/integration';
-import { createMockActionContext } from '@stone-payments/plugin-scaffolder-node-test-utils';
+import { createMockActionContext } from '@backstage/plugin-scaffolder-node-test-utils';
 import { createGitlabProjectDeployTokenAction } from './gitlabProjectDeployTokenCreate';
 
 const mockGitlabClient = {

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-import { createMockActionContext } from '@stone-payments/plugin-scaffolder-node-test-utils';
+import { createMockActionContext } from '@backstage/plugin-scaffolder-node-test-utils';
 import { Logger } from 'winston';
 import { createDebugLogAction } from './log';
 import { join } from 'path';

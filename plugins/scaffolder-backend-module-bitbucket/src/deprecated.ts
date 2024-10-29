@@ -13,35 +13,35 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import * as bitbucketCloud from '@stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud';
-import * as bitbucketServer from '@stone-payments/plugin-scaffolder-backend-module-bitbucket-server';
+import * as bitbucketCloud from '@backstage/plugin-scaffolder-backend-module-bitbucket-cloud';
+import * as bitbucketServer from '@backstage/plugin-scaffolder-backend-module-bitbucket-server';
 
 export { createPublishBitbucketAction } from './actions/bitbucket';
 
 /**
  * @public
- * @deprecated use import from `@stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud` instead
+ * @deprecated use import from `@backstage/plugin-scaffolder-backend-module-bitbucket-cloud` instead
  */
 export const createPublishBitbucketCloudAction =
   bitbucketCloud.createPublishBitbucketCloudAction;
 
 /**
  * @public
- * @deprecated use import from `@stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud` instead
+ * @deprecated use import from `@backstage/plugin-scaffolder-backend-module-bitbucket-cloud` instead
  */
 export const createBitbucketPipelinesRunAction =
   bitbucketCloud.createBitbucketPipelinesRunAction;
 
 /**
  * @public
- * @deprecated use import from `@stone-payments/plugin-scaffolder-backend-module-bitbucket-server` instead
+ * @deprecated use import from `@backstage/plugin-scaffolder-backend-module-bitbucket-server` instead
  */
 export const createPublishBitbucketServerAction =
   bitbucketServer.createPublishBitbucketServerAction;
 
 /**
  * @public
- * @deprecated use import from `@stone-payments/plugin-scaffolder-backend-module-bitbucket-server` instead
+ * @deprecated use import from `@backstage/plugin-scaffolder-backend-module-bitbucket-server` instead
  */
 export const createPublishBitbucketServerPullRequestAction =
   bitbucketServer.createPublishBitbucketServerPullRequestAction;

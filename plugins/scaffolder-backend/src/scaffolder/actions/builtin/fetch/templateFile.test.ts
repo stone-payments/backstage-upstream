@@ -30,7 +30,7 @@ import {
   fetchFile,
 } from '@stone-payments/plugin-scaffolder-node';
 import { createMockDirectory } from '@backstage/backend-test-utils';
-import { createMockActionContext } from '@stone-payments/plugin-scaffolder-node-test-utils';
+import { createMockActionContext } from '@backstage/plugin-scaffolder-node-test-utils';
 
 type FetchTemplateInput = ReturnType<
   typeof createFetchTemplateFileAction

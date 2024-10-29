@@ -1,4 +1,4 @@
-# @stone-payments/plugin-scaffolder-backend-module-azure
+# @backstage/plugin-scaffolder-backend-module-azure
 
 The azure module for [@stone-payments/plugin-scaffolder-backend](https://www.npmjs.com/package/@stone-payments/plugin-scaffolder-backend).
 

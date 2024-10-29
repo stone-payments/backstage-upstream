@@ -1,5 +1,5 @@
 {
-  "name": "@stone-payments/plugin-scaffolder-backend-module-notifications",
+  "name": "@backstage/plugin-scaffolder-backend-module-notifications",
   "version": "0.1.2",
   "description": "The notifications backend module for the scaffolder plugin.",
   "backstage": {
@@ -43,6 +43,6 @@
   },
   "devDependencies": {
     "@backstage/cli": "workspace:^",
-    "@stone-payments/plugin-scaffolder-node-test-utils": "workspace:^"
+    "@backstage/plugin-scaffolder-node-test-utils": "workspace:^"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "name": "@stone-payments/plugin-scaffolder-backend-module-cookiecutter",
+  "name": "@backstage/plugin-scaffolder-backend-module-cookiecutter",
   "version": "0.3.2",
   "description": "A module for the scaffolder backend that lets you template projects using cookiecutter",
   "backstage": {
@@ -60,7 +60,7 @@
   "devDependencies": {
     "@backstage/backend-test-utils": "workspace:^",
     "@backstage/cli": "workspace:^",
-    "@stone-payments/plugin-scaffolder-node-test-utils": "workspace:^",
+    "@backstage/plugin-scaffolder-node-test-utils": "workspace:^",
     "@types/command-exists": "^1.2.0",
     "@types/fs-extra": "^11.0.0"
   }

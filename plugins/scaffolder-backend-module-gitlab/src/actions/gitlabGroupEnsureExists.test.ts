@@ -16,7 +16,7 @@
 
 import { ConfigReader } from '@backstage/core-app-api';
 import { ScmIntegrations } from '@backstage/integration';
-import { createMockActionContext } from '@stone-payments/plugin-scaffolder-node-test-utils';
+import { createMockActionContext } from '@backstage/plugin-scaffolder-node-test-utils';
 import { createGitlabGroupEnsureExistsAction } from './gitlabGroupEnsureExists';
 import { getClient } from '../util';
 

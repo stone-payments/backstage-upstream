@@ -1,4 +1,4 @@
-# @stone-payments/plugin-scaffolder-backend-module-bitbucket-server
+# @backstage/plugin-scaffolder-backend-module-bitbucket-server
 
 ## 0.2.1
 
@@ -407,9 +407,9 @@
 
 ### Minor Changes
 
-- 5eb6882: New scaffolder module `@stone-payments/plugin-scaffolder-backend-module-bitbucket-server`.
+- 5eb6882: New scaffolder module `@backstage/plugin-scaffolder-backend-module-bitbucket-server`.
 
-  Extracted from `@stone-payments/plugin-scaffolder-backend-module-bitbucket`
+  Extracted from `@backstage/plugin-scaffolder-backend-module-bitbucket`
   and replaces its actions related to Bitbucket Server.
 
   - `publish:bitbucketServer`
@@ -445,9 +445,9 @@
 
 ### Minor Changes
 
-- 5eb6882: New scaffolder module `@stone-payments/plugin-scaffolder-backend-module-bitbucket-server`.
+- 5eb6882: New scaffolder module `@backstage/plugin-scaffolder-backend-module-bitbucket-server`.
 
-  Extracted from `@stone-payments/plugin-scaffolder-backend-module-bitbucket`
+  Extracted from `@backstage/plugin-scaffolder-backend-module-bitbucket`
   and replaces its actions related to Bitbucket Server.
 
   - `publish:bitbucketServer`

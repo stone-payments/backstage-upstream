@@ -782,21 +782,21 @@ backend.add(import('@stone-payments/plugin-scaffolder-backend'));
 ```
 
 With the new Backend System version of the Scaffolder plugin, any provider specific actions will need to be installed separately.
-For example - GitHub actions are now collected under the `@stone-payments/plugin-scaffolder-backend-module-github` package.
+For example - GitHub actions are now collected under the `@backstage/plugin-scaffolder-backend-module-github` package.
 
 ```ts title="packages/backend/src/index.ts"
 const backend = createBackend();
 backend.add(import('@stone-payments/plugin-scaffolder-backend'));
 
 /* highlight-add-next-line */
-backend.add(import('@stone-payments/plugin-scaffolder-backend-module-github'));
+backend.add(import('@backstage/plugin-scaffolder-backend-module-github'));
 ```
 
 And of course you'll need to install those separately as well.
 
 ```bash
 # from the repository root
-yarn --cwd packages/backend add @stone-payments/plugin-scaffolder-backend-module-github
+yarn --cwd packages/backend add @backstage/plugin-scaffolder-backend-module-github
 ```
 
 You can find a list of the available modules under the [plugins directory](https://github.com/backstage/backstage/tree/master/plugins) in the monorepo.
@@ -1395,19 +1395,19 @@ The vast majority of the backend plugins that currently live in the Backstage Re
 | @backstage/plugin-proxy-backend                                    | backend-plugin        | true     | true              | [README](https://github.com/backstage/backstage/blob/master/plugins/proxy-backend/README.md)                                                      |
 | @backstage-community/plugin-rollbar-backend                        | backend-plugin        |          |                   | [README](https://github.com/backstage/community-plugins/blob/master/workspaces/rollbar/plugins/rollbar-backend/README.md)                         |
 | @stone-payments/plugin-scaffolder-backend                               | backend-plugin        | true     | true              | [README](https://github.com/backstage/backstage/blob/master/plugins/scaffolder-backend/README.md)                                                 |
-| @stone-payments/plugin-scaffolder-backend-module-azure                  | backend-plugin-module | true     |                   | [README](https://github.com/backstage/backstage/blob/master/plugins/scaffolder-backend-module-azure/README.md)                                    |
-| @stone-payments/plugin-scaffolder-backend-module-bitbucket              | backend-plugin-module | true     |                   | [README](https://github.com/backstage/backstage/blob/master/plugins/scaffolder-backend-module-bitbucket/README.md)                                |
-| @stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud        | backend-plugin-module | true     |                   | [README](https://github.com/backstage/backstage/blob/master/plugins/scaffolder-backend-module-bitbucket-cloud/README.md)                          |
-| @stone-payments/plugin-scaffolder-backend-module-bitbucket-server       | backend-plugin-module | true     |                   | [README](https://github.com/backstage/backstage/blob/master/plugins/scaffolder-backend-module-bitbucket-server/README.md)                         |
-| @stone-payments/plugin-scaffolder-backend-module-confluence-to-markdown | backend-plugin-module | true     |                   | [README](https://github.com/backstage/backstage/blob/master/plugins/scaffolder-backend-module-confluence-to-markdown/README.md)                   |
-| @stone-payments/plugin-scaffolder-backend-module-cookiecutter           | backend-plugin-module | true     |                   | [README](https://github.com/backstage/backstage/blob/master/plugins/scaffolder-backend-module-cookiecutter/README.md)                             |
-| @stone-payments/plugin-scaffolder-backend-module-gerrit                 | backend-plugin-module | true     |                   | [README](https://github.com/backstage/backstage/blob/master/plugins/scaffolder-backend-module-gerrit/README.md)                                   |
-| @stone-payments/plugin-scaffolder-backend-module-gitea                  | backend-plugin-module | true     |                   | [README](https://github.com/backstage/backstage/blob/master/plugins/scaffolder-backend-module-gitea/README.md)                                    |
-| @stone-payments/plugin-scaffolder-backend-module-github                 | backend-plugin-module | true     |                   | [README](https://github.com/backstage/backstage/blob/master/plugins/scaffolder-backend-module-github/README.md)                                   |
-| @stone-payments/plugin-scaffolder-backend-module-gitlab                 | backend-plugin-module | true     |                   | [README](https://github.com/backstage/backstage/blob/master/plugins/scaffolder-backend-module-gitlab/README.md)                                   |
-| @stone-payments/plugin-scaffolder-backend-module-rails                  | backend-plugin-module | true     |                   | [README](https://github.com/backstage/backstage/blob/master/plugins/scaffolder-backend-module-rails/README.md)                                    |
-| @stone-payments/plugin-scaffolder-backend-module-sentry                 | backend-plugin-module | true     |                   | [README](https://github.com/backstage/backstage/blob/master/plugins/scaffolder-backend-module-sentry/README.md)                                   |
-| @stone-payments/plugin-scaffolder-backend-module-yeoman                 | backend-plugin-module | true     |                   | [README](https://github.com/backstage/backstage/blob/master/plugins/scaffolder-backend-module-yeoman/README.md)                                   |
+| @backstage/plugin-scaffolder-backend-module-azure                  | backend-plugin-module | true     |                   | [README](https://github.com/backstage/backstage/blob/master/plugins/scaffolder-backend-module-azure/README.md)                                    |
+| @backstage/plugin-scaffolder-backend-module-bitbucket              | backend-plugin-module | true     |                   | [README](https://github.com/backstage/backstage/blob/master/plugins/scaffolder-backend-module-bitbucket/README.md)                                |
+| @backstage/plugin-scaffolder-backend-module-bitbucket-cloud        | backend-plugin-module | true     |                   | [README](https://github.com/backstage/backstage/blob/master/plugins/scaffolder-backend-module-bitbucket-cloud/README.md)                          |
+| @backstage/plugin-scaffolder-backend-module-bitbucket-server       | backend-plugin-module | true     |                   | [README](https://github.com/backstage/backstage/blob/master/plugins/scaffolder-backend-module-bitbucket-server/README.md)                         |
+| @backstage/plugin-scaffolder-backend-module-confluence-to-markdown | backend-plugin-module | true     |                   | [README](https://github.com/backstage/backstage/blob/master/plugins/scaffolder-backend-module-confluence-to-markdown/README.md)                   |
+| @backstage/plugin-scaffolder-backend-module-cookiecutter           | backend-plugin-module | true     |                   | [README](https://github.com/backstage/backstage/blob/master/plugins/scaffolder-backend-module-cookiecutter/README.md)                             |
+| @backstage/plugin-scaffolder-backend-module-gerrit                 | backend-plugin-module | true     |                   | [README](https://github.com/backstage/backstage/blob/master/plugins/scaffolder-backend-module-gerrit/README.md)                                   |
+| @backstage/plugin-scaffolder-backend-module-gitea                  | backend-plugin-module | true     |                   | [README](https://github.com/backstage/backstage/blob/master/plugins/scaffolder-backend-module-gitea/README.md)                                    |
+| @backstage/plugin-scaffolder-backend-module-github                 | backend-plugin-module | true     |                   | [README](https://github.com/backstage/backstage/blob/master/plugins/scaffolder-backend-module-github/README.md)                                   |
+| @backstage/plugin-scaffolder-backend-module-gitlab                 | backend-plugin-module | true     |                   | [README](https://github.com/backstage/backstage/blob/master/plugins/scaffolder-backend-module-gitlab/README.md)                                   |
+| @backstage/plugin-scaffolder-backend-module-rails                  | backend-plugin-module | true     |                   | [README](https://github.com/backstage/backstage/blob/master/plugins/scaffolder-backend-module-rails/README.md)                                    |
+| @backstage/plugin-scaffolder-backend-module-sentry                 | backend-plugin-module | true     |                   | [README](https://github.com/backstage/backstage/blob/master/plugins/scaffolder-backend-module-sentry/README.md)                                   |
+| @backstage/plugin-scaffolder-backend-module-yeoman                 | backend-plugin-module | true     |                   | [README](https://github.com/backstage/backstage/blob/master/plugins/scaffolder-backend-module-yeoman/README.md)                                   |
 | @backstage/plugin-search-backend                                   | backend-plugin        | true     | true              | [README](https://github.com/backstage/backstage/blob/master/plugins/search-backend/README.md)                                                     |
 | @backstage/plugin-search-backend-module-catalog                    | backend-plugin-module | true     | true              | [README](https://github.com/backstage/backstage/blob/master/plugins/search-backend-module-catalog/README.md)                                      |
 | @backstage/plugin-search-backend-module-elasticsearch              | backend-plugin-module | true     | true              | [README](https://github.com/backstage/backstage/blob/master/plugins/search-backend-module-elasticsearch/README.md)                                |

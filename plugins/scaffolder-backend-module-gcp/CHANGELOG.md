@@ -1,4 +1,4 @@
-# @stone-payments/plugin-scaffolder-backend-module-gcp
+# @backstage/plugin-scaffolder-backend-module-gcp
 
 ## 0.2.1
 

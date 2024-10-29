@@ -1,4 +1,4 @@
-# @stone-payments/plugin-scaffolder-backend-module-cookiecutter
+# @backstage/plugin-scaffolder-backend-module-cookiecutter
 
 ## 0.3.2
 

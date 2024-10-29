@@ -7,14 +7,14 @@ Welcome to the `publish:gitea` action of the `scaffolder-gitea-backend`.
 To use this action, you will have to add the package using the following command to be executed at the root of your backstage project:
 
 ```bash
-yarn --cwd packages/backend add @stone-payments/plugin-scaffolder-backend-module-gitea
+yarn --cwd packages/backend add @backstage/plugin-scaffolder-backend-module-gitea
 ```
 
 Alternatively, if you use the new backend system, then register it like this:
 
 ```typescript
 // packages/backend/src/index.ts
-backend.add(import('@stone-payments/plugin-scaffolder-backend-module-gitea'));
+backend.add(import('@backstage/plugin-scaffolder-backend-module-gitea'));
 ```
 
 Configure the action (if not yet done):

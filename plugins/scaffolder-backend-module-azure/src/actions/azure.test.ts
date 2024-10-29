@@ -36,7 +36,7 @@ import { ScmIntegrations } from '@backstage/integration';
 import { ConfigReader } from '@backstage/config';
 import { WebApi } from 'azure-devops-node-api';
 import { initRepoAndPush } from '@stone-payments/plugin-scaffolder-node';
-import { createMockActionContext } from '@stone-payments/plugin-scaffolder-node-test-utils';
+import { createMockActionContext } from '@backstage/plugin-scaffolder-node-test-utils';
 
 describe('publish:azure', () => {
   const config = new ConfigReader({

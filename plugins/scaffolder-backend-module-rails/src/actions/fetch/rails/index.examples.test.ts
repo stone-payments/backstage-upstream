@@ -34,7 +34,7 @@ import { resolve as resolvePath } from 'path';
 import { createFetchRailsAction } from './index';
 import { fetchContents } from '@stone-payments/plugin-scaffolder-node';
 import { createMockDirectory } from '@backstage/backend-test-utils';
-import { createMockActionContext } from '@stone-payments/plugin-scaffolder-node-test-utils';
+import { createMockActionContext } from '@backstage/plugin-scaffolder-node-test-utils';
 import { examples } from './index.examples';
 import yaml from 'yaml';
 import { UrlReaderService } from '@backstage/backend-plugin-api';

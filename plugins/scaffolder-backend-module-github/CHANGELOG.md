@@ -1,4 +1,4 @@
-# @stone-payments/plugin-scaffolder-backend-module-github
+# @backstage/plugin-scaffolder-backend-module-github
 
 ## 0.5.1
 

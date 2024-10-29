@@ -10,7 +10,7 @@ You need to configure the action in your backend:
 
 ```bash
 # From your Backstage root directory
-yarn --cwd packages/backend add @stone-payments/plugin-scaffolder-backend-module-yeoman
+yarn --cwd packages/backend add @backstage/plugin-scaffolder-backend-module-yeoman
 ```
 
 Then ensure that both the scaffolder and this module are added to your backend:
@@ -20,7 +20,7 @@ Then ensure that both the scaffolder and this module are added to your backend:
 const backend = createBackend();
 // ...
 backend.add(import('@stone-payments/plugin-scaffolder-backend'));
-backend.add(import('@stone-payments/plugin-scaffolder-backend-module-yeoman'));
+backend.add(import('@backstage/plugin-scaffolder-backend-module-yeoman'));
 ```
 
 After that you can use the action in your template:

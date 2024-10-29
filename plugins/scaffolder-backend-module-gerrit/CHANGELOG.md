@@ -1,4 +1,4 @@
-# @stone-payments/plugin-scaffolder-backend-module-gerrit
+# @backstage/plugin-scaffolder-backend-module-gerrit
 
 ## 0.2.1
 

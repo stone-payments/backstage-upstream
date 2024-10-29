@@ -1,5 +1,5 @@
 {
-  "name": "@stone-payments/plugin-scaffolder-node-test-utils",
+  "name": "@backstage/plugin-scaffolder-node-test-utils",
   "version": "0.1.14",
   "backstage": {
     "role": "node-library",
@@ -9,7 +9,7 @@
       "@stone-payments/plugin-scaffolder-backend",
       "@backstage/plugin-scaffolder-common",
       "@stone-payments/plugin-scaffolder-node",
-      "@stone-payments/plugin-scaffolder-node-test-utils",
+      "@backstage/plugin-scaffolder-node-test-utils",
       "@backstage/plugin-scaffolder-react"
     ]
   },

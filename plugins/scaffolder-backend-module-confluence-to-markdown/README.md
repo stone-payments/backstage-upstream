@@ -1,4 +1,4 @@
-# @stone-payments/plugin-scaffolder-backend-module-confluence-to-markdown
+# @backstage/plugin-scaffolder-backend-module-confluence-to-markdown
 
 Welcome to the `confluence:transform:markdown` action for the `scaffolder-backend`.
 
@@ -12,7 +12,7 @@ From your Backstage root directory run:
 
 ```bash
 # From your Backstage root directory
-yarn --cwd packages/backend add @stone-payments/plugin-scaffolder-backend-module-confluence-to-markdown
+yarn --cwd packages/backend add @backstage/plugin-scaffolder-backend-module-confluence-to-markdown
 ```
 
 Then ensure that both the scaffolder and this module are added to your backend:
@@ -23,7 +23,7 @@ const backend = createBackend();
 // ...
 backend.add(import('@stone-payments/plugin-scaffolder-backend'));
 backend.add(
-  import('@stone-payments/plugin-scaffolder-backend-module-confluence-to-markdown'),
+  import('@backstage/plugin-scaffolder-backend-module-confluence-to-markdown'),
 );
 ```
 

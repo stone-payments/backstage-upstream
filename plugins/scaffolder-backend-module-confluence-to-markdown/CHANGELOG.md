@@ -1,4 +1,4 @@
-# @stone-payments/plugin-scaffolder-backend-module-confluence-to-markdown
+# @backstage/plugin-scaffolder-backend-module-confluence-to-markdown
 
 ## 0.3.1
 

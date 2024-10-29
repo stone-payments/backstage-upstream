@@ -1,5 +1,5 @@
 {
-  "name": "@stone-payments/plugin-scaffolder-backend-module-yeoman",
+  "name": "@backstage/plugin-scaffolder-backend-module-yeoman",
   "version": "0.4.2",
   "backstage": {
     "role": "backend-plugin-module",
@@ -45,7 +45,7 @@
     "@backstage/backend-plugin-api": "workspace:^",
     "@backstage/types": "workspace:^",
     "@stone-payments/plugin-scaffolder-node": "workspace:^",
-    "@stone-payments/plugin-scaffolder-node-test-utils": "workspace:^",
+    "@backstage/plugin-scaffolder-node-test-utils": "workspace:^",
     "winston": "^3.2.1",
     "yaml": "^2.0.0",
     "yeoman-environment": "^3.9.1"

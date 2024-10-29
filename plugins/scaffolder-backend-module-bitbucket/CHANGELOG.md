@@ -1,4 +1,4 @@
-# @stone-payments/plugin-scaffolder-backend-module-bitbucket
+# @backstage/plugin-scaffolder-backend-module-bitbucket
 
 ## 0.3.1
 
@@ -6,25 +6,25 @@
 
 - Updated dependencies
   - @stone-payments/plugin-scaffolder-node@0.5.0
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-server@0.2.1
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-server@0.2.1
   - @backstage/integration@1.15.1
   - @backstage/backend-plugin-api@1.0.1
   - @backstage/config@1.2.0
   - @backstage/errors@1.2.4
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud@0.2.1
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-cloud@0.2.1
 
 ## 0.3.1-next.2
 
 ### Patch Changes
 
 - Updated dependencies
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-server@0.2.1-next.2
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-server@0.2.1-next.2
   - @backstage/integration@1.15.1-next.1
   - @stone-payments/plugin-scaffolder-node@0.5.0-next.2
   - @backstage/backend-plugin-api@1.0.1-next.1
   - @backstage/config@1.2.0
   - @backstage/errors@1.2.4
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud@0.2.1-next.2
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-cloud@0.2.1-next.2
 
 ## 0.3.1-next.1
 
@@ -32,11 +32,11 @@
 
 - Updated dependencies
   - @backstage/integration@1.15.1-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-server@0.2.1-next.1
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-server@0.2.1-next.1
   - @backstage/backend-plugin-api@1.0.1-next.0
   - @backstage/config@1.2.0
   - @backstage/errors@1.2.4
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud@0.2.1-next.1
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-cloud@0.2.1-next.1
   - @stone-payments/plugin-scaffolder-node@0.5.0-next.1
 
 ## 0.3.1-next.0
@@ -49,8 +49,8 @@
   - @backstage/config@1.2.0
   - @backstage/errors@1.2.4
   - @backstage/integration@1.15.0
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud@0.2.1-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-server@0.2.1-next.0
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-cloud@0.2.1-next.0
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-server@0.2.1-next.0
 
 ## 0.3.0
 
@@ -66,9 +66,9 @@
 
 - Updated dependencies
   - @backstage/backend-plugin-api@1.0.0
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud@0.2.0
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-cloud@0.2.0
   - @backstage/integration@1.15.0
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-server@0.2.0
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-server@0.2.0
   - @backstage/config@1.2.0
   - @backstage/errors@1.2.4
   - @stone-payments/plugin-scaffolder-node@0.4.11
@@ -78,12 +78,12 @@
 ### Patch Changes
 
 - Updated dependencies
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud@0.2.0-next.2
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-cloud@0.2.0-next.2
   - @backstage/backend-plugin-api@1.0.0-next.2
   - @backstage/integration@1.15.0-next.0
   - @backstage/config@1.2.0
   - @backstage/errors@1.2.4
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-server@0.2.0-next.2
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-server@0.2.0-next.2
   - @stone-payments/plugin-scaffolder-node@0.4.11-next.2
 
 ## 0.3.0-next.1
@@ -95,8 +95,8 @@
   - @backstage/config@1.2.0
   - @backstage/errors@1.2.4
   - @backstage/integration@1.14.0
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud@0.2.0-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-server@0.2.0-next.1
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-cloud@0.2.0-next.1
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-server@0.2.0-next.1
   - @stone-payments/plugin-scaffolder-node@0.4.11-next.1
 
 ## 0.3.0-next.0
@@ -113,8 +113,8 @@
 
 - Updated dependencies
   - @backstage/backend-plugin-api@0.9.0-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud@0.2.0-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-server@0.2.0-next.0
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-cloud@0.2.0-next.0
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-server@0.2.0-next.0
   - @stone-payments/plugin-scaffolder-node@0.4.11-next.0
   - @backstage/config@1.2.0
   - @backstage/errors@1.2.4
@@ -128,8 +128,8 @@
 - Updated dependencies
   - @backstage/backend-plugin-api@0.8.0
   - @stone-payments/plugin-scaffolder-node@0.4.9
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-server@0.1.13
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.13
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-server@0.1.13
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.13
   - @backstage/integration@1.14.0
   - @backstage/config@1.2.0
   - @backstage/errors@1.2.4
@@ -139,12 +139,12 @@
 ### Patch Changes
 
 - Updated dependencies
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.13-next.3
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.13-next.3
   - @backstage/backend-plugin-api@0.8.0-next.3
   - @backstage/config@1.2.0
   - @backstage/errors@1.2.4
   - @backstage/integration@1.14.0-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-server@0.1.13-next.3
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-server@0.1.13-next.3
   - @stone-payments/plugin-scaffolder-node@0.4.9-next.3
 
 ## 0.2.13-next.2
@@ -155,8 +155,8 @@
 - Updated dependencies
   - @backstage/backend-plugin-api@0.8.0-next.2
   - @stone-payments/plugin-scaffolder-node@0.4.9-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-server@0.1.13-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.13-next.2
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-server@0.1.13-next.2
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.13-next.2
   - @backstage/integration@1.14.0-next.0
   - @backstage/config@1.2.0
   - @backstage/errors@1.2.4
@@ -166,12 +166,12 @@
 ### Patch Changes
 
 - Updated dependencies
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-server@0.1.13-next.1
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-server@0.1.13-next.1
   - @backstage/backend-plugin-api@0.7.1-next.1
   - @backstage/integration@1.14.0-next.0
   - @backstage/config@1.2.0
   - @backstage/errors@1.2.4
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.13-next.1
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.13-next.1
   - @stone-payments/plugin-scaffolder-node@0.4.9-next.1
 
 ## 0.2.13-next.0
@@ -183,8 +183,8 @@
   - @backstage/backend-plugin-api@0.7.1-next.0
   - @backstage/config@1.2.0
   - @backstage/errors@1.2.4
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.13-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-server@0.1.13-next.0
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.13-next.0
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-server@0.1.13-next.0
   - @stone-payments/plugin-scaffolder-node@0.4.9-next.0
 
 ## 0.2.12
@@ -193,10 +193,10 @@
 
 - Updated dependencies
   - @backstage/backend-plugin-api@0.7.0
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-server@0.1.12
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-server@0.1.12
   - @backstage/integration@1.13.0
   - @stone-payments/plugin-scaffolder-node@0.4.8
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.12
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.12
   - @backstage/config@1.2.0
   - @backstage/errors@1.2.4
 
@@ -209,8 +209,8 @@
   - @backstage/config@1.2.0
   - @backstage/errors@1.2.4
   - @backstage/integration@1.13.0-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.12-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-server@0.1.12-next.1
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.12-next.1
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-server@0.1.12-next.1
   - @stone-payments/plugin-scaffolder-node@0.4.8-next.1
 
 ## 0.2.11-next.0
@@ -219,10 +219,10 @@
 
 - Updated dependencies
   - @backstage/backend-plugin-api@0.6.21-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-server@0.1.11-next.0
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-server@0.1.11-next.0
   - @backstage/integration@1.13.0-next.0
   - @stone-payments/plugin-scaffolder-node@0.4.7-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.11-next.0
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.11-next.0
   - @backstage/config@1.2.0
   - @backstage/errors@1.2.4
 
@@ -235,8 +235,8 @@
 - Updated dependencies
   - @backstage/backend-plugin-api@0.6.19
   - @backstage/integration@1.12.0
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-server@0.1.9
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.9
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-server@0.1.9
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.9
   - @stone-payments/plugin-scaffolder-node@0.4.5
   - @backstage/config@1.2.0
   - @backstage/errors@1.2.4
@@ -249,8 +249,8 @@
 - Updated dependencies
   - @backstage/backend-plugin-api@0.6.19-next.3
   - @backstage/integration@1.12.0-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-server@0.1.9-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.9-next.2
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-server@0.1.9-next.2
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.9-next.2
   - @stone-payments/plugin-scaffolder-node@0.4.5-next.3
   - @backstage/config@1.2.0
   - @backstage/errors@1.2.4
@@ -262,8 +262,8 @@
 - Updated dependencies
   - @backstage/backend-plugin-api@0.6.19-next.2
   - @backstage/integration@1.12.0-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.9-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-server@0.1.9-next.1
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.9-next.1
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-server@0.1.9-next.1
   - @stone-payments/plugin-scaffolder-node@0.4.5-next.2
   - @backstage/config@1.2.0
   - @backstage/errors@1.2.4
@@ -275,8 +275,8 @@
 - Updated dependencies
   - @backstage/backend-plugin-api@0.6.19-next.0
   - @stone-payments/plugin-scaffolder-node@0.4.5-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.9-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-server@0.1.9-next.0
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.9-next.0
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-server@0.1.9-next.0
   - @backstage/config@1.2.0
   - @backstage/errors@1.2.4
   - @backstage/integration@1.11.0
@@ -288,9 +288,9 @@
 - Updated dependencies
   - @backstage/backend-plugin-api@0.6.18
   - @stone-payments/plugin-scaffolder-node@0.4.4
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-server@0.1.8
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-server@0.1.8
   - @backstage/integration@1.11.0
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.8
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.8
 
 ## 0.2.8-next.2
 
@@ -299,8 +299,8 @@
 - Updated dependencies
   - @stone-payments/plugin-scaffolder-node@0.4.4-next.2
   - @backstage/integration@1.11.0-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.8-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-server@0.1.8-next.2
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.8-next.2
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-server@0.1.8-next.2
 
 ## 0.2.8-next.1
 
@@ -308,8 +308,8 @@
 
 - Updated dependencies
   - @stone-payments/plugin-scaffolder-node@0.4.4-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.8-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-server@0.1.8-next.1
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.8-next.1
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-server@0.1.8-next.1
   - @backstage/backend-plugin-api@0.6.18-next.1
 
 ## 0.2.8-next.0
@@ -317,13 +317,13 @@
 ### Patch Changes
 
 - Updated dependencies
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-server@0.1.8-next.0
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-server@0.1.8-next.0
   - @backstage/backend-plugin-api@0.6.18-next.0
   - @stone-payments/plugin-scaffolder-node@0.4.4-next.0
   - @backstage/config@1.2.0
   - @backstage/errors@1.2.4
   - @backstage/integration@1.10.0
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.8-next.0
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.8-next.0
 
 ## 0.2.7
 
@@ -331,8 +331,8 @@
 
 - 33f958a: Improve examples to ensure consistency across all publish actions
 - Updated dependencies
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.7
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-server@0.1.7
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.7
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-server@0.1.7
   - @backstage/backend-plugin-api@0.6.17
   - @backstage/integration@1.10.0
   - @stone-payments/plugin-scaffolder-node@0.4.3
@@ -345,9 +345,9 @@
 
 - 33f958a: Improve examples to ensure consistency across all publish actions
 - Updated dependencies
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-server@0.1.7-next.1
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-server@0.1.7-next.1
   - @backstage/backend-plugin-api@0.6.17-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.7-next.1
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.7-next.1
   - @stone-payments/plugin-scaffolder-node@0.4.3-next.1
   - @backstage/config@1.2.0
   - @backstage/errors@1.2.4
@@ -358,12 +358,12 @@
 ### Patch Changes
 
 - Updated dependencies
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.7-next.0
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.7-next.0
   - @backstage/integration@1.10.0-next.0
   - @backstage/backend-plugin-api@0.6.17-next.0
   - @backstage/config@1.2.0
   - @backstage/errors@1.2.4
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-server@0.1.7-next.0
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-server@0.1.7-next.0
   - @stone-payments/plugin-scaffolder-node@0.4.3-next.0
 
 ## 0.2.6
@@ -376,8 +376,8 @@
   - @backstage/config@1.2.0
   - @backstage/errors@1.2.4
   - @backstage/integration@1.9.1
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.6
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-server@0.1.6
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.6
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-server@0.1.6
 
 ## 0.2.5
 
@@ -389,8 +389,8 @@
   - @backstage/config@1.2.0
   - @backstage/errors@1.2.4
   - @backstage/integration@1.9.1
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.5
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-server@0.1.5
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.5
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-server@0.1.5
 
 ## 0.2.4
 
@@ -403,8 +403,8 @@
 
 - Updated dependencies
   - @stone-payments/plugin-scaffolder-node@0.4.0
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.4
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-server@0.1.4
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.4
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-server@0.1.4
   - @backstage/integration@1.9.1
   - @backstage/config@1.2.0
   - @backstage/errors@1.2.4
@@ -417,8 +417,8 @@
 - 2bd1410: Removed unused dependencies
 - Updated dependencies
   - @stone-payments/plugin-scaffolder-node@0.4.0-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.4-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-server@0.1.4-next.2
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.4-next.2
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-server@0.1.4-next.2
   - @backstage/integration@1.9.1-next.2
   - @backstage/backend-plugin-api@0.6.14-next.2
   - @backstage/config@1.2.0-next.1
@@ -434,8 +434,8 @@
   - @backstage/backend-common@0.21.4-next.1
   - @backstage/backend-plugin-api@0.6.14-next.1
   - @backstage/integration@1.9.1-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.4-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-server@0.1.4-next.1
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.4-next.1
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-server@0.1.4-next.1
   - @backstage/errors@1.2.4-next.0
 
 ## 0.2.3-next.0
@@ -451,8 +451,8 @@
   - @backstage/errors@1.2.4-next.0
   - @stone-payments/plugin-scaffolder-node@0.3.3-next.0
   - @backstage/backend-plugin-api@0.6.13-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-server@0.1.3-next.0
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.3-next.0
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-server@0.1.3-next.0
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.3-next.0
   - @backstage/config@1.1.2-next.0
   - @backstage/integration@1.9.1-next.0
 
@@ -460,18 +460,18 @@
 
 ### Minor Changes
 
-- 5eb6882: Split `@stone-payments/plugin-scaffolder-backend-module-bitbucket` into
-  `@stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud` and
-  `@stone-payments/plugin-scaffolder-backend-module-bitbucket-server`.
+- 5eb6882: Split `@backstage/plugin-scaffolder-backend-module-bitbucket` into
+  `@backstage/plugin-scaffolder-backend-module-bitbucket-cloud` and
+  `@backstage/plugin-scaffolder-backend-module-bitbucket-server`.
 
-  `@stone-payments/plugin-scaffolder-backend-module-bitbucket` was **deprecated** in favor of these two replacements.
+  `@backstage/plugin-scaffolder-backend-module-bitbucket` was **deprecated** in favor of these two replacements.
 
   Please use any of the two replacements depending on your needs.
 
   ```diff
-  - backend.add(import('@stone-payments/plugin-scaffolder-backend-module-bitbucket'));
-  + backend.add(import('@stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud'));
-  + backend.add(import('@stone-payments/plugin-scaffolder-backend-module-bitbucket-server'));
+  - backend.add(import('@backstage/plugin-scaffolder-backend-module-bitbucket'));
+  + backend.add(import('@backstage/plugin-scaffolder-backend-module-bitbucket-cloud'));
+  + backend.add(import('@backstage/plugin-scaffolder-backend-module-bitbucket-server'));
   ```
 
 ### Patch Changes
@@ -483,11 +483,11 @@
 - fc98bb6: Enhanced the pull request action to allow for adding new content to the PR as described in this issue #21762
 - Updated dependencies
   - @backstage/backend-common@0.21.0
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-server@0.1.0
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-server@0.1.0
   - @backstage/backend-plugin-api@0.6.10
   - @backstage/integration@1.9.0
   - @stone-payments/plugin-scaffolder-node@0.3.0
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.0
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.0
   - @backstage/config@1.1.1
   - @backstage/errors@1.2.3
 
@@ -499,8 +499,8 @@
 - Updated dependencies
   - @backstage/backend-common@0.21.0-next.3
   - @backstage/integration@1.9.0-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-server@0.1.0-next.1
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.0-next.1
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-server@0.1.0-next.1
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.0-next.1
   - @stone-payments/plugin-scaffolder-node@0.3.0-next.3
   - @backstage/backend-plugin-api@0.6.10-next.3
   - @backstage/config@1.1.1
@@ -510,27 +510,27 @@
 
 ### Minor Changes
 
-- 5eb6882: Split `@stone-payments/plugin-scaffolder-backend-module-bitbucket` into
-  `@stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud` and
-  `@stone-payments/plugin-scaffolder-backend-module-bitbucket-server`.
+- 5eb6882: Split `@backstage/plugin-scaffolder-backend-module-bitbucket` into
+  `@backstage/plugin-scaffolder-backend-module-bitbucket-cloud` and
+  `@backstage/plugin-scaffolder-backend-module-bitbucket-server`.
 
-  `@stone-payments/plugin-scaffolder-backend-module-bitbucket` was **deprecated** in favor of these two replacements.
+  `@backstage/plugin-scaffolder-backend-module-bitbucket` was **deprecated** in favor of these two replacements.
 
   Please use any of the two replacements depending on your needs.
 
   ```diff
-  - backend.add(import('@stone-payments/plugin-scaffolder-backend-module-bitbucket'));
-  + backend.add(import('@stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud'));
-  + backend.add(import('@stone-payments/plugin-scaffolder-backend-module-bitbucket-server'));
+  - backend.add(import('@backstage/plugin-scaffolder-backend-module-bitbucket'));
+  + backend.add(import('@backstage/plugin-scaffolder-backend-module-bitbucket-cloud'));
+  + backend.add(import('@backstage/plugin-scaffolder-backend-module-bitbucket-server'));
   ```
 
 ### Patch Changes
 
 - Updated dependencies
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-server@0.1.0-next.0
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-server@0.1.0-next.0
   - @backstage/backend-common@0.21.0-next.2
   - @backstage/backend-plugin-api@0.6.10-next.2
-  - @stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.0-next.0
+  - @backstage/plugin-scaffolder-backend-module-bitbucket-cloud@0.1.0-next.0
   - @stone-payments/plugin-scaffolder-node@0.3.0-next.2
   - @backstage/config@1.1.1
   - @backstage/errors@1.2.3

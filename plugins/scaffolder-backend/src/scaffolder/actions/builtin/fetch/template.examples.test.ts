@@ -19,7 +19,7 @@ import fs from 'fs-extra';
 import { UrlReaderService } from '@backstage/backend-plugin-api';
 import { resolvePackagePath } from '@backstage/backend-plugin-api';
 import { ScmIntegrations } from '@backstage/integration';
-import { createMockActionContext } from '@stone-payments/plugin-scaffolder-node-test-utils';
+import { createMockActionContext } from '@backstage/plugin-scaffolder-node-test-utils';
 import { createFetchTemplateAction } from './template';
 import {
   ActionContext,
