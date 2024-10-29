@@ -1,4 +1,4 @@
-# @backstage/plugin-scaffolder-backend-module-notifications
+# @stone-payments/plugin-scaffolder-backend-module-notifications
 
 ## 0.1.2
 
@@ -7,7 +7,7 @@
 - Updated dependencies
   - @backstage/backend-plugin-api@1.0.1
   - @backstage/plugin-notifications-node@0.2.8
-  - @backstage/plugin-scaffolder-node@0.5.0
+  - @stone-payments/plugin-scaffolder-node@0.5.0
 
 ## 0.1.1
 
@@ -15,7 +15,7 @@
 
 - 094eaa3: Remove references to in-repo backend-common
 - Updated dependencies
-  - @backstage/plugin-scaffolder-node@0.5.0
+  - @stone-payments/plugin-scaffolder-node@0.5.0
   - @backstage/plugin-notifications-node@0.2.7
   - @backstage/backend-plugin-api@1.0.1
   - @backstage/plugin-notifications-common@0.0.5
@@ -25,7 +25,7 @@
 ### Patch Changes
 
 - Updated dependencies
-  - @backstage/plugin-scaffolder-node@0.5.0-next.2
+  - @stone-payments/plugin-scaffolder-node@0.5.0-next.2
   - @backstage/backend-plugin-api@1.0.1-next.1
   - @backstage/plugin-notifications-common@0.0.5
   - @backstage/plugin-notifications-node@0.2.7-next.1
@@ -38,7 +38,7 @@
   - @backstage/backend-plugin-api@1.0.1-next.0
   - @backstage/plugin-notifications-common@0.0.5
   - @backstage/plugin-notifications-node@0.2.7-next.0
-  - @backstage/plugin-scaffolder-node@0.5.0-next.1
+  - @stone-payments/plugin-scaffolder-node@0.5.0-next.1
 
 ## 0.1.1-next.0
 
@@ -46,7 +46,7 @@
 
 - 094eaa3: Remove references to in-repo backend-common
 - Updated dependencies
-  - @backstage/plugin-scaffolder-node@0.5.0-next.0
+  - @stone-payments/plugin-scaffolder-node@0.5.0-next.0
   - @backstage/plugin-notifications-node@0.2.7-next.0
   - @backstage/backend-plugin-api@1.0.1-next.0
   - @backstage/plugin-notifications-common@0.0.5
@@ -68,7 +68,7 @@
   - @backstage/backend-plugin-api@1.0.0
   - @backstage/plugin-notifications-common@0.0.5
   - @backstage/plugin-notifications-node@0.2.6
-  - @backstage/plugin-scaffolder-node@0.4.11
+  - @stone-payments/plugin-scaffolder-node@0.4.11
 
 ## 0.1.0-next.2
 
@@ -79,7 +79,7 @@
   - @backstage/backend-plugin-api@1.0.0-next.2
   - @backstage/plugin-notifications-common@0.0.5
   - @backstage/plugin-notifications-node@0.2.6-next.2
-  - @backstage/plugin-scaffolder-node@0.4.11-next.2
+  - @stone-payments/plugin-scaffolder-node@0.4.11-next.2
 
 ## 0.1.0-next.1
 
@@ -90,7 +90,7 @@
   - @backstage/backend-plugin-api@0.9.0-next.1
   - @backstage/plugin-notifications-common@0.0.5
   - @backstage/plugin-notifications-node@0.2.6-next.1
-  - @backstage/plugin-scaffolder-node@0.4.11-next.1
+  - @stone-payments/plugin-scaffolder-node@0.4.11-next.1
 
 ## 0.1.0-next.0
 
@@ -108,7 +108,7 @@
   - @backstage/backend-plugin-api@0.9.0-next.0
   - @backstage/backend-common@0.25.0-next.0
   - @backstage/plugin-notifications-node@0.2.6-next.0
-  - @backstage/plugin-scaffolder-node@0.4.11-next.0
+  - @stone-payments/plugin-scaffolder-node@0.4.11-next.0
   - @backstage/plugin-notifications-common@0.0.5
 
 ## 0.0.6
@@ -119,7 +119,7 @@
 - Updated dependencies
   - @backstage/backend-plugin-api@0.8.0
   - @backstage/backend-common@0.24.0
-  - @backstage/plugin-scaffolder-node@0.4.9
+  - @stone-payments/plugin-scaffolder-node@0.4.9
   - @backstage/plugin-notifications-node@0.2.4
   - @backstage/plugin-notifications-common@0.0.5
 
@@ -132,7 +132,7 @@
   - @backstage/backend-common@0.23.4-next.3
   - @backstage/plugin-notifications-common@0.0.5
   - @backstage/plugin-notifications-node@0.2.4-next.3
-  - @backstage/plugin-scaffolder-node@0.4.9-next.3
+  - @stone-payments/plugin-scaffolder-node@0.4.9-next.3
 
 ## 0.0.6-next.2
 
@@ -140,7 +140,7 @@
 
 - Updated dependencies
   - @backstage/backend-plugin-api@0.8.0-next.2
-  - @backstage/plugin-scaffolder-node@0.4.9-next.2
+  - @stone-payments/plugin-scaffolder-node@0.4.9-next.2
   - @backstage/plugin-notifications-node@0.2.4-next.2
   - @backstage/backend-common@0.23.4-next.2
   - @backstage/plugin-notifications-common@0.0.5
@@ -154,7 +154,7 @@
   - @backstage/backend-common@0.23.4-next.1
   - @backstage/plugin-notifications-common@0.0.5
   - @backstage/plugin-notifications-node@0.2.4-next.1
-  - @backstage/plugin-scaffolder-node@0.4.9-next.1
+  - @stone-payments/plugin-scaffolder-node@0.4.9-next.1
 
 ## 0.0.6-next.0
 
@@ -166,7 +166,7 @@
   - @backstage/backend-plugin-api@0.7.1-next.0
   - @backstage/plugin-notifications-common@0.0.5
   - @backstage/plugin-notifications-node@0.2.4-next.0
-  - @backstage/plugin-scaffolder-node@0.4.9-next.0
+  - @stone-payments/plugin-scaffolder-node@0.4.9-next.0
 
 ## 0.0.5
 
@@ -175,7 +175,7 @@
 - Updated dependencies
   - @backstage/backend-plugin-api@0.7.0
   - @backstage/backend-common@0.23.3
-  - @backstage/plugin-scaffolder-node@0.4.8
+  - @stone-payments/plugin-scaffolder-node@0.4.8
   - @backstage/plugin-notifications-common@0.0.5
   - @backstage/plugin-notifications-node@0.2.3
 
@@ -188,7 +188,7 @@
   - @backstage/backend-plugin-api@0.6.22-next.1
   - @backstage/plugin-notifications-common@0.0.4
   - @backstage/plugin-notifications-node@0.2.3-next.1
-  - @backstage/plugin-scaffolder-node@0.4.8-next.1
+  - @stone-payments/plugin-scaffolder-node@0.4.8-next.1
 
 ## 0.0.4-next.0
 
@@ -197,7 +197,7 @@
 - Updated dependencies
   - @backstage/backend-plugin-api@0.6.21-next.0
   - @backstage/backend-common@0.23.2-next.0
-  - @backstage/plugin-scaffolder-node@0.4.7-next.0
+  - @stone-payments/plugin-scaffolder-node@0.4.7-next.0
   - @backstage/plugin-notifications-node@0.2.2-next.0
   - @backstage/plugin-notifications-common@0.0.4
 
@@ -212,7 +212,7 @@
   - @backstage/backend-plugin-api@0.6.19
   - @backstage/plugin-notifications-node@0.2.0
   - @backstage/plugin-notifications-common@0.0.4
-  - @backstage/plugin-scaffolder-node@0.4.5
+  - @stone-payments/plugin-scaffolder-node@0.4.5
 
 ## 0.0.2-next.3
 
@@ -223,7 +223,7 @@
   - @backstage/backend-plugin-api@0.6.19-next.3
   - @backstage/plugin-notifications-common@0.0.4-next.0
   - @backstage/plugin-notifications-node@0.2.0-next.3
-  - @backstage/plugin-scaffolder-node@0.4.5-next.3
+  - @stone-payments/plugin-scaffolder-node@0.4.5-next.3
   - @backstage/backend-common@0.23.0-next.3
 
 ## 0.0.2-next.2
@@ -234,7 +234,7 @@
   - @backstage/backend-plugin-api@0.6.19-next.2
   - @backstage/backend-common@0.23.0-next.2
   - @backstage/plugin-notifications-node@0.2.0-next.2
-  - @backstage/plugin-scaffolder-node@0.4.5-next.2
+  - @stone-payments/plugin-scaffolder-node@0.4.5-next.2
   - @backstage/plugin-notifications-common@0.0.3
 
 ## 0.0.2-next.1
@@ -245,7 +245,7 @@
   - @backstage/backend-plugin-api@0.6.19-next.1
   - @backstage/plugin-notifications-node@0.2.0-next.1
   - @backstage/backend-common@0.23.0-next.1
-  - @backstage/plugin-scaffolder-node@0.4.5-next.1
+  - @stone-payments/plugin-scaffolder-node@0.4.5-next.1
 
 ## 0.0.2-next.0
 
@@ -255,7 +255,7 @@
   - @backstage/backend-common@0.22.1-next.0
   - @backstage/backend-plugin-api@0.6.19-next.0
   - @backstage/plugin-notifications-node@0.1.5-next.0
-  - @backstage/plugin-scaffolder-node@0.4.5-next.0
+  - @stone-payments/plugin-scaffolder-node@0.4.5-next.0
   - @backstage/plugin-notifications-common@0.0.3
 
 ## 0.0.1
@@ -267,7 +267,7 @@
   - @backstage/backend-common@0.22.0
   - @backstage/plugin-notifications-node@0.1.4
   - @backstage/backend-plugin-api@0.6.18
-  - @backstage/plugin-scaffolder-node@0.4.4
+  - @stone-payments/plugin-scaffolder-node@0.4.4
 
 ## 0.0.1-next.0
 
@@ -276,4 +276,4 @@
 - 503d769: Add a new scaffolder action to allow sending notifications from templates
 - Updated dependencies
   - @backstage/backend-common@0.22.0-next.2
-  - @backstage/plugin-scaffolder-node@0.4.4-next.2
+  - @stone-payments/plugin-scaffolder-node@0.4.4-next.2

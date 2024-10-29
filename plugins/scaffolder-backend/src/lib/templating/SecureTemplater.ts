@@ -19,7 +19,7 @@ import { resolvePackagePath } from '@backstage/backend-plugin-api';
 import {
   TemplateFilter as _TemplateFilter,
   TemplateGlobal as _TemplateGlobal,
-} from '@backstage/plugin-scaffolder-node';
+} from '@stone-payments/plugin-scaffolder-node';
 import fs from 'fs-extra';
 import { JsonValue } from '@backstage/types';
 import { getMajorNodeVersion, isNoNodeSnapshotOptionProvided } from './helpers';
@@ -95,13 +95,13 @@ const { render, renderCompat } = (() => {
 
 /**
  * @public
- * @deprecated Import from `@backstage/plugin-scaffolder-node` instead.
+ * @deprecated Import from `@stone-payments/plugin-scaffolder-node` instead.
  */
 export type TemplateFilter = _TemplateFilter;
 
 /**
  * @public
- * @deprecated Import from `@backstage/plugin-scaffolder-node` instead.
+ * @deprecated Import from `@stone-payments/plugin-scaffolder-node` instead.
  */
 export type TemplateGlobal = _TemplateGlobal;
 
@@ -143,7 +143,7 @@ export class SecureTemplater {
 
     const nunjucksSource = await fs.readFile(
       resolvePackagePath(
-        '@backstage/plugin-scaffolder-backend',
+        '@stone-payments/plugin-scaffolder-backend',
         'assets/nunjucks.js.txt',
       ),
       'utf-8',

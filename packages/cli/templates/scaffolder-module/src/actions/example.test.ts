@@ -1,5 +1,5 @@
 import { createExampleAction } from './example';
-import {createMockActionContext} from '@backstage/plugin-scaffolder-node-test-utils'
+import {createMockActionContext} from '@stone-payments/plugin-scaffolder-node-test-utils'
 
 describe('createExampleAction', () => {
   it('should call action', async () => {

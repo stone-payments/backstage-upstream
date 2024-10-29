@@ -6,20 +6,20 @@ as well as the built-in template actions, tasks and stages.
 
 ## Installation
 
-This `@backstage/plugin-scaffolder-backend` package comes installed by default
+This `@stone-payments/plugin-scaffolder-backend` package comes installed by default
 in any Backstage application created with `npx @backstage/create-app`, so
 installation is not usually required.
 
 To check if you already have the package, look under
 `packages/backend/package.json`, in the `dependencies` block, for
-`@backstage/plugin-scaffolder-backend`. The instructions below walk through
+`@stone-payments/plugin-scaffolder-backend`. The instructions below walk through
 restoring the plugin, if you previously removed it.
 
 ### Install the package
 
 ```bash
 # From your Backstage root directory
-yarn --cwd packages/backend add @backstage/plugin-scaffolder-backend
+yarn --cwd packages/backend add @stone-payments/plugin-scaffolder-backend
 ```
 
 Then add the plugin to your backend, typically in `packages/backend/src/index.ts`:
@@ -27,7 +27,7 @@ Then add the plugin to your backend, typically in `packages/backend/src/index.ts
 ```ts
 const backend = createBackend();
 // ...
-backend.add(import('@backstage/plugin-scaffolder-backend'));
+backend.add(import('@stone-payments/plugin-scaffolder-backend'));
 ```
 
 #### Old backend system

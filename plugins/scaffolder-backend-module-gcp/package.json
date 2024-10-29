@@ -1,11 +1,11 @@
 {
-  "name": "@backstage/plugin-scaffolder-backend-module-gcp",
+  "name": "@stone-payments/plugin-scaffolder-backend-module-gcp",
   "version": "0.2.1",
-  "description": "The GCP Bucket module for @backstage/plugin-scaffolder-backend",
+  "description": "The GCP Bucket module for @stone-payments/plugin-scaffolder-backend",
   "backstage": {
     "role": "backend-plugin-module",
     "pluginId": "scaffolder",
-    "pluginPackage": "@backstage/plugin-scaffolder-backend"
+    "pluginPackage": "@stone-payments/plugin-scaffolder-backend"
   },
   "publishConfig": {
     "access": "public"
@@ -47,13 +47,13 @@
     "@backstage/config": "workspace:^",
     "@backstage/errors": "workspace:^",
     "@backstage/integration": "workspace:^",
-    "@backstage/plugin-scaffolder-node": "workspace:^",
+    "@stone-payments/plugin-scaffolder-node": "workspace:^",
     "@google-cloud/storage": "^7.0.0",
     "raw-body": "^2.4.1"
   },
   "devDependencies": {
     "@backstage/cli": "workspace:^",
-    "@backstage/plugin-scaffolder-node-test-utils": "workspace:^"
+    "@stone-payments/plugin-scaffolder-node-test-utils": "workspace:^"
   },
   "configSchema": "config.d.ts"
 }

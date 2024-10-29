@@ -15,7 +15,7 @@
  */
 
 import { ScmIntegrationRegistry } from '@backstage/integration';
-import { createTemplateAction } from '@backstage/plugin-scaffolder-node';
+import { createTemplateAction } from '@stone-payments/plugin-scaffolder-node';
 import { GroupSchema } from '@gitbeaker/core/dist/types/resources/Groups';
 import { z } from 'zod';
 import commonGitlabConfig from '../commonGitlabConfig';

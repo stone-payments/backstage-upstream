@@ -1,7 +1,7 @@
-# @backstage/plugin-scaffolder-backend-module-bitbucket-server
+# @stone-payments/plugin-scaffolder-backend-module-bitbucket-server
 
 The Bitbucket Server module for
-[@backstage/plugin-scaffolder-backend](https://www.npmjs.com/package/@backstage/plugin-scaffolder-backend).
+[@stone-payments/plugin-scaffolder-backend](https://www.npmjs.com/package/@stone-payments/plugin-scaffolder-backend).
 
 ## Actions
 

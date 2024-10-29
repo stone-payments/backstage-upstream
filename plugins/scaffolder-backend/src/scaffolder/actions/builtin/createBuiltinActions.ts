@@ -25,7 +25,7 @@ import {
   TemplateAction,
   TemplateFilter,
   TemplateGlobal,
-} from '@backstage/plugin-scaffolder-node';
+} from '@stone-payments/plugin-scaffolder-node';
 import {
   createCatalogRegisterAction,
   createCatalogWriteAction,
@@ -54,35 +54,35 @@ import {
   createGithubWebhookAction,
   createPublishGithubAction,
   createPublishGithubPullRequestAction,
-} from '@backstage/plugin-scaffolder-backend-module-github';
+} from '@stone-payments/plugin-scaffolder-backend-module-github';
 
-import { createPublishAzureAction } from '@backstage/plugin-scaffolder-backend-module-azure';
+import { createPublishAzureAction } from '@stone-payments/plugin-scaffolder-backend-module-azure';
 
-import { createPublishBitbucketAction } from '@backstage/plugin-scaffolder-backend-module-bitbucket';
+import { createPublishBitbucketAction } from '@stone-payments/plugin-scaffolder-backend-module-bitbucket';
 
 import {
   createPublishBitbucketCloudAction,
   createBitbucketPipelinesRunAction,
   createPublishBitbucketCloudPullRequestAction,
-} from '@backstage/plugin-scaffolder-backend-module-bitbucket-cloud';
+} from '@stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud';
 
 import {
   createPublishBitbucketServerAction,
   createPublishBitbucketServerPullRequestAction,
-} from '@backstage/plugin-scaffolder-backend-module-bitbucket-server';
+} from '@stone-payments/plugin-scaffolder-backend-module-bitbucket-server';
 
 import {
   createPublishGerritAction,
   createPublishGerritReviewAction,
-} from '@backstage/plugin-scaffolder-backend-module-gerrit';
+} from '@stone-payments/plugin-scaffolder-backend-module-gerrit';
 
 import {
   createPublishGitlabAction,
   createGitlabRepoPushAction,
   createPublishGitlabMergeRequestAction,
-} from '@backstage/plugin-scaffolder-backend-module-gitlab';
+} from '@stone-payments/plugin-scaffolder-backend-module-gitlab';
 
-import { createPublishGiteaAction } from '@backstage/plugin-scaffolder-backend-module-gitea';
+import { createPublishGiteaAction } from '@stone-payments/plugin-scaffolder-backend-module-gitea';
 import { AuthService, UrlReaderService } from '@backstage/backend-plugin-api';
 
 /**

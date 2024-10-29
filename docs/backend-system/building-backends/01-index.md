@@ -28,7 +28,7 @@ const backend = createBackend();
 
 backend.add(import('@backstage/plugin-app-backend'));
 backend.add(import('@backstage/plugin-catalog-backend'));
-backend.add(import('@backstage/plugin-scaffolder-backend'));
+backend.add(import('@stone-payments/plugin-scaffolder-backend'));
 backend.add(
   import('@backstage/plugin-catalog-backend-module-scaffolder-entity-model'),
 );
@@ -139,7 +139,7 @@ And `backend-b`, don't forget to clean up dependencies in `package.json` as well
 ```ts
 const backend = createBackend();
 
-backend.add(import('@backstage/plugin-scaffolder-backend'));
+backend.add(import('@stone-payments/plugin-scaffolder-backend'));
 backend.start();
 ```
 

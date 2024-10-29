@@ -15,7 +15,7 @@
  */
 
 import fs from 'fs-extra';
-import { createTemplateAction } from '@backstage/plugin-scaffolder-node';
+import { createTemplateAction } from '@stone-payments/plugin-scaffolder-node';
 import * as yaml from 'yaml';
 import { resolveSafeChildPath } from '@backstage/backend-plugin-api';
 import { z } from 'zod';

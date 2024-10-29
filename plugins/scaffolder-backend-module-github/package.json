@@ -1,11 +1,11 @@
 {
-  "name": "@backstage/plugin-scaffolder-backend-module-github",
+  "name": "@stone-payments/plugin-scaffolder-backend-module-github",
   "version": "0.5.1",
-  "description": "The github module for @backstage/plugin-scaffolder-backend",
+  "description": "The github module for @stone-payments/plugin-scaffolder-backend",
   "backstage": {
     "role": "backend-plugin-module",
     "pluginId": "scaffolder",
-    "pluginPackage": "@backstage/plugin-scaffolder-backend"
+    "pluginPackage": "@stone-payments/plugin-scaffolder-backend"
   },
   "publishConfig": {
     "access": "public"
@@ -49,7 +49,7 @@
     "@backstage/config": "workspace:^",
     "@backstage/errors": "workspace:^",
     "@backstage/integration": "workspace:^",
-    "@backstage/plugin-scaffolder-node": "workspace:^",
+    "@stone-payments/plugin-scaffolder-node": "workspace:^",
     "@octokit/webhooks": "^10.9.2",
     "libsodium-wrappers": "^0.7.11",
     "octokit": "^3.0.0",
@@ -59,7 +59,7 @@
   "devDependencies": {
     "@backstage/backend-test-utils": "workspace:^",
     "@backstage/cli": "workspace:^",
-    "@backstage/plugin-scaffolder-node-test-utils": "workspace:^",
+    "@stone-payments/plugin-scaffolder-node-test-utils": "workspace:^",
     "@types/libsodium-wrappers": "^0.7.10",
     "fs-extra": "^11.2.0",
     "jsonschema": "^1.2.6"

@@ -26,7 +26,7 @@ import {
   TemplateAction,
   TemplateFilter,
   TemplateGlobal,
-} from '@backstage/plugin-scaffolder-node';
+} from '@stone-payments/plugin-scaffolder-node';
 import {
   AutocompleteHandler,
   scaffolderActionsExtensionPoint,
@@ -35,7 +35,7 @@ import {
   scaffolderTemplatingExtensionPoint,
   scaffolderWorkspaceProviderExtensionPoint,
   WorkspaceProvider,
-} from '@backstage/plugin-scaffolder-node/alpha';
+} from '@stone-payments/plugin-scaffolder-node/alpha';
 import {
   createCatalogRegisterAction,
   createCatalogWriteAction,

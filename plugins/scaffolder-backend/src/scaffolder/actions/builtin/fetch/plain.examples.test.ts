@@ -20,13 +20,13 @@ import { resolve as resolvePath } from 'path';
 import { ConfigReader } from '@backstage/config';
 import { ScmIntegrations } from '@backstage/integration';
 import { createFetchPlainAction } from './plain';
-import { fetchContents } from '@backstage/plugin-scaffolder-node';
-import { createMockActionContext } from '@backstage/plugin-scaffolder-node-test-utils';
+import { fetchContents } from '@stone-payments/plugin-scaffolder-node';
+import { createMockActionContext } from '@stone-payments/plugin-scaffolder-node-test-utils';
 import { examples } from './plain.examples';
 import { UrlReaderService } from '@backstage/backend-plugin-api';
 
-jest.mock('@backstage/plugin-scaffolder-node', () => ({
-  ...jest.requireActual('@backstage/plugin-scaffolder-node'),
+jest.mock('@stone-payments/plugin-scaffolder-node', () => ({
+  ...jest.requireActual('@stone-payments/plugin-scaffolder-node'),
   fetchContents: jest.fn(),
 }));
 

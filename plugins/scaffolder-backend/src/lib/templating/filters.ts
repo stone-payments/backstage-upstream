@@ -19,7 +19,7 @@ import type { JsonObject, JsonValue } from '@backstage/types';
 import {
   parseRepoUrl,
   TemplateFilter,
-} from '@backstage/plugin-scaffolder-node';
+} from '@stone-payments/plugin-scaffolder-node';
 import get from 'lodash/get';
 
 export const createDefaultFilters = ({

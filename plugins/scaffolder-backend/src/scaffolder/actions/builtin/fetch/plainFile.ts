@@ -21,7 +21,7 @@ import { examples } from './plainFile.examples';
 import {
   createTemplateAction,
   fetchFile,
-} from '@backstage/plugin-scaffolder-node';
+} from '@stone-payments/plugin-scaffolder-node';
 
 /**
  * Downloads content and places it in the workspace, or optionally

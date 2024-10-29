@@ -18,19 +18,19 @@ import { join as joinPath } from 'path';
 import fs from 'fs-extra';
 import { UrlReaderService } from '@backstage/backend-plugin-api';
 import { ScmIntegrations } from '@backstage/integration';
-import { createMockActionContext } from '@backstage/plugin-scaffolder-node-test-utils';
+import { createMockActionContext } from '@stone-payments/plugin-scaffolder-node-test-utils';
 import { createFetchTemplateFileAction } from './templateFile';
 import {
   ActionContext,
   TemplateAction,
   fetchFile,
-} from '@backstage/plugin-scaffolder-node';
+} from '@stone-payments/plugin-scaffolder-node';
 import { examples } from './templateFile.examples';
 import yaml from 'yaml';
 import { createMockDirectory } from '@backstage/backend-test-utils';
 
-jest.mock('@backstage/plugin-scaffolder-node', () => ({
-  ...jest.requireActual('@backstage/plugin-scaffolder-node'),
+jest.mock('@stone-payments/plugin-scaffolder-node', () => ({
+  ...jest.requireActual('@stone-payments/plugin-scaffolder-node'),
   fetchFile: jest.fn(),
 }));
 

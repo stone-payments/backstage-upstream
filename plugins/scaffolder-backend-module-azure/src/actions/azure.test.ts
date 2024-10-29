@@ -19,9 +19,9 @@ jest.mock('azure-devops-node-api', () => ({
   getPersonalAccessTokenHandler: jest.fn().mockReturnValue(() => {}),
 }));
 
-jest.mock('@backstage/plugin-scaffolder-node', () => {
+jest.mock('@stone-payments/plugin-scaffolder-node', () => {
   return {
-    ...jest.requireActual('@backstage/plugin-scaffolder-node'),
+    ...jest.requireActual('@stone-payments/plugin-scaffolder-node'),
     initRepoAndPush: jest.fn().mockResolvedValue({
       commitHash: '220f19cc36b551763d157f1b5e4a4b446165dbd6',
     }),
@@ -35,8 +35,8 @@ import { createPublishAzureAction } from './azure';
 import { ScmIntegrations } from '@backstage/integration';
 import { ConfigReader } from '@backstage/config';
 import { WebApi } from 'azure-devops-node-api';
-import { initRepoAndPush } from '@backstage/plugin-scaffolder-node';
-import { createMockActionContext } from '@backstage/plugin-scaffolder-node-test-utils';
+import { initRepoAndPush } from '@stone-payments/plugin-scaffolder-node';
+import { createMockActionContext } from '@stone-payments/plugin-scaffolder-node-test-utils';
 
 describe('publish:azure', () => {
   const config = new ConfigReader({

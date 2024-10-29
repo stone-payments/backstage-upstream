@@ -148,7 +148,7 @@ Set up your provider
 import { CatalogBuilder } from '@backstage/plugin-catalog-backend';
 /* highlight-add-next-line */
 import { GithubOrgEntityProvider } from '@backstage/plugin-catalog-backend-module-github';
-import { ScaffolderEntitiesProcessor } from '@backstage/plugin-scaffolder-backend';
+import { ScaffolderEntitiesProcessor } from '@stone-payments/plugin-scaffolder-backend';
 import { Router } from 'express';
 import { PluginEnvironment } from '../types';
 

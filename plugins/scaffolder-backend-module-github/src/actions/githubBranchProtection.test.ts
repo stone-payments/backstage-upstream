@@ -15,8 +15,8 @@
  */
 
 import { createGithubBranchProtectionAction } from './githubBranchProtection';
-import { createMockActionContext } from '@backstage/plugin-scaffolder-node-test-utils';
-import { TemplateAction } from '@backstage/plugin-scaffolder-node';
+import { createMockActionContext } from '@stone-payments/plugin-scaffolder-node-test-utils';
+import { TemplateAction } from '@stone-payments/plugin-scaffolder-node';
 import { ConfigReader } from '@backstage/config';
 import { ScmIntegrations } from '@backstage/integration';
 

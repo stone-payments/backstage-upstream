@@ -20,8 +20,8 @@ import {
   GithubCredentialsProvider,
 } from '@backstage/integration';
 import { ConfigReader } from '@backstage/config';
-import { TemplateAction } from '@backstage/plugin-scaffolder-node';
-import { createMockActionContext } from '@backstage/plugin-scaffolder-node-test-utils';
+import { TemplateAction } from '@stone-payments/plugin-scaffolder-node';
+import { createMockActionContext } from '@stone-payments/plugin-scaffolder-node-test-utils';
 import { createGithubActionsDispatchAction } from './githubActionsDispatch';
 
 const mockOctokit = {

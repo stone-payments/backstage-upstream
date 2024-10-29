@@ -3077,14 +3077,14 @@
 
 ### Patch Changes
 
-- f9c7bdd899: Builtin support for cookiecutter based templates has been removed from `@backstage/plugin-scaffolder-backend`. Due to this, the `containerRunner` argument to its `createRouter` has also been removed.
+- f9c7bdd899: Builtin support for cookiecutter based templates has been removed from `@stone-payments/plugin-scaffolder-backend`. Due to this, the `containerRunner` argument to its `createRouter` has also been removed.
 
   If you do not use cookiecutter templates and are fine with removing support from it in your own installation, update your `packages/backend/src/plugins/scaffolder.ts` file as follows:
 
   ```diff
   -import { DockerContainerRunner } from '@backstage/backend-common';
    import { CatalogClient } from '@backstage/catalog-client';
-   import { createRouter } from '@backstage/plugin-scaffolder-backend';
+   import { createRouter } from '@stone-payments/plugin-scaffolder-backend';
   -import Docker from 'dockerode';
    import { Router } from 'express';
    import type { PluginEnvironment } from '../types';
@@ -3105,7 +3105,7 @@
     // ...
   ```
 
-  If you want to retain cookiecutter support, please use the `@backstage/plugin-scaffolder-backend-module-cookiecutter` package explicitly (see [its README](https://github.com/backstage/backstage/tree/master/plugins/scaffolder-backend-module-cookiecutter) for installation instructions).
+  If you want to retain cookiecutter support, please use the `@stone-payments/plugin-scaffolder-backend-module-cookiecutter` package explicitly (see [its README](https://github.com/backstage/backstage/tree/master/plugins/scaffolder-backend-module-cookiecutter) for installation instructions).
 
 - 8a57b6595b: Removed the `cookiecutter-golang` template from the default `create-app` install as we no longer provide `cookiecutter` action out of the box.
 
@@ -3145,14 +3145,14 @@
 
 ### Patch Changes
 
-- f9c7bdd899: Builtin support for cookiecutter based templates has been removed from `@backstage/plugin-scaffolder-backend`. Due to this, the `containerRunner` argument to its `createRouter` has also been removed.
+- f9c7bdd899: Builtin support for cookiecutter based templates has been removed from `@stone-payments/plugin-scaffolder-backend`. Due to this, the `containerRunner` argument to its `createRouter` has also been removed.
 
   If you do not use cookiecutter templates and are fine with removing support from it in your own installation, update your `packages/backend/src/plugins/scaffolder.ts` file as follows:
 
   ```diff
   -import { DockerContainerRunner } from '@backstage/backend-common';
    import { CatalogClient } from '@backstage/catalog-client';
-   import { createRouter } from '@backstage/plugin-scaffolder-backend';
+   import { createRouter } from '@stone-payments/plugin-scaffolder-backend';
   -import Docker from 'dockerode';
    import { Router } from 'express';
    import type { PluginEnvironment } from '../types';
@@ -3173,7 +3173,7 @@
     // ...
   ```
 
-  If you want to retain cookiecutter support, please use the `@backstage/plugin-scaffolder-backend-module-cookiecutter` package explicitly (see [its README](https://github.com/backstage/backstage/tree/master/plugins/scaffolder-backend-module-cookiecutter) for installation instructions).
+  If you want to retain cookiecutter support, please use the `@stone-payments/plugin-scaffolder-backend-module-cookiecutter` package explicitly (see [its README](https://github.com/backstage/backstage/tree/master/plugins/scaffolder-backend-module-cookiecutter) for installation instructions).
 
 - 8a57b6595b: Removed the `cookiecutter-golang` template from the default `create-app` install as we no longer provide `cookiecutter` action out of the box.
 
@@ -4199,7 +4199,7 @@ The `.fromConfig` of the `DefaultCatalogCollator` also now takes a `tokenManager
   - @backstage/plugin-explore@0.3.26-next.0
   - @backstage/plugin-github-actions@0.4.32-next.0
   - @backstage/plugin-lighthouse@0.2.35-next.0
-  - @backstage/plugin-scaffolder-backend@0.15.21-next.0
+  - @stone-payments/plugin-scaffolder-backend@0.15.21-next.0
   - @backstage/backend-tasks@0.1.4-next.0
   - @backstage/catalog-client@0.5.5-next.0
   - @backstage/test-utils@0.2.3-next.0
@@ -4702,7 +4702,7 @@ The `.fromConfig` of the `DefaultCatalogCollator` also now takes a `tokenManager
   In order to use the new beta 3 templates, the following changes are **required** for any existing installation, inside `packages/backend/src/plugins/catalog.ts`:
 
   ```diff
-  +import { ScaffolderEntitiesProcessor } from '@backstage/plugin-scaffolder-backend';
+  +import { ScaffolderEntitiesProcessor } from '@stone-payments/plugin-scaffolder-backend';
 
   ...
 
@@ -5142,8 +5142,8 @@ The `.fromConfig` of the `DefaultCatalogCollator` also now takes a `tokenManager
   -   Preparers,
   -   Publishers,
   -   Templaters,
-  - } from '@backstage/plugin-scaffolder-backend';
-  + import { createRouter } from '@backstage/plugin-scaffolder-backend';
+  - } from '@stone-payments/plugin-scaffolder-backend';
+  + import { createRouter } from '@stone-payments/plugin-scaffolder-backend';
     import Docker from 'dockerode';
     import { Router } from 'express';
     import type { PluginEnvironment } from '../types';
@@ -5202,7 +5202,7 @@ The `.fromConfig` of the `DefaultCatalogCollator` also now takes a `tokenManager
 ### Patch Changes
 
 - Updated dependencies
-  - @backstage/plugin-scaffolder-backend@0.12.2
+  - @stone-payments/plugin-scaffolder-backend@0.12.2
 
 ## 0.3.26
 
@@ -5316,7 +5316,7 @@ The `.fromConfig` of the `DefaultCatalogCollator` also now takes a `tokenManager
   - @backstage/backend-common@0.8.3
   - @backstage/cli@0.7.1
   - @backstage/plugin-api-docs@0.5.0
-  - @backstage/plugin-scaffolder-backend@0.12.1
+  - @stone-payments/plugin-scaffolder-backend@0.12.1
   - @backstage/plugin-techdocs@0.9.6
   - @backstage/plugin-techdocs-backend@0.8.3
   - @backstage/plugin-catalog-import@0.5.10
@@ -5371,7 +5371,7 @@ The `.fromConfig` of the `DefaultCatalogCollator` also now takes a `tokenManager
   }
   ```
 
-  Be aware that this is only required short term until we can release our updated versions of `@backstage/plugin-scaffolder-backend`.
+  Be aware that this is only required short term until we can release our updated versions of `@stone-payments/plugin-scaffolder-backend`.
 
 - 55a253de2: Migrating old `backstage.io/v1alpha1` templates to `backstage.io/v1beta2`
 
@@ -5589,7 +5589,7 @@ The `.fromConfig` of the `DefaultCatalogCollator` also now takes a `tokenManager
   - @backstage/backend-common@0.8.2
   - @backstage/catalog-model@0.8.2
   - @backstage/plugin-scaffolder@0.9.8
-  - @backstage/plugin-scaffolder-backend@0.12.0
+  - @stone-payments/plugin-scaffolder-backend@0.12.0
   - @backstage/integration-react@0.1.3
   - @backstage/catalog-client@0.3.13
   - @backstage/plugin-catalog-import@0.5.9
@@ -5646,7 +5646,7 @@ The `.fromConfig` of the `DefaultCatalogCollator` also now takes a `tokenManager
   - @backstage/catalog-model@0.8.1
   - @backstage/core@0.7.12
   - @backstage/plugin-tech-radar@0.4.0
-  - @backstage/plugin-scaffolder-backend@0.11.5
+  - @stone-payments/plugin-scaffolder-backend@0.11.5
   - @backstage/plugin-catalog-backend@0.10.1
   - @backstage/plugin-techdocs@0.9.5
 
@@ -5766,7 +5766,7 @@ The `.fromConfig` of the `DefaultCatalogCollator` also now takes a `tokenManager
   - @backstage/plugin-catalog@0.6.0
   - @backstage/cli@0.6.13
   - @backstage/plugin-techdocs@0.9.4
-  - @backstage/plugin-scaffolder-backend@0.11.4
+  - @stone-payments/plugin-scaffolder-backend@0.11.4
   - @backstage/plugin-api-docs@0.4.15
   - @backstage/plugin-auth-backend@0.3.12
   - @backstage/plugin-catalog-import@0.5.8
@@ -5809,7 +5809,7 @@ The `.fromConfig` of the `DefaultCatalogCollator` also now takes a `tokenManager
   - @backstage/plugin-github-actions@0.4.6
   - @backstage/plugin-lighthouse@0.2.16
   - @backstage/plugin-scaffolder@0.9.4
-  - @backstage/plugin-scaffolder-backend@0.11.1
+  - @stone-payments/plugin-scaffolder-backend@0.11.1
   - @backstage/plugin-search@0.3.6
   - @backstage/plugin-tech-radar@0.3.11
   - @backstage/plugin-techdocs@0.9.2
@@ -5887,7 +5887,7 @@ The `.fromConfig` of the `DefaultCatalogCollator` also now takes a `tokenManager
     }
   ```
 
-  `@backstage/plugin-scaffolder-backend`:
+  `@stone-payments/plugin-scaffolder-backend`:
 
   ```diff
   // packages/backend/src/plugin/scaffolder.ts
@@ -5958,7 +5958,7 @@ The `.fromConfig` of the `DefaultCatalogCollator` also now takes a `tokenManager
 - Updated dependencies [cdb3426e5]
 - Updated dependencies [d8b81fd28]
 - Updated dependencies [d1b1306d9]
-  - @backstage/plugin-scaffolder-backend@0.11.0
+  - @stone-payments/plugin-scaffolder-backend@0.11.0
   - @backstage/backend-common@0.7.0
   - @backstage/plugin-techdocs-backend@0.8.0
   - @backstage/plugin-catalog-import@0.5.5
@@ -6015,7 +6015,7 @@ The `.fromConfig` of the `DefaultCatalogCollator` also now takes a `tokenManager
   - @backstage/plugin-catalog-backend@0.8.1
   - @backstage/plugin-search@0.3.5
   - @backstage/plugin-techdocs@0.9.0
-  - @backstage/plugin-scaffolder-backend@0.10.1
+  - @stone-payments/plugin-scaffolder-backend@0.10.1
 
 ## 0.3.19
 
@@ -6058,7 +6058,7 @@ The `.fromConfig` of the `DefaultCatalogCollator` also now takes a `tokenManager
 - Updated dependencies [e292e393f]
 - Updated dependencies [479b29124]
   - @backstage/core@0.7.6
-  - @backstage/plugin-scaffolder-backend@0.10.0
+  - @stone-payments/plugin-scaffolder-backend@0.10.0
   - @backstage/cli@0.6.9
   - @backstage/plugin-scaffolder@0.9.1
   - @backstage/plugin-catalog-import@0.5.3
@@ -6179,7 +6179,7 @@ The `.fromConfig` of the `DefaultCatalogCollator` also now takes a `tokenManager
 - Updated dependencies [184b02bef]
 - Updated dependencies [0b7fd7a9d]
 - Updated dependencies [60ce64aa2]
-  - @backstage/plugin-scaffolder-backend@0.9.6
+  - @stone-payments/plugin-scaffolder-backend@0.9.6
   - @backstage/plugin-catalog-backend@0.7.1
   - @backstage/plugin-scaffolder@0.9.0
   - @backstage/catalog-model@0.7.7
@@ -6391,7 +6391,7 @@ The `.fromConfig` of the `DefaultCatalogCollator` also now takes a `tokenManager
 - Updated dependencies [ae6250ce3]
 - Updated dependencies [98dd5da71]
 - Updated dependencies [b779b5fee]
-  - @backstage/plugin-scaffolder-backend@0.9.5
+  - @stone-payments/plugin-scaffolder-backend@0.9.5
   - @backstage/plugin-auth-backend@0.3.8
   - @backstage/core@0.7.4
   - @backstage/catalog-model@0.7.6
@@ -6430,7 +6430,7 @@ The `.fromConfig` of the `DefaultCatalogCollator` also now takes a `tokenManager
 - Updated dependencies [676ede643]
   - @backstage/plugin-catalog-backend@0.7.0
   - @backstage/plugin-scaffolder@0.8.1
-  - @backstage/plugin-scaffolder-backend@0.9.4
+  - @stone-payments/plugin-scaffolder-backend@0.9.4
   - @backstage/plugin-auth-backend@0.3.7
   - @backstage/plugin-api-docs@0.4.10
   - @backstage/plugin-github-actions@0.4.3
@@ -6535,7 +6535,7 @@ The `.fromConfig` of the `DefaultCatalogCollator` also now takes a `tokenManager
 - Updated dependencies [c862b3f36]
 - Updated dependencies [4d248725e]
 - Updated dependencies [df59930b3]
-  - @backstage/plugin-scaffolder-backend@0.9.3
+  - @stone-payments/plugin-scaffolder-backend@0.9.3
   - @backstage/plugin-github-actions@0.4.2
   - @backstage/plugin-catalog@0.5.1
   - @backstage/plugin-techdocs@0.7.0
@@ -6631,7 +6631,7 @@ The `.fromConfig` of the `DefaultCatalogCollator` also now takes a `tokenManager
   - @backstage/plugin-techdocs@0.6.2
   - @backstage/plugin-catalog-import@0.5.0
   - @backstage/plugin-techdocs-backend@0.6.5
-  - @backstage/plugin-scaffolder-backend@0.9.2
+  - @stone-payments/plugin-scaffolder-backend@0.9.2
   - @backstage/backend-common@0.6.0
   - @backstage/cli@0.6.5
   - @backstage/plugin-scaffolder@0.8.0
@@ -6712,7 +6712,7 @@ The `.fromConfig` of the `DefaultCatalogCollator` also now takes a `tokenManager
   - @backstage/plugin-catalog@0.4.2
   - @backstage/backend-common@0.5.6
   - @backstage/plugin-app-backend@0.3.9
-  - @backstage/plugin-scaffolder-backend@0.9.1
+  - @stone-payments/plugin-scaffolder-backend@0.9.1
   - @backstage/catalog-model@0.7.4
   - @backstage/catalog-client@0.3.7
   - @backstage/core@0.7.1
@@ -6866,7 +6866,7 @@ For more information and the background to this change, see the [composability s
   - @backstage/plugin-circleci@0.2.11
   - @backstage/plugin-github-actions@0.3.5
   - @backstage/plugin-scaffolder@0.7.0
-  - @backstage/plugin-scaffolder-backend@0.9.0
+  - @stone-payments/plugin-scaffolder-backend@0.9.0
   - @backstage/cli@0.6.3
   - @backstage/plugin-techdocs-backend@0.6.3
   - @backstage/plugin-catalog-backend@0.6.4
@@ -6976,7 +6976,7 @@ For more information and the background to this change, see the [composability s
      CreateReactAppTemplater,
      Templaters,
   -  CatalogEntityClient,
-   } from '@backstage/plugin-scaffolder-backend';
+   } from '@stone-payments/plugin-scaffolder-backend';
   +import { CatalogClient } from '@backstage/catalog-client';
 
    const discovery = SingleHostDiscovery.fromConfig(config);
@@ -7030,7 +7030,7 @@ For more information and the background to this change, see the [composability s
   - @backstage/plugin-auth-backend@0.3.2
   - @backstage/core@0.6.3
   - @backstage/plugin-scaffolder@0.6.0
-  - @backstage/plugin-scaffolder-backend@0.8.0
+  - @stone-payments/plugin-scaffolder-backend@0.8.0
   - @backstage/test-utils@0.1.8
   - @backstage/plugin-catalog@0.4.0
   - @backstage/plugin-catalog-import@0.4.2
@@ -7145,7 +7145,7 @@ For more information and the background to this change, see the [composability s
   - @backstage/core@0.6.2
   - @backstage/cli@0.6.1
   - @backstage/plugin-user-settings@0.2.6
-  - @backstage/plugin-scaffolder-backend@0.7.1
+  - @stone-payments/plugin-scaffolder-backend@0.7.1
   - @backstage/plugin-api-docs@0.4.6
   - @backstage/plugin-catalog-import@0.4.1
   - @backstage/plugin-github-actions@0.3.3
@@ -7237,7 +7237,7 @@ For more information and the background to this change, see the [composability s
   - @backstage/plugin-auth-backend@0.3.0
   - @backstage/plugin-catalog@0.3.1
   - @backstage/plugin-scaffolder@0.5.0
-  - @backstage/plugin-scaffolder-backend@0.7.0
+  - @stone-payments/plugin-scaffolder-backend@0.7.0
   - @backstage/plugin-catalog-backend@0.6.1
   - @backstage/plugin-circleci@0.2.8
   - @backstage/plugin-search@0.3.0
@@ -7314,7 +7314,7 @@ For more information and the background to this change, see the [composability s
   - @backstage/plugin-techdocs@0.5.5
   - @backstage/plugin-user-settings@0.2.5
   - @backstage/catalog-model@0.7.1
-  - @backstage/plugin-scaffolder-backend@0.6.0
+  - @stone-payments/plugin-scaffolder-backend@0.6.0
   - @backstage/plugin-app-backend@0.3.6
   - @backstage/plugin-tech-radar@0.3.4
   - @backstage/plugin-explore@0.2.4
@@ -7341,7 +7341,7 @@ For more information and the background to this change, see the [composability s
 - Updated dependencies [39b05b9ae]
 - Updated dependencies [4eaa06057]
   - @backstage/backend-common@0.5.1
-  - @backstage/plugin-scaffolder-backend@0.5.2
+  - @stone-payments/plugin-scaffolder-backend@0.5.2
   - @backstage/cli@0.5.0
   - @backstage/plugin-catalog@0.2.14
   - @backstage/plugin-catalog-backend@0.5.5
@@ -7376,7 +7376,7 @@ For more information and the background to this change, see the [composability s
 - Updated dependencies [0ea002378]
 - Updated dependencies [a08db734c]
   - @backstage/plugin-catalog@0.2.13
-  - @backstage/plugin-scaffolder-backend@0.5.1
+  - @stone-payments/plugin-scaffolder-backend@0.5.1
 
 ## 0.3.6
 
@@ -7518,7 +7518,7 @@ For more information and the background to this change, see the [composability s
     CreateReactAppTemplater,
     Templaters,
     CatalogEntityClient,
-  } from '@backstage/plugin-scaffolder-backend';
+  } from '@stone-payments/plugin-scaffolder-backend';
   import { SingleHostDiscovery } from '@backstage/backend-common';
   import type { PluginEnvironment } from '../types';
   import Docker from 'dockerode';
@@ -7597,7 +7597,7 @@ For more information and the background to this change, see the [composability s
   - @backstage/cli@0.4.7
   - @backstage/plugin-api-docs@0.4.3
   - @backstage/plugin-scaffolder@0.4.0
-  - @backstage/plugin-scaffolder-backend@0.5.0
+  - @stone-payments/plugin-scaffolder-backend@0.5.0
   - @backstage/plugin-techdocs@0.5.4
   - @backstage/plugin-techdocs-backend@0.5.4
   - @backstage/plugin-auth-backend@0.2.11

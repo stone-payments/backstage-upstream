@@ -29,7 +29,7 @@ $ yarn backstage-cli new
   plugin-common - A new isomorphic common plugin package
   plugin-node - A new Node.js library plugin package
   plugin-react - A new web library plugin package
-> scaffolder-module - An module exporting custom actions for @backstage/plugin-scaffolder-backend
+> scaffolder-module - An module exporting custom actions for @stone-payments/plugin-scaffolder-backend
 ```
 
 You can find a [list](../../tooling/cli/03-commands.md) of all commands provided by the Backstage CLI.
@@ -44,7 +44,7 @@ Let's create a simple action that adds a new file and some contents that are pas
 
 ```ts title="With Zod"
 import { resolveSafeChildPath } from '@backstage/backend-plugin-api';
-import { createTemplateAction } from '@backstage/plugin-scaffolder-node';
+import { createTemplateAction } from '@stone-payments/plugin-scaffolder-node';
 import fs from 'fs-extra';
 import { z } from 'zod';
 
@@ -92,7 +92,7 @@ You can also choose to define your custom action using JSON schema instead of `z
 
 ```ts title="With JSON Schema"
 import { resolveSafeChildPath } from '@backstage/backend-plugin-api';
-import { createTemplateAction } from '@backstage/plugin-scaffolder-node';
+import { createTemplateAction } from '@stone-payments/plugin-scaffolder-node';
 import { writeFile } from 'fs';
 
 export const createNewFileAction = () => {
@@ -170,7 +170,7 @@ To register your new custom action in the Backend System you will need to create
 
 ```ts title="packages/backend/src/index.ts"
 /* highlight-add-start */
-import { scaffolderActionsExtensionPoint } from '@backstage/plugin-scaffolder-node/alpha';
+import { scaffolderActionsExtensionPoint } from '@stone-payments/plugin-scaffolder-node/alpha';
 import { createBackendModule } from '@backstage/backend-plugin-api';
 /* highlight-add-end */
 
@@ -195,7 +195,7 @@ const scaffolderModuleCustomExtensions = createBackendModule({
 /* highlight-add-end */
 
 const backend = createBackend();
-backend.add(import('@backstage/plugin-scaffolder-backend'));
+backend.add(import('@stone-payments/plugin-scaffolder-backend'));
 /* highlight-add-next-line */
 backend.add(scaffolderModuleCustomExtensions);
 ```
@@ -266,7 +266,7 @@ There's another property you can pass here, which is an array of `actions` which
 will set the available actions that the scaffolder has access to.
 
 ```ts
-import { createBuiltinActions } from '@backstage/plugin-scaffolder-backend';
+import { createBuiltinActions } from '@stone-payments/plugin-scaffolder-backend';
 import { ScmIntegrations } from '@backstage/integration';
 import { createNewFileAction } from './scaffolder/actions/custom';
 
@@ -303,9 +303,9 @@ scaffolder backend:
 
 | Name                     | Package                                                                                                                                         | Owner                                                        |
 | ------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------ |
-| Yeoman                   | [plugin-scaffolder-backend-module-yeoman](https://www.npmjs.com/package/@backstage/plugin-scaffolder-backend-module-yeoman)                     | [Backstage](https://backstage.io)                            |
-| Cookiecutter             | [plugin-scaffolder-backend-module-cookiecutter](https://www.npmjs.com/package/@backstage/plugin-scaffolder-backend-module-cookiecutter)         | [Backstage](https://backstage.io)                            |
-| Rails                    | [plugin-scaffolder-backend-module-rails](https://www.npmjs.com/package/@backstage/plugin-scaffolder-backend-module-rails)                       | [Backstage](https://backstage.io)                            |
+| Yeoman                   | [plugin-scaffolder-backend-module-yeoman](https://www.npmjs.com/package/@stone-payments/plugin-scaffolder-backend-module-yeoman)                     | [Backstage](https://backstage.io)                            |
+| Cookiecutter             | [plugin-scaffolder-backend-module-cookiecutter](https://www.npmjs.com/package/@stone-payments/plugin-scaffolder-backend-module-cookiecutter)         | [Backstage](https://backstage.io)                            |
+| Rails                    | [plugin-scaffolder-backend-module-rails](https://www.npmjs.com/package/@stone-payments/plugin-scaffolder-backend-module-rails)                       | [Backstage](https://backstage.io)                            |
 | HTTP requests            | [scaffolder-backend-module-http-request](https://www.npmjs.com/package/@roadiehq/scaffolder-backend-module-http-request)                        | [Roadie](https://roadie.io)                                  |
 | Utility actions          | [scaffolder-backend-module-utils](https://www.npmjs.com/package/@roadiehq/scaffolder-backend-module-utils)                                      | [Roadie](https://roadie.io)                                  |
 | AWS cli actions          | [scaffolder-backend-module-aws](https://www.npmjs.com/package/@roadiehq/scaffolder-backend-module-aws)                                          | [Roadie](https://roadie.io)                                  |

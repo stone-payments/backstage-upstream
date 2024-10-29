@@ -65,8 +65,8 @@ export const packageVersions: Record<string, string> = {
   '@backstage/errors': errors,
   '@backstage/test-utils': testUtils,
   '@backstage/theme': theme,
-  '@backstage/plugin-scaffolder-node': scaffolderNode,
-  '@backstage/plugin-scaffolder-node-test-utils': scaffolderNodeTestUtils,
+  '@stone-payments/plugin-scaffolder-node': scaffolderNode,
+  '@stone-payments/plugin-scaffolder-node-test-utils': scaffolderNodeTestUtils,
   '@backstage/plugin-auth-backend': authBackend,
   '@backstage/plugin-auth-backend-module-guest-provider':
     authBackendModuleGuestProvider,

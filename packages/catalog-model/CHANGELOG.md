@@ -886,8 +886,8 @@
   -   Preparers,
   -   Publishers,
   -   Templaters,
-  - } from '@backstage/plugin-scaffolder-backend';
-  + import { createRouter } from '@backstage/plugin-scaffolder-backend';
+  - } from '@stone-payments/plugin-scaffolder-backend';
+  + import { createRouter } from '@stone-payments/plugin-scaffolder-backend';
     import Docker from 'dockerode';
     import { Router } from 'express';
     import type { PluginEnvironment } from '../types';

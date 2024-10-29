@@ -16,7 +16,7 @@
 
 import { resolve as resolvePath } from 'path';
 import { createFilesystemRenameAction } from './rename';
-import { createMockActionContext } from '@backstage/plugin-scaffolder-node-test-utils';
+import { createMockActionContext } from '@stone-payments/plugin-scaffolder-node-test-utils';
 import fs from 'fs-extra';
 import yaml from 'yaml';
 import { examples } from './rename.examples';

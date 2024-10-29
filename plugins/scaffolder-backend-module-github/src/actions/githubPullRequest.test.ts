@@ -23,11 +23,11 @@ import {
 import {
   ActionContext,
   TemplateAction,
-} from '@backstage/plugin-scaffolder-node';
+} from '@stone-payments/plugin-scaffolder-node';
 import fs from 'fs-extra';
 import { createPublishGithubPullRequestAction } from './githubPullRequest';
 import { createMockDirectory } from '@backstage/backend-test-utils';
-import { createMockActionContext } from '@backstage/plugin-scaffolder-node-test-utils';
+import { createMockActionContext } from '@stone-payments/plugin-scaffolder-node-test-utils';
 
 // Make sure root logger is initialized ahead of FS mock
 createRootLogger();

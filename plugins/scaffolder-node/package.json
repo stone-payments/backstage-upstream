@@ -1,26 +1,27 @@
 {
-  "name": "@backstage/plugin-scaffolder-node",
+  "name": "@stone-payments/plugin-scaffolder-node",
   "version": "0.5.0",
-  "description": "The plugin-scaffolder-node module for @backstage/plugin-scaffolder-backend",
+  "description": "The plugin-scaffolder-node module for @stone-payments/plugin-scaffolder-backend",
   "backstage": {
     "role": "node-library",
     "pluginId": "scaffolder",
     "pluginPackages": [
       "@backstage/plugin-scaffolder",
-      "@backstage/plugin-scaffolder-backend",
+      "@stone-payments/plugin-scaffolder-backend",
       "@backstage/plugin-scaffolder-common",
-      "@backstage/plugin-scaffolder-node",
-      "@backstage/plugin-scaffolder-node-test-utils",
+      "@stone-payments/plugin-scaffolder-node",
+      "@stone-payments/plugin-scaffolder-node-test-utils",
       "@backstage/plugin-scaffolder-react"
     ]
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://npm.pkg.github.com"
   },
   "homepage": "https://backstage.io",
   "repository": {
     "type": "git",
-    "url": "https://github.com/backstage/backstage",
+  "url": "https://github.com/stone-payments/backstage-upstream.git",
     "directory": "plugins/scaffolder-node"
   },
   "license": "Apache-2.0",

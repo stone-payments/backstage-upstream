@@ -21,8 +21,8 @@ import { ScmIntegrations } from '@backstage/integration';
 import { createMockDirectory } from '@backstage/backend-test-utils';
 import { createFetchCookiecutterAction } from './cookiecutter';
 import { join } from 'path';
-import type { ActionContext } from '@backstage/plugin-scaffolder-node';
-import { createMockActionContext } from '@backstage/plugin-scaffolder-node-test-utils';
+import type { ActionContext } from '@stone-payments/plugin-scaffolder-node';
+import { createMockActionContext } from '@stone-payments/plugin-scaffolder-node-test-utils';
 import { examples } from './cookiecutter.examples';
 import yaml from 'yaml';
 import { UrlReaderService } from '@backstage/backend-plugin-api';
@@ -31,8 +31,8 @@ const executeShellCommand = jest.fn();
 const commandExists = jest.fn();
 const fetchContents = jest.fn();
 
-jest.mock('@backstage/plugin-scaffolder-node', () => ({
-  ...jest.requireActual('@backstage/plugin-scaffolder-node'),
+jest.mock('@stone-payments/plugin-scaffolder-node', () => ({
+  ...jest.requireActual('@stone-payments/plugin-scaffolder-node'),
   fetchContents: (...args: any[]) => fetchContents(...args),
   executeShellCommand: (...args: any[]) => executeShellCommand(...args),
 }));

@@ -28,13 +28,13 @@ import {
   TaskSecrets,
   TaskStatus as _TaskStatus,
   TemplateAction,
-} from '@backstage/plugin-scaffolder-node';
+} from '@stone-payments/plugin-scaffolder-node';
 
 /**
  * The status of each step of the Task
  *
  * @public
- * @deprecated Import from `@backstage/plugin-scaffolder-node` instead.
+ * @deprecated Import from `@stone-payments/plugin-scaffolder-node` instead.
  */
 export type TaskStatus = _TaskStatus;
 
@@ -42,7 +42,7 @@ export type TaskStatus = _TaskStatus;
  * The state of a completed task.
  *
  * @public
- * @deprecated Import from `@backstage/plugin-scaffolder-node` instead.
+ * @deprecated Import from `@stone-payments/plugin-scaffolder-node` instead.
  */
 export type TaskCompletionState = _TaskCompletionState;
 
@@ -50,7 +50,7 @@ export type TaskCompletionState = _TaskCompletionState;
  * SerializedTask
  *
  * @public
- * @deprecated Import from `@backstage/plugin-scaffolder-node` instead.
+ * @deprecated Import from `@stone-payments/plugin-scaffolder-node` instead.
  */
 export type SerializedTask = _SerializedTask;
 
@@ -58,7 +58,7 @@ export type SerializedTask = _SerializedTask;
  * TaskEventType
  *
  * @public
- * @deprecated Import from `@backstage/plugin-scaffolder-node` instead.
+ * @deprecated Import from `@stone-payments/plugin-scaffolder-node` instead.
  */
 export type TaskEventType = _TaskEventType;
 
@@ -66,7 +66,7 @@ export type TaskEventType = _TaskEventType;
  * SerializedTaskEvent
  *
  * @public
- * @deprecated Import from `@backstage/plugin-scaffolder-node` instead.
+ * @deprecated Import from `@stone-payments/plugin-scaffolder-node` instead.
  */
 export type SerializedTaskEvent = _SerializedTaskEvent;
 
@@ -74,7 +74,7 @@ export type SerializedTaskEvent = _SerializedTaskEvent;
  * The result of `TaskBroker.dispatch`.
  *
  * @public
- * @deprecated Import from `@backstage/plugin-scaffolder-node` instead.
+ * @deprecated Import from `@stone-payments/plugin-scaffolder-node` instead.
  */
 export type TaskBrokerDispatchResult = _TaskBrokerDispatchResult;
 
@@ -83,7 +83,7 @@ export type TaskBrokerDispatchResult = _TaskBrokerDispatchResult;
  * Currently a spec and optional secrets
  *
  * @public
- * @deprecated Import from `@backstage/plugin-scaffolder-node` instead.
+ * @deprecated Import from `@stone-payments/plugin-scaffolder-node` instead.
  */
 export type TaskBrokerDispatchOptions = _TaskBrokerDispatchOptions;
 
@@ -91,7 +91,7 @@ export type TaskBrokerDispatchOptions = _TaskBrokerDispatchOptions;
  * Task
  *
  * @public
- * @deprecated Import from `@backstage/plugin-scaffolder-node` instead.
+ * @deprecated Import from `@stone-payments/plugin-scaffolder-node` instead.
  */
 export type TaskContext = _TaskContext;
 
@@ -99,7 +99,7 @@ export type TaskContext = _TaskContext;
  * TaskBroker
  *
  * @public
- * @deprecated Import from `@backstage/plugin-scaffolder-node` instead.
+ * @deprecated Import from `@stone-payments/plugin-scaffolder-node` instead.
  */
 export type TaskBroker = _TaskBroker;
 

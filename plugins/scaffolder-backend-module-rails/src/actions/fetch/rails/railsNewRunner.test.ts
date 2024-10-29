@@ -17,7 +17,7 @@
 const executeShellCommand = jest.fn();
 const commandExists = jest.fn();
 
-jest.mock('@backstage/plugin-scaffolder-node', () => ({
+jest.mock('@stone-payments/plugin-scaffolder-node', () => ({
   executeShellCommand: (...args: any[]) => executeShellCommand(...args),
 }));
 jest.mock(

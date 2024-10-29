@@ -21,7 +21,7 @@ import {
 import {
   createTemplateAction,
   parseRepoUrl,
-} from '@backstage/plugin-scaffolder-node';
+} from '@stone-payments/plugin-scaffolder-node';
 import { emitterEventNames } from '@octokit/webhooks';
 import { assertError, InputError } from '@backstage/errors';
 import { Octokit } from 'octokit';

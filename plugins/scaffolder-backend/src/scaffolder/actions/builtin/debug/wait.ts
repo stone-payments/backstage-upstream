@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-import { createTemplateAction } from '@backstage/plugin-scaffolder-node';
+import { createTemplateAction } from '@stone-payments/plugin-scaffolder-node';
 import { HumanDuration } from '@backstage/types';
 import { Duration } from 'luxon';
 import { examples } from './wait.examples';

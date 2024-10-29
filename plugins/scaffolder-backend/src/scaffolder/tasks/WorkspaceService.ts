@@ -16,7 +16,7 @@
 
 import { Config } from '@backstage/config';
 import { CurrentClaimedTask } from './StorageTaskBroker';
-import { WorkspaceProvider } from '@backstage/plugin-scaffolder-node/alpha';
+import { WorkspaceProvider } from '@stone-payments/plugin-scaffolder-node/alpha';
 import { DatabaseWorkspaceProvider } from './DatabaseWorkspaceProvider';
 import { TaskStore } from './types';
 import fs from 'fs-extra';

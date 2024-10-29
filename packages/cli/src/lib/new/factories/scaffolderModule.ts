@@ -33,7 +33,7 @@ type Options = {
 export const scaffolderModule = createFactory<Options>({
   name: 'scaffolder-module',
   description:
-    'An module exporting custom actions for @backstage/plugin-scaffolder-backend',
+    'An module exporting custom actions for @stone-payments/plugin-scaffolder-backend',
   optionsDiscovery: async () => ({
     codeOwnersPath: await getCodeownersFilePath(paths.targetRoot),
   }),

@@ -23,7 +23,7 @@ import {
   fetchFile,
   TemplateFilter,
   TemplateGlobal,
-} from '@backstage/plugin-scaffolder-node';
+} from '@stone-payments/plugin-scaffolder-node';
 import { SecureTemplater } from '../../../../lib/templating/SecureTemplater';
 import { createDefaultFilters } from '../../../../lib/templating/filters';
 import path from 'path';

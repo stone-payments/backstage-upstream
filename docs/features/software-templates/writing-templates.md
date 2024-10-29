@@ -859,7 +859,7 @@ Here is a very simplified example of how to do that:
 
 ```ts title="packages/backend-next/src/index.ts"
 /* highlight-add-start */
-import { scaffolderTemplatingExtensionPoint } from '@backstage/plugin-scaffolder-node/alpha';
+import { scaffolderTemplatingExtensionPoint } from '@stone-payments/plugin-scaffolder-node/alpha';
 import { createBackendModule } from '@backstage/backend-plugin-api';
 /* highlight-add-end */
 
@@ -889,7 +889,7 @@ const scaffolderModuleCustomFilters = createBackendModule({
 /* highlight-add-end */
 
 const backend = createBackend();
-backend.add(import('@backstage/plugin-scaffolder-backend'));
+backend.add(import('@stone-payments/plugin-scaffolder-backend'));
 /* highlight-add-next-line */
 backend.add(scaffolderModuleCustomFilters);
 ```

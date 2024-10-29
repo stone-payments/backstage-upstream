@@ -30,7 +30,7 @@ import {
   SerializedTaskEvent,
   TaskBroker,
   TaskContext,
-} from '@backstage/plugin-scaffolder-node';
+} from '@stone-payments/plugin-scaffolder-node';
 import { WorkflowRunner } from './types';
 import ObservableImpl from 'zen-observable';
 import waitForExpect from 'wait-for-expect';

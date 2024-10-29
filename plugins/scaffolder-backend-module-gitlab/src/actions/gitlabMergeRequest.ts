@@ -19,7 +19,7 @@ import {
   parseRepoUrl,
   SerializedFile,
   serializeDirectoryContents,
-} from '@backstage/plugin-scaffolder-node';
+} from '@stone-payments/plugin-scaffolder-node';
 import { Gitlab, Types } from '@gitbeaker/core';
 import path from 'path';
 import { ScmIntegrationRegistry } from '@backstage/integration';

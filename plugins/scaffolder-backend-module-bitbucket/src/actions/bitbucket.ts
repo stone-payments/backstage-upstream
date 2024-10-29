@@ -24,7 +24,7 @@ import {
   initRepoAndPush,
   getRepoSourceDirectory,
   parseRepoUrl,
-} from '@backstage/plugin-scaffolder-node';
+} from '@stone-payments/plugin-scaffolder-node';
 import fetch, { Response, RequestInit } from 'node-fetch';
 import { Config } from '@backstage/config';
 import { examples } from './bitbucket.examples';
@@ -202,7 +202,7 @@ const performEnableLFS = async (opts: {
  * Creates a new action that initializes a git repository of the content in the workspace
  * and publishes it to Bitbucket.
  * @public
- * @deprecated in favor of "createPublishBitbucketCloudAction" by \@backstage/plugin-scaffolder-backend-module-bitbucket-cloud and "createPublishBitbucketServerAction" by \@backstage/plugin-scaffolder-backend-module-bitbucket-server
+ * @deprecated in favor of "createPublishBitbucketCloudAction" by \@stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud and "createPublishBitbucketServerAction" by \@stone-payments/plugin-scaffolder-backend-module-bitbucket-server
  */
 export function createPublishBitbucketAction(options: {
   integrations: ScmIntegrationRegistry;

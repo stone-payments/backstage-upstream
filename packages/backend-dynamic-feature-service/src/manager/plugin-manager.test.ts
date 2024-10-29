@@ -36,7 +36,7 @@ import {
 } from './types';
 import { ScannedPluginManifest, ScannedPluginPackage } from '../scanner/types';
 import { randomUUID } from 'crypto';
-import { TemplateAction } from '@backstage/plugin-scaffolder-node';
+import { TemplateAction } from '@stone-payments/plugin-scaffolder-node';
 import { createSpecializedBackend } from '@backstage/backend-app-api';
 import { ConfigSources } from '@backstage/config-loader';
 import { Logs, MockedLogger, LogContent } from '../__testUtils__/testUtils';

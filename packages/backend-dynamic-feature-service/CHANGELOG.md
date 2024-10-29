@@ -16,7 +16,7 @@
   - @backstage/config-loader@1.9.1
   - @backstage/plugin-auth-node@0.5.3
   - @backstage/plugin-permission-node@0.8.4
-  - @backstage/plugin-scaffolder-node@0.5.0
+  - @stone-payments/plugin-scaffolder-node@0.5.0
 
 ## 0.4.2
 
@@ -39,7 +39,7 @@
   - @backstage/backend-defaults@0.5.1
   - @backstage/cli-node@0.2.9
   - @backstage/backend-app-api@1.0.1
-  - @backstage/plugin-scaffolder-node@0.5.0
+  - @stone-payments/plugin-scaffolder-node@0.5.0
   - @backstage/plugin-auth-node@0.5.3
   - @backstage/plugin-search-backend-node@1.3.3
   - @backstage/plugin-catalog-backend@1.27.0
@@ -66,7 +66,7 @@
   - @backstage/backend-defaults@0.5.1-next.2
   - @backstage/plugin-auth-node@0.5.3-next.1
   - @backstage/plugin-catalog-backend@1.26.2-next.2
-  - @backstage/plugin-scaffolder-node@0.5.0-next.2
+  - @stone-payments/plugin-scaffolder-node@0.5.0-next.2
   - @backstage/backend-plugin-api@1.0.1-next.1
   - @backstage/cli-common@0.1.14
   - @backstage/config@1.2.0
@@ -102,7 +102,7 @@
   - @backstage/plugin-events-node@0.4.1-next.0
   - @backstage/plugin-permission-common@0.8.1
   - @backstage/plugin-permission-node@0.8.4-next.0
-  - @backstage/plugin-scaffolder-node@0.5.0-next.1
+  - @stone-payments/plugin-scaffolder-node@0.5.0-next.1
   - @backstage/plugin-search-backend-node@1.3.3-next.1
   - @backstage/plugin-search-common@1.2.14
 
@@ -113,7 +113,7 @@
 - 094eaa3: Remove references to in-repo backend-common
 - 2f88f88: Updated backend installation instructions.
 - Updated dependencies
-  - @backstage/plugin-scaffolder-node@0.5.0-next.0
+  - @stone-payments/plugin-scaffolder-node@0.5.0-next.0
   - @backstage/plugin-search-backend-node@1.3.3-next.0
   - @backstage/backend-defaults@0.5.1-next.0
   - @backstage/backend-app-api@1.0.1-next.0
@@ -196,7 +196,7 @@
   - @backstage/errors@1.2.4
   - @backstage/types@1.1.1
   - @backstage/plugin-permission-common@0.8.1
-  - @backstage/plugin-scaffolder-node@0.4.11
+  - @stone-payments/plugin-scaffolder-node@0.4.11
   - @backstage/plugin-search-backend-node@1.3.2
   - @backstage/plugin-search-common@1.2.14
 
@@ -222,7 +222,7 @@
   - @backstage/plugin-app-node@0.1.25-next.2
   - @backstage/plugin-events-node@0.4.0-next.2
   - @backstage/plugin-permission-common@0.8.1
-  - @backstage/plugin-scaffolder-node@0.4.11-next.2
+  - @stone-payments/plugin-scaffolder-node@0.4.11-next.2
   - @backstage/plugin-search-backend-node@1.3.2-next.2
   - @backstage/plugin-search-common@1.2.14
 
@@ -248,7 +248,7 @@
   - @backstage/plugin-events-node@0.4.0-next.1
   - @backstage/plugin-permission-common@0.8.1
   - @backstage/plugin-permission-node@0.8.3-next.1
-  - @backstage/plugin-scaffolder-node@0.4.11-next.1
+  - @stone-payments/plugin-scaffolder-node@0.4.11-next.1
   - @backstage/plugin-search-backend-node@1.3.2-next.1
   - @backstage/plugin-search-common@1.2.14
 
@@ -308,7 +308,7 @@
   - @backstage/plugin-events-backend@0.3.12-next.0
   - @backstage/plugin-events-node@0.4.0-next.0
   - @backstage/plugin-auth-node@0.5.2-next.0
-  - @backstage/plugin-scaffolder-node@0.4.11-next.0
+  - @stone-payments/plugin-scaffolder-node@0.4.11-next.0
   - @backstage/plugin-search-backend-node@1.3.2-next.0
   - @backstage/cli-common@0.1.14
   - @backstage/cli-node@0.2.7
@@ -336,7 +336,7 @@
   - @backstage/backend-common@0.24.0
   - @backstage/plugin-catalog-backend@1.25.0
   - @backstage/plugin-search-backend-node@1.3.0
-  - @backstage/plugin-scaffolder-node@0.4.9
+  - @stone-payments/plugin-scaffolder-node@0.4.9
   - @backstage/plugin-permission-common@0.8.1
   - @backstage/config-loader@1.9.0
   - @backstage/plugin-auth-node@0.5.0
@@ -373,7 +373,7 @@
   - @backstage/plugin-events-node@0.3.9-next.3
   - @backstage/plugin-permission-common@0.8.1-next.1
   - @backstage/plugin-permission-node@0.8.1-next.3
-  - @backstage/plugin-scaffolder-node@0.4.9-next.3
+  - @stone-payments/plugin-scaffolder-node@0.4.9-next.3
   - @backstage/plugin-search-backend-node@1.2.28-next.3
   - @backstage/plugin-search-common@1.2.14-next.1
 
@@ -384,7 +384,7 @@
 - Updated dependencies
   - @backstage/backend-plugin-api@0.8.0-next.2
   - @backstage/backend-app-api@0.8.1-next.2
-  - @backstage/plugin-scaffolder-node@0.4.9-next.2
+  - @stone-payments/plugin-scaffolder-node@0.4.9-next.2
   - @backstage/plugin-permission-common@0.8.1-next.1
   - @backstage/backend-common@0.23.4-next.2
   - @backstage/plugin-catalog-backend@1.24.1-next.2
@@ -427,7 +427,7 @@
   - @backstage/plugin-auth-node@0.4.18-next.1
   - @backstage/plugin-events-backend@0.3.10-next.1
   - @backstage/plugin-events-node@0.3.9-next.1
-  - @backstage/plugin-scaffolder-node@0.4.9-next.1
+  - @stone-payments/plugin-scaffolder-node@0.4.9-next.1
 
 ## 0.2.16-next.0
 
@@ -451,7 +451,7 @@
   - @backstage/plugin-events-node@0.3.9-next.0
   - @backstage/plugin-permission-common@0.8.0
   - @backstage/plugin-permission-node@0.8.1-next.0
-  - @backstage/plugin-scaffolder-node@0.4.9-next.0
+  - @stone-payments/plugin-scaffolder-node@0.4.9-next.0
   - @backstage/plugin-search-backend-node@1.2.28-next.0
   - @backstage/plugin-search-common@1.2.13
 
@@ -468,7 +468,7 @@
   - @backstage/backend-tasks@0.5.27
   - @backstage/plugin-permission-common@0.8.0
   - @backstage/plugin-permission-node@0.8.0
-  - @backstage/plugin-scaffolder-node@0.4.8
+  - @stone-payments/plugin-scaffolder-node@0.4.8
   - @backstage/plugin-events-node@0.3.8
   - @backstage/plugin-auth-node@0.4.17
   - @backstage/plugin-catalog-backend@1.24.0
@@ -504,7 +504,7 @@
   - @backstage/plugin-events-node@0.3.8-next.1
   - @backstage/plugin-permission-common@0.7.14
   - @backstage/plugin-permission-node@0.7.33-next.1
-  - @backstage/plugin-scaffolder-node@0.4.8-next.1
+  - @stone-payments/plugin-scaffolder-node@0.4.8-next.1
   - @backstage/plugin-search-backend-node@1.2.27-next.1
   - @backstage/plugin-search-common@1.2.12
 
@@ -516,7 +516,7 @@
   - @backstage/backend-plugin-api@0.6.21-next.0
   - @backstage/backend-common@0.23.2-next.0
   - @backstage/backend-tasks@0.5.26-next.0
-  - @backstage/plugin-scaffolder-node@0.4.7-next.0
+  - @stone-payments/plugin-scaffolder-node@0.4.7-next.0
   - @backstage/backend-app-api@0.7.9-next.0
   - @backstage/plugin-app-node@0.1.21-next.0
   - @backstage/plugin-auth-node@0.4.16-next.0
@@ -552,7 +552,7 @@
   - @backstage/plugin-events-node@0.3.5
   - @backstage/plugin-permission-node@0.7.30
   - @backstage/plugin-permission-common@0.7.14
-  - @backstage/plugin-scaffolder-node@0.4.5
+  - @stone-payments/plugin-scaffolder-node@0.4.5
   - @backstage/plugin-search-common@1.2.12
   - @backstage/plugin-app-node@0.1.19
   - @backstage/cli-common@0.1.14
@@ -573,7 +573,7 @@
   - @backstage/plugin-permission-common@0.7.14-next.0
   - @backstage/plugin-catalog-backend@1.23.0-next.3
   - @backstage/plugin-permission-node@0.7.30-next.3
-  - @backstage/plugin-scaffolder-node@0.4.5-next.3
+  - @stone-payments/plugin-scaffolder-node@0.4.5-next.3
   - @backstage/plugin-events-backend@0.3.6-next.3
   - @backstage/plugin-search-common@1.2.12-next.0
   - @backstage/plugin-events-node@0.3.5-next.2
@@ -603,7 +603,7 @@
   - @backstage/plugin-catalog-backend@1.23.0-next.2
   - @backstage/plugin-events-backend@0.3.6-next.2
   - @backstage/plugin-events-node@0.3.5-next.1
-  - @backstage/plugin-scaffolder-node@0.4.5-next.2
+  - @stone-payments/plugin-scaffolder-node@0.4.5-next.2
   - @backstage/plugin-search-backend-node@1.2.24-next.2
   - @backstage/config-loader@1.8.0
   - @backstage/cli-common@0.1.13
@@ -629,7 +629,7 @@
   - @backstage/plugin-auth-node@0.4.14-next.1
   - @backstage/plugin-events-backend@0.3.6-next.1
   - @backstage/plugin-events-node@0.3.5-next.0
-  - @backstage/plugin-scaffolder-node@0.4.5-next.1
+  - @stone-payments/plugin-scaffolder-node@0.4.5-next.1
   - @backstage/plugin-search-backend-node@1.2.24-next.1
 
 ## 0.2.11-next.0
@@ -648,7 +648,7 @@
   - @backstage/plugin-auth-node@0.4.14-next.0
   - @backstage/plugin-events-backend@0.3.6-next.0
   - @backstage/plugin-permission-node@0.7.30-next.0
-  - @backstage/plugin-scaffolder-node@0.4.5-next.0
+  - @stone-payments/plugin-scaffolder-node@0.4.5-next.0
   - @backstage/plugin-app-node@0.1.19-next.0
   - @backstage/config-loader@1.8.0
   - @backstage/cli-common@0.1.13
@@ -670,7 +670,7 @@
   - @backstage/backend-app-api@0.7.3
   - @backstage/backend-common@0.22.0
   - @backstage/backend-plugin-api@0.6.18
-  - @backstage/plugin-scaffolder-node@0.4.4
+  - @stone-payments/plugin-scaffolder-node@0.4.4
   - @backstage/backend-tasks@0.5.23
   - @backstage/plugin-search-backend-node@1.2.22
   - @backstage/plugin-events-node@0.3.4
@@ -687,7 +687,7 @@
 - Updated dependencies
   - @backstage/plugin-catalog-backend@1.22.0-next.2
   - @backstage/backend-common@0.22.0-next.2
-  - @backstage/plugin-scaffolder-node@0.4.4-next.2
+  - @stone-payments/plugin-scaffolder-node@0.4.4-next.2
   - @backstage/plugin-events-node@0.3.4-next.2
 
 ## 0.2.10-next.1
@@ -698,7 +698,7 @@
   - @backstage/backend-app-api@0.7.2-next.1
   - @backstage/backend-common@0.22.0-next.1
   - @backstage/plugin-catalog-backend@1.22.0-next.1
-  - @backstage/plugin-scaffolder-node@0.4.4-next.1
+  - @stone-payments/plugin-scaffolder-node@0.4.4-next.1
   - @backstage/backend-tasks@0.5.23-next.1
   - @backstage/plugin-auth-node@0.4.13-next.1
   - @backstage/plugin-events-backend@0.3.5-next.1
@@ -722,7 +722,7 @@
   - @backstage/plugin-auth-node@0.4.13-next.0
   - @backstage/backend-common@0.21.8-next.0
   - @backstage/backend-plugin-api@0.6.18-next.0
-  - @backstage/plugin-scaffolder-node@0.4.4-next.0
+  - @stone-payments/plugin-scaffolder-node@0.4.4-next.0
   - @backstage/backend-tasks@0.5.23-next.0
   - @backstage/cli-common@0.1.13
   - @backstage/cli-node@0.2.5
@@ -755,7 +755,7 @@
   - @backstage/plugin-auth-node@0.4.12
   - @backstage/cli-node@0.2.5
   - @backstage/plugin-events-node@0.3.3
-  - @backstage/plugin-scaffolder-node@0.4.3
+  - @stone-payments/plugin-scaffolder-node@0.4.3
   - @backstage/plugin-app-node@0.1.17
   - @backstage/cli-common@0.1.13
   - @backstage/config@1.2.0
@@ -778,7 +778,7 @@
   - @backstage/backend-tasks@0.5.22-next.1
   - @backstage/plugin-events-node@0.3.3-next.1
   - @backstage/plugin-permission-node@0.7.28-next.1
-  - @backstage/plugin-scaffolder-node@0.4.3-next.1
+  - @stone-payments/plugin-scaffolder-node@0.4.3-next.1
   - @backstage/plugin-search-backend-node@1.2.21-next.1
   - @backstage/cli-common@0.1.13
   - @backstage/cli-node@0.2.4
@@ -812,7 +812,7 @@
   - @backstage/plugin-events-node@0.3.3-next.0
   - @backstage/plugin-permission-common@0.7.13
   - @backstage/plugin-permission-node@0.7.28-next.0
-  - @backstage/plugin-scaffolder-node@0.4.3-next.0
+  - @stone-payments/plugin-scaffolder-node@0.4.3-next.0
   - @backstage/plugin-search-backend-node@1.2.21-next.0
   - @backstage/plugin-search-common@1.2.11
 
@@ -830,7 +830,7 @@
   - @backstage/backend-tasks@0.5.21
   - @backstage/plugin-events-backend@0.3.2
   - @backstage/plugin-events-node@0.3.2
-  - @backstage/plugin-scaffolder-node@0.4.2
+  - @stone-payments/plugin-scaffolder-node@0.4.2
   - @backstage/plugin-search-backend-node@1.2.20
   - @backstage/cli-common@0.1.13
   - @backstage/cli-node@0.2.4
@@ -855,7 +855,7 @@
   - @backstage/plugin-events-backend@0.3.1
   - @backstage/plugin-events-node@0.3.1
   - @backstage/plugin-permission-node@0.7.26
-  - @backstage/plugin-scaffolder-node@0.4.1
+  - @stone-payments/plugin-scaffolder-node@0.4.1
   - @backstage/plugin-search-backend-node@1.2.19
   - @backstage/backend-plugin-api@0.6.15
   - @backstage/cli-common@0.1.13
@@ -881,7 +881,7 @@
 
 - 5247909: Add `events: EventsService` to `LegacyPluginEnvironment`.
 - Updated dependencies
-  - @backstage/plugin-scaffolder-node@0.4.0
+  - @stone-payments/plugin-scaffolder-node@0.4.0
   - @backstage/plugin-events-backend@0.3.0
   - @backstage/plugin-events-node@0.3.0
   - @backstage/plugin-catalog-backend@1.18.0
@@ -907,7 +907,7 @@
 ### Patch Changes
 
 - Updated dependencies
-  - @backstage/plugin-scaffolder-node@0.4.0-next.2
+  - @stone-payments/plugin-scaffolder-node@0.4.0-next.2
   - @backstage/plugin-catalog-backend@1.18.0-next.2
   - @backstage/backend-app-api@0.6.0-next.2
   - @backstage/backend-common@0.21.4-next.2
@@ -934,7 +934,7 @@
 
 - Updated dependencies
   - @backstage/config@1.2.0-next.1
-  - @backstage/plugin-scaffolder-node@0.4.0-next.1
+  - @stone-payments/plugin-scaffolder-node@0.4.0-next.1
   - @backstage/config-loader@1.7.0-next.1
   - @backstage/backend-app-api@0.6.0-next.1
   - @backstage/backend-common@0.21.4-next.1
@@ -965,7 +965,7 @@
   - @backstage/backend-common@0.21.3-next.0
   - @backstage/plugin-auth-node@0.4.8-next.0
   - @backstage/errors@1.2.4-next.0
-  - @backstage/plugin-scaffolder-node@0.3.3-next.0
+  - @stone-payments/plugin-scaffolder-node@0.3.3-next.0
   - @backstage/backend-plugin-api@0.6.13-next.0
   - @backstage/backend-app-api@0.6.0-next.0
   - @backstage/plugin-catalog-backend@1.18.0-next.0
@@ -1006,7 +1006,7 @@
   - @backstage/backend-tasks@0.5.15
   - @backstage/plugin-events-backend@0.2.19
   - @backstage/config-loader@1.6.2
-  - @backstage/plugin-scaffolder-node@0.3.0
+  - @stone-payments/plugin-scaffolder-node@0.3.0
   - @backstage/plugin-app-node@0.1.10
   - @backstage/plugin-permission-node@0.7.21
   - @backstage/plugin-search-backend-node@1.2.14
@@ -1041,7 +1041,7 @@
   - @backstage/plugin-auth-node@0.4.4-next.3
   - @backstage/plugin-events-backend@0.2.19-next.3
   - @backstage/plugin-permission-node@0.7.21-next.3
-  - @backstage/plugin-scaffolder-node@0.3.0-next.3
+  - @stone-payments/plugin-scaffolder-node@0.3.0-next.3
   - @backstage/plugin-search-backend-node@1.2.14-next.3
   - @backstage/backend-plugin-api@0.6.10-next.3
   - @backstage/cli-common@0.1.13
@@ -1064,7 +1064,7 @@
   - @backstage/plugin-events-backend@0.2.19-next.2
   - @backstage/plugin-auth-node@0.4.4-next.2
   - @backstage/plugin-permission-node@0.7.21-next.2
-  - @backstage/plugin-scaffolder-node@0.3.0-next.2
+  - @stone-payments/plugin-scaffolder-node@0.3.0-next.2
   - @backstage/plugin-search-backend-node@1.2.14-next.2
   - @backstage/plugin-events-node@0.2.19-next.2
   - @backstage/config@1.1.1
@@ -1084,7 +1084,7 @@
   - @backstage/plugin-catalog-backend@1.17.0-next.1
   - @backstage/backend-plugin-api@0.6.10-next.1
   - @backstage/backend-common@0.21.0-next.1
-  - @backstage/plugin-scaffolder-node@0.3.0-next.1
+  - @stone-payments/plugin-scaffolder-node@0.3.0-next.1
   - @backstage/backend-tasks@0.5.15-next.1
   - @backstage/cli-common@0.1.13
   - @backstage/cli-node@0.2.2
@@ -1106,7 +1106,7 @@
 - Updated dependencies
   - @backstage/backend-common@0.21.0-next.0
   - @backstage/plugin-catalog-backend@1.17.0-next.0
-  - @backstage/plugin-scaffolder-node@0.3.0-next.0
+  - @stone-payments/plugin-scaffolder-node@0.3.0-next.0
   - @backstage/backend-tasks@0.5.15-next.0
   - @backstage/cli-node@0.2.2
   - @backstage/plugin-auth-node@0.4.4-next.0
@@ -1140,7 +1140,7 @@
   - @backstage/plugin-catalog-backend@1.16.1
   - @backstage/backend-tasks@0.5.14
   - @backstage/plugin-auth-node@0.4.3
-  - @backstage/plugin-scaffolder-node@0.2.10
+  - @stone-payments/plugin-scaffolder-node@0.2.10
   - @backstage/plugin-search-backend-node@1.2.13
   - @backstage/cli-common@0.1.13
   - @backstage/config@1.1.1
@@ -1161,7 +1161,7 @@
   - @backstage/plugin-events-backend@0.2.18-next.2
   - @backstage/plugin-events-node@0.2.18-next.2
   - @backstage/plugin-permission-node@0.7.20-next.2
-  - @backstage/plugin-scaffolder-node@0.2.10-next.2
+  - @stone-payments/plugin-scaffolder-node@0.2.10-next.2
   - @backstage/plugin-search-backend-node@1.2.13-next.2
   - @backstage/backend-tasks@0.5.14-next.2
   - @backstage/cli-node@0.2.2-next.0
@@ -1179,7 +1179,7 @@
   - @backstage/plugin-catalog-backend@1.16.1-next.1
   - @backstage/plugin-events-backend@0.2.18-next.1
   - @backstage/plugin-permission-node@0.7.20-next.1
-  - @backstage/plugin-scaffolder-node@0.2.10-next.1
+  - @stone-payments/plugin-scaffolder-node@0.2.10-next.1
   - @backstage/plugin-search-backend-node@1.2.13-next.1
   - @backstage/backend-plugin-api@0.6.9-next.1
   - @backstage/cli-common@0.1.13
@@ -1208,7 +1208,7 @@
   - @backstage/plugin-events-node@0.2.18-next.0
   - @backstage/plugin-permission-common@0.7.11
   - @backstage/plugin-permission-node@0.7.20-next.0
-  - @backstage/plugin-scaffolder-node@0.2.10-next.0
+  - @stone-payments/plugin-scaffolder-node@0.2.10-next.0
   - @backstage/plugin-search-backend-node@1.2.13-next.0
   - @backstage/plugin-search-common@1.2.9
 
@@ -1219,7 +1219,7 @@
 - Updated dependencies
   - @backstage/backend-common@0.20.0
   - @backstage/plugin-catalog-backend@1.16.0
-  - @backstage/plugin-scaffolder-node@0.2.9
+  - @stone-payments/plugin-scaffolder-node@0.2.9
   - @backstage/backend-tasks@0.5.13
   - @backstage/plugin-auth-node@0.4.2
   - @backstage/plugin-permission-common@0.7.11
@@ -1240,7 +1240,7 @@
 ### Patch Changes
 
 - Updated dependencies
-  - @backstage/plugin-scaffolder-node@0.2.9-next.3
+  - @stone-payments/plugin-scaffolder-node@0.2.9-next.3
   - @backstage/backend-common@0.20.0-next.3
   - @backstage/backend-plugin-api@0.6.8-next.3
   - @backstage/backend-tasks@0.5.13-next.3
@@ -1277,7 +1277,7 @@
   - @backstage/plugin-events-node@0.2.17-next.2
   - @backstage/plugin-permission-common@0.7.10
   - @backstage/plugin-permission-node@0.7.19-next.2
-  - @backstage/plugin-scaffolder-node@0.2.9-next.2
+  - @stone-payments/plugin-scaffolder-node@0.2.9-next.2
   - @backstage/plugin-search-backend-node@1.2.12-next.2
   - @backstage/plugin-search-common@1.2.8
 
@@ -1300,7 +1300,7 @@
   - @backstage/plugin-events-node@0.2.17-next.1
   - @backstage/plugin-permission-common@0.7.10
   - @backstage/plugin-permission-node@0.7.19-next.1
-  - @backstage/plugin-scaffolder-node@0.2.9-next.1
+  - @stone-payments/plugin-scaffolder-node@0.2.9-next.1
   - @backstage/plugin-search-backend-node@1.2.12-next.1
   - @backstage/plugin-search-common@1.2.8
 
@@ -1315,7 +1315,7 @@
   - @backstage/plugin-catalog-backend@1.15.1-next.0
   - @backstage/plugin-events-backend@0.2.17-next.0
   - @backstage/plugin-permission-node@0.7.19-next.0
-  - @backstage/plugin-scaffolder-node@0.2.9-next.0
+  - @stone-payments/plugin-scaffolder-node@0.2.9-next.0
   - @backstage/plugin-search-backend-node@1.2.12-next.0
   - @backstage/backend-plugin-api@0.6.8-next.0
   - @backstage/cli-common@0.1.13
@@ -1339,7 +1339,7 @@
   - @backstage/backend-plugin-api@0.6.7
   - @backstage/backend-tasks@0.5.12
   - @backstage/plugin-permission-common@0.7.10
-  - @backstage/plugin-scaffolder-node@0.2.8
+  - @stone-payments/plugin-scaffolder-node@0.2.8
   - @backstage/cli-common@0.1.13
   - @backstage/config@1.1.1
   - @backstage/errors@1.2.3
@@ -1363,7 +1363,7 @@
   - @backstage/plugin-events-backend@0.2.16-next.2
   - @backstage/plugin-events-node@0.2.16-next.2
   - @backstage/plugin-permission-node@0.7.18-next.2
-  - @backstage/plugin-scaffolder-node@0.2.8-next.2
+  - @stone-payments/plugin-scaffolder-node@0.2.8-next.2
   - @backstage/plugin-search-backend-node@1.2.11-next.2
 
 ## 0.0.3-next.1
@@ -1373,7 +1373,7 @@
 - Updated dependencies
   - @backstage/plugin-catalog-backend@1.15.0-next.1
   - @backstage/backend-common@0.19.9-next.1
-  - @backstage/plugin-scaffolder-node@0.2.8-next.1
+  - @stone-payments/plugin-scaffolder-node@0.2.8-next.1
   - @backstage/backend-tasks@0.5.12-next.1
   - @backstage/plugin-auth-node@0.4.1-next.1
   - @backstage/plugin-events-backend@0.2.16-next.1
@@ -1397,7 +1397,7 @@
   - @backstage/cli-node@0.2.0-next.0
   - @backstage/plugin-search-backend-node@1.2.11-next.0
   - @backstage/plugin-catalog-backend@1.15.0-next.0
-  - @backstage/plugin-scaffolder-node@0.2.8-next.0
+  - @stone-payments/plugin-scaffolder-node@0.2.8-next.0
   - @backstage/backend-common@0.19.9-next.0
   - @backstage/backend-plugin-api@0.6.7-next.0
   - @backstage/backend-tasks@0.5.12-next.0
@@ -1427,7 +1427,7 @@
   - @backstage/plugin-search-backend-node@1.2.10
   - @backstage/plugin-events-backend@0.2.15
   - @backstage/plugin-permission-node@0.7.17
-  - @backstage/plugin-scaffolder-node@0.2.6
+  - @stone-payments/plugin-scaffolder-node@0.2.6
   - @backstage/cli-node@0.1.5
   - @backstage/config@1.1.1
   - @backstage/types@1.1.1
@@ -1447,7 +1447,7 @@
   - @backstage/backend-tasks@0.5.11-next.2
   - @backstage/plugin-events-backend@0.2.15-next.2
   - @backstage/plugin-permission-node@0.7.17-next.2
-  - @backstage/plugin-scaffolder-node@0.2.6-next.2
+  - @stone-payments/plugin-scaffolder-node@0.2.6-next.2
   - @backstage/plugin-search-backend-node@1.2.10-next.2
   - @backstage/backend-plugin-api@0.6.6-next.2
   - @backstage/cli-common@0.1.13-next.0
@@ -1471,7 +1471,7 @@
   - @backstage/plugin-auth-node@0.3.2-next.1
   - @backstage/plugin-events-backend@0.2.14-next.1
   - @backstage/plugin-permission-node@0.7.16-next.1
-  - @backstage/plugin-scaffolder-node@0.2.5-next.1
+  - @stone-payments/plugin-scaffolder-node@0.2.5-next.1
   - @backstage/config@1.1.0
   - @backstage/cli-common@0.1.13-next.0
   - @backstage/cli-node@0.1.5-next.0
@@ -1490,7 +1490,7 @@
   - @backstage/plugin-auth-node@0.3.2-next.0
   - @backstage/cli-common@0.1.13-next.0
   - @backstage/backend-common@0.19.7-next.0
-  - @backstage/plugin-scaffolder-node@0.2.5-next.0
+  - @stone-payments/plugin-scaffolder-node@0.2.5-next.0
   - @backstage/config@1.1.0
   - @backstage/backend-plugin-api@0.6.5-next.0
   - @backstage/backend-tasks@0.5.10-next.0
@@ -1524,7 +1524,7 @@
   - @backstage/cli-common@0.1.12
   - @backstage/cli-node@0.1.4
   - @backstage/plugin-events-node@0.2.12
-  - @backstage/plugin-scaffolder-node@0.2.3
+  - @stone-payments/plugin-scaffolder-node@0.2.3
   - @backstage/plugin-search-backend-node@1.2.7
 
 ## 0.0.1-next.1
@@ -1547,7 +1547,7 @@
   - @backstage/cli-node@0.1.4-next.0
   - @backstage/plugin-auth-node@0.3.0-next.3
   - @backstage/plugin-events-node@0.2.12-next.3
-  - @backstage/plugin-scaffolder-node@0.2.3-next.3
+  - @stone-payments/plugin-scaffolder-node@0.2.3-next.3
   - @backstage/plugin-search-backend-node@1.2.7-next.3
 
 ## 0.0.1-next.0
@@ -1564,7 +1564,7 @@
   - @backstage/plugin-permission-node@0.7.14-next.2
   - @backstage/backend-plugin-api@0.6.3-next.2
   - @backstage/plugin-permission-common@0.7.8-next.1
-  - @backstage/plugin-scaffolder-node@0.2.3-next.2
+  - @stone-payments/plugin-scaffolder-node@0.2.3-next.2
   - @backstage/plugin-search-backend-node@1.2.7-next.2
   - @backstage/cli-common@0.1.12
   - @backstage/cli-node@0.1.3

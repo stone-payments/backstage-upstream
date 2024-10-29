@@ -45,7 +45,7 @@ RUN yarn build:backend --config ../../app-config.yaml
 
 FROM node:20-bookworm-slim
 
-# Install isolate-vm dependencies, these are needed by the @backstage/plugin-scaffolder-backend.
+# Install isolate-vm dependencies, these are needed by the @stone-payments/plugin-scaffolder-backend.
 RUN --mount=type=cache,target=/var/cache/apt,sharing=locked \
     --mount=type=cache,target=/var/lib/apt,sharing=locked \
     apt-get update && \

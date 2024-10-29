@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-import { createMockActionContext } from '@backstage/plugin-scaffolder-node-test-utils';
+import { createMockActionContext } from '@stone-payments/plugin-scaffolder-node-test-utils';
 import { Entity } from '@backstage/catalog-model';
 import { createFetchCatalogEntityAction } from './fetch';
 import { mockCredentials, mockServices } from '@backstage/backend-test-utils';

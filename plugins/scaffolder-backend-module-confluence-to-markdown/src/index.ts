@@ -15,7 +15,7 @@
  */
 
 /**
- * The confluence-to-markdown module for \@backstage/plugin-scaffolder-backend.
+ * The confluence-to-markdown module for \@stone-payments/plugin-scaffolder-backend.
  *
  * @packageDocumentation
  */

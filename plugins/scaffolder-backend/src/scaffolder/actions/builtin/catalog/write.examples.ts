@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-import { TemplateExample } from '@backstage/plugin-scaffolder-node';
+import { TemplateExample } from '@stone-payments/plugin-scaffolder-node';
 import * as yaml from 'yaml';
 
 export const examples: TemplateExample[] = [

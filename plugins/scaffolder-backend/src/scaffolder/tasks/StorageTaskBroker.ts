@@ -28,7 +28,7 @@ import {
   TaskContext,
   TaskSecrets,
   TaskStatus,
-} from '@backstage/plugin-scaffolder-node';
+} from '@stone-payments/plugin-scaffolder-node';
 import { InternalTaskSecrets, TaskStore } from './types';
 import { readDuration } from './helper';
 import {
@@ -36,7 +36,7 @@ import {
   BackstageCredentials,
 } from '@backstage/backend-plugin-api';
 import { DefaultWorkspaceService, WorkspaceService } from './WorkspaceService';
-import { WorkspaceProvider } from '@backstage/plugin-scaffolder-node/alpha';
+import { WorkspaceProvider } from '@stone-payments/plugin-scaffolder-node/alpha';
 
 type TaskState = {
   checkpoints: {
@@ -98,6 +98,11 @@ export class TaskManager implements TaskContext {
     private readonly workspaceService: WorkspaceService,
     private readonly auth?: AuthService,
   ) {}
+
+  get id() {
+    return this.task.taskId;
+  }
+  isDryRun?: boolean | undefined;
 
   get spec() {
     return this.task.spec;

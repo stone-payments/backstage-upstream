@@ -15,8 +15,8 @@
  */
 
 const mockRailsTemplater = { run: jest.fn() };
-jest.mock('@backstage/plugin-scaffolder-node', () => ({
-  ...jest.requireActual('@backstage/plugin-scaffolder-node'),
+jest.mock('@stone-payments/plugin-scaffolder-node', () => ({
+  ...jest.requireActual('@stone-payments/plugin-scaffolder-node'),
   fetchContents: jest.fn(),
 }));
 jest.mock('./railsNewRunner', () => {
@@ -32,9 +32,9 @@ import { ConfigReader } from '@backstage/config';
 import { ScmIntegrations } from '@backstage/integration';
 import { resolve as resolvePath } from 'path';
 import { createFetchRailsAction } from './index';
-import { fetchContents } from '@backstage/plugin-scaffolder-node';
+import { fetchContents } from '@stone-payments/plugin-scaffolder-node';
 import { createMockDirectory } from '@backstage/backend-test-utils';
-import { createMockActionContext } from '@backstage/plugin-scaffolder-node-test-utils';
+import { createMockActionContext } from '@stone-payments/plugin-scaffolder-node-test-utils';
 import { Writable } from 'stream';
 import { UrlReaderService } from '@backstage/backend-plugin-api';
 

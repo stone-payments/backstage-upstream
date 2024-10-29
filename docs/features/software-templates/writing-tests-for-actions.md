@@ -13,7 +13,7 @@ Unit tests help prevent regressions in custom action functionality. The `createT
 The `handler` property of the `createTemplateAction` input object expects a context. You can create a mock context using the code below:
 
 ```typescript
-import { createMockActionContext } from '@backstage/plugin-scaffolder-node-test-utils';
+import { createMockActionContext } from '@stone-payments/plugin-scaffolder-node-test-utils';
 
 const mockContext = createMockActionContext({
   input: { repoUrl: 'dev.azure.com?repo=repo&owner=owner&organization=org' },

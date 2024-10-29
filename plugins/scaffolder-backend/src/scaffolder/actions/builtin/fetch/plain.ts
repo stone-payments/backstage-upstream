@@ -24,7 +24,7 @@ import { examples } from './plain.examples';
 import {
   createTemplateAction,
   fetchContents,
-} from '@backstage/plugin-scaffolder-node';
+} from '@stone-payments/plugin-scaffolder-node';
 
 export const ACTION_ID = 'fetch:plain';
 

@@ -1,11 +1,11 @@
 {
-  "name": "@backstage/plugin-scaffolder-backend-module-notifications",
+  "name": "@stone-payments/plugin-scaffolder-backend-module-notifications",
   "version": "0.1.2",
   "description": "The notifications backend module for the scaffolder plugin.",
   "backstage": {
     "role": "backend-plugin-module",
     "pluginId": "scaffolder",
-    "pluginPackage": "@backstage/plugin-scaffolder-backend"
+    "pluginPackage": "@stone-payments/plugin-scaffolder-backend"
   },
   "publishConfig": {
     "access": "public",
@@ -37,12 +37,12 @@
     "@backstage/backend-plugin-api": "workspace:^",
     "@backstage/plugin-notifications-common": "workspace:^",
     "@backstage/plugin-notifications-node": "workspace:^",
-    "@backstage/plugin-scaffolder-node": "workspace:^",
+    "@stone-payments/plugin-scaffolder-node": "workspace:^",
     "octokit": "^3.0.0",
     "yaml": "^2.0.0"
   },
   "devDependencies": {
     "@backstage/cli": "workspace:^",
-    "@backstage/plugin-scaffolder-node-test-utils": "workspace:^"
+    "@stone-payments/plugin-scaffolder-node-test-utils": "workspace:^"
   }
 }

@@ -15,7 +15,7 @@
  */
 
 /**
- * The scaffolder-node module for `@backstage/plugin-scaffolder-backend`.
+ * The scaffolder-node module for `@stone-payments/plugin-scaffolder-backend`.
  *
  * @packageDocumentation
  */

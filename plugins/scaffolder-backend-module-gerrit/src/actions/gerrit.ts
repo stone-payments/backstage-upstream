@@ -27,7 +27,7 @@ import {
   initRepoAndPush,
   getRepoSourceDirectory,
   parseRepoUrl,
-} from '@backstage/plugin-scaffolder-node';
+} from '@stone-payments/plugin-scaffolder-node';
 import fetch, { Response, RequestInit } from 'node-fetch';
 import { examples } from './gerrit.examples';
 

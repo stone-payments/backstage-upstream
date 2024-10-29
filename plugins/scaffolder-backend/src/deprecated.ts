@@ -22,32 +22,32 @@ import {
   executeShellCommand as executeShellCommandNode,
   ExecuteShellCommandOptions as ExecuteShellCommandOptionsNode,
   fetchContents as fetchContentsNode,
-} from '@backstage/plugin-scaffolder-node';
+} from '@stone-payments/plugin-scaffolder-node';
 import { JsonObject } from '@backstage/types';
 import { ScaffolderEntitiesProcessor as ScaffolderEntitiesProcessorModule } from '@backstage/plugin-catalog-backend-module-scaffolder-entity-model';
 
 /**
  * @public
- * @deprecated Import from {@link @backstage/plugin-scaffolder-node#ActionContext} instead
+ * @deprecated Import from {@link @stone-payments/plugin-scaffolder-node#ActionContext} instead
  */
 export type ActionContext<TInput extends JsonObject> =
   ActionContextNode<TInput>;
 
 /**
  * @public
- * @deprecated Use `createTemplateAction` from `@backstage/plugin-scaffolder-node` instead
+ * @deprecated Use `createTemplateAction` from `@stone-payments/plugin-scaffolder-node` instead
  */
 export const createTemplateAction = createTemplateActionNode;
 
 /**
  * @public
- * @deprecated Use `TaskSecrets` from `@backstage/plugin-scaffolder-node` instead
+ * @deprecated Use `TaskSecrets` from `@stone-payments/plugin-scaffolder-node` instead
  */
 export type TaskSecrets = TaskSecretsNode;
 
 /**
  * @public
- * @deprecated Use `TemplateAction` from `@backstage/plugin-scaffolder-node` instead
+ * @deprecated Use `TemplateAction` from `@stone-payments/plugin-scaffolder-node` instead
  */
 export type TemplateAction<TInput extends JsonObject> =
   TemplateActionNode<TInput>;
@@ -56,7 +56,7 @@ export type TemplateAction<TInput extends JsonObject> =
  * Options for {@link executeShellCommand}.
  *
  * @public
- * @deprecated Use `ExecuteShellCommandOptions` from `@backstage/plugin-scaffolder-node` instead
+ * @deprecated Use `ExecuteShellCommandOptions` from `@stone-payments/plugin-scaffolder-node` instead
  */
 export type RunCommandOptions = ExecuteShellCommandOptionsNode;
 
@@ -64,7 +64,7 @@ export type RunCommandOptions = ExecuteShellCommandOptionsNode;
  * Run a command in a sub-process, normally a shell command.
  *
  * @public
- * @deprecated Use `executeShellCommand` from `@backstage/plugin-scaffolder-node` instead
+ * @deprecated Use `executeShellCommand` from `@stone-payments/plugin-scaffolder-node` instead
  */
 export const executeShellCommand = executeShellCommandNode;
 
@@ -73,7 +73,7 @@ export const executeShellCommand = executeShellCommandNode;
  * Can be used in your own actions, and also used behind fetch:template and fetch:plain
  *
  * @public
- * @deprecated Use `fetchContents` from `@backstage/plugin-scaffolder-node` instead
+ * @deprecated Use `fetchContents` from `@stone-payments/plugin-scaffolder-node` instead
  */
 export const fetchContents = fetchContentsNode;
 

@@ -30,7 +30,7 @@ import { SchedulerService } from '@backstage/backend-plugin-api';
 import { SchedulerServiceTaskRunner } from '@backstage/backend-plugin-api';
 import { ServiceFactory } from '@backstage/backend-plugin-api';
 import { ServiceRef } from '@backstage/backend-plugin-api';
-import { TemplateAction } from '@backstage/plugin-scaffolder-node';
+import { TemplateAction } from '@stone-payments/plugin-scaffolder-node';
 import { TokenManager } from '@backstage/backend-common';
 import { UrlReaderService } from '@backstage/backend-plugin-api';
 import { WinstonLoggerOptions } from '@backstage/backend-defaults/rootLogger';

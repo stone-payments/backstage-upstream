@@ -30,7 +30,7 @@ import {
   createTemplateAction,
   fetchContents,
   executeShellCommand,
-} from '@backstage/plugin-scaffolder-node';
+} from '@stone-payments/plugin-scaffolder-node';
 import { examples } from './cookiecutter.examples';
 
 export class CookiecutterRunner {

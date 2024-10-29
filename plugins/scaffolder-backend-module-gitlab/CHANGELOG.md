@@ -1,4 +1,4 @@
-# @backstage/plugin-scaffolder-backend-module-gitlab
+# @stone-payments/plugin-scaffolder-backend-module-gitlab
 
 ## 0.6.0
 
@@ -13,7 +13,7 @@
 - 094eaa3: Remove references to in-repo backend-common
 - f2f68cf: Updated `gitlab:group:ensureExists` action to instead use oauth client.
 - Updated dependencies
-  - @backstage/plugin-scaffolder-node@0.5.0
+  - @stone-payments/plugin-scaffolder-node@0.5.0
   - @backstage/integration@1.15.1
   - @backstage/backend-plugin-api@1.0.1
   - @backstage/config@1.2.0
@@ -29,7 +29,7 @@
 
 - Updated dependencies
   - @backstage/integration@1.15.1-next.1
-  - @backstage/plugin-scaffolder-node@0.5.0-next.2
+  - @stone-payments/plugin-scaffolder-node@0.5.0-next.2
   - @backstage/backend-plugin-api@1.0.1-next.1
   - @backstage/config@1.2.0
   - @backstage/errors@1.2.4
@@ -43,7 +43,7 @@
   - @backstage/backend-plugin-api@1.0.1-next.0
   - @backstage/config@1.2.0
   - @backstage/errors@1.2.4
-  - @backstage/plugin-scaffolder-node@0.5.0-next.1
+  - @stone-payments/plugin-scaffolder-node@0.5.0-next.1
 
 ## 0.5.1-next.0
 
@@ -52,7 +52,7 @@
 - 094eaa3: Remove references to in-repo backend-common
 - f2f68cf: Updated `gitlab:group:ensureExists` action to instead use oauth client.
 - Updated dependencies
-  - @backstage/plugin-scaffolder-node@0.5.0-next.0
+  - @stone-payments/plugin-scaffolder-node@0.5.0-next.0
   - @backstage/backend-plugin-api@1.0.1-next.0
   - @backstage/config@1.2.0
   - @backstage/errors@1.2.4
@@ -77,7 +77,7 @@
   - @backstage/integration@1.15.0
   - @backstage/config@1.2.0
   - @backstage/errors@1.2.4
-  - @backstage/plugin-scaffolder-node@0.4.11
+  - @stone-payments/plugin-scaffolder-node@0.4.11
 
 ## 0.5.0-next.2
 
@@ -90,7 +90,7 @@
   - @backstage/integration@1.15.0-next.0
   - @backstage/config@1.2.0
   - @backstage/errors@1.2.4
-  - @backstage/plugin-scaffolder-node@0.4.11-next.2
+  - @stone-payments/plugin-scaffolder-node@0.4.11-next.2
 
 ## 0.5.0-next.1
 
@@ -102,7 +102,7 @@
   - @backstage/config@1.2.0
   - @backstage/errors@1.2.4
   - @backstage/integration@1.14.0
-  - @backstage/plugin-scaffolder-node@0.4.11-next.1
+  - @stone-payments/plugin-scaffolder-node@0.4.11-next.1
 
 ## 0.5.0-next.0
 
@@ -119,7 +119,7 @@
 - Updated dependencies
   - @backstage/backend-plugin-api@0.9.0-next.0
   - @backstage/backend-common@0.25.0-next.0
-  - @backstage/plugin-scaffolder-node@0.4.11-next.0
+  - @stone-payments/plugin-scaffolder-node@0.4.11-next.0
   - @backstage/config@1.2.0
   - @backstage/errors@1.2.4
   - @backstage/integration@1.14.0
@@ -143,7 +143,7 @@
 - Updated dependencies
   - @backstage/backend-plugin-api@0.8.0
   - @backstage/backend-common@0.24.0
-  - @backstage/plugin-scaffolder-node@0.4.9
+  - @stone-payments/plugin-scaffolder-node@0.4.9
   - @backstage/integration@1.14.0
   - @backstage/config@1.2.0
   - @backstage/errors@1.2.4
@@ -159,7 +159,7 @@
   - @backstage/config@1.2.0
   - @backstage/errors@1.2.4
   - @backstage/integration@1.14.0-next.0
-  - @backstage/plugin-scaffolder-node@0.4.9-next.3
+  - @stone-payments/plugin-scaffolder-node@0.4.9-next.3
 
 ## 0.4.5-next.2
 
@@ -167,7 +167,7 @@
 
 - Updated dependencies
   - @backstage/backend-plugin-api@0.8.0-next.2
-  - @backstage/plugin-scaffolder-node@0.4.9-next.2
+  - @stone-payments/plugin-scaffolder-node@0.4.9-next.2
   - @backstage/backend-common@0.23.4-next.2
   - @backstage/integration@1.14.0-next.0
   - @backstage/config@1.2.0
@@ -183,7 +183,7 @@
   - @backstage/integration@1.14.0-next.0
   - @backstage/config@1.2.0
   - @backstage/errors@1.2.4
-  - @backstage/plugin-scaffolder-node@0.4.9-next.1
+  - @stone-payments/plugin-scaffolder-node@0.4.9-next.1
 
 ## 0.4.5-next.0
 
@@ -206,7 +206,7 @@
   - @backstage/backend-plugin-api@0.7.1-next.0
   - @backstage/config@1.2.0
   - @backstage/errors@1.2.4
-  - @backstage/plugin-scaffolder-node@0.4.9-next.0
+  - @stone-payments/plugin-scaffolder-node@0.4.9-next.0
 
 ## 0.4.4
 
@@ -218,7 +218,7 @@
   - @backstage/backend-plugin-api@0.7.0
   - @backstage/backend-common@0.23.3
   - @backstage/integration@1.13.0
-  - @backstage/plugin-scaffolder-node@0.4.8
+  - @stone-payments/plugin-scaffolder-node@0.4.8
   - @backstage/config@1.2.0
   - @backstage/errors@1.2.4
 
@@ -233,7 +233,7 @@
   - @backstage/config@1.2.0
   - @backstage/errors@1.2.4
   - @backstage/integration@1.13.0-next.0
-  - @backstage/plugin-scaffolder-node@0.4.8-next.1
+  - @stone-payments/plugin-scaffolder-node@0.4.8-next.1
 
 ## 0.4.3-next.0
 
@@ -244,7 +244,7 @@
   - @backstage/backend-plugin-api@0.6.21-next.0
   - @backstage/backend-common@0.23.2-next.0
   - @backstage/integration@1.13.0-next.0
-  - @backstage/plugin-scaffolder-node@0.4.7-next.0
+  - @stone-payments/plugin-scaffolder-node@0.4.7-next.0
   - @backstage/config@1.2.0
   - @backstage/errors@1.2.4
 
@@ -260,7 +260,7 @@
   - @backstage/backend-common@0.23.0
   - @backstage/backend-plugin-api@0.6.19
   - @backstage/integration@1.12.0
-  - @backstage/plugin-scaffolder-node@0.4.5
+  - @stone-payments/plugin-scaffolder-node@0.4.5
   - @backstage/config@1.2.0
   - @backstage/errors@1.2.4
 
@@ -272,7 +272,7 @@
 - Updated dependencies
   - @backstage/backend-plugin-api@0.6.19-next.3
   - @backstage/integration@1.12.0-next.1
-  - @backstage/plugin-scaffolder-node@0.4.5-next.3
+  - @stone-payments/plugin-scaffolder-node@0.4.5-next.3
   - @backstage/backend-common@0.23.0-next.3
   - @backstage/config@1.2.0
   - @backstage/errors@1.2.4
@@ -286,7 +286,7 @@
   - @backstage/backend-plugin-api@0.6.19-next.2
   - @backstage/backend-common@0.23.0-next.2
   - @backstage/integration@1.12.0-next.0
-  - @backstage/plugin-scaffolder-node@0.4.5-next.2
+  - @stone-payments/plugin-scaffolder-node@0.4.5-next.2
   - @backstage/config@1.2.0
   - @backstage/errors@1.2.4
 
@@ -298,7 +298,7 @@
 - Updated dependencies
   - @backstage/backend-plugin-api@0.6.19-next.1
   - @backstage/backend-common@0.23.0-next.1
-  - @backstage/plugin-scaffolder-node@0.4.5-next.1
+  - @stone-payments/plugin-scaffolder-node@0.4.5-next.1
 
 ## 0.4.1-next.0
 
@@ -307,7 +307,7 @@
 - Updated dependencies
   - @backstage/backend-common@0.22.1-next.0
   - @backstage/backend-plugin-api@0.6.19-next.0
-  - @backstage/plugin-scaffolder-node@0.4.5-next.0
+  - @stone-payments/plugin-scaffolder-node@0.4.5-next.0
   - @backstage/config@1.2.0
   - @backstage/errors@1.2.4
   - @backstage/integration@1.11.0
@@ -326,7 +326,7 @@
 - Updated dependencies
   - @backstage/backend-common@0.22.0
   - @backstage/backend-plugin-api@0.6.18
-  - @backstage/plugin-scaffolder-node@0.4.4
+  - @stone-payments/plugin-scaffolder-node@0.4.4
   - @backstage/integration@1.11.0
 
 ## 0.4.0-next.2
@@ -340,7 +340,7 @@
 - 8fa8a00: Add merge method and squash option for project creation
 - Updated dependencies
   - @backstage/backend-common@0.22.0-next.2
-  - @backstage/plugin-scaffolder-node@0.4.4-next.2
+  - @stone-payments/plugin-scaffolder-node@0.4.4-next.2
   - @backstage/integration@1.11.0-next.0
 
 ## 0.3.4-next.1
@@ -349,7 +349,7 @@
 
 - Updated dependencies
   - @backstage/backend-common@0.22.0-next.1
-  - @backstage/plugin-scaffolder-node@0.4.4-next.1
+  - @stone-payments/plugin-scaffolder-node@0.4.4-next.1
   - @backstage/backend-plugin-api@0.6.18-next.1
 
 ## 0.3.4-next.0
@@ -360,7 +360,7 @@
 - Updated dependencies
   - @backstage/backend-common@0.21.8-next.0
   - @backstage/backend-plugin-api@0.6.18-next.0
-  - @backstage/plugin-scaffolder-node@0.4.4-next.0
+  - @stone-payments/plugin-scaffolder-node@0.4.4-next.0
   - @backstage/config@1.2.0
   - @backstage/errors@1.2.4
   - @backstage/integration@1.10.0
@@ -377,7 +377,7 @@
   - @backstage/backend-common@0.21.7
   - @backstage/backend-plugin-api@0.6.17
   - @backstage/integration@1.10.0
-  - @backstage/plugin-scaffolder-node@0.4.3
+  - @stone-payments/plugin-scaffolder-node@0.4.3
   - @backstage/config@1.2.0
   - @backstage/errors@1.2.4
 
@@ -389,7 +389,7 @@
 - Updated dependencies
   - @backstage/backend-common@0.21.7-next.1
   - @backstage/backend-plugin-api@0.6.17-next.1
-  - @backstage/plugin-scaffolder-node@0.4.3-next.1
+  - @stone-payments/plugin-scaffolder-node@0.4.3-next.1
   - @backstage/config@1.2.0
   - @backstage/errors@1.2.4
   - @backstage/integration@1.10.0-next.0
@@ -404,7 +404,7 @@
   - @backstage/backend-plugin-api@0.6.17-next.0
   - @backstage/config@1.2.0
   - @backstage/errors@1.2.4
-  - @backstage/plugin-scaffolder-node@0.4.3-next.0
+  - @stone-payments/plugin-scaffolder-node@0.4.3-next.0
 
 ## 0.3.2
 
@@ -413,7 +413,7 @@
 - Updated dependencies
   - @backstage/backend-common@0.21.6
   - @backstage/backend-plugin-api@0.6.16
-  - @backstage/plugin-scaffolder-node@0.4.2
+  - @stone-payments/plugin-scaffolder-node@0.4.2
   - @backstage/config@1.2.0
   - @backstage/errors@1.2.4
   - @backstage/integration@1.9.1
@@ -424,7 +424,7 @@
 
 - Updated dependencies
   - @backstage/backend-common@0.21.5
-  - @backstage/plugin-scaffolder-node@0.4.1
+  - @stone-payments/plugin-scaffolder-node@0.4.1
   - @backstage/backend-plugin-api@0.6.15
   - @backstage/config@1.2.0
   - @backstage/errors@1.2.4
@@ -443,7 +443,7 @@
   It will help to maintain tests in a long run during structural changes of action context.
 
 - Updated dependencies
-  - @backstage/plugin-scaffolder-node@0.4.0
+  - @stone-payments/plugin-scaffolder-node@0.4.0
   - @backstage/backend-common@0.21.4
   - @backstage/integration@1.9.1
   - @backstage/config@1.2.0
@@ -459,7 +459,7 @@
 ### Patch Changes
 
 - Updated dependencies
-  - @backstage/plugin-scaffolder-node@0.4.0-next.2
+  - @stone-payments/plugin-scaffolder-node@0.4.0-next.2
   - @backstage/integration@1.9.1-next.2
   - @backstage/backend-common@0.21.4-next.2
   - @backstage/backend-plugin-api@0.6.14-next.2
@@ -472,7 +472,7 @@
 
 - Updated dependencies
   - @backstage/config@1.2.0-next.1
-  - @backstage/plugin-scaffolder-node@0.4.0-next.1
+  - @stone-payments/plugin-scaffolder-node@0.4.0-next.1
   - @backstage/backend-common@0.21.4-next.1
   - @backstage/backend-plugin-api@0.6.14-next.1
   - @backstage/integration@1.9.1-next.1
@@ -489,7 +489,7 @@
 - Updated dependencies
   - @backstage/backend-common@0.21.3-next.0
   - @backstage/errors@1.2.4-next.0
-  - @backstage/plugin-scaffolder-node@0.3.3-next.0
+  - @stone-payments/plugin-scaffolder-node@0.3.3-next.0
   - @backstage/backend-plugin-api@0.6.13-next.0
   - @backstage/config@1.1.2-next.0
   - @backstage/integration@1.9.1-next.0
@@ -505,7 +505,7 @@
   - @backstage/backend-common@0.21.0
   - @backstage/backend-plugin-api@0.6.10
   - @backstage/integration@1.9.0
-  - @backstage/plugin-scaffolder-node@0.3.0
+  - @stone-payments/plugin-scaffolder-node@0.3.0
   - @backstage/config@1.1.1
   - @backstage/errors@1.2.3
 
@@ -517,7 +517,7 @@
 - Updated dependencies
   - @backstage/backend-common@0.21.0-next.3
   - @backstage/integration@1.9.0-next.1
-  - @backstage/plugin-scaffolder-node@0.3.0-next.3
+  - @stone-payments/plugin-scaffolder-node@0.3.0-next.3
   - @backstage/backend-plugin-api@0.6.10-next.3
   - @backstage/config@1.1.1
   - @backstage/errors@1.2.3
@@ -530,7 +530,7 @@
 - Updated dependencies
   - @backstage/backend-common@0.21.0-next.2
   - @backstage/backend-plugin-api@0.6.10-next.2
-  - @backstage/plugin-scaffolder-node@0.3.0-next.2
+  - @stone-payments/plugin-scaffolder-node@0.3.0-next.2
   - @backstage/config@1.1.1
   - @backstage/errors@1.2.3
   - @backstage/integration@1.9.0-next.0
@@ -543,7 +543,7 @@
   - @backstage/backend-plugin-api@0.6.10-next.1
   - @backstage/backend-common@0.21.0-next.1
   - @backstage/integration@1.9.0-next.0
-  - @backstage/plugin-scaffolder-node@0.3.0-next.1
+  - @stone-payments/plugin-scaffolder-node@0.3.0-next.1
   - @backstage/config@1.1.1
   - @backstage/errors@1.2.3
 
@@ -554,7 +554,7 @@
 - e9a5228: Exporting a default module for the new Backend System
 - Updated dependencies
   - @backstage/backend-common@0.21.0-next.0
-  - @backstage/plugin-scaffolder-node@0.3.0-next.0
+  - @stone-payments/plugin-scaffolder-node@0.3.0-next.0
   - @backstage/backend-plugin-api@0.6.10-next.0
   - @backstage/config@1.1.1
   - @backstage/errors@1.2.3
@@ -568,7 +568,7 @@
 - 7c522c5: Add `gitlab:repo:push` scaffolder action to push files to arbitrary branch without creating a Merge Request
 - Updated dependencies
   - @backstage/backend-common@0.20.1
-  - @backstage/plugin-scaffolder-node@0.2.10
+  - @stone-payments/plugin-scaffolder-node@0.2.10
   - @backstage/config@1.1.1
   - @backstage/errors@1.2.3
   - @backstage/integration@1.8.0
@@ -579,7 +579,7 @@
 
 - Updated dependencies
   - @backstage/backend-common@0.20.1-next.2
-  - @backstage/plugin-scaffolder-node@0.2.10-next.2
+  - @stone-payments/plugin-scaffolder-node@0.2.10-next.2
 
 ## 0.2.12-next.1
 
@@ -589,7 +589,7 @@
   - @backstage/backend-common@0.20.1-next.1
   - @backstage/integration@1.8.0
   - @backstage/config@1.1.1
-  - @backstage/plugin-scaffolder-node@0.2.10-next.1
+  - @stone-payments/plugin-scaffolder-node@0.2.10-next.1
   - @backstage/errors@1.2.3
 
 ## 0.2.12-next.0
@@ -601,7 +601,7 @@
   - @backstage/config@1.1.1
   - @backstage/errors@1.2.3
   - @backstage/integration@1.8.0
-  - @backstage/plugin-scaffolder-node@0.2.10-next.0
+  - @stone-payments/plugin-scaffolder-node@0.2.10-next.0
 
 ## 0.2.11
 
@@ -611,7 +611,7 @@
 - 0cbb03b: Fixing regular expression ReDoS with zod packages. Upgrading to latest. ref: https://security.snyk.io/vuln/SNYK-JS-ZOD-5925617
 - Updated dependencies
   - @backstage/backend-common@0.20.0
-  - @backstage/plugin-scaffolder-node@0.2.9
+  - @stone-payments/plugin-scaffolder-node@0.2.9
   - @backstage/integration@1.8.0
   - @backstage/config@1.1.1
   - @backstage/errors@1.2.3
@@ -622,7 +622,7 @@
 
 - 219d7f0: Extract some more actions to this library
 - Updated dependencies
-  - @backstage/plugin-scaffolder-node@0.2.9-next.3
+  - @stone-payments/plugin-scaffolder-node@0.2.9-next.3
   - @backstage/backend-common@0.20.0-next.3
   - @backstage/config@1.1.1
   - @backstage/errors@1.2.3
@@ -636,7 +636,7 @@
   - @backstage/config@1.1.1
   - @backstage/errors@1.2.3
   - @backstage/integration@1.8.0-next.1
-  - @backstage/plugin-scaffolder-node@0.2.9-next.2
+  - @stone-payments/plugin-scaffolder-node@0.2.9-next.2
 
 ## 0.2.11-next.1
 
@@ -646,7 +646,7 @@
   - @backstage/integration@1.8.0-next.1
   - @backstage/config@1.1.1
   - @backstage/errors@1.2.3
-  - @backstage/plugin-scaffolder-node@0.2.9-next.1
+  - @stone-payments/plugin-scaffolder-node@0.2.9-next.1
 
 ## 0.2.11-next.0
 
@@ -654,7 +654,7 @@
 
 - Updated dependencies
   - @backstage/integration@1.8.0-next.0
-  - @backstage/plugin-scaffolder-node@0.2.9-next.0
+  - @stone-payments/plugin-scaffolder-node@0.2.9-next.0
   - @backstage/config@1.1.1
   - @backstage/errors@1.2.3
 
@@ -665,7 +665,7 @@
 - 26ca97ebaa: Add examples for `gitlab:projectAccessToken:create` scaffolder action & improve related tests
 - Updated dependencies
   - @backstage/integration@1.7.2
-  - @backstage/plugin-scaffolder-node@0.2.8
+  - @stone-payments/plugin-scaffolder-node@0.2.8
   - @backstage/config@1.1.1
   - @backstage/errors@1.2.3
 
@@ -674,7 +674,7 @@
 ### Patch Changes
 
 - Updated dependencies
-  - @backstage/plugin-scaffolder-node@0.2.8-next.2
+  - @stone-payments/plugin-scaffolder-node@0.2.8-next.2
 
 ## 0.2.10-next.1
 
@@ -682,7 +682,7 @@
 
 - Updated dependencies
   - @backstage/integration@1.7.2-next.0
-  - @backstage/plugin-scaffolder-node@0.2.8-next.1
+  - @stone-payments/plugin-scaffolder-node@0.2.8-next.1
   - @backstage/config@1.1.1
   - @backstage/errors@1.2.3
 
@@ -692,7 +692,7 @@
 
 - 26ca97ebaa: Add examples for `gitlab:projectAccessToken:create` scaffolder action & improve related tests
 - Updated dependencies
-  - @backstage/plugin-scaffolder-node@0.2.8-next.0
+  - @stone-payments/plugin-scaffolder-node@0.2.8-next.0
   - @backstage/integration@1.7.1
   - @backstage/config@1.1.1
   - @backstage/errors@1.2.3
@@ -704,7 +704,7 @@
 - Updated dependencies
   - @backstage/integration@1.7.1
   - @backstage/errors@1.2.3
-  - @backstage/plugin-scaffolder-node@0.2.6
+  - @stone-payments/plugin-scaffolder-node@0.2.6
   - @backstage/config@1.1.1
 
 ## 0.2.9-next.2
@@ -714,7 +714,7 @@
 - Updated dependencies
   - @backstage/integration@1.7.1-next.1
   - @backstage/errors@1.2.3-next.0
-  - @backstage/plugin-scaffolder-node@0.2.6-next.2
+  - @stone-payments/plugin-scaffolder-node@0.2.6-next.2
   - @backstage/config@1.1.1-next.0
 
 ## 0.2.8-next.1
@@ -722,7 +722,7 @@
 ### Patch Changes
 
 - Updated dependencies
-  - @backstage/plugin-scaffolder-node@0.2.5-next.1
+  - @stone-payments/plugin-scaffolder-node@0.2.5-next.1
   - @backstage/config@1.1.0
   - @backstage/errors@1.2.2
   - @backstage/integration@1.7.1-next.0
@@ -733,7 +733,7 @@
 
 - Updated dependencies
   - @backstage/integration@1.7.1-next.0
-  - @backstage/plugin-scaffolder-node@0.2.5-next.0
+  - @stone-payments/plugin-scaffolder-node@0.2.5-next.0
   - @backstage/config@1.1.0
   - @backstage/errors@1.2.2
 
@@ -745,7 +745,7 @@
   - @backstage/config@1.1.0
   - @backstage/errors@1.2.2
   - @backstage/integration@1.7.0
-  - @backstage/plugin-scaffolder-node@0.2.3
+  - @stone-payments/plugin-scaffolder-node@0.2.3
 
 ## 0.2.6-next.3
 
@@ -755,7 +755,7 @@
   - @backstage/config@1.1.0-next.2
   - @backstage/errors@1.2.2-next.0
   - @backstage/integration@1.7.0-next.3
-  - @backstage/plugin-scaffolder-node@0.2.3-next.3
+  - @stone-payments/plugin-scaffolder-node@0.2.3-next.3
 
 ## 0.2.6-next.2
 
@@ -764,7 +764,7 @@
 - Updated dependencies
   - @backstage/config@1.1.0-next.1
   - @backstage/integration@1.7.0-next.2
-  - @backstage/plugin-scaffolder-node@0.2.3-next.2
+  - @stone-payments/plugin-scaffolder-node@0.2.3-next.2
   - @backstage/errors@1.2.1
 
 ## 0.2.6-next.1
@@ -774,7 +774,7 @@
 - Updated dependencies
   - @backstage/config@1.1.0-next.0
   - @backstage/integration@1.7.0-next.1
-  - @backstage/plugin-scaffolder-node@0.2.3-next.1
+  - @stone-payments/plugin-scaffolder-node@0.2.3-next.1
   - @backstage/errors@1.2.1
 
 ## 0.2.5-next.0
@@ -785,14 +785,14 @@
   - @backstage/integration@1.7.0-next.0
   - @backstage/config@1.0.8
   - @backstage/errors@1.2.1
-  - @backstage/plugin-scaffolder-node@0.2.2-next.0
+  - @stone-payments/plugin-scaffolder-node@0.2.2-next.0
 
 ## 0.2.3
 
 ### Patch Changes
 
 - Updated dependencies
-  - @backstage/plugin-scaffolder-node@0.2.0
+  - @stone-payments/plugin-scaffolder-node@0.2.0
   - @backstage/integration@1.6.0
   - @backstage/config@1.0.8
   - @backstage/errors@1.2.1
@@ -802,14 +802,14 @@
 ### Patch Changes
 
 - Updated dependencies
-  - @backstage/plugin-scaffolder-node@0.1.6-next.2
+  - @stone-payments/plugin-scaffolder-node@0.1.6-next.2
 
 ## 0.2.3-next.1
 
 ### Patch Changes
 
 - Updated dependencies
-  - @backstage/plugin-scaffolder-node@0.1.6-next.1
+  - @stone-payments/plugin-scaffolder-node@0.1.6-next.1
   - @backstage/integration@1.5.1
   - @backstage/config@1.0.8
   - @backstage/errors@1.2.1
@@ -822,7 +822,7 @@
   - @backstage/config@1.0.8
   - @backstage/errors@1.2.1
   - @backstage/integration@1.5.1
-  - @backstage/plugin-scaffolder-node@0.1.6-next.0
+  - @stone-payments/plugin-scaffolder-node@0.1.6-next.0
 
 ## 0.2.2
 
@@ -833,7 +833,7 @@
   - @backstage/errors@1.2.1
   - @backstage/config@1.0.8
   - @backstage/integration@1.5.1
-  - @backstage/plugin-scaffolder-node@0.1.5
+  - @stone-payments/plugin-scaffolder-node@0.1.5
 
 ## 0.2.2-next.1
 
@@ -844,7 +844,7 @@
   - @backstage/config@1.0.8
   - @backstage/errors@1.2.1-next.0
   - @backstage/integration@1.5.1-next.0
-  - @backstage/plugin-scaffolder-node@0.1.5-next.0
+  - @stone-payments/plugin-scaffolder-node@0.1.5-next.0
 
 ## 0.2.2-next.0
 
@@ -854,7 +854,7 @@
   - @backstage/errors@1.2.1-next.0
   - @backstage/config@1.0.8
   - @backstage/integration@1.5.1-next.0
-  - @backstage/plugin-scaffolder-node@0.1.5-next.0
+  - @stone-payments/plugin-scaffolder-node@0.1.5-next.0
 
 ## 0.2.1
 
@@ -867,7 +867,7 @@
   - @backstage/integration@1.5.0
   - @backstage/errors@1.2.0
   - @backstage/config@1.0.8
-  - @backstage/plugin-scaffolder-node@0.1.4
+  - @stone-payments/plugin-scaffolder-node@0.1.4
 
 ## 0.2.1-next.3
 
@@ -877,7 +877,7 @@
   - @backstage/config@1.0.7
   - @backstage/errors@1.2.0-next.0
   - @backstage/integration@1.5.0-next.0
-  - @backstage/plugin-scaffolder-node@0.1.4-next.2
+  - @stone-payments/plugin-scaffolder-node@0.1.4-next.2
 
 ## 0.2.1-next.2
 
@@ -895,7 +895,7 @@
 - Updated dependencies
   - @backstage/integration@1.5.0-next.0
   - @backstage/errors@1.2.0-next.0
-  - @backstage/plugin-scaffolder-node@0.1.4-next.1
+  - @stone-payments/plugin-scaffolder-node@0.1.4-next.1
   - @backstage/config@1.0.7
 
 ## 0.2.1-next.0
@@ -907,7 +907,7 @@
   - @backstage/integration@1.4.5
   - @backstage/config@1.0.7
   - @backstage/errors@1.1.5
-  - @backstage/plugin-scaffolder-node@0.1.4-next.0
+  - @stone-payments/plugin-scaffolder-node@0.1.4-next.0
 
 ## 0.2.0
 
@@ -926,7 +926,7 @@
 
 - Updated dependencies
   - @backstage/integration@1.4.5
-  - @backstage/plugin-scaffolder-node@0.1.3
+  - @stone-payments/plugin-scaffolder-node@0.1.3
   - @backstage/config@1.0.7
   - @backstage/errors@1.1.5
 
@@ -939,7 +939,7 @@
 ### Patch Changes
 
 - Updated dependencies
-  - @backstage/plugin-scaffolder-node@0.1.3-next.2
+  - @stone-payments/plugin-scaffolder-node@0.1.3-next.2
   - @backstage/config@1.0.7
 
 ## 0.1.1-next.1
@@ -947,7 +947,7 @@
 ### Patch Changes
 
 - Updated dependencies
-  - @backstage/plugin-scaffolder-node@0.1.3-next.1
+  - @stone-payments/plugin-scaffolder-node@0.1.3-next.1
   - @backstage/config@1.0.7
 
 ## 0.1.1-next.0
@@ -958,7 +958,7 @@
   - @backstage/integration@1.4.5-next.0
   - @backstage/config@1.0.7
   - @backstage/errors@1.1.5
-  - @backstage/plugin-scaffolder-node@0.1.3-next.0
+  - @stone-payments/plugin-scaffolder-node@0.1.3-next.0
 
 ## 0.1.0
 
@@ -969,7 +969,7 @@
 ### Patch Changes
 
 - Updated dependencies
-  - @backstage/plugin-scaffolder-node@0.1.2
+  - @stone-payments/plugin-scaffolder-node@0.1.2
   - @backstage/integration@1.4.4
   - @backstage/config@1.0.7
   - @backstage/errors@1.1.5
@@ -982,14 +982,14 @@
   - @backstage/config@1.0.7
   - @backstage/errors@1.1.5
   - @backstage/integration@1.4.4-next.0
-  - @backstage/plugin-scaffolder-node@0.1.2-next.3
+  - @stone-payments/plugin-scaffolder-node@0.1.2-next.3
 
 ## 0.1.0-next.2
 
 ### Patch Changes
 
 - Updated dependencies
-  - @backstage/plugin-scaffolder-node@0.1.2-next.2
+  - @stone-payments/plugin-scaffolder-node@0.1.2-next.2
   - @backstage/config@1.0.7
   - @backstage/errors@1.1.5
   - @backstage/integration@1.4.4-next.0
@@ -999,7 +999,7 @@
 ### Patch Changes
 
 - Updated dependencies
-  - @backstage/plugin-scaffolder-node@0.1.2-next.1
+  - @stone-payments/plugin-scaffolder-node@0.1.2-next.1
   - @backstage/integration@1.4.4-next.0
   - @backstage/config@1.0.7
   - @backstage/errors@1.1.5
@@ -1013,7 +1013,7 @@
 ### Patch Changes
 
 - Updated dependencies
-  - @backstage/plugin-scaffolder-node@0.1.2-next.0
+  - @stone-payments/plugin-scaffolder-node@0.1.2-next.0
   - @backstage/config@1.0.7
   - @backstage/integration@1.4.3
   - @backstage/errors@1.1.5

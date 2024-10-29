@@ -1,4 +1,4 @@
-import { createTemplateAction } from '@backstage/plugin-scaffolder-node';
+import { createTemplateAction } from '@stone-payments/plugin-scaffolder-node';
 
 /**
  * Creates an `acme:example` Scaffolder action.

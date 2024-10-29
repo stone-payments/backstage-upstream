@@ -22,18 +22,18 @@ import { WebApi } from 'azure-devops-node-api';
 import {
   getRepoSourceDirectory,
   initRepoAndPush,
-} from '@backstage/plugin-scaffolder-node';
+} from '@stone-payments/plugin-scaffolder-node';
 import { examples } from './azure.examples';
-import { createMockActionContext } from '@backstage/plugin-scaffolder-node-test-utils';
+import { createMockActionContext } from '@stone-payments/plugin-scaffolder-node-test-utils';
 
 jest.mock('azure-devops-node-api', () => ({
   WebApi: jest.fn(),
   getPersonalAccessTokenHandler: jest.fn().mockReturnValue(() => {}),
 }));
 
-jest.mock('@backstage/plugin-scaffolder-node', () => {
+jest.mock('@stone-payments/plugin-scaffolder-node', () => {
   return {
-    ...jest.requireActual('@backstage/plugin-scaffolder-node'),
+    ...jest.requireActual('@stone-payments/plugin-scaffolder-node'),
     initRepoAndPush: jest.fn().mockResolvedValue({
       commitHash: '220f19cc36b551763d157f1b5e4a4b446165dbd6',
     }),

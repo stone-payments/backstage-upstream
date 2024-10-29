@@ -40,7 +40,7 @@ An important change is to add the required processor to your `packages/backend/s
 
 ```ts title="packages/backend/src/plugins/catalog.ts"
 /* highlight-add-next-line */
-import { ScaffolderEntitiesProcessor } from '@backstage/plugin-scaffolder-backend';
+import { ScaffolderEntitiesProcessor } from '@stone-payments/plugin-scaffolder-backend';
 
 export default async function createPlugin(
   env: PluginEnvironment,

@@ -19,19 +19,19 @@ import fs from 'fs-extra';
 import { UrlReaderService } from '@backstage/backend-plugin-api';
 import { resolvePackagePath } from '@backstage/backend-plugin-api';
 import { ScmIntegrations } from '@backstage/integration';
-import { createMockActionContext } from '@backstage/plugin-scaffolder-node-test-utils';
+import { createMockActionContext } from '@stone-payments/plugin-scaffolder-node-test-utils';
 import { createFetchTemplateAction } from './template';
 import {
   ActionContext,
   TemplateAction,
   fetchContents,
-} from '@backstage/plugin-scaffolder-node';
+} from '@stone-payments/plugin-scaffolder-node';
 import { examples } from './template.examples';
 import yaml from 'yaml';
 import { createMockDirectory } from '@backstage/backend-test-utils';
 
-jest.mock('@backstage/plugin-scaffolder-node', () => ({
-  ...jest.requireActual('@backstage/plugin-scaffolder-node'),
+jest.mock('@stone-payments/plugin-scaffolder-node', () => ({
+  ...jest.requireActual('@stone-payments/plugin-scaffolder-node'),
   fetchContents: jest.fn(),
 }));
 
@@ -43,7 +43,7 @@ type FetchTemplateInput = ReturnType<
 
 const aBinaryFile = fs.readFileSync(
   resolvePackagePath(
-    '@backstage/plugin-scaffolder-backend',
+    '@stone-payments/plugin-scaffolder-backend',
     'fixtures/test-nested-template/public/react-logo192.png',
   ),
 );

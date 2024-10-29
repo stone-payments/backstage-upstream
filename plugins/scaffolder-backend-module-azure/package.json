@@ -1,11 +1,11 @@
 {
-  "name": "@backstage/plugin-scaffolder-backend-module-azure",
+  "name": "@stone-payments/plugin-scaffolder-backend-module-azure",
   "version": "0.2.1",
-  "description": "The azure module for @backstage/plugin-scaffolder-backend",
+  "description": "The azure module for @stone-payments/plugin-scaffolder-backend",
   "backstage": {
     "role": "backend-plugin-module",
     "pluginId": "scaffolder",
-    "pluginPackage": "@backstage/plugin-scaffolder-backend"
+    "pluginPackage": "@stone-payments/plugin-scaffolder-backend"
   },
   "publishConfig": {
     "access": "public"
@@ -46,12 +46,12 @@
     "@backstage/config": "workspace:^",
     "@backstage/errors": "workspace:^",
     "@backstage/integration": "workspace:^",
-    "@backstage/plugin-scaffolder-node": "workspace:^",
+    "@stone-payments/plugin-scaffolder-node": "workspace:^",
     "azure-devops-node-api": "^14.0.0",
     "yaml": "^2.0.0"
   },
   "devDependencies": {
     "@backstage/cli": "workspace:^",
-    "@backstage/plugin-scaffolder-node-test-utils": "workspace:^"
+    "@stone-payments/plugin-scaffolder-node-test-utils": "workspace:^"
   }
 }

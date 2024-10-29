@@ -23,7 +23,7 @@ import { TaskSpec } from '@backstage/plugin-scaffolder-common';
 import {
   SerializedTaskEvent,
   TaskSecrets,
-} from '@backstage/plugin-scaffolder-node';
+} from '@stone-payments/plugin-scaffolder-node';
 import { DatabaseTaskStore } from './DatabaseTaskStore';
 import { StorageTaskBroker, TaskManager } from './StorageTaskBroker';
 import { mockServices } from '@backstage/backend-test-utils';

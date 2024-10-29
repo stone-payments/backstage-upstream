@@ -18,7 +18,7 @@ import { InputError } from '@backstage/errors';
 import {
   createTemplateAction,
   parseRepoUrl,
-} from '@backstage/plugin-scaffolder-node';
+} from '@stone-payments/plugin-scaffolder-node';
 import { ScmIntegrationRegistry } from '@backstage/integration';
 import { examples } from './githubBranchProtection.examples';
 import * as inputProps from './inputProperties';

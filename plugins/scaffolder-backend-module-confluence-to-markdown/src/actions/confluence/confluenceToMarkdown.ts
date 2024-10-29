@@ -19,7 +19,7 @@ import { ScmIntegrations } from '@backstage/integration';
 import {
   createTemplateAction,
   fetchContents,
-} from '@backstage/plugin-scaffolder-node';
+} from '@stone-payments/plugin-scaffolder-node';
 import { InputError, ConflictError } from '@backstage/errors';
 import { NodeHtmlMarkdown } from 'node-html-markdown';
 import fs from 'fs-extra';

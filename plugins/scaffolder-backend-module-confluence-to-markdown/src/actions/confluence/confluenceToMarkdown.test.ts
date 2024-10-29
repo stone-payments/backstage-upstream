@@ -23,10 +23,10 @@ import {
   mockServices,
   registerMswTestHooks,
 } from '@backstage/backend-test-utils';
-import type { ActionContext } from '@backstage/plugin-scaffolder-node';
+import type { ActionContext } from '@stone-payments/plugin-scaffolder-node';
 import { rest } from 'msw';
 import { setupServer } from 'msw/node';
-import { createMockActionContext } from '@backstage/plugin-scaffolder-node-test-utils';
+import { createMockActionContext } from '@stone-payments/plugin-scaffolder-node-test-utils';
 import { UrlReaderService } from '@backstage/backend-plugin-api';
 
 describe('confluence:transform:markdown', () => {

@@ -61,7 +61,7 @@
     "@backstage/plugin-events-node": "workspace:^",
     "@backstage/plugin-permission-common": "workspace:^",
     "@backstage/plugin-permission-node": "workspace:^",
-    "@backstage/plugin-scaffolder-node": "workspace:^",
+    "@stone-payments/plugin-scaffolder-node": "workspace:^",
     "@backstage/plugin-search-backend-node": "workspace:^",
     "@backstage/plugin-search-common": "workspace:^",
     "@backstage/types": "workspace:^",

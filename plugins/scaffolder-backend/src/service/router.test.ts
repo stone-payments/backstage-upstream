@@ -37,7 +37,7 @@ import {
   UserEntity,
 } from '@backstage/catalog-model';
 import { createRouter, DatabaseTaskStore } from '../index';
-import { TaskBroker } from '@backstage/plugin-scaffolder-node';
+import { TaskBroker } from '@stone-payments/plugin-scaffolder-node';
 import { StorageTaskBroker } from '../scaffolder/tasks/StorageTaskBroker';
 import {
   AuthorizeResult,
@@ -48,7 +48,7 @@ import {
   mockErrorHandler,
   mockServices,
 } from '@backstage/backend-test-utils';
-import { AutocompleteHandler } from '@backstage/plugin-scaffolder-node/alpha';
+import { AutocompleteHandler } from '@stone-payments/plugin-scaffolder-node/alpha';
 import { UrlReaders } from '@backstage/backend-defaults/urlReader';
 import { catalogServiceMock } from '@backstage/plugin-catalog-node/testUtils';
 

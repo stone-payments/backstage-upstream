@@ -1,15 +1,15 @@
 {
-  "name": "@backstage/plugin-scaffolder-node-test-utils",
+  "name": "@stone-payments/plugin-scaffolder-node-test-utils",
   "version": "0.1.14",
   "backstage": {
     "role": "node-library",
     "pluginId": "scaffolder",
     "pluginPackages": [
       "@backstage/plugin-scaffolder",
-      "@backstage/plugin-scaffolder-backend",
+      "@stone-payments/plugin-scaffolder-backend",
       "@backstage/plugin-scaffolder-common",
-      "@backstage/plugin-scaffolder-node",
-      "@backstage/plugin-scaffolder-node-test-utils",
+      "@stone-payments/plugin-scaffolder-node",
+      "@stone-payments/plugin-scaffolder-node-test-utils",
       "@backstage/plugin-scaffolder-react"
     ]
   },
@@ -42,7 +42,7 @@
   "dependencies": {
     "@backstage/backend-common": "^0.25.0",
     "@backstage/backend-test-utils": "workspace:^",
-    "@backstage/plugin-scaffolder-node": "workspace:^",
+    "@stone-payments/plugin-scaffolder-node": "workspace:^",
     "@backstage/types": "workspace:^"
   },
   "devDependencies": {

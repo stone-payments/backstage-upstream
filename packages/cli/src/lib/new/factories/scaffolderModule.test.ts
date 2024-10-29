@@ -128,7 +128,7 @@ backend.start();
     ).resolves.toEqual(
       expect.objectContaining({
         name: 'backstage-plugin-scaffolder-backend-module-test',
-        description: 'The test module for @backstage/plugin-scaffolder-backend',
+        description: 'The test module for @stone-payments/plugin-scaffolder-backend',
         private: true,
         version: '1.0.0',
       }),

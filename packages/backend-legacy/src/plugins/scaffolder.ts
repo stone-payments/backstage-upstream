@@ -18,11 +18,11 @@ import { CatalogClient } from '@backstage/catalog-client';
 import {
   createBuiltinActions,
   createRouter,
-} from '@backstage/plugin-scaffolder-backend';
+} from '@stone-payments/plugin-scaffolder-backend';
 import { Router } from 'express';
 import type { PluginEnvironment } from '../types';
 import { ScmIntegrations } from '@backstage/integration';
-import { createConfluenceToMarkdownAction } from '@backstage/plugin-scaffolder-backend-module-confluence-to-markdown';
+import { createConfluenceToMarkdownAction } from '@stone-payments/plugin-scaffolder-backend-module-confluence-to-markdown';
 
 export default async function createPlugin(
   env: PluginEnvironment,

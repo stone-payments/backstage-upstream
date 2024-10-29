@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-import { TemplateAction } from '@backstage/plugin-scaffolder-node';
+import { TemplateAction } from '@stone-payments/plugin-scaffolder-node';
 import { ConfigReader } from '@backstage/config';
 import {
   DefaultGithubCredentialsProvider,
   GithubCredentialsProvider,
   ScmIntegrations,
 } from '@backstage/integration';
-import { createMockActionContext } from '@backstage/plugin-scaffolder-node-test-utils';
+import { createMockActionContext } from '@stone-payments/plugin-scaffolder-node-test-utils';
 import { createPublishGithubPullRequestAction } from './githubPullRequest';
 import yaml from 'yaml';
 import { examples } from './githubPullRequest.examples';

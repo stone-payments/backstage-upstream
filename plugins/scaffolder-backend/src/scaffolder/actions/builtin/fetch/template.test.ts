@@ -14,8 +14,8 @@
  * limitations under the License.
  */
 
-jest.mock('@backstage/plugin-scaffolder-node', () => {
-  const actual = jest.requireActual('@backstage/plugin-scaffolder-node');
+jest.mock('@stone-payments/plugin-scaffolder-node', () => {
+  const actual = jest.requireActual('@stone-payments/plugin-scaffolder-node');
   return { ...actual, fetchContents: jest.fn() };
 });
 
@@ -31,9 +31,9 @@ import {
   fetchContents,
   ActionContext,
   TemplateAction,
-} from '@backstage/plugin-scaffolder-node';
+} from '@stone-payments/plugin-scaffolder-node';
 import { createMockDirectory } from '@backstage/backend-test-utils';
-import { createMockActionContext } from '@backstage/plugin-scaffolder-node-test-utils';
+import { createMockActionContext } from '@stone-payments/plugin-scaffolder-node-test-utils';
 
 type FetchTemplateInput = ReturnType<
   typeof createFetchTemplateAction
@@ -43,7 +43,7 @@ type FetchTemplateInput = ReturnType<
 
 const aBinaryFile = fs.readFileSync(
   resolvePackagePath(
-    '@backstage/plugin-scaffolder-backend',
+    '@stone-payments/plugin-scaffolder-backend',
     'fixtures/test-nested-template/public/react-logo192.png',
   ),
 );

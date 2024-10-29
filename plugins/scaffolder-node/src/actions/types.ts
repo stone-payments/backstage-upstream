@@ -88,6 +88,16 @@ export type ActionContext<
    * Optional value of each invocation
    */
   each?: JsonObject;
+
+  /**
+  * The task that is currently running
+  */
+  task?: {
+    /**
+    * The id of the task that is currently running
+    */
+    id: string;
+  };
 };
 
 /** @public */

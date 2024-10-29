@@ -61,7 +61,7 @@ Assuming you have configured the `eventBroker` into the `PluginEnvironment` you 
 // packages/backend/src/plugins/catalog.ts
  import { CatalogBuilder } from '@backstage/plugin-catalog-backend';
 +import { DemoEventBasedEntityProvider } from './DemoEventBasedEntityProvider';
- import { ScaffolderEntitiesProcessor } from '@backstage/plugin-scaffolder-backend';
+ import { ScaffolderEntitiesProcessor } from '@stone-payments/plugin-scaffolder-backend';
  import { Router } from 'express';
  import { PluginEnvironment } from '../types';
 

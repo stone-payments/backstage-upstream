@@ -18,7 +18,7 @@ import {
   createBackendModule,
 } from '@backstage/backend-plugin-api';
 import { ScmIntegrations } from '@backstage/integration';
-import { scaffolderActionsExtensionPoint } from '@backstage/plugin-scaffolder-node/alpha';
+import { scaffolderActionsExtensionPoint } from '@stone-payments/plugin-scaffolder-node/alpha';
 import {
   createGitlabGroupEnsureExistsAction,
   createGitlabIssueAction,

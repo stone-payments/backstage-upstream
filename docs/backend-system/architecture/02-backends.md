@@ -15,7 +15,7 @@ Below is a simple example of a backend that installs only the catalog plugin and
 
 ```ts
 import { createBackend } from '@backstage/backend-defaults';
-import scaffolderPlugin from '@backstage/plugin-scaffolder-backend';
+import scaffolderPlugin from '@stone-payments/plugin-scaffolder-backend';
 
 // Create your backend instance
 const backend = createBackend();

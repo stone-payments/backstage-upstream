@@ -12,20 +12,20 @@ git repository.
 
 There are also several modules available for various SCM tools:
 
-- Azure DevOps: `@backstage/plugin-scaffolder-backend-module-azure`
-- Bitbucket Cloud: `@backstage/plugin-scaffolder-backend-module-bitbucket-cloud`
-- Bitbucket Server: `@backstage/plugin-scaffolder-backend-module-bitbucket-server`
-- Gerrit: `@backstage/plugin-scaffolder-backend-module-gerrit`
-- Gitea: `@backstage/plugin-scaffolder-backend-module-gitea`
-- GitHub: `@backstage/plugin-scaffolder-backend-module-github`
-- GitLab: `@backstage/plugin-scaffolder-backend-module-gitlab`
+- Azure DevOps: `@stone-payments/plugin-scaffolder-backend-module-azure`
+- Bitbucket Cloud: `@stone-payments/plugin-scaffolder-backend-module-bitbucket-cloud`
+- Bitbucket Server: `@stone-payments/plugin-scaffolder-backend-module-bitbucket-server`
+- Gerrit: `@stone-payments/plugin-scaffolder-backend-module-gerrit`
+- Gitea: `@stone-payments/plugin-scaffolder-backend-module-gitea`
+- GitHub: `@stone-payments/plugin-scaffolder-backend-module-github`
+- GitLab: `@stone-payments/plugin-scaffolder-backend-module-gitlab`
 
 ## Installing Action Modules
 
 Here's how to add an action module, first you need to run this command:
 
 ```sh title="From your Backstage root directory"
-yarn --cwd packages/backend add @backstage/plugin-scaffolder-backend-module-github
+yarn --cwd packages/backend add @stone-payments/plugin-scaffolder-backend-module-github
 ```
 
 Then you need to add it to your backend, this is a simplified new backend system for example purposes:
@@ -44,9 +44,9 @@ backend.add(
 );
 
 // scaffolder plugin
-backend.add(import('@backstage/plugin-scaffolder-backend'));
+backend.add(import('@stone-payments/plugin-scaffolder-backend'));
 /* highlight-add-next-line */
-backend.add(import('@backstage/plugin-scaffolder-backend-module-github'));
+backend.add(import('@stone-payments/plugin-scaffolder-backend-module-github'));
 
 backend.start();
 ```

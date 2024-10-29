@@ -1,10 +1,10 @@
 {
-  "name": "@backstage/plugin-scaffolder-backend-module-yeoman",
+  "name": "@stone-payments/plugin-scaffolder-backend-module-yeoman",
   "version": "0.4.2",
   "backstage": {
     "role": "backend-plugin-module",
     "pluginId": "scaffolder",
-    "pluginPackage": "@backstage/plugin-scaffolder-backend"
+    "pluginPackage": "@stone-payments/plugin-scaffolder-backend"
   },
   "publishConfig": {
     "access": "public"
@@ -43,8 +43,8 @@
   },
   "dependencies": {
     "@backstage/backend-plugin-api": "workspace:^",
-    "@backstage/plugin-scaffolder-node": "workspace:^",
-    "@backstage/plugin-scaffolder-node-test-utils": "workspace:^",
+    "@stone-payments/plugin-scaffolder-node": "workspace:^",
+    "@stone-payments/plugin-scaffolder-node-test-utils": "workspace:^",
     "@backstage/types": "workspace:^",
     "winston": "^3.2.1",
     "yaml": "^2.0.0",

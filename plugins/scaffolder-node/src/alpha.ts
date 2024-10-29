@@ -20,7 +20,7 @@ import {
   TemplateFilter,
   TemplateGlobal,
   TaskBroker,
-} from '@backstage/plugin-scaffolder-node';
+} from '@stone-payments/plugin-scaffolder-node';
 
 export * from './tasks/alpha';
 

@@ -28,7 +28,7 @@ import {
   getRepoSourceDirectory,
   initRepoAndPush,
   parseRepoUrl,
-} from '@backstage/plugin-scaffolder-node';
+} from '@stone-payments/plugin-scaffolder-node';
 
 import Sodium from 'libsodium-wrappers';
 import {

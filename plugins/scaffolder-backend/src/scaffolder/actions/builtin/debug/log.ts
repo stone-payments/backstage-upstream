@@ -16,7 +16,7 @@
 
 import { readdir, stat } from 'fs-extra';
 import { join, relative } from 'path';
-import { createTemplateAction } from '@backstage/plugin-scaffolder-node';
+import { createTemplateAction } from '@stone-payments/plugin-scaffolder-node';
 import { examples } from './log.examples';
 import fs from 'fs';
 import { z } from 'zod';

@@ -22,7 +22,7 @@ import { examples } from './bitbucketCloudPipelinesRun.examples';
 import { ConfigReader } from '@backstage/config';
 import { ScmIntegrations } from '@backstage/integration';
 import { registerMswTestHooks } from '@backstage/backend-test-utils';
-import { createMockActionContext } from '@backstage/plugin-scaffolder-node-test-utils';
+import { createMockActionContext } from '@stone-payments/plugin-scaffolder-node-test-utils';
 
 describe('bitbucket:pipelines:run', () => {
   const config = new ConfigReader({

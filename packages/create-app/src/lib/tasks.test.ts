@@ -68,7 +68,7 @@ jest.mock('./versions', () => ({
     '@backstage/plugin-permission-backend': '1.0.0',
     '@backstage/plugin-permission-backend-module-allow-all-policy': '1.0.0',
     '@backstage/plugin-proxy-backend': '1.0.0',
-    '@backstage/plugin-scaffolder-backend': '1.0.0',
+    '@stone-payments/plugin-scaffolder-backend': '1.0.0',
     '@backstage/plugin-search-backend': '1.0.0',
     '@backstage/plugin-search-backend-module-catalog': '1.0.0',
     '@backstage/plugin-search-backend-module-pg': '1.0.0',
