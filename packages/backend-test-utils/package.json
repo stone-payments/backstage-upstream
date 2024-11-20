@@ -57,7 +57,7 @@
     "@keyv/redis": "^2.5.3",
     "@types/keyv": "^4.2.0",
     "better-sqlite3": "^11.0.0",
-    "cookie": "^0.6.0",
+    "cookie": "^1.0.1",
     "express": "^4.17.1",
     "fs-extra": "^11.0.0",
     "keyv": "^4.5.2",
